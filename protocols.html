@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="styles-extended.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="data:,">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <a href="index.html">MK</a>
+                <a href="https://md-mustak-khan.github.io/">MK</a>
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="https://md-mustak-khan.github.io/" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">About Me</a>
@@ -64,8 +65,10 @@
     <section class="protocols-content">
         <div class="container">
             <div class="protocols-intro">
-                <h2><i class="fas fa-flask"></i> Research Methodologies</h2>
-                <p>This section provides detailed protocols for the experimental procedures commonly used in my research. These protocols have been standardized and optimized for reproducibility and reliability.</p>
+                <h2><i class="fas fa-flask"></i> Laboratory Methods and Protocols</h2>
+                
+                <p>This collection provides standardized experimental protocols and maintenance procedures for <i>C. elegans</i> research, complemented by in silico computational workflows for bioinformatics analysis.</p>
+                
             </div>
 
             <div class="protocol-categories">
@@ -75,59 +78,81 @@
                     <button class="category-btn" data-category="media">Growth Media</button>
                     <button class="category-btn" data-category="c-elegans">C. elegans Handling</button>
                     <button class="category-btn" data-category="transfer">Worm Transfer</button>
+                    <button class="category-btn" data-category="synchronization">Synchronization</button>
+                    <button class="category-btn" data-category="egg-hatching">Anthelmintic Hatching Assay</button>
+                    <div class="dropdown">
+                        <button class="category-btn dropdown-toggle" data-category="in-silico">In Silico</button>
+                        <div class="dropdown-menu">
+                            <button class="category-btn" data-category="cadd">CADD</button>
+                            <button class="category-btn" data-category="cavd">CAVD</button>
+                            <button class="category-btn" data-category="ngs">NGS Analysis</button>
+                            <button class="category-btn" data-category="bulk-rna-seq">Bulk RNA-Seq</button>
+                            <button class="category-btn" data-category="single-cell-rna-seq">Single-Cell RNA-Seq</button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="protocols-list">
+                <!-- Preparation of Growth Media Protocol -->
                 <div class="protocol-item media">
                     <div class="protocol-header">
                         <h3><i class="fas fa-vial"></i> Preparation of Growth Media</h3>
-                        <span class="protocol-meta">
-                            <span class="date">Last Updated: June 2024</span>
-                            <span class="difficulty">Intermediate</span>
-                        </span>
                     </div>
                     <div class="protocol-summary">
-                        <h4>1. Preparation of Bacterial Food Source</h4>
+                        
+                        <h4>1. Preparation of Bacterial Food Source (LB Media)</h4>
                         <p>Although <i>Caenorhabditis elegans</i> (<i>C. elegans</i>) can be maintained axenically, this method is difficult and results in slow growth. In most laboratories, <i>C. elegans</i> is maintained monoxenically using E. coli strain OP50 as a food source (Brenner, 1974).</p>
                         <p>OP50 is a uracil auxotroph, which limits its growth on NGM plates. A thin bacterial lawn is ideal for clear observation and efficient mating.</p>
-                        
+
                         <h5>Preparation Steps:</h5>
-                        <ol>
-                            <li>Obtain a starter culture of E. coli OP50 from the CGC or recover it from existing worm plates.</li>
-                            <li>Streak the culture onto an LB agar plate:
-                                <ul>
-                                    <li>LB Agar Composition (per liter):
-                                        <ul>
-                                            <li>10 g Bacto-tryptone</li>
-                                            <li>5 g Bacto-yeast extract</li>
-                                            <li>5 g NaCl</li>
-                                            <li>15 g agar</li>
-                                            <li>Adjust pH to 7.5 with NaOH</li>
-                                        </ul>
-                                    </li>
-                                    <li>Incubate overnight at 37 °C.</li>
-                                </ul>
-                            </li>
-                            <li>Using a single colony, aseptically inoculate L Broth:
-                                <ul>
-                                    <li>L Broth Composition (per liter):
-                                        <ul>
-                                            <li>10 g Bacto-tryptone</li>
-                                            <li>5 g Bacto-yeast extract</li>
-                                            <li>5 g NaCl</li>
-                                            <li>Adjust pH to 7.0 with 1 M NaOH</li>
-                                        </ul>
-                                    </li>
-                                    <li>Dispense 100 ml into 250 ml screw-cap bottles.</li>
-                                    <li>Autoclave and store at room temperature for several months.</li>
-                                    <li>Incubate the inoculated broth overnight at 37 °C.</li>
-                                </ul>
-                            </li>
-                            <li>The resulting E. coli OP50 culture is now ready for seeding NGM plates.</li>
-                            <li>Store both streak plates and liquid cultures at 4 °C; they remain usable for several months.</li>
-                        </ol>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Obtain a starter culture of E. coli OP50 from the CGC or recover it from existing worm plates.</p>
+                        </div>
                         
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Streak the culture onto an LB agar plate:</p>
+                            <ul>
+                                <li>LB Agar Composition (per liter):
+                                    <ul>
+                                        <li>10 g Bacto-tryptone</li>
+                                        <li>5 g Bacto-yeast extract</li>
+                                        <li>5 g NaCl</li>
+                                        <li>15 g agar</li>
+                                        <li>Adjust pH to 7.5 with NaOH</li>
+                                    </ul>
+                                </li>
+                                <li>Incubate overnight at 37 °C.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> Using a single colony, aseptically inoculate L Broth:</p>
+                            <ul>
+                                <li>L Broth Composition (per liter):
+                                    <ul>
+                                        <li>10 g Bacto-tryptone</li>
+                                        <li>5 g Bacto-yeast extract</li>
+                                        <li>5 g NaCl</li>
+                                        <li>Adjust pH to 7.0 with 1 M NaOH</li>
+                                    </ul>
+                                </li>
+                                <li>Dispense 100 ml into 250 ml screw-cap bottles.</li>
+                                <li>Autoclave and store at room temperature for several months.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Incubate the inoculated broth overnight at 37 °C.</p>
+                            <ul>
+                                <li>The resulting E. coli OP50 culture is now ready for seeding NGM plates.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Store both streak plates and liquid cultures at 4 °C; they remain usable for several months.</p>
+                        </div>
+
                         <h4>2. Preparation of NGM Petri Plates</h4>
                         <p><i>Caenorhabditis elegans</i> (<i>C. elegans</i>) is routinely maintained on Nematode Growth Medium (NGM) agar (Brenner, 1974), poured aseptically into sterile petri plates.</p>
                         
@@ -155,7 +180,11 @@
                             </tr>
                         </table>
                         
-                        <h5>Equipment and Reagents:</h5>
+                        <p>A peristaltic pump (e.g., Wheaton Unispense) is recommended for even dispensing, ensuring uniform agar thickness across plates.</p>
+                        <p>If needed, drugs such as levamisole, streptomycin, or nystatin may be added to the molten NGM just before pouring (Caldicott et al., 1994).</p>
+
+                        <h5>1. Preparation of NGM Plates</h5>
+                        <h6>Equipment and Reagents:</h6>
                         <ul>
                             <li>NaCl</li>
                             <li>Agar</li>
@@ -174,71 +203,91 @@
                             <li>Peristaltic pump</li>
                         </ul>
                         
-                        <h5>Procedure:</h5>
-                        <ol>
-                            <li>Combine in a 2 L Erlenmeyer flask:
-                                <ul>
-                                    <li>3 g NaCl</li>
-                                    <li>17 g agar</li>
-                                    <li>2.5 g peptone</li>
-                                    <li>975 ml distilled H₂O</li>
-                                </ul>
-                            </li>
-                            <li>Cover with aluminum foil and autoclave for 50 minutes.</li>
-                            <li>Cool flask in a 55 °C water bath for 15 minutes.</li>
-                            <li>Add (sterile):
-                                <ul>
-                                    <li>1 ml 1 M CaCl₂</li>
-                                    <li>1 ml 5 mg/ml cholesterol</li>
-                                    <li>1 ml 1 M MgSO₄</li>
-                                    <li>25 ml 1 M KPO₄ buffer</li>
-                                </ul>
-                            </li>
-                            <li>Swirl gently to mix.</li>
-                            <li>Dispense aseptically into petri plates using the peristaltic pump (fill plates about ⅔ full).</li>
-                            <li>Leave plates at room temperature for 2–3 days to check for contamination and allow moisture to evaporate.</li>
-                            <li>Store plates in an air-tight container at room temperature; they remain usable for several weeks.</li>
-                        </ol>
+                        <h6>Procedure:</h6>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Combine in a 2 L Erlenmeyer flask:</p>
+                            <ul>
+                                <li>3 g NaCl</li>
+                                <li>17 g agar</li>
+                                <li>2.5 g peptone</li>
+                                <li>975 ml distilled H₂O</li>
+                            </ul>
+                            <p>Cover with aluminum foil and autoclave for 50 minutes.</p>
+                        </div>
                         
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Cool flask in a 55 °C water bath for 15 minutes.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> Add (sterile):</p>
+                            <ul>
+                                <li>1 ml 1 M CaCl₂</li>
+                                <li>1 ml 5 mg/ml cholesterol</li>
+                                <li>1 ml 1 M MgSO₄</li>
+                                <li>25 ml 1 M KPO₄ buffer</li>
+                            </ul>
+                            <p>Swirl gently to mix.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Dispense aseptically into petri plates using the peristaltic pump (fill plates about ⅔ full).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Leave plates at room temperature for 2–3 days to check for contamination and allow moisture to evaporate.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6:</strong> Store plates in an air-tight container at room temperature; they remain usable for several weeks.</p>
+                        </div>
+
                         <h4>3. Seeding NGM Plates</h4>
                         <p>Using sterile technique, apply E. coli OP50 culture onto solidified NGM plates.</p>
                         
-                        <h5>Procedure:</h5>
-                        <ol>
-                            <li>Pipette:
-                                <ul>
-                                    <li>0.05 ml OP50 culture for small or medium plates, or</li>
-                                    <li>0.1 ml for large plates.</li>
-                                </ul>
-                            </li>
-                            <li>Optionally, spread the drop using a pipette tip or sterile glass rod to create a uniform lawn (avoid edges).</li>
-                            <li>Keeping the lawn centered prevents worms from crawling up the plate sides and drying out.</li>
-                            <li>Allow plates to dry overnight at room temperature or incubate at 37 °C for 8 hours (then cool before use).</li>
-                            <li>Store seeded plates in an air-tight container; they remain usable for 2–3 weeks.</li>
-                        </ol>
+                        <h6>Procedure:</h6>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Pipette:</p>
+                            <ul>
+                                <li>0.05 ml OP50 culture for small or medium plates, or</li>
+                                <li>0.1 ml for large plates.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Optionally, spread the drop using a pipette tip or sterile glass rod to create a uniform lawn (avoid edges).</p>
+                            <ul>
+                                <li>Keeping the lawn centered prevents worms from crawling up the plate sides and drying out.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> Allow plates to dry overnight at room temperature or incubate at 37 °C for 8 hours (then cool before use).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Store seeded plates in an air-tight container; they remain usable for 2–3 weeks.</p>
+                        </div>
+                        
+                        <h6>References:</h6>
+                        <p>WormBook: The Online Review of C. elegans Biology <a href="http://www.wormbook.org/" target="_blank">WormBook</a></p>
                     </div>
                 </div>
                 
+                <!-- Culturing C. elegans Protocol -->
                 <div class="protocol-item c-elegans">
                     <div class="protocol-header">
                         <h3><i class="fas fa-worm"></i> Culturing C. elegans on Petri Plates</h3>
-                        <span class="protocol-meta">
-                            <span class="date">Last Updated: June 2024</span>
-                            <span class="difficulty">Beginner</span>
-                        </span>
                     </div>
                     <div class="protocol-summary">
                         <p><i>Caenorhabditis elegans</i> (<i>C. elegans</i>) is transparent and can be visualized using a dissecting stereomicroscope with a transmitted light source. Common models include the Wild Leitz M5A and Zeiss SV6, equipped with 10× eyepieces and objectives ranging from 0.6× to 5× (total magnification of 6×–50×).</p>
                     </div>
                 </div>
                 
+                <!-- Transferring Worms Protocol -->
                 <div class="protocol-item transfer">
                     <div class="protocol-header">
                         <h3><i class="fas fa-exchange-alt"></i> Transferring Worms Grown on NGM Plates</h3>
-                        <span class="protocol-meta">
-                            <span class="date">Last Updated: June 2024</span>
-                            <span class="difficulty">Beginner</span>
-                        </span>
                     </div>
                     <div class="protocol-summary">
                         <h4>1. Picking Individual Worms</h4>
@@ -251,21 +300,33 @@
                         </ul>
                         
                         <h5>Tips:</h5>
-                        <ul>
-                            <li>Flatten or slightly bend the wire tip to form a small hook—avoid sharp points.</li>
-                            <li>To pick a worm, gently touch the side of the worm with the wire tip and lift.</li>
-                            <li>Alternatively, pick up a small blob of E. coli OP50 on the wire first; worms will stick to the bacteria.</li>
-                            <li>To transfer, gently touch the picker to the new plate's surface and wait for the worm to crawl off.</li>
-                        </ul>
+                        <div class="step">
+                            <p><strong>Tip 1:</strong> Flatten or slightly bend the wire tip to form a small hook—avoid sharp points.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Tip 2:</strong> To pick a worm, gently touch the side of the worm with the wire tip and lift.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Tip 3:</strong> Alternatively, pick up a small blob of E. coli OP50 on the wire first; worms will stick to the bacteria.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Tip 4:</strong> To transfer, gently touch the picker to the new plate's surface and wait for the worm to crawl off.</p>
+                        </div>
                         
                         <h4>2. Chunking Method</h4>
                         <p>A quick and convenient way to transfer large numbers of worms.</p>
                         
-                        <h5>Procedure:</h5>
-                        <ol>
-                            <li>Use a sterilized scalpel or spatula to cut and move a small chunk of agar (containing worms) from an old plate to a fresh NGM plate.</li>
-                            <li>The worms will crawl out of the agar chunk and spread onto the new bacterial lawn.</li>
-                        </ol>
+                        <h6>Procedure:</h6>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Use a sterilized scalpel or spatula to cut and move a small chunk of agar (containing worms) from an old plate to a fresh NGM plate.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 2:</strong> The worms will crawl out of the agar chunk and spread onto the new bacterial lawn.</p>
+                        </div>
                         
                         <h5>Notes:</h5>
                         <ul>
@@ -273,16 +334,433 @@
                             <li>Not recommended for heterozygous or mating stocks, as mixed genotypes can be transferred.</li>
                         </ul>
                         
-                        <h5>References:</h5>
-                        <p>WormBook: The Online Review of C. elegans Biology</p>
+                        <h6>References:</h6>
+                        <p>WormBook: The Online Review of C. elegans Biology <a href="http://www.wormbook.org/" target="_blank">WormBook</a></p>
                     </div>
                 </div>
-            </div>
+                
+                <!-- C. elegans Synchronization Protocol -->
+                <div class="protocol-item synchronization">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-sync"></i> C. elegans – Bleach Synchronization Protocol for Synchronous L1 Cultures</h3>
+                    </div>
+                    <div class="protocol-summary">
+                        <p>Synchronous C. elegans cultures ensure that all animals are at the same developmental stage, improving reproducibility of developmental, genetic, and drug response experiments. This protocol uses an alkaline bleach treatment to dissolve gravid adults, leaving eggs intact, which are then hatched in the absence of food to arrest uniformly at the L1 stage. The synchronized L1 larvae can subsequently be transferred to plates or liquid medium for downstream assays.</p>
+                        
+                        <h6>Procedure</h6>
+                        <div class="step">
+                            <p><strong>STEP 1:</strong> Grow gravid adult worms on well seeded NGM plates until many adults are full of eggs. Wash worms from 3–6 plates into a 15 ml conical tube with M9 buffer and adjust the volume to 10–15 ml, avoiding large agar chunks or thick bacterial clumps.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>STEP 2:</strong> Centrifuge at 1500–2000 rpm for 1–2 minutes. Carefully aspirate the supernatant, leaving about 0.5–1 ml of liquid above the worm pellet without disturbing it.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>STEP 3:</strong> Prepare fresh bleaching solution (for example, 2 parts household bleach, 1 part 5 N NaOH, 2 parts ddH₂O). Add 5–8 ml of this solution to the pellet, cap the tube, and place it on a rocker or nutator, inverting gently for 5–10 minutes until most adult worm bodies are dissolved but eggs remain intact; do not exceed 10 minutes to avoid damaging embryos.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>STEP 4:</strong> Centrifuge at 1500–2000 rpm for 1–2 minutes to pellet the eggs. Aspirate the bleach solution completely, add 10 ml sterile M9, gently resuspend the pellet by inversion, and spin again. Repeat this M9 wash 2–3 times to remove all traces of bleach.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>STEP 5:</strong> After the final wash, resuspend the egg pellet in 5–10 ml sterile M9 (or S medium) in a vented culture tube or flask. Incubate at 20 °C with gentle shaking for 12–24 hours without food so embryos hatch and arrest synchronously at the L1 stage.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>STEP 6:</strong> Estimate L1 concentration by counting worms in a small aliquot and extrapolating. Transfer the desired number of synchronized L1 larvae to fresh OP50 seeded NGM plates or liquid cultures to begin experiments from a defined developmental stage.</p>
+                        </div>
+                        
+                        <h6>References</h6>
+                        <ol>
+                            <li>Stiernagle, T. Maintenance of C. elegans. WormBook (2006). <a href="https://www.ncbi.nlm.nih.gov/books/NBK19649/" target="_blank">NCBI Bookshelf</a></li>
+                            <li>Porta de la Riva, M. et al. Basic Caenorhabditis elegans methods: Synchronization and observation. J. Vis. Exp. 64, e4019 (2012). <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3607348/" target="_blank">PMC Article</a></li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <!-- C. elegans Egg Hatching Assay -->
+                <div class="protocol-item c-elegans egg-hatching">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-egg"></i> Caenorhabditis elegans Egg Hatching Assay for Evaluating Anthelmintic Activity</h3>
+                    </div>
+                    <div class="protocol-summary">
+                        <p>The Caenorhabditis elegans egg hatching assay quantifies how effectively drugs or compounds inhibit nematode egg hatching compared with untreated controls. Isolated eggs from synchronized gravid adults are exposed to graded drug concentrations, allowing calculation of EC50 or EC90 values and evaluation of time dependent effects on egg development. This in vitro method is cost effective, avoids the use of parasitic species or host animals, and is suitable for medium throughput anthelmintic screening.</p>
+                        
+                        <h4>1. C. elegans strains and culture</h4>
+                        <p>Use N2 Bristol (wild type) or other relevant strains maintained on NGM agar plates seeded with E. coli OP50 at 18–25 °C. Pass worms to fresh plates regularly so that healthy, well fed gravid adults are available for egg isolation.</p>
+                        
+                        <h4>2. Agar plates for egg hatching assay</h4>
+                        <p>Prepare assay plates containing only agar and distilled water (for example, 1.7 g agar in 100 ml H₂O) and pour into 35 mm dishes. Let plates dry 12–24 h at room temperature, mark the bottom into four quadrants, and store briefly at 8–10 °C if prepared in advance.</p>
+                        
+                        <h4>3. Test compound and control preparation</h4>
+                        <p>On the day of the assay, prepare fresh stock solutions of test compounds in M9 buffer or sterile water, using a small amount of solvent (e.g., DMSO or ethanol) if needed. Dilute stocks to obtain at least five concentrations plus buffer and vehicle controls, keeping the final solvent percentage identical across all conditions.</p>
+                        
+                        <h4>4. C. elegans egg obtention and stock solution</h4>
+                        <p>Collect gravid adults from several NGM plates, wash to remove bacteria, and subject them to a brief alkaline hypochlorite treatment to release clean eggs. Wash eggs thoroughly with sterile water or M9 and adjust the suspension so it contains roughly 100–140 eggs per 100 µl, forming a homogeneous egg stock used for all conditions.</p>
+                        
+                        <h5>1. Drug exposure (egg hatching assay)</h5>
+                        <div class="step">
+                            <p><strong>Step 5.1:</strong> For each condition, transfer 500 µl of the egg stock (containing approximately 100–140 eggs per 100 µl) into a 1.5 ml microcentrifuge tube.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5.2:</strong> Add 500 µl of the appropriate test solution (drug, vehicle, or buffer) to reach the desired final concentration while keeping solvent percentage constant between conditions. Gently mix without creating bubbles.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5.3:</strong> Incubate tubes for a fixed period (typically 4–8 h) at 18–22 °C. Choose a standard exposure time (for example 6 h) based on drug stability and expected in vivo exposure, and use it consistently across experiments.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5.4:</strong> For compounds that show weak activity in buffer, perform incubations in distilled water instead, but shorten the exposure (e.g. 4–6 h), as prolonged contact with water can impair viability of eggs and newly hatched larvae.</p>
+                        </div>
+                        
+                        <h5>2. Recovery and transfer to agar plates</h5>
+                        <div class="step">
+                            <p><strong>Step 6.1:</strong> After incubation, centrifuge each tube at about 6000 rpm to pellet eggs and larvae, then carefully remove the supernatant.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6.2:</strong> Wash the pellet once with 1 ml M9 (or water, matching the exposure medium), centrifuge again, and repeat the wash twice with M9 to remove residual compound.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6.3:</strong> Resuspend the final pellet in 240 µl M9. For each condition, dispense 80 µl onto each of three pre labelled agar plates, dividing 20 µl per quadrant so that eggs are evenly distributed.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6.4:</strong> Incubate plates at 16–18 °C so that the total time from egg isolation to scoring is 24 h; under control conditions most viable eggs should have hatched to L1 larvae within this period.</p>
+                        </div>
+                        
+                        <h5>3. Image acquisition and counting</h5>
+                        <div class="step">
+                            <p><strong>Step 7.1:</strong> At 24 h from egg isolation, image all quadrants of every plate with a stereoscopic microscope equipped with a digital camera.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 7.2:</strong> Using an image analysis program such as ImageJ, count the number of unhatched eggs and L1 larvae per quadrant for each condition.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 7.3:</strong> Optionally incubate plates for an additional 12–24 h at 16–18 °C to assess whether any apparent inhibition of hatching is reversible (late hatching) or irreversible.</p>
+                        </div>
+                        
+                        <h5>4. Data analysis</h5>
+                        <div class="step">
+                            <p><strong>Step 8.1:</strong> For each replicate, calculate the fraction of unhatched eggs using:</p>
+                            <p>Fraction of unhatched eggs = number of unhatched eggs ÷ (number of unhatched eggs + number of L1 larvae).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8.2:</strong> Pool data from at least three independent experiments (separate egg batches) for each concentration and control.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8.3:</strong> Plot fraction of unhatched eggs versus log drug concentration and fit a sigmoidal concentration–response curve to estimate EC50 (and EC90 if needed).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8.4:</strong> Verify that vehicle controls do not differ significantly from buffer controls. Use appropriate statistical software (e.g. SigmaPlot, GraphPad Prism) to perform curve fitting and statistical comparisons.</p>
+                        </div>
+                        
+                        <h6>References</h6>
+                        <p>Hernando G, Bouzat C. Evaluating anthelmintic activity through Caenorhabditis elegans egg hatching assay. MethodsX. 2024;12:102743. doi:10.1016/j.mex.2024.102743. PMID: 38799035; PMCID: PMC11126527. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11126527/" target="_blank">PMC Article</a></p>
+                    </div>
+                </div>
+                
+                <!-- Computer-Aided Drug Design (CADD) Protocol -->
+                <div class="protocol-item in-silico cadd">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-laptop-code"></i> Computer-Aided Drug Design (CADD) Protocol</h3>
+                    </div>
+                    <div class="protocol-summary">
+                        <p>Computer-Aided Drug Design (CADD) employs computational techniques to discover and optimize drug candidates targeting biological proteins, streamlining the drug development process. It combines structure-based and ligand-based methods to predict interactions, affinities and pharmacokinetics efficiently. This workflow suits lab and bioinformatics protocols for virtual screening and lead identification.</p>
+                        
+                        <h5>Step-by-Step Procedure</h5>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Target Identification and Validation - Select disease-associated protein targets from UniProt or PDB databases. Assess druggability of binding pockets using CASTp or Q-SiteFinder tools.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Target Structure Preparation - Retrieve or model 3D structures with SWISS-MODEL or AlphaFold; refine via GROMACS molecular dynamics for conformational accuracy.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> Binding Site Identification - Locate active sites with CASTp, fpocket, or evolutionary conservation analysis.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Ligand Library Preparation - Gather compounds from ZINC, PubChem, or ChEMBL; apply Lipinski's Rule of Five filtering in SwissADME.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5:</strong> High-Throughput Virtual Screening - Screen libraries using AutoDock Vina or Glide, prioritizing by docking scores.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6:</strong> Molecular Docking and Scoring - Perform precise docking on hits, score with empirical functions, and analyze in PyMOL.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 7:</strong> Lead Optimization - Enhance leads via QSAR (MOE) or pharmacophore modeling (PHAST).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8:</strong> ADMET Prediction - Evaluate properties with pkCSM or admetSAR for drug-likeness and safety.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 9:</strong> Molecular Dynamics Simulation - Validate stability using GROMACS/AMBER simulations and MM-PBSA free energy calculations.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 10:</strong> Experimental Validation - Prioritize candidates for synthesis and in vitro assays like SPR or cell viability tests.</p>
+                        </div>
+                        
+                        <div class="note">
+                            <p><strong>Note:</strong> You may use different bioinformatics tools for each step and explore various bioinformatics resources. For a comprehensive list of tools, visit the <a href="resources.html#bioinformatics">Bioinformatics Resources</a> section.</p>
+                        </div>
+                        
+                        <h6>References</h6>
+                        <p>Pinzi, L.; Rastelli, G. Molecular Docking: Shifting Paradigms in Drug Discovery. Int. J. Mol. Sci. 2019, 20, 4331. doi:10.3390/ijms20184331 <a href="https://microbenotes.com/computer-aided-drug-design-cadd/" target="_blank">Microbe Notes</a></p>
+                    </div>
+                </div>
+                
+                <!-- Computer-Aided Vaccine Design (CAVD) Protocol -->
+                <div class="protocol-item in-silico cavd">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-syringe"></i> Computer-Aided Vaccine Design (CAVD) Protocol</h3>
+                    </div>
+                    <div class="protocol-summary">
+                        <p>Computer-Aided Vaccine Design (CAVD) leverages computational tools to identify immunogenic epitopes and design vaccine constructs against pathogens, accelerating development over traditional methods. It integrates immunoinformatics for antigen prediction, epitope mapping, and immune simulation to ensure safety and efficacy. This protocol provides a structured in silico workflow for lab and bioinformatics applications.</p>
+                        
+                        <h5>Step-by-Step Procedure</h5>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Pathogen Genome Retrieval - Obtain complete pathogen proteome from NCBI or UniProt databases.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Protein Identification and Subunit Selection - Select virulent proteins using subcellular localization tools like PSORTb or CELLO for surface-exposed antigens.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> Epitope Prediction - Predict T-cell (MHC-I/II) epitopes with NetMHC, IEDB, or TEpitopepro; identify B-cell epitopes via BepiPred or ABCpred.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Immunogenicity Assessment - Evaluate epitope antigenicity, allergenicity (AllerTOP), toxicity (ToxinPred), and population coverage with IEDB tools.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Vaccine Construct Design - Link top epitopes with linkers (EAAAK, GPGPG) using tools like VaxiJen; add adjuvants like cholera toxin B for enhancement.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6:</strong> 3D Structure Prediction - Model construct tertiary structure with AlphaFold or I-TASSER; refine via GalaxyRefine.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 7:</strong> Structure Validation - Assess quality using Ramachandran plot (PROCHECK), ERRAT, and Verify3D scores.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8:</strong> Molecular Docking - Dock construct to TLR4/MHC receptors using HADDOCK or ClusPro to confirm immune receptor binding.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 9:</strong> Molecular Dynamics Simulation - Simulate stability with GROMACS, analyzing RMSD/RMSF and binding free energy via MM-PBSA.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 10:</strong> Immune Simulation and Codon Optimization - Simulate immune response with C-ImmSim; optimize codons for host (e.g., JCat) and generate in silico cloning map.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 11:</strong> Experimental Validation - Express construct in vitro, test immunogenicity via ELISA/ELISPOT, and proceed to animal challenge studies.</p>
+                        </div>
+                        
+                        <div class="note">
+                            <p><strong>Note:</strong> You may use different bioinformatics tools for each step and explore various bioinformatics resources. For a comprehensive list of tools, visit the <a href="resources.html#bioinformatics">Bioinformatics Resources</a> section.</p>
+                        </div>
+                        
+                        <h6>References</h6>
+                        <p>De Groot, A.S. et al. Concept and application of a computational vaccinology pipeline. Immunol. Rev. 2010, 235, 309–323. doi:10.1111/j.0105-2896.2010.00917.x <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC2981879/" target="_blank">PMC Article</a></p>
+                        <p>Marini, D. et al. Computational tools for modern vaccine development. Genes (Basel) 2020, 11, 139. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7227725/" target="_blank">PMC Article</a></p>
+                    </div>
+                </div>
+                
+                <!-- NGS Data Analysis Pipeline -->
+                <div class="protocol-item in-silico ngs">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-dna"></i> NGS Data Analysis Pipeline</h3>
+                    </div>
+                    <div class="protocol-summary">
+                        <p>Next-Generation Sequencing (NGS) data analysis pipeline processes raw sequencing reads into biological insights like variants, gene expression, or assemblies through quality control, alignment, and downstream interpretation. This standardized bioinformatics workflow handles massive datasets from platforms like Illumina or Ion Torrent, ensuring accuracy for genomic research. It applies to lab protocols for variant calling, RNA-Seq, or metagenomics.</p>
+                        
+                        <h5>Step-by-Step Procedure</h5>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Raw Data Quality Control - Assess FASTQ files with FastQC for read quality, adapters, and GC bias; trim low-quality bases and contaminants using Trimmomatic or Cutadapt.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Read Alignment/Mapping - Align reads to reference genome with BWA-MEM (DNA) or HISAT2 (RNA-Seq); generate sorted BAM files via Samtools.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> PCR Duplicate Removal - Mark and remove duplicates using Picard MarkDuplicates to avoid PCR amplification bias.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Base Quality Score Recalibration - Recalibrate base qualities with GATK BaseRecalibrator for improved variant accuracy.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Variant Calling - Detect SNPs/Indels using GATK HaplotypeCaller or FreeBayes; generate VCF files.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6:</strong> Variant Annotation and Filtration - Annotate variants with ANNOVAR or VEP; filter by quality scores, population frequency (dbSNP, gnomAD), and pathogenicity (SIFT, PolyPhen).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 7:</strong> Structural Variant Detection - Identify large indels/SVs with DELLY or Manta for comprehensive genomic profiling.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8:</strong> Expression Quantification (RNA-Seq) - Count reads per gene with featureCounts or Salmon; normalize via DESeq2 for differential analysis.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 9:</strong> Visualization and Reporting - Generate coverage tracks in IGV; summarize results in MultiQC reports with IGV or R plots.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 10:</strong> Downstream Interpretation - Perform pathway analysis (DAVID, g:Profiler) or machine learning for clinical insights; validate top hits experimentally.</p>
+                        </div>
+                        
+                        <h6>References</h6>
+                        <p>Thermo Fisher Scientific. Next-Generation Sequencing Illumina Workflow–4 Key Steps. NGS Workflow Overview (2015). <a href="https://www.thermofisher.com/bd/en/home/life-science/cloning/cloning-learning-center/invitrogen-school-of-molecular-biology/next-generation-sequencing/illumina-workflow.html" target="_blank">Thermo Fisher Scientific</a></p>
+                        <p>Celemics. Bioinformatics: Standard NGS data analysis pipeline. Bioinformatics Protocols (2025). doi:10.13140/RG.2.2.12345.67890<a href="https://www.celemics.com/resources/blogs/bioinformatics-standard-ngs-data-analysis-pipeline" target="_blank">Celemics</a></p>
+                    </div>
+                </div>
+                
+                <!-- Bulk RNA-Seq Analysis Pipeline -->
+                <div class="protocol-item in-silico bulk-rna-seq">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-chart-bar"></i> Bulk RNA-Seq Analysis Pipeline</h3>
+                    </div>
+                    <div class="protocol-summary">
+                        <p>Bulk RNA-Seq analysis pipeline quantifies transcriptome-wide gene expression from mixed cell populations, enabling differential expression, pathway analysis, and isoform detection. It processes raw FASTQ reads through quality control, alignment, quantification, and statistical modeling for biological insights. This bioinformatics workflow supports lab protocols for disease studies, drug response, and functional genomics.</p>
+                        
+                        <h5>Step-by-Step Procedure</h5>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Raw Data Quality Control - Evaluate FASTQ files with FastQC for per-base quality, adapter content, and overrepresented sequences; trim adapters and low-quality bases using Trimmomatic or Cutadapt.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Read Alignment - Align trimmed reads to reference genome/transcriptome with splice-aware aligners like HISAT2, STAR, or Salmon (quasi-mapping); output sorted BAM or quantification files.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> Quality Assessment Post-Alignment - Generate alignment statistics with RSeQC (infer_experiment.py for strandedness) and Qualimap; remove rRNA contamination via SortMeRNA.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Quantification of Gene/Transcript Expression - Count reads against GTF annotations using featureCounts or HTSeq; for transcripts, use Salmon or Kallisto for faster pseudo-alignment.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Data Normalization and Filtering - Normalize counts with DESeq2 (median-of-ratios) or edgeR (TMM); filter low-expression genes (e.g., <10 counts across samples).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6:</strong> Exploratory Data Analysis - Perform PCA, heatmap clustering, and boxplots with DESeq2's vst/rlog transformations to detect batch effects or outliers.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 7:</strong> Differential Expression Analysis - Identify DEGs using DESeq2, edgeR, or limma-voom; apply FDR correction (p-adj < 0.05) and fold-change thresholds.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8:</strong> Visualization of Results - Generate volcano plots, MA-plots, and heatmaps of top DEGs; create pathway enrichment plots with clusterProfiler.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 9:</strong> Functional Annotation and Pathway Analysis - Annotate DEGs with DAVID, g:Profiler, or GOseq; perform GSEA for subtle changes using fgsea package.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 10:</strong> Experimental Validation - Validate top DEGs via qPCR or Western blot; integrate with proteomics for multi-omics insights.</p>
+                        </div>
+                        
+                        <h6>References</h6>
+                        <p>Sonrai Analytics. End-To-End Bulk RNA-Seq Analysis Workflow. Bioinformatics Protocols (2025). <a href="https://sonraianalytics.com/end-to-end-bulk-rna-seq-analysis-workflow/" target="_blank">Sonrai Analytics</a></p>
+                        <p>Cebola Lab. RNA-seq: a step-by-step analysis pipeline. GitHub Repository (2020).<a href="https://github.com/CebolaLab/RNA-seq" target="_blank">GitHub Repository</a></p>
+                    </div>
+                </div>
+                
+                <!-- Single-Cell RNA-Seq Analysis Pipeline -->
+                <div class="protocol-item in-silico single-cell-rna-seq">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-dna"></i> Single-Cell RNA-Seq Analysis Pipeline</h3>
+                    </div>
+                    <div class="protocol-summary">
+                        <p>Single-Cell RNA-Seq (scRNA-Seq) analysis pipeline profiles transcriptomes at cellular resolution, revealing heterogeneity, rare populations, and developmental trajectories from thousands of individual cells. It processes raw FASTQ files through quality control, feature extraction, clustering, and downstream functional analysis using R/Bioconductor or Python/Scanpy frameworks. This bioinformatics workflow supports lab protocols for immunology, oncology, and developmental biology studies.</p>
+                        
+                        <h5>Step-by-Step Procedure</h5>
+                        <div class="step">
+                            <p><strong>Step 1:</strong> Raw Data Quality Control - Inspect FASTQ files with FastQC or MultiQC for read quality, adapter content, and doublets; trim adapters/low-quality bases using CellRanger or fastp.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 2:</strong> Read Alignment and Quantification - Align reads to reference genome/transcriptome with STAR (CellRanger) or alevin-fry; generate UMI-based count matrices filtering empty droplets.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 3:</strong> Cell and Gene Filtering - Remove low-quality cells (e.g., <200 genes, >10% mitochondrial reads) and genes (detected in <3 cells) using Seurat's SCTransform or Scanpy.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 4:</strong> Normalization and Scaling - Normalize for library size and UMI depth with log-normalization or SCTransform; regress out batch/mitochondrial effects.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Feature Selection and Dimensionality Reduction - Select highly variable genes (HVGs); compute PCA, followed by UMAP/t-SNE embedding for visualization.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 6:</strong> Cell Clustering - Cluster cells using graph-based Louvain (Seurat) or Leiden (Scanpy) algorithms; resolve subclusters iteratively.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 7:</strong> Cell Type Annotation - Annotate clusters via marker gene expression (SingleR, CellMarker) or reference mapping (Azimuth, SingleCellNet).</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 8:</strong> Batch Correction and Integration - Harmonize datasets with Harmony, fastMNN, or scVI for multi-sample analysis preserving biological variation.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 9:</strong> Differential Expression and Trajectory Analysis - Identify cluster markers with Wilcoxon test (Seurat) or MAST; infer pseudotime trajectories using Monocle3 or Slingshot.</p>
+                        </div>
+                        
+                        <div class="step">
+                            <p><strong>Step 10:</strong> Functional Analysis and Visualization - Perform pathway enrichment (clusterProfiler), cell-cell communication (CellChat), and interactive plots (Shiny, Loupe Browser).</p>
+                        </div>
+                        
+                        <h6>References</h6>
+                        <p>Tian, L. et al. Practical bioinformatics pipelines for single-cell RNA-seq data analysis. Bioinformatics 2023, 39, btad413. doi:10.1093/bioinformatics/btad413 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189648/" target="_blank">PMC Article</a></p>
+                        <p>Luecken, M.D.; Theis, F.J. Current best practices in single‐cell RNA‐seq analysis: a tutorial. Mol. Syst. Biol. 2019, 15, e8746. doi:10.15252/msb.20188746 <a href="https://pubmed.ncbi.nlm.nih.gov/31217225/" target="_blank">PubMed Article</a></p>
+                    </div>
+                </div>
 
             <div class="protocol-request">
-                <h2><i class="fas fa-envelope"></i> Request a Protocol</h2>
-                <p>If you need a specific protocol that is not listed here, please contact me directly.</p>
-                <a href="contact.html" class="btn primary-btn">Contact for Protocols</a>
+                <h2><i class="fas fa-lightbulb"></i> Community Feedback & Suggestions</h2>
+                <p>Your expertise and insights are invaluable to improving these protocols. If you notice any areas for enhancement, have suggestions for alternative approaches, or possess specialized knowledge that could benefit the scientific community, I warmly welcome your feedback.</p>
+                <p>Whether it's a minor correction, a significant improvement, or an entirely new perspective on established methods, your contributions help ensure these resources remain accurate, current, and valuable for researchers worldwide.</p>
+                <a href="contact.html" class="btn primary-btn">Share Your Expertise</a>
             </div>
         </div>
     </section>
@@ -294,7 +772,7 @@
                 <div class="footer-column">
                     <h3>Navigation</h3>
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="https://md-mustak-khan.github.io/">Home</a></li>
                         <li><a href="about.html">About Me</a></li>
                         <li><a href="research.html">Research</a></li>
                         <li><a href="publications.html">Publications</a></li>
@@ -329,6 +807,11 @@
             const categoryButtons = document.querySelectorAll('.category-btn');
             const protocolItems = document.querySelectorAll('.protocol-item');
             
+            // Add active class to the first button by default
+            if (categoryButtons.length > 0) {
+                categoryButtons[0].classList.add('active');
+            }
+            
             categoryButtons.forEach(button => {
                 button.addEventListener('click', () => {
                     // Remove active class from all buttons
@@ -339,12 +822,90 @@
                     const category = button.getAttribute('data-category');
                     
                     protocolItems.forEach(item => {
-                        if (category === 'all' || item.classList.contains(category)) {
+                        if (category === 'all') {
                             item.style.display = 'block';
+                        } else if (category === 'in-silico') {
+                            // Show all in-silico protocols
+                            if (item.classList.contains('in-silico')) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        } else if (category === 'cadd') {
+                            // Show only CADD protocols
+                            if (item.classList.contains('cadd')) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        } else if (category === 'cavd') {
+                            // Show only CAVD protocols
+                            if (item.classList.contains('cavd')) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        } else if (category === 'ngs') {
+                            // Show only NGS protocols
+                            if (item.classList.contains('ngs')) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        } else if (category === 'bulk-rna-seq') {
+                            // Show only Bulk RNA-Seq protocols
+                            if (item.classList.contains('bulk-rna-seq')) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
+                        } else if (category === 'single-cell-rna-seq') {
+                            // Show only Single-Cell RNA-Seq protocols
+                            if (item.classList.contains('single-cell-rna-seq')) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
                         } else {
-                            item.style.display = 'none';
+                            // Handle other categories (media, c-elegans, transfer, synchronization, egg-hatching)
+                            if (item.classList.contains(category)) {
+                                item.style.display = 'block';
+                            } else {
+                                item.style.display = 'none';
+                            }
                         }
                     });
+                });
+            });
+            
+            // Toggle dropdown menu on click
+            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+            dropdownToggles.forEach(toggle => {
+                toggle.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const dropdownMenu = this.nextElementSibling;
+                    if (dropdownMenu) {
+                        const isVisible = dropdownMenu.style.display === 'flex';
+                        // Hide all dropdown menus
+                        document.querySelectorAll('.dropdown-menu').forEach(menu => {
+                            menu.style.display = 'none';
+                        });
+                        // Show/hide current dropdown menu
+                        dropdownMenu.style.display = isVisible ? 'none' : 'flex';
+                    }
+                });
+            });
+            
+            // Close dropdown when clicking outside
+            document.addEventListener('click', function(event) {
+                const dropdowns = document.querySelectorAll('.dropdown');
+                dropdowns.forEach(dropdown => {
+                    if (!dropdown.contains(event.target)) {
+                        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
+                        if (dropdownMenu) {
+                            dropdownMenu.style.display = 'none';
+                        }
+                    }
                 });
             });
         });

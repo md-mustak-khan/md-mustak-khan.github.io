@@ -31,7 +31,7 @@ window.addEventListener('scroll', () => {
     const navbar = document.querySelector('.navbar');
     if (window.scrollY > 50) {
         navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.15)';
-        navbar.style.backgroundColor = 'rgba(44, 62, 80, 0.95)';
+        navbar.style.backgroundColor = 'rgba(0, 33, 71, 0.95)';
     } else {
         navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
         navbar.style.backgroundColor = 'var(--primary-color)';
@@ -205,4 +205,81 @@ window.addEventListener('scroll', () => {
             link.classList.add('active');
         }
     });
+});
+
+// Resources Page Interactive Features
+document.addEventListener('DOMContentLoaded', function() {
+    // Collapsible resource sections
+    const resourceHeaders = document.querySelectorAll('.resource-item > h3');
+    resourceHeaders.forEach(header => {
+        header.style.cursor = 'pointer';
+        header.addEventListener('click', function() {
+            const resourceDetails = this.nextElementSibling;
+            const icon = this.querySelector('i');
+            
+            if (resourceDetails.style.display === 'none') {
+                resourceDetails.style.display = 'block';
+                if (icon) icon.classList.remove('fa-chevron-down');
+                if (icon) icon.classList.add('fa-chevron-up');
+            } else {
+                resourceDetails.style.display = 'none';
+                if (icon) icon.classList.remove('fa-chevron-up');
+                if (icon) icon.classList.add('fa-chevron-down');
+            }
+        });
+    });
+
+    // Search functionality for resources
+    const searchInput = document.getElementById('resource-search');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const resourceItems = document.querySelectorAll('.resource-item');
+            
+            resourceItems.forEach(item => {
+                const text = item.textContent.toLowerCase();
+                if (text.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    }
+
+    // Expand/Collapse all functionality
+    const expandAllBtn = document.getElementById('expand-all');
+    const collapseAllBtn = document.getElementById('collapse-all');
+    
+    if (expandAllBtn) {
+        expandAllBtn.addEventListener('click', function() {
+            const resourceDetails = document.querySelectorAll('.resource-details');
+            const icons = document.querySelectorAll('.resource-item > h3 i');
+            
+            resourceDetails.forEach(detail => {
+                detail.style.display = 'block';
+            });
+            
+            icons.forEach(icon => {
+                icon.classList.remove('fa-chevron-down');
+                icon.classList.add('fa-chevron-up');
+            });
+        });
+    }
+    
+    if (collapseAllBtn) {
+        collapseAllBtn.addEventListener('click', function() {
+            const resourceDetails = document.querySelectorAll('.resource-details');
+            const icons = document.querySelectorAll('.resource-item > h3 i');
+            
+            resourceDetails.forEach(detail => {
+                detail.style.display = 'none';
+            });
+            
+            icons.forEach(icon => {
+                icon.classList.remove('fa-chevron-up');
+                icon.classList.add('fa-chevron-down');
+            });
+        });
+    }
 });
