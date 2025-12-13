@@ -80,16 +80,11 @@
                     <button class="category-btn" data-category="transfer">Worm Transfer</button>
                     <button class="category-btn" data-category="synchronization">Synchronization</button>
                     <button class="category-btn" data-category="egg-hatching">Anthelmintic Hatching Assay</button>
-                    <div class="dropdown">
-                        <button class="category-btn dropdown-toggle" data-category="in-silico">In Silico</button>
-                        <div class="dropdown-menu">
-                            <button class="category-btn" data-category="cadd">CADD</button>
-                            <button class="category-btn" data-category="cavd">CAVD</button>
-                            <button class="category-btn" data-category="ngs">NGS Analysis</button>
-                            <button class="category-btn" data-category="bulk-rna-seq">Bulk RNA-Seq</button>
-                            <button class="category-btn" data-category="single-cell-rna-seq">Single-Cell RNA-Seq</button>
-                        </div>
-                    </div>
+                    <button class="category-btn" data-category="cadd">CADD</button>
+                    <button class="category-btn" data-category="cavd">CAVD</button>
+                    <button class="category-btn" data-category="ngs">NGS Analysis</button>
+                    <button class="category-btn" data-category="bulk-rna-seq">Bulk RNA-Seq</button>
+                    <button class="category-btn" data-category="single-cell-rna-seq">Single-Cell RNA-Seq</button>
                 </div>
             </div>
 
@@ -879,35 +874,10 @@
             });
             
             // Toggle dropdown menu on click
-            const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
-            dropdownToggles.forEach(toggle => {
-                toggle.addEventListener('click', function(e) {
-                    e.stopPropagation();
-                    const dropdownMenu = this.nextElementSibling;
-                    if (dropdownMenu) {
-                        const isVisible = dropdownMenu.style.display === 'flex';
-                        // Hide all dropdown menus
-                        document.querySelectorAll('.dropdown-menu').forEach(menu => {
-                            menu.style.display = 'none';
-                        });
-                        // Show/hide current dropdown menu
-                        dropdownMenu.style.display = isVisible ? 'none' : 'flex';
-                    }
-                });
-            });
+            // Removed dropdown functionality as per user request
             
             // Close dropdown when clicking outside
-            document.addEventListener('click', function(event) {
-                const dropdowns = document.querySelectorAll('.dropdown');
-                dropdowns.forEach(dropdown => {
-                    if (!dropdown.contains(event.target)) {
-                        const dropdownMenu = dropdown.querySelector('.dropdown-menu');
-                        if (dropdownMenu) {
-                            dropdownMenu.style.display = 'none';
-                        }
-                    }
-                });
-            });
+            // Removed dropdown functionality as per user request
         });
     </script>
 </body>
