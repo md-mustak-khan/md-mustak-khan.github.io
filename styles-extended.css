@@ -1130,6 +1130,22 @@
     color: var(--primary-color);
 }
 
+/* Protocol Expand/Collapse */
+.protocol-header h3 {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.protocol-header h3:hover {
+    background-color: #f0f0f0;
+}
+
+.expand-icon {
+    transition: transform 0.3s ease;
+}
+
 /* Protocol References */
 .protocol-summary h6 {
     color: var(--primary-color);
@@ -1168,6 +1184,19 @@
     margin: 20px 0 30px 0;
     gap: 20px;
     flex-wrap: wrap;
+}
+
+/* Expand/Collapse Controls */
+.expand-collapse-controls {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.expand-collapse-controls .btn {
+    padding: 8px 15px;
+    font-size: 0.9rem;
 }
 
 .search-box {
@@ -1442,4 +1471,68 @@
     .page-header p {
         font-size: 1rem;
     }
+}
+
+/* Interactive bio section enhancements */
+.bio-section {
+    position: relative;
+    overflow: hidden;
+}
+
+.bio-text p {
+    transition: all 0.3s ease;
+}
+
+.bio-text p:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Fade-in animation for bio section */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bio-section h2 {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+.bio-text p:nth-child(1) {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.bio-text p:nth-child(2) {
+    animation: fadeInUp 1.0s ease-out;
+}
+
+.bio-text p:nth-child(3) {
+    animation: fadeInUp 1.2s ease-out;
+}
+
+.bio-text p:nth-child(4) {
+    animation: fadeInUp 1.4s ease-out;
+}
+
+.bio-text p:nth-child(5) {
+    animation: fadeInUp 1.6s ease-out;
+}
+
+/* Highlight effect for interactive elements */
+.highlight-hover {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.highlight-hover:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2px 4px;
+    border-radius: 4px;
+    color: #007bff;
 }

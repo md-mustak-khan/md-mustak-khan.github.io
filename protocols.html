@@ -88,13 +88,19 @@
                 </div>
             </div>
 
+            <!-- Expand/Collapse Controls -->
+            <div class="expand-collapse-controls">
+                <button id="expand-all-protocols" class="btn secondary-btn">Expand All</button>
+                <button id="collapse-all-protocols" class="btn secondary-btn">Collapse All</button>
+            </div>
+
             <div class="protocols-list">
                 <!-- Preparation of Growth Media Protocol -->
                 <div class="protocol-item media">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-vial"></i> Preparation of Growth Media</h3>
+                        <h3><i class="fas fa-vial"></i> Preparation of Growth Media <i class="fas fa-chevron-up expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: block;">
                         
                         <h4>1. Preparation of Bacterial Food Source (LB Media)</h4>
                         <p>Although <i>Caenorhabditis elegans</i> (<i>C. elegans</i>) can be maintained axenically, this method is difficult and results in slow growth. In most laboratories, <i>C. elegans</i> is maintained monoxenically using E. coli strain OP50 as a food source (Brenner, 1974).</p>
@@ -272,9 +278,9 @@
                 <!-- Culturing C. elegans Protocol -->
                 <div class="protocol-item c-elegans">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-worm"></i> Culturing C. elegans on Petri Plates</h3>
+                        <h3><i class="fas fa-worm"></i> Culturing C. elegans on Petri Plates <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p><i>Caenorhabditis elegans</i> (<i>C. elegans</i>) is transparent and can be visualized using a dissecting stereomicroscope with a transmitted light source. Common models include the Wild Leitz M5A and Zeiss SV6, equipped with 10× eyepieces and objectives ranging from 0.6× to 5× (total magnification of 6×–50×).</p>
                     </div>
                 </div>
@@ -282,9 +288,9 @@
                 <!-- Transferring Worms Protocol -->
                 <div class="protocol-item transfer">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-exchange-alt"></i> Transferring Worms Grown on NGM Plates</h3>
+                        <h3><i class="fas fa-exchange-alt"></i> Transferring Worms Grown on NGM Plates <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <h4>1. Picking Individual Worms</h4>
                         <p>For precision transfers or when maintaining genetic stocks.</p>
                         
@@ -337,9 +343,9 @@
                 <!-- C. elegans Synchronization Protocol -->
                 <div class="protocol-item synchronization">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-sync"></i> C. elegans – Bleach Synchronization Protocol for Synchronous L1 Cultures</h3>
+                        <h3><i class="fas fa-sync"></i> C. elegans – Bleach Synchronization Protocol for Synchronous L1 Cultures <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p>Synchronous C. elegans cultures ensure that all animals are at the same developmental stage, improving reproducibility of developmental, genetic, and drug response experiments. This protocol uses an alkaline bleach treatment to dissolve gravid adults, leaving eggs intact, which are then hatched in the absence of food to arrest uniformly at the L1 stage. The synchronized L1 larvae can subsequently be transferred to plates or liquid medium for downstream assays.</p>
                         
                         <h6>Procedure</h6>
@@ -378,9 +384,9 @@
                 <!-- C. elegans Egg Hatching Assay -->
                 <div class="protocol-item c-elegans egg-hatching">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-egg"></i> Caenorhabditis elegans Egg Hatching Assay for Evaluating Anthelmintic Activity</h3>
+                        <h3><i class="fas fa-egg"></i> Caenorhabditis elegans Egg Hatching Assay for Evaluating Anthelmintic Activity <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p>The Caenorhabditis elegans egg hatching assay quantifies how effectively drugs or compounds inhibit nematode egg hatching compared with untreated controls. Isolated eggs from synchronized gravid adults are exposed to graded drug concentrations, allowing calculation of EC50 or EC90 values and evaluation of time dependent effects on egg development. This in vitro method is cost effective, avoids the use of parasitic species or host animals, and is suitable for medium throughput anthelmintic screening.</p>
                         
                         <h4>1. C. elegans strains and culture</h4>
@@ -468,9 +474,9 @@
                 <!-- Computer-Aided Drug Design (CADD) Protocol -->
                 <div class="protocol-item in-silico cadd">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-laptop-code"></i> Computer-Aided Drug Design (CADD) Protocol</h3>
+                        <h3><i class="fas fa-laptop-code"></i> Computer-Aided Drug Design (CADD) Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p>Computer-Aided Drug Design (CADD) employs computational techniques to discover and optimize drug candidates targeting biological proteins, streamlining the drug development process. It combines structure-based and ligand-based methods to predict interactions, affinities and pharmacokinetics efficiently. This workflow suits lab and bioinformatics protocols for virtual screening and lead identification.</p>
                         
                         <h5>Step-by-Step Procedure</h5>
@@ -526,9 +532,9 @@
                 <!-- Computer-Aided Vaccine Design (CAVD) Protocol -->
                 <div class="protocol-item in-silico cavd">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-syringe"></i> Computer-Aided Vaccine Design (CAVD) Protocol</h3>
+                        <h3><i class="fas fa-syringe"></i> Computer-Aided Vaccine Design (CAVD) Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p>Computer-Aided Vaccine Design (CAVD) leverages computational tools to identify immunogenic epitopes and design vaccine constructs against pathogens, accelerating development over traditional methods. It integrates immunoinformatics for antigen prediction, epitope mapping, and immune simulation to ensure safety and efficacy. This protocol provides a structured in silico workflow for lab and bioinformatics applications.</p>
                         
                         <h5>Step-by-Step Procedure</h5>
@@ -589,9 +595,9 @@
                 <!-- NGS Data Analysis Pipeline -->
                 <div class="protocol-item in-silico ngs">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-dna"></i> NGS Data Analysis Pipeline</h3>
+                        <h3><i class="fas fa-dna"></i> NGS Data Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p>Next-Generation Sequencing (NGS) data analysis pipeline processes raw sequencing reads into biological insights like variants, gene expression, or assemblies through quality control, alignment, and downstream interpretation. This standardized bioinformatics workflow handles massive datasets from platforms like Illumina or Ion Torrent, ensuring accuracy for genomic research. It applies to lab protocols for variant calling, RNA-Seq, or metagenomics.</p>
                         
                         <h5>Step-by-Step Procedure</h5>
@@ -644,9 +650,9 @@
                 <!-- Bulk RNA-Seq Analysis Pipeline -->
                 <div class="protocol-item in-silico bulk-rna-seq">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-chart-bar"></i> Bulk RNA-Seq Analysis Pipeline</h3>
+                        <h3><i class="fas fa-chart-bar"></i> Bulk RNA-Seq Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p>Bulk RNA-Seq analysis pipeline quantifies transcriptome-wide gene expression from mixed cell populations, enabling differential expression, pathway analysis, and isoform detection. It processes raw FASTQ reads through quality control, alignment, quantification, and statistical modeling for biological insights. This bioinformatics workflow supports lab protocols for disease studies, drug response, and functional genomics.</p>
                         
                         <h5>Step-by-Step Procedure</h5>
@@ -699,9 +705,9 @@
                 <!-- Single-Cell RNA-Seq Analysis Pipeline -->
                 <div class="protocol-item in-silico single-cell-rna-seq">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-dna"></i> Single-Cell RNA-Seq Analysis Pipeline</h3>
+                        <h3><i class="fas fa-dna"></i> Single-Cell RNA-Seq Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
-                    <div class="protocol-summary">
+                    <div class="protocol-summary" style="display: none;">
                         <p>Single-Cell RNA-Seq (scRNA-Seq) analysis pipeline profiles transcriptomes at cellular resolution, revealing heterogeneity, rare populations, and developmental trajectories from thousands of individual cells. It processes raw FASTQ files through quality control, feature extraction, clustering, and downstream functional analysis using R/Bioconductor or Python/Scanpy frameworks. This bioinformatics workflow supports lab protocols for immunology, oncology, and developmental biology studies.</p>
                         
                         <h5>Step-by-Step Procedure</h5>
@@ -799,6 +805,8 @@
     <script>
         // Protocol category filtering
         document.addEventListener('DOMContentLoaded', function() {
+            // Small delay to ensure all elements are loaded
+            setTimeout(function() {
             const categoryButtons = document.querySelectorAll('.category-btn');
             const protocolItems = document.querySelectorAll('.protocol-item');
             
@@ -873,12 +881,71 @@
                 });
             });
             
+            // Protocol expand/collapse functionality
+            const protocolHeaders = document.querySelectorAll('.protocol-header h3');
+            protocolHeaders.forEach(header => {
+                header.style.cursor = 'pointer';
+                header.addEventListener('click', function() {
+                    // Get the parent protocol-item and find the protocol-summary within it
+                    const protocolItem = this.closest('.protocol-item');
+                    const protocolSummary = protocolItem.querySelector('.protocol-summary');
+                    const icon = this.querySelector('.expand-icon');
+                    
+                    if (protocolSummary.style.display === 'none') {
+                        protocolSummary.style.display = 'block';
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    } else {
+                        protocolSummary.style.display = 'none';
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    }
+                });
+            });
+            
+            // Expand/Collapse all functionality
+            const expandAllBtn = document.getElementById('expand-all-protocols');
+            const collapseAllBtn = document.getElementById('collapse-all-protocols');
+            
+            if (expandAllBtn) {
+                expandAllBtn.addEventListener('click', function() {
+                    const protocolSummaries = document.querySelectorAll('.protocol-summary');
+                    const icons = document.querySelectorAll('.protocol-header h3 .expand-icon');
+                    
+                    protocolSummaries.forEach(summary => {
+                        summary.style.display = 'block';
+                    });
+                    
+                    icons.forEach(icon => {
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    });
+                });
+            }
+            
+            if (collapseAllBtn) {
+                collapseAllBtn.addEventListener('click', function() {
+                    const protocolSummaries = document.querySelectorAll('.protocol-summary');
+                    const icons = document.querySelectorAll('.protocol-header h3 .expand-icon');
+                    
+                    protocolSummaries.forEach(summary => {
+                        summary.style.display = 'none';
+                    });
+                    
+                    icons.forEach(icon => {
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    });
+                });
+            }
+            
             // Toggle dropdown menu on click
             // Removed dropdown functionality as per user request
             
             // Close dropdown when clicking outside
             // Removed dropdown functionality as per user request
-        });
+        }, 100); // End of setTimeout
+    });
     </script>
 </body>
 </html>
