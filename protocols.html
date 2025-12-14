@@ -88,12 +88,6 @@
                 </div>
             </div>
 
-            <!-- Expand/Collapse Controls -->
-            <div class="expand-collapse-controls">
-                <button id="expand-all-protocols" class="btn secondary-btn">Expand All</button>
-                <button id="collapse-all-protocols" class="btn secondary-btn">Collapse All</button>
-            </div>
-
             <div class="protocols-list">
                 <!-- Preparation of Growth Media Protocol -->
                 <div class="protocol-item media">
@@ -903,41 +897,7 @@
                 });
             });
             
-            // Expand/Collapse all functionality
-            const expandAllBtn = document.getElementById('expand-all-protocols');
-            const collapseAllBtn = document.getElementById('collapse-all-protocols');
-            
-            if (expandAllBtn) {
-                expandAllBtn.addEventListener('click', function() {
-                    const protocolSummaries = document.querySelectorAll('.protocol-summary');
-                    const icons = document.querySelectorAll('.protocol-header h3 .expand-icon');
-                    
-                    protocolSummaries.forEach(summary => {
-                        summary.style.display = 'block';
-                    });
-                    
-                    icons.forEach(icon => {
-                        icon.classList.remove('fa-chevron-down');
-                        icon.classList.add('fa-chevron-up');
-                    });
-                });
-            }
-            
-            if (collapseAllBtn) {
-                collapseAllBtn.addEventListener('click', function() {
-                    const protocolSummaries = document.querySelectorAll('.protocol-summary');
-                    const icons = document.querySelectorAll('.protocol-header h3 .expand-icon');
-                    
-                    protocolSummaries.forEach(summary => {
-                        summary.style.display = 'none';
-                    });
-                    
-                    icons.forEach(icon => {
-                        icon.classList.remove('fa-chevron-up');
-                        icon.classList.add('fa-chevron-down');
-                    });
-                });
-            }
+            // Expand/Collapse all functionality removed as per user request
             
             // Toggle dropdown menu on click
             // Removed dropdown functionality as per user request

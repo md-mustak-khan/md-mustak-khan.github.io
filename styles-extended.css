@@ -1186,19 +1186,6 @@
     flex-wrap: wrap;
 }
 
-/* Expand/Collapse Controls */
-.expand-collapse-controls {
-    display: flex;
-    justify-content: flex-end;
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.expand-collapse-controls .btn {
-    padding: 8px 15px;
-    font-size: 0.9rem;
-}
-
 .search-box {
     position: relative;
     flex: 1;
