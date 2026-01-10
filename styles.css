@@ -21,6 +21,8 @@ body {
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
+    margin: 0;
+    padding: 0;
 }
 
 .container {
@@ -53,7 +55,7 @@ img {
 
 /* Navigation Bar */
 .navbar {
-    background-color: var(--primary-color);
+    background-color: #050046;
     color: white;
     padding: 1rem 0;
     position: sticky;
@@ -79,16 +81,17 @@ img {
 
 .nav-menu {
     display: flex;
+    flex-wrap: nowrap;
 }
 
 .nav-item {
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .nav-link {
     color: white;
     font-weight: 500;
-    padding: 10px 15px;
+    padding: 10px 8px;
     border-radius: 4px;
     transition: all 0.3s ease;
 }
@@ -115,7 +118,7 @@ img {
 /* Cover Section */
 .cover-section {
     height: 80vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('images/cover-placeholder.jpg') center/cover no-repeat;
+    background: #002147;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -377,6 +380,17 @@ img {
 }
 
 /* Responsive Design */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .nav-item {
+        margin: 0 3px;
+    }
+
+    .nav-link {
+        padding: 10px 6px;
+        font-size: 0.9rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .nav-menu {
         position: fixed;

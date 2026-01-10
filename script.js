@@ -26,17 +26,10 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
-// Dynamic Header Shadow on Scroll
-window.addEventListener('scroll', () => {
-    const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) {
-        navbar.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.15)';
-        navbar.style.backgroundColor = 'rgba(0, 33, 71, 0.95)';
-    } else {
-        navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
-        navbar.style.backgroundColor = 'var(--primary-color)';
-    }
-});
+// Keep navbar consistently deep blue at all times
+const navbar = document.querySelector('.navbar');
+navbar.style.backgroundColor = '#050046'; // Very deep blue
+navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)'; // Consistent shadow
 
 // Research Card Animation
 const researchCards = document.querySelectorAll('.research-card');

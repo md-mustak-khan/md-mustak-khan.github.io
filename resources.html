@@ -39,6 +39,9 @@
                     <a href="resources.html" class="nav-link active">Resources & Tools</a>
                 </li>
                 <li class="nav-item">
+                    <a href="teaching.html" class="nav-link">Teaching</a>
+                </li>
+                <li class="nav-item">
                     <a href="gallery.html" class="nav-link">Gallery</a>
                 </li>
                 <li class="nav-item">
@@ -68,13 +71,9 @@
                 <h2><i class="fas fa-toolbox"></i> Research Toolkit</h2>
                 <p>This page provides a comprehensive list of software tools, databases, and resources that I frequently use in my research. These tools span molecular biology, bioinformatics, data analysis, and scientific writing domains.</p>
             </div>
-
-            <div class="resources-controls">
-
-            </div>
-
-            <div class="resources-categories">
-                <h2><i class="fas fa-filter"></i> Resource Categories</h2>
+            
+            <div class="protocol-categories">
+                <h3><i class="fas fa-filter"></i> Filter by Category</h3>
                 <div class="category-filters">
                     <button class="category-btn active" data-category="all">All Resources</button>
                     <button class="category-btn" data-category="literature">Literature Review</button>
@@ -84,11 +83,11 @@
                     <button class="category-btn" data-category="python">Python Tools</button>
                     <button class="category-btn" data-category="bioinformatics">Bioinformatics</button>
                     <button class="category-btn" data-category="c-elegans">C. elegans</button>
-                    <button class="category-btn" data-category="databases">Scientific Databases</button>
+                    <button class="category-btn" data-category="databases">Biological Databases</button>
                     <button class="category-btn" data-category="illustrations">Illustration Tools</button>
                 </div>
             </div>
-
+            
             <div class="resources-list">
                 <!-- Literature Review Tools -->
                 <div class="resource-item literature">
@@ -655,7 +654,7 @@
 
                 <!-- Research & Scientific Databases -->
                 <div class="resource-item databases">
-                    <h3><i class="fas fa-database"></i> Research & Scientific Databases <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-database"></i> Research & Biological Databases <i class="fas fa-chevron-up"></i></h3>
                     <div class="resource-details">
                         <h4>Genomics Databases</h4>
                         <div class="tool-item">
@@ -1013,7 +1012,8 @@
                     <p>Whether it's recommending a new tool, suggesting improvements to existing resources, or sharing alternative approaches, your contributions help ensure these resources remain comprehensive, current, and valuable for researchers worldwide.</p>
                     <a href="contact.html" class="btn primary-btn">Share Your Expertise</a>
                 </div>
-            </div>
+            </main>
+        </div>
         </section>
 
         <!-- Footer Section -->
@@ -1034,6 +1034,7 @@
                         <ul>
                             <li><a href="protocols.html">Lab Protocols</a></li>
                             <li><a href="resources.html">Tools & Resources</a></li>
+                            <li><a href="teaching.html">Teaching</a></li>
                             <li><a href="gallery.html">Gallery</a></li>
                         </ul>
                     </div>
@@ -1058,22 +1059,28 @@
                 const categoryButtons = document.querySelectorAll('.category-btn');
                 const resourceItems = document.querySelectorAll('.resource-item');
                 
+                // Function to handle category filtering
+                function handleCategoryFilter(button) {
+                    // Remove active class from all buttons
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    const category = button.getAttribute('data-category');
+                    button.classList.add('active');
+                    
+                    resourceItems.forEach(item => {
+                        if (category === 'all' || item.classList.contains(category)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                }
+                
+                // Add event listeners to category buttons
                 categoryButtons.forEach(button => {
                     button.addEventListener('click', () => {
-                        // Remove active class from all buttons
-                        categoryButtons.forEach(btn => btn.classList.remove('active'));
-                        // Add active class to clicked button
-                        button.classList.add('active');
-                        
-                        const category = button.getAttribute('data-category');
-                        
-                        resourceItems.forEach(item => {
-                            if (category === 'all' || item.classList.contains(category)) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        });
+                        handleCategoryFilter(button);
                     });
                 });
             });

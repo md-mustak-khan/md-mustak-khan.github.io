@@ -2,7 +2,7 @@
 
 /* Page Header */
 .page-header {
-    background: linear-gradient(rgba(0, 33, 71, 0.8), rgba(0, 33, 71, 0.9)), url('images/header-placeholder.jpg') center/cover no-repeat;
+    background: #002147;
     color: white;
     padding: 100px 0;
     text-align: center;
@@ -24,7 +24,7 @@
 
 /* Cover Section */
 .cover-section {
-    background: linear-gradient(rgba(0, 33, 71, 0.85), rgba(0, 33, 71, 0.95)), url('images/header-placeholder.jpg') center/cover no-repeat;
+    background: #002147;
     padding: 100px 0;
     color: white;
     text-align: center;
@@ -524,6 +524,267 @@
     margin-bottom: 15px;
 }
 
+.teaching-intro {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.teaching-intro h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.teaching-intro h2 i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.teaching-intro p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+.teaching-single-box {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.teaching-header-full {
+    text-align: left;
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.teaching-header-full h2 {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+.teaching-header-full p {
+    margin: 5px 0;
+    text-align: left;
+}
+
+.teaching-content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.teaching-media {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.teaching-media img {
+    width: 320px;
+    height: 320px;
+    border-radius: 0;
+    object-fit: cover;
+    border: 3px solid var(--light-color);
+    object-position: center;
+}
+
+.syllabus-download {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.download-btn:hover {
+    background-color: #1a4b8c;
+    color: white;
+}
+
+.teaching-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teaching-details p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.teaching-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+
+.teaching-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.teaching-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.teaching-photo {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.teaching-photo img {
+    width: 320px;
+    height: 320px;
+    border-radius: 0;
+    object-fit: cover;
+    border: 3px solid var(--light-color);
+    object-position: center;
+}
+
+.teaching-info {
+    flex: 1;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.teaching-info p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+    text-align: justify;
+}
+
+.teaching-photo {
+    flex: 0 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.teaching-photo h3 {
+    color: var(--primary-color);
+    margin: 0 0 5px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.teaching-position-small {
+    font-size: 0.9rem;
+    margin: 0;
+    text-align: center;
+}
+
+.teaching-platform-small {
+    font-size: 0.9rem;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.syllabus-download {
+    margin-top: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.download-btn:hover {
+    background-color: #1a4b8c;
+    color: white;
+}
+
+.teaching-header {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.teaching-header h2 {
+    color: var(--primary-color);
+    margin: 0 0 10px 0;
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.teaching-position {
+    font-size: 1.1em;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.teaching-platform {
+    font-size: 1.1em;
+    margin: 5px 0;
+    text-align: left;
+}
+
+/* Responsive design for teaching section */
+@media (max-width: 768px) {
+    .teaching-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .teaching-media img {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .teaching-details {
+        width: 100%;
+    }
+    
+    .teaching-header-full {
+        text-align: left;
+    }
+}
+
 .advisors-list {
     display: flex;
     flex-direction: column;
@@ -547,6 +808,16 @@
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--light-color);
+    object-position: center;
+}
+
+.teaching-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 0;
+    object-fit: cover;
+    border: 3px solid var(--light-color);
+    object-position: center;
 }
 
 .advisor-info h3 {
@@ -629,6 +900,26 @@
 }
 
 .protocol-categories h3 i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.research-categories {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+}
+
+.research-categories h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.research-categories h3 i {
     margin-right: 10px;
     color: var(--secondary-color);
 }
@@ -786,6 +1077,75 @@
 }
 
 /* Resources Page */
+.resources-layout {
+    display: flex;
+    gap: 30px;
+    margin: 40px 0;
+    flex-direction: row-reverse; /* This puts the sidebar on the right */
+}
+
+.sidebar {
+    flex: 0 0 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    align-self: flex-start;
+    position: sticky;
+    top: 100px; /* Align with the resources-intro section */
+}
+
+.sidebar-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.sidebar-content h3 i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.sidebar-filters {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar-category-btn {
+    padding: 12px 15px;
+    background-color: var(--bg-color);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    text-align: left;
+}
+
+.sidebar-category-btn:hover, .sidebar-category-btn.active {
+    background-color: var(--secondary-color);
+    color: white;
+    border-color: var(--secondary-color);
+}
+
+.main-content {
+    flex: 1;
+}
+
+/* Responsive adjustments for resources page */
+@media screen and (max-width: 768px) {
+    .resources-layout {
+        flex-direction: column;
+    }
+    
+    .sidebar {
+        flex: none;
+        position: static;
+    }
+}
+
 .resources-intro {
     background-color: white;
     padding: 30px;
@@ -930,7 +1290,39 @@
 }
 
 /* Gallery Page */
-.gallery-categories {
+.gallery-intro {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+.gallery-intro h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.gallery-intro h2 i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.gallery-intro p {
+    line-height: 1.7;
+    margin-bottom: 15px;
+}
+
+
+
+.gallery-grid-wrapper {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     margin: 40px 0;
 }
 
@@ -984,10 +1376,29 @@
 
 .gallery-info {
     background-color: white;
-    padding: 40px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    margin: 50px 0;
+    margin: 40px 0;
+    border-left: 4px solid var(--secondary-color);
+    text-align: justify;
+}
+
+.gallery-info h2 {
+    color: var(--primary-color);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.gallery-info h2 i {
+    margin-right: 10px;
+    color: var(--secondary-color);
+}
+
+.gallery-info p {
+    line-height: 1.7;
+    margin-bottom: 15px;
 }
 
 .gallery-info h2 {
