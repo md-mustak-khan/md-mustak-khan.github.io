@@ -395,185 +395,375 @@
 
                 <!-- Bioinformatics Tools -->
                 <div class="resource-item bioinformatics" id="bioinformatics">
-                    <h3><i class="fas fa-dna"></i> Bioinformatics Tools, Software, and Datasets <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-dna"></i> Comprehensive Bioinformatics, Structural Biology, Drug Discovery & Vaccine Design Tools <i class="fas fa-chevron-up"></i></h3>
                     <div class="resource-details">
-                        <h4>Sequence Retrieval and Analysis</h4>
+                        <h4>1. Sequence Retrieval, Alignment & Motif Analysis</h4>
+                        <p>Goal: Retrieve sequences, identify homologs, conserved motifs, and functional domains.</p>
+                        
                         <div class="tool-item">
-                            <h4>NCBI Database</h4>
-                            <p>Provides access to genomic and protein sequence data for various organisms.</p>
-                            <a href="https://www.ncbi.nlm.nih.gov/" class="resource-link" target="_blank">Visit Website</a>
+                            <h4>NCBI Databases</h4>
+                            <p>Provides genomic, transcript, and protein sequences for multiple organisms.</p>
+                            <a href="https://www.ncbi.nlm.nih.gov" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>BLAST</h4>
+                            <p>Identifies similar DNA, RNA, or protein sequences to predict function and evolutionary relationships.</p>
+                            <a href="https://blast.ncbi.nlm.nih.gov" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
                             <h4>EMBOSS Stretcher</h4>
-                            <p>Aligns nucleotide or protein sequences using dynamic programming.</p>
+                            <p>Performs pairwise sequence alignment using dynamic programming.</p>
                             <a href="https://www.ebi.ac.uk/Tools/psa/emboss_stretcher/" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Clustal Omega</h4>
+                            <p>Multiple sequence alignment for evolutionary and functional studies.</p>
+                            <a href="http://www.clustal.org/omega" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>MAFFT</h4>
+                            <p>High-speed, scalable multiple sequence alignment tool.</p>
+                            <a href="https://mafft.cbrc.jp/alignment/software" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
                             <h4>PROSITE</h4>
                             <p>Identifies protein motifs and conserved functional domains.</p>
-                            <a href="https://prosite.expasy.org/" class="resource-link" target="_blank">Visit Website</a>
-                        </div>
-                        
-                        <h4>Homology Modeling</h4>
-                        <div class="tool-item">
-                            <h4>Modeller v9.26</h4>
-                            <p>Constructs 3D protein structures based on homologous templates.</p>
-                            <a href="https://salilab.org/modeller/" class="resource-link" target="_blank">Visit Website</a>
+                            <a href="https://prosite.expasy.org" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
-                            <h4>Swiss-Model</h4>
-                            <p>Automates template selection and homology-based structure modeling.</p>
-                            <a href="https://swissmodel.expasy.org/" class="resource-link" target="_blank">Visit Website</a>
+                            <h4>Pfam</h4>
+                            <p>Detects protein families and conserved domains using HMMs.</p>
+                            <a href="https://pfam.xfam.org" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         
-                        <h4>Model Evaluation and Energy Minimization</h4>
+                        <h4>2. Genome Assembly, Mapping & Annotation</h4>
+                        <p>Goal: Build genomes from reads, align sequences, and identify genes.</p>
+                        
+                        <div class="tool-item">
+                            <h4>BWA</h4>
+                            <p>Aligns short DNA reads to a reference genome.</p>
+                            <a href="http://bio-bwa.sourceforge.net" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Bowtie2</h4>
+                            <p>High-speed short-read aligner for large genomes.</p>
+                            <a href="http://bowtie-bio.sourceforge.net" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>SPAdes</h4>
+                            <p>De novo genome assembler for bacteria and small eukaryotic genomes.</p>
+                            <a href="https://cab.spbu.ru/software/spades/" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Velvet</h4>
+                            <p>De novo short-read genome assembler using de Bruijn graphs.</p>
+                            <a href="https://www.ebi.ac.uk/~zerbino/velvet/" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Prokka</h4>
+                            <p>Automated prokaryotic genome annotation.</p>
+                            <a href="https://github.com/tseemann/prokka" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>AUGUSTUS</h4>
+                            <p>Gene prediction in eukaryotic genomes.</p>
+                            <a href="https://bioinf.uni-greifswald.de/augustus/" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>OrthoFinder</h4>
+                            <p>Detects orthologous genes across multiple species.</p>
+                            <a href="https://github.com/davidemms/OrthoFinder" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        
+                        <h4>3. Genomics Visualization & Genome Browsers</h4>
+                        <p>Goal: Explore genomes, annotations, and sequencing data visually.</p>
+                        
+                        <div class="tool-item">
+                            <h4>UCSC Genome Browser</h4>
+                            <p>Interactive genome visualization with extensive annotation tracks.</p>
+                            <a href="https://genome.ucsc.edu" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Ensembl Genome Browser</h4>
+                            <p>Genome annotation, comparative genomics, and variation data.</p>
+                            <a href="https://www.ensembl.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>IGV (Integrative Genomics Viewer)</h4>
+                            <p>Desktop tool for inspecting alignments and variants.</p>
+                            <a href="https://igv.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>JBrowse</h4>
+                            <p>Web-based genome browser suitable for custom and local genomes.</p>
+                            <a href="https://jbrowse.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        
+                        <h4>4. Transcriptomics & RNA Analysis</h4>
+                        <p>Goal: Measure gene expression and analyze RNA structures.</p>
+                        
+                        <div class="tool-item">
+                            <h4>FastQC</h4>
+                            <p>Quality control of raw sequencing reads.</p>
+                            <a href="https://www.bioinformatics.babraham.ac.uk/projects/fastqc" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>featureCounts</h4>
+                            <p>Counts reads mapped to genes or genomic features.</p>
+                            <a href="https://subread.sourceforge.net" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>HTSeq</h4>
+                            <p>Generates gene-level read counts for RNA-seq.</p>
+                            <a href="https://htseq.readthedocs.io" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>DESeq2</h4>
+                            <p>Identifies differentially expressed genes between conditions.</p>
+                            <a href="https://bioconductor.org/packages/DESeq2" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>edgeR</h4>
+                            <p>Statistical analysis of RNA-seq count data.</p>
+                            <a href="https://bioconductor.org/packages/edgeR" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>RNAfold</h4>
+                            <p>Predicts RNA secondary structure using minimum free energy.</p>
+                            <a href="https://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAfold.cgi" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        
+                        <h4>5. Single-Cell & Spatial Transcriptomics</h4>
+                        <p>Goal: Analyze gene expression at single-cell or tissue resolution.</p>
+                        
+                        <div class="tool-item">
+                            <h4>Seurat</h4>
+                            <p>R toolkit for single-cell RNA-seq analysis and visualization.</p>
+                            <a href="https://satijalab.org/seurat" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Scanpy</h4>
+                            <p>Python framework for large-scale single-cell analysis.</p>
+                            <a href="https://scanpy.readthedocs.io" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Cell Ranger</h4>
+                            <p>Processes raw single-cell sequencing data from 10x Genomics.</p>
+                            <a href="https://www.10xgenomics.com" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Monocle</h4>
+                            <p>Infers differentiation trajectories and pseudotime.</p>
+                            <a href="https://cole-trapnell-lab.github.io/monocle3/" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        
+                        <h4>6. Structural Biology, Homology Modeling & Visualization</h4>
+                        <p>Goal: Model, refine, and visualize protein 3D structures.</p>
+                        
+                        <div class="tool-item">
+                            <h4>MODELLER</h4>
+                            <p>Builds 3D protein structures using homologous templates.</p>
+                            <a href="https://salilab.org/modeller" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>SWISS-MODEL</h4>
+                            <p>Automated homology-based protein modeling.</p>
+                            <a href="https://swissmodel.expasy.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>AlphaFold DB</h4>
+                            <p>AI-predicted protein 3D structures.</p>
+                            <a href="https://alphafold.ebi.ac.uk" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
                         <div class="tool-item">
                             <h4>YASARA</h4>
                             <p>Performs energy minimization and molecular simulations.</p>
-                            <a href="https://www.yasara.org/" class="resource-link" target="_blank">Visit Website</a>
+                            <a href="http://www.yasara.org" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
-                            <h4>SAVES</h4>
-                            <p>Assesses stereochemistry and structure validation of protein models.</p>
-                            <a href="https://saves.mbi.ucla.edu/" class="resource-link" target="_blank">Visit Website</a>
+                            <h4>SAVES Server</h4>
+                            <p>Validates protein structure quality and stereochemistry.</p>
+                            <a href="https://saves.mbi.ucla.edu" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
-                            <h4>Superpose</h4>
+                            <h4>SuperPose</h4>
                             <p>Compares 3D structural alignments of proteins.</p>
-                            <a href="https://superpose.wishartlab.com/" class="resource-link" target="_blank">Visit Website</a>
+                            <a href="http://superpose.wishartlab.com" class="resource-link" target="_blank">Visit Website</a>
                         </div>
-                        
-                        <h4>Visualization and Structural Analysis</h4>
                         <div class="tool-item">
                             <h4>PyMOL</h4>
-                            <p>Visualizes, analyzes, and animates 3D molecular structures for proteins, ligands, and complexes, producing publication-quality images.</p>
-                            <a href="https://pymol.org/" class="resource-link" target="_blank">Visit Website</a>
-                        </div>
-                        
-                        <h4>Active Site Prediction</h4>
-                        <div class="tool-item">
-                            <h4>POCKDRUG</h4>
-                            <p>Identifies and characterizes ligand-binding pockets.</p>
-                            <a href="https://pockdrug.rpbs.univ-paris-diderot.fr/cgi-bin/index.py?page=home" class="resource-link" target="_blank">Visit Website</a>
+                            <p>Visualizes, analyzes, and animates 3D molecular structures.</p>
+                            <a href="https://pymol.org" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
-                            <h4>Biovia Discovery Studio Visualizer</h4>
-                            <p>Analyzes and visualizes molecular interactions.</p>
+                            <h4>ChimeraX</h4>
+                            <p>Advanced visualization of proteins, complexes, and cryo-EM data.</p>
+                            <a href="https://www.cgl.ucsf.edu/chimerax" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>BIOVIA Discovery Studio Visualizer</h4>
+                            <p>Analyzes protein–ligand interactions.</p>
                             <a href="https://discover.3ds.com/discovery-studio-visualizer-download" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         
-                        <h4>Ligand Design</h4>
+                        <h4>7. Active Site, Pocket Analysis & Ligand Design</h4>
+                        <p>Goal: Identify druggable sites and design small molecules.</p>
+                        
+                        <div class="tool-item">
+                            <h4>POCKDRUG</h4>
+                            <p>Predicts ligand-binding pockets and druggability.</p>
+                            <a href="http://pockdrug.rpbs.univ-paris-diderot.fr" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>fpocket</h4>
+                            <p>Detects potential binding pockets on proteins.</p>
+                            <a href="https://github.com/Discngine/fpocket" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>TRAPP Web Server</h4>
+                            <p>Analyzes pocket dynamics from simulations.</p>
+                            <a href="https://trapp.h-its.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
                         <div class="tool-item">
                             <h4>Marvin JS</h4>
-                            <p>Facilitates chemical structure drawing and editing.</p>
-                            <a href="https://chemaxon.com/products/marvin-js" class="resource-link" target="_blank">Visit Website</a>
+                            <p>Chemical structure drawing and editing.</p>
+                            <a href="https://chemaxon.com/products/marvin" class="resource-link" target="_blank">Visit Website</a>
                         </div>
-                        
-                        <h4>Pharmacophore Modeling and Virtual Screening</h4>
                         <div class="tool-item">
                             <h4>LigandScout</h4>
                             <p>Generates pharmacophore models for drug discovery.</p>
-                            <a href="https://docs.inteligand.com/ligandscout/" class="resource-link" target="_blank">Visit Website</a>
+                            <a href="https://www.inteligand.com/ligandscout" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
                             <h4>ZINCPHARMER</h4>
-                            <p>Screens ligand databases for potential drug candidates.</p>
-                            <a href="http://zincpharmer.csb.pitt.edu/" class="resource-link" target="_blank">Visit Website</a>
+                            <p>Screens ligand libraries for pharmacophore matches.</p>
+                            <a href="http://zincpharmer.csb.pitt.edu" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         
-                        <h4>Pharmacodynamics and ADMET Analysis</h4>
-                        <div class="tool-item">
-                            <h4>SwissADME</h4>
-                            <p>Predicts pharmacokinetics and drug-likeness of molecules.</p>
-                            <a href="http://www.swissadme.ch/" class="resource-link" target="_blank">Visit Website</a>
-                        </div>
-                        <div class="tool-item">
-                            <h4>ADMETSAR-2.0</h4>
-                            <p>Evaluates absorption, distribution, metabolism, excretion, and toxicity (ADMET) properties.</p>
-                            <a href="https://lmmd.ecust.edu.cn/admetsar2/" class="resource-link" target="_blank">Visit Website</a>
-                        </div>
+                        <h4>8. Molecular Docking, Virtual Screening & Dynamics</h4>
+                        <p>Goal: Predict ligand binding and study molecular interactions.</p>
                         
-                        <h4>Molecular Docking</h4>
                         <div class="tool-item">
                             <h4>AutoDock Vina</h4>
                             <p>Performs ligand-protein docking simulations.</p>
-                            <a href="http://vina.scripps.edu/" class="resource-link" target="_blank">Visit Website</a>
+                            <a href="http://vina.scripps.edu" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
                             <h4>PyRx</h4>
-                            <p>Integrates AutoDock and AutoDock Vina for virtual screening and docking through an intuitive graphical interface.</p>
-                            <a href="https://pyrx.sourceforge.io/" class="resource-link" target="_blank">Visit Website</a>
+                            <p>Graphical interface for docking and virtual screening.</p>
+                            <a href="https://pyrx.sourceforge.io" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
                             <h4>PatchDock</h4>
-                            <p>Conducts molecular docking through geometric shape complementarity.</p>
+                            <p>Docking based on geometric complementarity.</p>
                             <a href="https://bioinfo3d.cs.tau.ac.il/PatchDock/" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
                             <h4>FireDock</h4>
-                            <p>Refines docking results with energy-based optimization.</p>
+                            <p>Refines docking results using energy-based scoring.</p>
                             <a href="https://bioinfo3d.cs.tau.ac.il/FireDock/" class="resource-link" target="_blank">Visit Website</a>
                         </div>
-                        
-                        <h4>Molecular Dynamics Simulation</h4>
                         <div class="tool-item">
                             <h4>GROMACS</h4>
-                            <p>Runs high-performance molecular dynamics simulations.</p>
-                            <a href="https://www.gromacs.org/" class="resource-link" target="_blank">Visit Website</a>
+                            <p>High-performance molecular dynamics simulations.</p>
+                            <a href="https://www.gromacs.org" class="resource-link" target="_blank">Visit Website</a>
                         </div>
-                        
-                        <h4>Analysis of MD Trajectories</h4>
                         <div class="tool-item">
                             <h4>VMD</h4>
-                            <p>Visualizes and analyzes molecular dynamics trajectories.</p>
-                            <a href="https://www.ks.uiuc.edu/Research/vmd/" class="resource-link" target="_blank">Visit Website</a>
+                            <p>Visualizes and analyzes MD trajectories.</p>
+                            <a href="https://www.ks.uiuc.edu/Research/vmd" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Spartan</h4>
+                            <p>Performs quantum chemistry (DFT) calculations.</p>
+                            <a href="https://www.wavefun.com" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         
-                        <h4>Pocket Dynamics Analysis</h4>
+                        <h4>9. Drug Discovery: Pharmacokinetics & ADMET</h4>
+                        <p>Goal: Evaluate drug-likeness, pharmacokinetics, and toxicity.</p>
+                        
                         <div class="tool-item">
-                            <h4>TRAPP Web Server</h4>
-                            <p>Studies the dynamic behavior of binding pockets.</p>
-                            <a href="https://trapp.h-its.org/" class="resource-link" target="_blank">Visit Website</a>
+                            <h4>SwissADME</h4>
+                            <p>Predicts pharmacokinetics, solubility, and drug-likeness.</p>
+                            <a href="https://www.swissadme.ch" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>ADMETsar 2.0</h4>
+                            <p>Evaluates ADMET properties computationally.</p>
+                            <a href="http://lmmd.ecust.edu.cn/admetsar2" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>RDKit</h4>
+                            <p>Cheminformatics toolkit for molecular modeling and drug design.</p>
+                            <a href="https://www.rdkit.org" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         
-                        <h4>Density Functional Theory (DFT) Calculation</h4>
+                        <h4>10. Network Biology, Systems Biology & Pathway Analysis</h4>
+                        <p>Goal: Interpret molecular interactions and biological pathways.</p>
+                        
                         <div class="tool-item">
-                            <h4>Spartan 14</h4>
-                            <p>Computes electronic properties like HOMO/LUMO analysis.</p>
-                            <a href="https://www.wavefun.com/products/spartan.html" class="resource-link" target="_blank">Visit Website</a>
+                            <h4>Cytoscape</h4>
+                            <p>Visualizes and analyzes biological networks such as protein–protein interactions.</p>
+                            <a href="https://cytoscape.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>STRING</h4>
+                            <p>Explores known and predicted protein–protein interactions.</p>
+                            <a href="https://string-db.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>KEGG</h4>
+                            <p>Links genes and proteins to metabolic and signaling pathways.</p>
+                            <a href="https://www.genome.jp/kegg" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>Reactome</h4>
+                            <p>Curated database of human biological pathways.</p>
+                            <a href="https://reactome.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>DAVID</h4>
+                            <p>Functional annotation and enrichment analysis of gene lists.</p>
+                            <a href="https://david.ncifcrf.gov" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         
-                        <h4>Protein Annotation and Functional Prediction</h4>
+                        <h4>11. Vaccine Design, Epitope Prediction & In-Silico Cloning</h4>
+                        <p>Goal: Predict immune epitopes and simulate vaccine constructs or cloning.</p>
+                        
                         <div class="tool-item">
-                            <h4>Pfam</h4>
-                            <p>Detects conserved protein families and domains.</p>
-                            <a href="https://pfam.xfam.org/" class="resource-link" target="_blank">Visit Website</a>
+                            <h4>IEDB Tools</h4>
+                            <p>Predicts T-cell and B-cell epitopes for vaccines.</p>
+                            <a href="https://www.iedb.org" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>NetMHCpan</h4>
+                            <p>Predicts peptide binding to MHC class I molecules.</p>
+                            <a href="https://services.healthtech.dtu.dk" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>BepiPred</h4>
+                            <p>Predicts linear B-cell epitopes.</p>
+                            <a href="https://services.healthtech.dtu.dk" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>VaxiJen</h4>
+                            <p>Predicts protein antigenicity for vaccines.</p>
+                            <a href="http://www.ddg-pharmfac.net/vaxijen" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>C-ImmSim</h4>
+                            <p>Simulates immune responses to vaccine constructs.</p>
+                            <a href="https://kraken.iac.rm.cnr.it/C-IMMSIM" class="resource-link" target="_blank">Visit Website</a>
+                        </div>
+                        <div class="tool-item">
+                            <h4>SnapGene</h4>
+                            <p>Simulates DNA cloning, codon optimization, and plasmid construction.</p>
+                            <a href="https://www.snapgene.com" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                         <div class="tool-item">
                             <h4>SignalP</h4>
                             <p>Predicts signal peptides for protein secretion.</p>
-                            <a href="https://services.healthtech.dtu.dk/service.php?SignalP-5.0" class="resource-link" target="_blank">Visit Website</a>
-                        </div>
-                        
-                        <h4>Epitope Prediction and Vaccine Design</h4>
-                        <div class="tool-item">
-                            <h4>IEDB Tools</h4>
-                            <p>Identifies MHC-binding and B-cell epitopes for vaccine design.</p>
-                            <a href="https://tools.iedb.org/" class="resource-link" target="_blank">Visit Website</a>
-                        </div>
-                        
-                        <h4>Codon Optimization and In-Silico Cloning</h4>
-                        <div class="tool-item">
-                            <h4>SnapGene</h4>
-                            <p>Simulates in-silico DNA cloning and plasmid construction.</p>
-                            <a href="https://www.snapgene.com/" class="resource-link" target="_blank">Visit Website</a>
-                        </div>
-                        
-                        <h4>mRNA Structure Prediction</h4>
-                        <div class="tool-item">
-                            <h4>RNAfold</h4>
-                            <p>Predicts secondary structures of RNA sequences.</p>
-                            <a href="http://rna.tbi.univie.ac.at/cgi-bin/RNAWebSuite/RNAfold.cgi" class="resource-link" target="_blank">Visit Website</a>
+                            <a href="https://services.healthtech.dtu.dk/service.php?SignalP" class="resource-link" target="_blank">Visit Website</a>
                         </div>
                     </div>
                 </div>
