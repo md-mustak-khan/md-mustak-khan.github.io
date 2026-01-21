@@ -74,7 +74,9 @@
             </div>
         </div>
     </section>
-
+    
+    <div style="height: 20px; border-bottom: 1px solid #e0e0e0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 20px 0;"></div>
+    
     <!-- Bio Information Section -->
     <section class="bio-section">
         <div class="container">
@@ -83,18 +85,123 @@
                 <div class="bio-text">
                     <p>Hello! I am <strong>Md. Mustak Khan</strong>, a passionate researcher currently pursuing my MS in Biochemistry and Molecular Biology at the University of Chittagong. My research primarily focuses on <i>Caenorhabditis elegans (C. elegans)</i> as a model organism to study the effects of plant-derived compounds and synthetic molecules. Alongside this, I maintain strong interests in Microbiology, Natural Products, and Bioinformatics.</p>
                     
-                    <p>As a research assistant at the <strong class="highlight-hover">Laboratory of Applied Bioscience</strong>, I gain hands-on experience in laboratory techniques and collaborative scientific inquiry. My work with C. elegans and microbial systems has strengthened my expertise in experimental design and biological research. I am also actively involved with the <strong class="highlight-hover">Laboratory of Food Science and Nutraceutical</strong>, where we analyze the nutritional composition and antioxidant properties of plant-derived samples such as seaweeds and dates.</p>
+                    <p>As a research assistant at the <strong>Laboratory of Applied Bioscience</strong>, I gain hands-on experience in laboratory techniques and collaborative scientific inquiry. My work with C. elegans and microbial systems has strengthened my expertise in experimental design and biological research. I am also actively involved with the <strong>Laboratory of Food Science and Nutraceutical</strong>, where we analyze the nutritional composition and antioxidant properties of plant-derived samples such as seaweeds and dates.</p>
                     
-                    <p>My journey includes valuable experience as a research intern at <strong class="highlight-hover">CHIRAL Bangladesh</strong>, where I later joined its aiHealth Lab division. This opportunity provided me with foundational knowledge in machine learning and artificial intelligence, particularly in their applications to public health and healthcare challenges.</p>
+                    <p>My journey includes valuable experience as a research intern at <strong>CHIRAL Bangladesh</strong>, where I later joined its aiHealth Lab division. This opportunity provided me with foundational knowledge in machine learning and artificial intelligence, particularly in their applications to public health and healthcare challenges.</p>
                     
-                    <p>Additionally, I am a founding member of <strong class="highlight-hover">BioPC—Bioinformatics Lab of Research and Training</strong>. In my role as a research project lead, I spearhead multiple initiatives focused on computational approaches to biological research, including Drug Design, Vaccine Development, Cancer Bioinformatics, and Public Health innovations.</p>
+                    <p>Additionally, I am a founding member of <strong>BioPC—Bioinformatics Lab of Research and Training</strong>. In my role as a research project lead, I spearhead multiple initiatives focused on computational approaches to biological research, including Drug Design, Vaccine Development, Cancer Bioinformatics, and Public Health innovations.</p>
                     
                     <p>Through these diverse experiences, I have cultivated an interdisciplinary research profile that seamlessly bridges experimental biology with computational science. I am deeply motivated to continue exploring innovative research opportunities and making meaningful contributions to the scientific community.</p>
+                    <p style="text-align: center; margin-top: 15px;"><a href="about.html" class="btn primary-btn">Learn More About Me</a></p>
                 </div>
             </div>
         </div>
     </section>
-
+    
+    <div style="height: 20px; border-bottom: 1px solid #e0e0e0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 20px 0;"></div>
+    
+    <!-- Research Section -->
+    <section class="research-section">
+        <div class="container">
+            <h2>Research Areas</h2>
+            <div class="research-links">
+                <div class="research-link-item" style="display: flex; align-items: center; margin-bottom: 15px; padding: 15px; background-color: white; border-radius: 5px; transition: all 0.3s ease; cursor: pointer;">
+                    <div style="margin-right: 15px; font-size: 24px; color: #3498db; transition: transform 0.3s ease;">
+                        <i class="fas fa-worm"></i>
+                    </div>
+                    <div>
+                        <h3 style="margin: 0 0 5px 0; color: #2c3e50; transition: color 0.3s ease;">C. elegans Research</h3>
+                        <p style="margin: 0; color: #7f8c8d; transition: color 0.3s ease;">Studying plant-derived extracts and synthetic compounds using C. elegans as a model organism at the Laboratory of Applied Bioscience, University of Chittagong.</p>
+                    </div>
+                </div>
+                
+                <div class="research-link-item" style="display: flex; align-items: center; margin-bottom: 15px; padding: 15px; background-color: white; border-radius: 5px; transition: all 0.3s ease; cursor: pointer;">
+                    <div style="margin-right: 15px; font-size: 24px; color: #27ae60; transition: transform 0.3s ease;">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div>
+                        <h3 style="margin: 0 0 5px 0; color: #2c3e50; transition: color 0.3s ease;">Nutritional Research</h3>
+                        <p style="margin: 0; color: #7f8c8d; transition: color 0.3s ease;">Analyzing nutritional composition and antioxidant properties of plant samples like seaweeds and dates at the Food Science and Nutraceutical Laboratory.</p>
+                    </div>
+                </div>
+                
+                <div class="research-link-item" style="display: flex; align-items: center; margin-bottom: 15px; padding: 15px; background-color: white; border-radius: 5px; transition: all 0.3s ease; cursor: pointer;">
+                    <div style="margin-right: 15px; font-size: 24px; color: #9b59b6; transition: transform 0.3s ease;">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div>
+                        <h3 style="margin: 0 0 5px 0; color: #2c3e50; transition: color 0.3s ease;">Bioinformatics Research</h3>
+                        <p style="margin: 0; color: #7f8c8d; transition: color 0.3s ease;">Leading computational approaches to drug design and vaccine development through BioPC - A Bioinformatics Lab of Research and Training.</p>
+                    </div>
+                </div>
+                
+                <div class="research-link" style="text-align: center; margin-top: 20px;">
+                    <a href="research.html" class="btn primary-btn" style="transition: all 0.3s ease;">Explore Research</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        // Add interactivity to research items
+        document.addEventListener('DOMContentLoaded', function() {
+            const researchItems = document.querySelectorAll('.research-link-item');
+            
+            researchItems.forEach(item => {
+                item.addEventListener('mouseenter', function() {
+                    this.style.transform = 'translateY(-3px)';
+                    this.style.boxShadow = '0 5px 15px rgba(0,0,0,0.1)';
+                    
+                    const icon = this.querySelector('div[style*="transition"] i');
+                    if (icon) {
+                        icon.parentElement.style.transform = 'scale(1.2)';
+                    }
+                    
+                    const headings = this.querySelectorAll('h3');
+                    headings.forEach(heading => {
+                        heading.style.color = '#3498db';
+                    });
+                    
+                    const paragraphs = this.querySelectorAll('p');
+                    paragraphs.forEach(paragraph => {
+                        paragraph.style.color = '#34495e';
+                    });
+                });
+                
+                item.addEventListener('mouseleave', function() {
+                    this.style.transform = 'translateY(0)';
+                    this.style.boxShadow = 'none';
+                    
+                    const icon = this.querySelector('div[style*="transition"] i');
+                    if (icon) {
+                        icon.parentElement.style.transform = 'scale(1)';
+                    }
+                    
+                    const headings = this.querySelectorAll('h3');
+                    headings.forEach(heading => {
+                        heading.style.color = '#2c3e50';
+                    });
+                    
+                    const paragraphs = this.querySelectorAll('p');
+                    paragraphs.forEach(paragraph => {
+                        paragraph.style.color = '#7f8c8d';
+                    });
+                });
+                
+                item.addEventListener('click', function() {
+                    // Add a subtle click effect
+                    this.style.transform = 'translateY(0)';
+                    this.style.backgroundColor = '#f8f9fa';
+                    setTimeout(() => {
+                        this.style.backgroundColor = 'white';
+                    }, 300);
+                });
+            });
+        });
+    </script>
+    
+    <div style="height: 20px; border-bottom: 1px solid #e0e0e0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 20px 0;"></div>
+    
     <!-- Research Interest Section -->
     <section class="research-section">
         <div class="container">
@@ -123,7 +230,9 @@
             </div>
         </div>
     </section>
-
+    
+    <div style="height: 20px; border-bottom: 1px solid #e0e0e0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 20px 0;"></div>
+    
     <!-- Connection Section -->
     <section class="connection-section">
         <div class="container">
@@ -160,7 +269,9 @@
             </div>
         </div>
     </section>
-
+    
+    <div style="height: 20px; border-bottom: 1px solid #e0e0e0; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin: 20px 0;"></div>
+    
     <!-- Footer Section -->
     <footer class="footer">
         <div class="container">
