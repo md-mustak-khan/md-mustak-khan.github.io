@@ -324,6 +324,25 @@ img {
     margin-bottom: 10px;
 }
 
+.social-link-footer {
+    display: inline-block;
+    margin: 0 5px;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.social-link-footer:hover {
+    color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+.social-links-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
 .social-link:hover .fa-twitter {
     color: #1DA1F2; /* Twitter blue color */
     transform: scale(1.1);
@@ -358,6 +377,12 @@ img {
     width: 50px;
     height: 2px;
     background-color: var(--secondary-color);
+}
+
+.footer-column h4 {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: var(--secondary-color);
 }
 
 .footer-column ul li {

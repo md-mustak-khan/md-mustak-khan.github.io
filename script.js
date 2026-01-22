@@ -107,7 +107,7 @@ document.addEventListener('mousemove', (e) => {
 
 // Animation on Scroll
 const animateOnScroll = () => {
-    const elements = document.querySelectorAll('.bio-section, .research-section, .connection-section');
+    const elements = document.querySelectorAll('.research-section, .connection-section');
     
     elements.forEach(element => {
         const elementPosition = element.getBoundingClientRect().top;
@@ -121,7 +121,7 @@ const animateOnScroll = () => {
 };
 
 // Set initial styles for animation
-document.querySelectorAll('.bio-section, .research-section, .connection-section').forEach(section => {
+document.querySelectorAll('.research-section, .connection-section').forEach(section => {
     section.style.opacity = '0';
     section.style.transform = 'translateY(20px)';
     section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
