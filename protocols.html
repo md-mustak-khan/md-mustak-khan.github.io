@@ -85,6 +85,7 @@
                     <button class="category-btn" data-category="synchronization">Synchronization</button>
                     <button class="category-btn" data-category="egg-hatching">Anthelmintic Hatching Assay</button>
                     <button class="category-btn" data-category="cadd">CADD</button>
+                    <button class="category-btn" data-category="network-pharmacology">Network Pharmacology</button>
                     <button class="category-btn" data-category="cavd">CAVD</button>
                     <button class="category-btn" data-category="ngs">NGS Analysis</button>
                     <button class="category-btn" data-category="bulk-rna-seq">Bulk RNA-Seq</button>
@@ -526,7 +527,60 @@
                         <p>Pinzi, L.; Rastelli, G. Molecular Docking: Shifting Paradigms in Drug Discovery. Int. J. Mol. Sci. 2019, 20, 4331. doi:10.3390/ijms20184331 <a href="https://microbenotes.com/computer-aided-drug-design-cadd/" target="_blank">Microbe Notes</a></p>
                     </div>
                 </div>
-                
+                <!-- Network Pharmacology Protocol -->
+<div class="protocol-item in-silico network-pharmacology">
+    <div class="protocol-header">
+        <h3><i class="fas fa-project-diagram"></i> Network Pharmacology Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
+    </div>
+    <div class="protocol-summary" style="display: none;">
+        <p>Network Pharmacology integrates systems biology, bioinformatics, and pharmacology to study drug actions on multiple targets and pathways, providing a holistic understanding of therapeutic mechanisms. This approach identifies multi-target drugs, predicts synergistic effects, and guides experimental validation in complex diseases.</p>
+        
+        <h5>Step-by-Step Procedure</h5>
+        <div class="step">
+            <p><strong>Step 1:</strong> Disease and Target Identification - Collect disease-related genes or proteins from databases such as DisGeNET, OMIM, GeneCards, or CTD. Evaluate relevance and involvement in disease pathways using literature mining or Gene Ontology (GO) analysis.</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 2:</strong> Drug/Compound Data Collection - Retrieve known compounds or traditional medicine ingredients from TCMSP, PubChem, ChEMBL, or DrugBank. Screen compounds for drug-likeness using Lipinski's Rule of Five or SwissADME.</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 3:</strong> Target Prediction for Compounds - Predict potential protein targets of compounds using tools like SEA, STITCH, SwissTargetPrediction, or PharmMapper. Cross-reference predicted targets with disease-associated targets to identify overlapping candidates.</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 4:</strong> Network Construction - Build interaction networks: Compound–Target (C–T) networks and Target–Target Protein–Protein Interaction (PPI) networks using STRING or Cytoscape. Analyze network topologies to identify hub genes or key regulatory proteins (degree, betweenness, closeness).</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 5:</strong> Pathway and Functional Enrichment Analysis - Perform GO, KEGG, or Reactome pathway enrichment for identified targets using DAVID, Metascape, or g:Profiler. Identify key biological pathways affected by the compounds for mechanistic insights.</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 6:</strong> Network Visualization and Module Analysis - Visualize C–T and PPI networks in Cytoscape or Gephi. Detect functional modules or clusters using MCODE or ClusterONE for pathway-specific interactions.</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 7:</strong> Molecular Docking - For high-priority targets, perform molecular docking to validate compound–target interactions using AutoDock Vina, Glide, or MOE. Score and analyze binding interactions with PyMOL or Discovery Studio.</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 8:</strong> Integrated Mechanism Analysis - Combine network, enrichment, and docking data to propose multi-target mechanisms. Predict synergistic effects or potential off-target interactions.</p>
+        </div>
+        
+        <div class="step">
+            <p><strong>Step 9:</strong> Experimental Validation - Select key compounds and targets for in vitro or in vivo validation. Examples include qPCR, Western blotting, enzyme assays, or phenotypic assays.</p>
+        </div>
+        
+        <div class="note">
+            <p><strong>Note:</strong> You may use different bioinformatics tools for each step and explore various bioinformatics resources. For a comprehensive list of tools, visit the <a href="resources.html#bioinformatics">Bioinformatics Resources</a> section.</p>
+        </div>
+        
+        <h6>References</h6>
+        <p>Hopkins, A. L. Network pharmacology: the next paradigm in drug discovery. Nat. Chem. Biol. 2008, 4, 682–690.</p>
+        <p>Li, S.; Zhang, B. Traditional Chinese medicine network pharmacology: theory, methodology and application. Chin. J. Nat. Med. 2013, 11, 110–120.</p>
+    </div>
+</div>
                 <!-- Computer-Aided Vaccine Design (CAVD) Protocol -->
                 <div class="protocol-item in-silico cavd">
                     <div class="protocol-header">
@@ -945,4 +999,3 @@
 </body>
 
 </html>
-
