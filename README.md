@@ -46,9 +46,8 @@ Permission is granted to view this code for personal and educational purposes on
 You may NOT:
 - Copy, reproduce, or redistribute this code
 - Modify or create derivative works
-- Use this project for commercial purposes
-- 
-Unauthorized use, duplication, or distribution may result in legal action.
+- Use this project for commercial purposes. 
+Unauthorized use, duplication, or distribution may result in legal action under DMCA.
 
 ---
 
