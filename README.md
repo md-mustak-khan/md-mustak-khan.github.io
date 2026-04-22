@@ -44,9 +44,10 @@ The website consists of the following pages:
 This project and its contents are protected by copyright law.
 Permission is granted to view this code for personal and educational purposes only.
 You may NOT:
-- Copy, reproduce, or redistribute this code
-- Modify or create derivative works
-- Use this project for commercial purposes. 
+- Copy, reproduce, or redistribute this code.
+- Modify or create derivative works.
+- Use this project for commercial purposes.
+- Reupload this project as your own. <br>
 Unauthorized use, duplication, or distribution may result in legal action under DMCA.
 
 ---
