@@ -47,8 +47,7 @@ You may NOT:
 - Copy, reproduce, or redistribute this code.
 - Modify or create derivative works.
 - Use this project for commercial purposes.
-- Reupload this project as your own. <br>
-Unauthorized use, duplication, or distribution may result in legal action under DMCA.
+- Reupload this project as your own.<br>Unauthorized use, duplication, or distribution may result in legal action under DMCA.
 
 ---
 
