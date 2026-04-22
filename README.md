@@ -40,7 +40,15 @@ The website consists of the following pages:
 
 ## 📜 License
 
-This repository is open for viewing and use for academic purposes. Please contact **Md. Mustak Khan** for permissions regarding reuse or modification of content.
+© 2026 Mustak Khan. All Rights Reserved.
+This project and its contents are protected by copyright law.
+Permission is granted to view this code for personal and educational purposes only.
+You may NOT:
+- Copy, reproduce, or redistribute this code
+- Modify or create derivative works
+- Use this project for commercial purposes
+- Reupload this project as your own
+Unauthorized use, duplication, or distribution may result in legal action.
 
 ---
 
