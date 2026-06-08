@@ -84,6 +84,7 @@
                     <button class="category-btn" data-category="transfer">Worm Transfer</button>
                     <button class="category-btn" data-category="synchronization">Synchronization</button>
                     <button class="category-btn" data-category="egg-hatching">Anthelmintic Hatching Assay</button>
+                    <button class="category-btn" data-category="lifespan">Lifespan Assay</button>
                     <button class="category-btn" data-category="cadd">CADD</button>
                     <button class="category-btn" data-category="network-pharmacology">Network Pharmacology</button>
                     <button class="category-btn" data-category="cavd">CAVD</button>
@@ -469,7 +470,104 @@
                         <p>Hernando G, Bouzat C. Evaluating anthelmintic activity through Caenorhabditis elegans egg hatching assay. MethodsX. 2024;12:102743. doi:10.1016/j.mex.2024.102743. PMID: 38799035; PMCID: PMC11126527. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11126527/" target="_blank">PMC Article</a></p>
                     </div>
                 </div>
-                
+
+             <!-- C. elegans Lifespan Assay -->
+                <div class="protocol-item lifespan">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-hourglass-half"></i> Caenorhabditis elegans Lifespan Assay <i class="fas fa-chevron-down expand-icon"></i></h3>
+                    </div>
+                    <div class="protocol-summary" style="display: none;">
+                        <p>The <i>Caenorhabditis elegans</i> (<i>C. elegans</i>) lifespan assay is used to evaluate the effects of genetic, environmental, or pharmacological interventions on longevity. Age-synchronized worms are maintained on NGM agar plates seeded with UV-killed <i>E. coli</i> OP50 and monitored regularly until death. Fluorodeoxyuridine (FUDR) is added to inhibit reproduction and prevent progeny production, while ampicillin is included to minimize bacterial contamination during long-term experiments.</p>
+                        
+                        <h4>1. Preparation of lifespan assay plates</h4>
+                        <p>Prepare NGM agar plates according to standard laboratory procedures and seed with concentrated <i>E. coli</i> OP50. After bacterial growth, expose plates to UV irradiation to arrest bacterial proliferation.</p>
+                        <p>For lifespan assay plates, supplement NGM with:</p>
+                        <ul>
+                            <li><strong>FUDR</strong> (final concentration according to laboratory standard) to inhibit DNA synthesis in germline cells, thereby preventing egg production and hatching.</li>
+                            <li><strong>Ampicillin</strong> (final concentration according to laboratory standard) to suppress bacterial contamination during prolonged incubation.</li>
+                        </ul>
+                        <p>Store prepared Amp/FUDR plates at 4 °C until use.</p>
+
+                        <h4>2. Age synchronization of worms</h4>
+                        <p>Generate an age-synchronized population using a timed egg-laying procedure or other standard synchronization method. Allow eggs to develop at 20 °C until worms reach the L4 larval stage.</p>
+                        <p>Transfer synchronized L4 larvae to fresh Amp/FUDR lifespan assay plates.</p>
+
+                        <h4>3. Lifespan assay</h4>
+                        
+                        <h5>Step 3.1: Experimental setup</h5>
+                        <div class="step">
+                            <p>Transfer 25–30 L4 larvae onto each Amp/FUDR plate. Prepare at least 2–3 replicate plates per strain or treatment group.</p>
+                        </div>
+
+                        <h5>Step 3.2: Incubation</h5>
+                        <div class="step">
+                            <p>Maintain worms at 20 °C throughout the experiment. The day of transfer to lifespan plates is designated as adult day 0.</p>
+                        </div>
+
+                        <h5>Step 3.3: Plate monitoring</h5>
+                        <div class="step">
+                            <p>Inspect plates every 2–3 days. Transfer worms to fresh Amp/FUDR plates when:</p>
+                            <ul>
+                                <li>Bacterial food becomes depleted.</li>
+                                <li>Contamination is observed.</li>
+                                <li>Excess progeny or larvae appear.</li>
+                                <li>Fungal growth is detected.</li>
+                            </ul>
+                        </div>
+
+                        <h5>Step 3.4: Scoring survival</h5>
+                        <div class="step">
+                            <p>Examine worms under a stereomicroscope.</p>
+                            <ul>
+                                <li>Gently tap the plate and observe movement.</li>
+                                <li>If no movement occurs, gently touch the head region with a platinum wire pick.</li>
+                                <li>Score worms as dead when no response is observed after stimulation.</li>
+                            </ul>
+                            <p>Remove dead worms if desired.</p>
+                        </div>
+
+                        <h5>Step 3.5: Data recording</h5>
+                        <div class="step">
+                            <p>For each observation day, record:</p>
+                            <ul>
+                                <li>Number of live worms.</li>
+                                <li>Number of dead worms.</li>
+                                <li>Number of missing or censored worms (e.g., worms that crawl off the plate or burrow into agar).</li>
+                            </ul>
+                        </div>
+
+                        <h5>Step 3.6: Continue monitoring</h5>
+                        <div class="step">
+                            <p>Return plates to 20 °C and repeat survival scoring every 2–3 days until all worms have died.</p>
+                        </div>
+
+                        <h4>4. Data analysis</h4>
+
+                        <h5>Step 4.1: Survival calculation</h5>
+                        <div class="step">
+                            <p>Calculate the proportion of surviving worms at each time point:</p>
+                            <p><em>Survival proportion = number of worms alive ÷ initial number of worms</em></p>
+                            <p>Exclude censored worms from lifespan calculations according to standard survival analysis procedures.</p>
+                        </div>
+
+                        <h5>Step 4.2: Survival curve generation</h5>
+                        <div class="step">
+                            <p>Plot survival proportion against age (days) to generate Kaplan–Meier survival curves. The day of synchronization or timed egg laying is considered day 0.</p>
+                        </div>
+
+                        <h5>Step 4.3: Lifespan determination</h5>
+                        <div class="step">
+                            <p>Determine mean lifespan, median lifespan, and maximum lifespan for each experimental group.</p>
+                        </div>
+
+                        <h5>Step 4.4: Statistical analysis</h5>
+                        <div class="step">
+                            <p>Compare survival distributions between groups using appropriate statistical methods such as the log-rank (Mantel–Cox) test. Statistical analyses can be performed using GraphPad Prism, OASIS 2, or other survival-analysis software.</p>
+                            <p>Under standard conditions (20 °C, UV-killed OP50), wild-type N2 worms typically exhibit a median lifespan of approximately 25 days.</p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Computer-Aided Drug Design (CADD) Protocol -->
                 <div class="protocol-item in-silico cadd">
                     <div class="protocol-header">
