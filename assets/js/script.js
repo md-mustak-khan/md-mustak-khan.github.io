@@ -158,6 +158,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+
 // Dynamic Button Effects
 const buttons = document.querySelectorAll('.btn');
 buttons.forEach(button => {
@@ -317,82 +318,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Resources Page Interactive Features
-document.addEventListener('DOMContentLoaded', function() {
-    // Collapsible resource sections
-    const resourceHeaders = document.querySelectorAll('.resource-item > h3');
-    resourceHeaders.forEach(header => {
-        header.style.cursor = 'pointer';
-        header.addEventListener('click', function() {
-            const resourceDetails = this.nextElementSibling;
-            const icon = this.querySelector('i');
-            
-            if (resourceDetails.style.display === 'none') {
-                resourceDetails.style.display = 'block';
-                if (icon) icon.classList.remove('fa-chevron-down');
-                if (icon) icon.classList.add('fa-chevron-up');
-            } else {
-                resourceDetails.style.display = 'none';
-                if (icon) icon.classList.remove('fa-chevron-up');
-                if (icon) icon.classList.add('fa-chevron-down');
-            }
-        });
-    });
-
-    // Search functionality for resources
-    const searchInput = document.getElementById('resource-search');
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
-            const searchTerm = this.value.toLowerCase();
-            const resourceItems = document.querySelectorAll('.resource-item');
-            
-            resourceItems.forEach(item => {
-                const text = item.textContent.toLowerCase();
-                if (text.includes(searchTerm)) {
-                    item.style.display = 'block';
-                } else {
-                    item.style.display = 'none';
-                }
-            });
-        });
-    }
-
-    // Expand/Collapse all functionality
-    const expandAllBtn = document.getElementById('expand-all');
-    const collapseAllBtn = document.getElementById('collapse-all');
-    
-    if (expandAllBtn) {
-        expandAllBtn.addEventListener('click', function() {
-            const resourceDetails = document.querySelectorAll('.resource-details');
-            const icons = document.querySelectorAll('.resource-item > h3 i');
-            
-            resourceDetails.forEach(detail => {
-                detail.style.display = 'block';
-            });
-            
-            icons.forEach(icon => {
-                icon.classList.remove('fa-chevron-down');
-                icon.classList.add('fa-chevron-up');
-            });
-        });
-    }
-    
-    if (collapseAllBtn) {
-        collapseAllBtn.addEventListener('click', function() {
-            const resourceDetails = document.querySelectorAll('.resource-details');
-            const icons = document.querySelectorAll('.resource-item > h3 i');
-            
-            resourceDetails.forEach(detail => {
-                detail.style.display = 'none';
-            });
-            
-            icons.forEach(icon => {
-                icon.classList.remove('fa-chevron-up');
-                icon.classList.add('fa-chevron-down');
-            });
-        });
-    }
-});
 
 // Reveal animations for timeline mind-map
 function initTimelineReveal() {
@@ -468,7 +393,6 @@ function initInteractiveSections() {
         '.card',
         '.research-card',
         '.contact-card',
-        '.resource-item',
         '.timeline-section.design-1.tpl-A .card',
         '.education-item',
         '.experience-item',
