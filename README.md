@@ -1,55 +1,103 @@
-# Research Portfolio Website - Md. Mustak Khan
+# Research Portfolio Website — Md. Mustak Khan
 
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue?logo=github)](https://md-mustak-khan.github.io)  
-
-This is a professional **research portfolio website** for **Md. Mustak Khan**, a researcher in **Biochemistry and Molecular Biology** at the **University of Chittagong**. The website showcases his academic profile, research projects, publications, lab resources, and more.
+A static website project created for **Md. Mustak Khan** showcasing research, publications, lab protocols, resources, and academic profile details.
 
 ---
 
-## 🌐 Live Demo
+## 🌐 Live Site
 
-Access the live website here: [https://md-mustak-khan.github.io](https://md-mustak-khan.github.io)
-
----
-
-## 🏗 Website Structure
-
-The website consists of the following pages:
-
-1. **Home Page** ([index.html](index.html)) - Main landing page with introduction.  
-2. **About Me** ([about.html](about.html)) - Detailed biography and background.  
-3. **Research** ([research.html](research.html)) - Research interests and projects.  
-4. **Publications** ([publications.html](publications.html)) - Academic publications and papers.  
-5. **Advisor** ([advisor.html](advisor.html)) - Information about research advisor.  
-6. **Lab Protocols** ([protocols.html](protocols.html)) - Laboratory procedures and methodologies.  
-7. **Resources & Tools** ([resources.html](resources.html)) - Curated list of research tools.  
-8. **Gallery** ([gallery.html](gallery.html)) - Visual documentation of research activities.  
-9. **Contact** ([contact.html](contact.html)) - Contact information and form for inquiries.
+Live demo: https://md-mustak-khan.github.io
 
 ---
 
-## 🛠 Tech Stack
+## ⚙️ Project Overview
 
-- **HTML5** for website structure  
-- **CSS3** for styling and responsive design  
-- **JavaScript** for interactive features  
-- **GitHub Pages** for free hosting  
+This repository contains a fully static personal research portfolio website built with HTML, CSS, and JavaScript. It includes:
+
+- A homepage introduction and overview
+- About page with academic and professional background
+- Research page with interest areas and project summaries
+- Publications page listing academic outputs
+- Lab protocols page with detailed workflows and methods
+- Resources & Tools page with curated research tools and references
+- Gallery page for images and visual documentation
+- Contact page for inquiries and connections
 
 ---
 
+## 📁 Folder Structure
+
+- `index.html` — main landing page
+- `pages/` — secondary pages for About, Research, Publications, Advisor, Protocols, Resources, Teaching, Gallery, Contact, etc.
+- `assets/css/` — stylesheet files including `styles.css` and `styles-extended.css`
+- `assets/js/` — site scripts in `script.js`
+- `assets/images/` — image assets used across the site
+- `images/` — gallery and other standalone images
+- `documents/` — supporting files and documents
+- `LICENSE` — license information for the repository
+- `README.md` — project documentation
+
+---
+
+## 📄 Main Pages
+
+- `index.html` — Home page
+- `pages/about.html` — About Me page
+- `pages/research.html` — Research overview
+- `pages/publications.html` — Publications and papers
+- `pages/advisor.html` — Advisor details
+- `pages/teaching.html` — Teaching activities and academic contributions
+- `pages/protocols.html` — Lab protocols and methodologies
+- `pages/resources.html` — Research tools and resources
+- `pages/gallery.html` — Image gallery
+- `pages/contact.html` — Contact information
+
+---
+
+## 🧩 Key Assets
+
+- `assets/css/styles.css` — base styling and layout
+- `assets/css/styles-extended.css` — custom theme styles for portfolio pages
+- `assets/js/script.js` — custom interaction scripts, navigation behavior, and page effects
+- `assets/images/` — design assets and illustrations
+
+---
+
+## 🚀 Local Preview
+
+To preview locally, open `index.html` or any page file in a browser.
+
+For best results, use a local web server such as:
+
+```bash
+# Python 3
+python -m http.server 8000
+```
+
+Then open `http://localhost:8000` in your browser.
+
+---
+
+## 📝 Notes
+
+- This site is designed for GitHub Pages hosting.
+- The project is static and does not require a backend.
+- Additional pages are stored in the `pages/` directory with shared assets.
+
+---
 
 ## 📜 License
 
-© 2026 Mustak Khan. All Rights Reserved.
-This project and its contents are protected by copyright law.
-Permission is granted to view this code for personal and educational purposes only.
-You may NOT:
-- Copy, reproduce, or redistribute this code.
-- Modify or create derivative works.
-- Use this project for commercial purposes.
-- Reupload this project as your own.<br>Unauthorized use, duplication, or distribution may result in legal action under DMCA.
+See `LICENSE` for full licensing details.
 
 ---
 
+## 👤 Author
+
+Md. Mustak Khan
+
+---
+
+*This README was written to reflect the current repository structure and contents.*
 
 
