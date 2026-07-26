@@ -1,9 +1,108 @@
+// Custom modern cursor
+const pointerMedia = window.matchMedia('(pointer: fine)');
+
+if (pointerMedia.matches) {
+    const cursorDot = document.createElement('div');
+    cursorDot.className = 'cursor-dot';
+
+    const cursorRing = document.createElement('div');
+    cursorRing.className = 'cursor-ring';
+
+    document.body.appendChild(cursorDot);
+    document.body.appendChild(cursorRing);
+
+    let mouseX = window.innerWidth / 2;
+    let mouseY = window.innerHeight / 2;
+    let ringX = mouseX;
+    let ringY = mouseY;
+
+    const updateCursor = () => {
+        ringX += (mouseX - ringX) * 0.18;
+        ringY += (mouseY - ringY) * 0.18;
+
+        cursorDot.style.left = `${mouseX}px`;
+        cursorDot.style.top = `${mouseY}px`;
+        cursorRing.style.left = `${ringX}px`;
+        cursorRing.style.top = `${ringY}px`;
+
+        requestAnimationFrame(updateCursor);
+    };
+
+    window.addEventListener('mousemove', (event) => {
+        mouseX = event.clientX;
+        mouseY = event.clientY;
+        cursorDot.style.opacity = '1';
+        cursorRing.style.opacity = '1';
+    });
+
+    window.addEventListener('mouseleave', () => {
+        cursorDot.style.opacity = '0';
+        cursorRing.style.opacity = '0';
+    });
+
+    document.querySelectorAll('a, .btn, .nav-link, .social-link, .research-card, .education-item, .experience-item, .certificate-item, .sidebar-card, .nav-toggle, .social-link-footer').forEach((element) => {
+        element.addEventListener('mouseenter', () => {
+            cursorRing.classList.add('cursor-hover');
+        });
+
+        element.addEventListener('mouseleave', () => {
+            cursorRing.classList.remove('cursor-hover');
+        });
+    });
+
+    updateCursor();
+}
+
 // Mobile Navigation Toggle
 const navToggle = document.querySelector('.nav-toggle');
 const navMenu = document.querySelector('.nav-menu');
 
 // Log that the script is loaded
 console.log('Research Portfolio JavaScript loaded successfully');
+
+const heroTypingTarget = document.getElementById('hero-typing-target');
+
+if (heroTypingTarget) {
+    const words = (heroTypingTarget.getAttribute('data-words') || 'Biochemistry, Molecular Biology, Bioinformatics')
+        .split(',')
+        .map(word => word.trim())
+        .filter(Boolean);
+
+    if (words.length > 0) {
+        heroTypingTarget.textContent = words[0];
+        let wordIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        const typeLoop = () => {
+            const currentWord = words[wordIndex];
+
+            if (!isDeleting) {
+                heroTypingTarget.textContent = currentWord.slice(0, charIndex + 1);
+                charIndex += 1;
+
+                if (charIndex === currentWord.length) {
+                    isDeleting = true;
+                    setTimeout(typeLoop, 1400);
+                    return;
+                }
+            } else {
+                heroTypingTarget.textContent = currentWord.slice(0, charIndex - 1);
+                charIndex -= 1;
+
+                if (charIndex === 0) {
+                    isDeleting = false;
+                    wordIndex = (wordIndex + 1) % words.length;
+                }
+            }
+
+            const speed = isDeleting ? 60 : 100;
+            setTimeout(typeLoop, speed);
+        };
+
+        setTimeout(typeLoop, 600);
+    }
+}
 
 navToggle.addEventListener('click', () => {
     navMenu.classList.toggle('active');
@@ -26,10 +125,12 @@ document.querySelectorAll('.nav-link').forEach(link => {
     });
 });
 
-// Keep navbar consistently deep blue at all times
+// Keep navbar styling aligned with the updated modern white theme
 const navbar = document.querySelector('.navbar');
-navbar.style.backgroundColor = '#050046'; // Very deep blue
-navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)'; // Consistent shadow
+if (navbar) {
+    navbar.style.backgroundColor = '#ffffff';
+    navbar.style.boxShadow = '0 4px 18px rgba(0, 0, 0, 0.08)';
+}
 
 // Research Card Animation
 const researchCards = document.querySelectorAll('.research-card');
@@ -60,6 +161,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Dynamic Button Effects
 const buttons = document.querySelectorAll('.btn');
 buttons.forEach(button => {
+    button.style.cursor = 'pointer';
     button.addEventListener('mouseenter', () => {
         button.style.transform = 'scale(1.05)';
     });
@@ -72,6 +174,7 @@ buttons.forEach(button => {
 // Social Link Hover Effects
 const socialLinks = document.querySelectorAll('.social-link');
 socialLinks.forEach(link => {
+    link.style.cursor = 'pointer';
     link.addEventListener('mouseenter', () => {
         link.style.transform = 'translateY(-5px)';
     });
@@ -130,6 +233,20 @@ document.querySelectorAll('.research-section, .connection-section').forEach(sect
 // Trigger animations on scroll
 window.addEventListener('scroll', animateOnScroll);
 window.addEventListener('load', animateOnScroll);
+
+// Timeline reveal animation for Academic Navy & Gold replica
+const revealTimelineRows = () => {
+    const rows = document.querySelectorAll('.design-1.tpl-A .row');
+    rows.forEach(row => {
+        const rect = row.getBoundingClientRect();
+        if (rect.top < window.innerHeight * 0.92) {
+            row.classList.add('in-view');
+        }
+    });
+};
+
+window.addEventListener('scroll', revealTimelineRows);
+window.addEventListener('load', revealTimelineRows);
 
 // Dynamic Research Interest Cards
 const researchInterests = [
@@ -276,3 +393,177 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
+// Reveal animations for timeline mind-map
+function initTimelineReveal() {
+    const timelineItems = document.querySelectorAll('.timeline-item');
+
+    if ('IntersectionObserver' in window && timelineItems.length) {
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.15 });
+
+        timelineItems.forEach(item => observer.observe(item));
+    } else {
+        // Fallback: reveal all
+        timelineItems.forEach(item => item.classList.add('in-view'));
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTimelineReveal);
+} else {
+    initTimelineReveal();
+}
+
+// Initialize collapsible paragraphs inside timeline cards
+function initTimelineCollapsibles() {
+    const cards = document.querySelectorAll('.timeline-section.design-1.tpl-A .card');
+    cards.forEach(card => {
+        if (card.dataset.collapsibleInitialized) return;
+        const paras = Array.from(card.querySelectorAll('p'));
+        if (!paras.length) return;
+
+        // Wrap all paragraph nodes into a collapsible container
+        const wrapper = document.createElement('div');
+        wrapper.className = 'collapsible-content';
+
+        paras.forEach(p => wrapper.appendChild(p));
+
+        card.appendChild(wrapper);
+
+        const btn = document.createElement('button');
+        btn.className = 'collapse-toggle';
+        btn.type = 'button';
+        btn.textContent = 'Read more';
+        btn.setAttribute('aria-expanded', 'false');
+
+        btn.addEventListener('click', () => {
+            const expanded = wrapper.classList.toggle('expanded');
+            btn.textContent = expanded ? 'Show less' : 'Read more';
+            btn.setAttribute('aria-expanded', expanded);
+        });
+
+        card.appendChild(btn);
+        card.dataset.collapsibleInitialized = '1';
+    });
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+        initTimelineCollapsibles();
+    });
+} else {
+    initTimelineCollapsibles();
+}
+
+// Initialize generic interactivity for sections and boxes
+function initInteractiveSections() {
+    const selectors = [
+        '.card',
+        '.research-card',
+        '.contact-card',
+        '.resource-item',
+        '.timeline-section.design-1.tpl-A .card',
+        '.education-item',
+        '.experience-item',
+        '.certificate-item',
+        '.sidebar-card',
+        '.research-grid .research-card'
+    ];
+
+    const elements = new Set();
+    selectors.forEach(sel => document.querySelectorAll(sel).forEach(el => elements.add(el)));
+
+    elements.forEach(el => {
+        if (el.dataset.interactiveInit) return;
+        el.classList.add('interactive-card');
+
+        // Hover visual already handled in CSS, but ensure accessible hover state
+        el.addEventListener('mouseenter', () => el.classList.add('hovered'));
+        el.addEventListener('mouseleave', () => el.classList.remove('hovered'));
+
+        // Make focusable if not naturally focusable
+        const focusable = ['A', 'BUTTON', 'INPUT', 'TEXTAREA', 'SELECT'];
+        if (!focusable.includes((el.tagName || '').toUpperCase())) {
+            if (!el.hasAttribute('tabindex')) el.setAttribute('tabindex', '0');
+        }
+
+        // Keyboard: Enter/Space to toggle expansion if details exist
+        el.addEventListener('keydown', (ev) => {
+            if (ev.key === 'Enter' || ev.key === ' ') {
+                ev.preventDefault();
+                toggleInteractiveExpand(el);
+            }
+        });
+
+        // Click toggles expansion for elements that have multiple paragraphs or an explicit details container
+        el.addEventListener('click', (e) => {
+            // Avoid toggling when clicking links or buttons inside the card
+            if (e.target.closest('a, button, input, textarea, select')) return;
+            toggleInteractiveExpand(el);
+        });
+
+        // If element has multiple paragraphs, consolidate extra paragraphs into an interactive-details block
+        const paras = Array.from(el.querySelectorAll('p'));
+        if (paras.length > 1 && !el.querySelector('.interactive-details')) {
+            const details = document.createElement('div');
+            details.className = 'interactive-details';
+
+            // move all paras except the first
+            paras.slice(1).forEach(p => details.appendChild(p));
+
+            el.appendChild(details);
+
+            // Add toggle button unless already present (timeline has its own)
+            if (!el.querySelector('.collapse-toggle') && !el.querySelector('.interactive-toggle')) {
+                const btn = document.createElement('button');
+                btn.className = 'interactive-toggle';
+                btn.type = 'button';
+                btn.textContent = 'Read more';
+                btn.setAttribute('aria-expanded', 'false');
+                btn.addEventListener('click', (ev) => {
+                    ev.stopPropagation();
+                    const expanded = el.classList.toggle('is-expanded');
+                    btn.textContent = expanded ? 'Show less' : 'Read more';
+                    btn.setAttribute('aria-expanded', expanded);
+                });
+                el.appendChild(btn);
+            }
+        }
+
+        el.dataset.interactiveInit = '1';
+    });
+
+    // Helper to toggle expansion state for a card
+    function toggleInteractiveExpand(el) {
+        // If there is an explicit details block, toggle .is-expanded
+        const details = el.querySelector('.interactive-details') || el.querySelector('.collapsible-content') || el.querySelector('.resource-details');
+        if (details) {
+            const isExpanded = el.classList.toggle('is-expanded');
+            // update any buttons inside
+            const btn = el.querySelector('.interactive-toggle, .collapse-toggle');
+            if (btn) {
+                btn.textContent = isExpanded ? (btn.dataset.showLessText || 'Show less') : (btn.dataset.showMoreText || 'Read more');
+                btn.setAttribute('aria-expanded', isExpanded);
+            }
+            return;
+        }
+
+        // Otherwise, perform a small pulse effect
+        el.classList.add('pulse');
+        setTimeout(() => el.classList.remove('pulse'), 420);
+    }
+}
+
+// Run the interactive initializer after DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initInteractiveSections);
+} else {
+    initInteractiveSections();
+}
