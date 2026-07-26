@@ -94,7 +94,7 @@
     <div class="resources-list">
     <!-- Literature Review Tools -->
     <div class="resource-item literature">
-        <h3><i class="fas fa-book-reader"></i> Literature Review Tools <i class="fas fa-chevron-up"></i></h3>
+        <h3><i class="fas fa-book-reader"></i> Literature Review Tools</h3>
         <div class="resource-details">
 
             <!-- Added Liner Scholar First -->
@@ -158,7 +158,7 @@
 
                 <!-- Free Courses -->
                 <div class="resource-item courses">
-                    <h3><i class="fas fa-graduation-cap"></i> Free Courses on Research Methods, Manuscript Writing, and Publishing <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-graduation-cap"></i> Free Courses on Research Methods, Manuscript Writing, and Publishing</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4><strong>A Complete Guide to the Key Components of a Research Article</strong> By Wiley Researcher Academy</h4>
@@ -185,7 +185,7 @@
 
                 <!-- Journal Tools -->
                 <div class="resource-item journals">
-                    <h3><i class="fas fa-newspaper"></i> Journal Finder Tools <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-newspaper"></i> Journal Finder Tools</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4>JANE (Journal/Article Name Estimator)</h4>
@@ -247,7 +247,7 @@
 
                 <!-- R Programming Tools -->
                 <div class="resource-item r-tools">
-                    <h3><i class="fab fa-r-project"></i> R Packages for Data Analysis and Visualization <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fab fa-r-project"></i> R Packages for Data Analysis and Visualization</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4>dplyr</h4>
@@ -294,7 +294,7 @@
 
                 <!-- R Programming Courses -->
                 <div class="resource-item courses">
-                    <h3><i class="fab fa-r-project"></i> Free Courses and Tutorials for R Programming <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fab fa-r-project"></i> Free Courses and Tutorials for R Programming</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4><strong>Introduction to R for Life Scientist</strong> By Proteintech</h4>
@@ -321,7 +321,7 @@
 
                 <!-- Python Tools -->
                 <div class="resource-item python">
-                    <h3><i class="fab fa-python"></i> Data Science Tools <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fab fa-python"></i> Data Science Tools</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4>NumPy</h4>
@@ -373,7 +373,7 @@
 
                 <!-- Python Courses -->
                 <div class="resource-item courses">
-                    <h3><i class="fab fa-python"></i> Free Courses and Tutorials for Python and Data Science <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fab fa-python"></i> Free Courses and Tutorials for Python and Data Science</h3>
                     <div class="resource-details">
                            <div class="tool-item">
                             <h4><strong>Python</strong> By Kaggle</h4>
@@ -400,7 +400,7 @@
 
                 <!-- Bioinformatics Tools -->
                 <div class="resource-item bioinformatics" id="bioinformatics">
-                    <h3><i class="fas fa-dna"></i> Comprehensive Bioinformatics, Structural Biology, Drug Discovery & Vaccine Design Tools <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-dna"></i> Comprehensive Bioinformatics, Structural Biology, Drug Discovery & Vaccine Design Tools</h3>
                     <div class="resource-details">
                         <h4>1. Sequence Retrieval, Alignment & Motif Analysis</h4>
                         <p>Goal: Retrieve sequences, identify homologs, conserved motifs, and functional domains.</p>
@@ -775,7 +775,7 @@
 
                 <!-- Bioinformatics Courses -->
                 <div class="resource-item courses">
-                    <h3><i class="fas fa-dna"></i> Free Courses and Tutorials for Bioinformatics <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-dna"></i> Free Courses and Tutorials for Bioinformatics</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4><strong>How to analyze RNAseq Data for Absolute Beginners</strong> By NGS Learning Hub</h4>
@@ -802,7 +802,7 @@
 
                 <!-- C. elegans Resources -->
                 <div class="resource-item c-elegans">
-                    <h3><i class="fas fa-worm"></i> C. elegans Databases & Resources <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-worm"></i> C. elegans Databases & Resources</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4>WormBase</h4>
@@ -849,7 +849,7 @@
 
                 <!-- Research & Scientific Databases -->
                 <div class="resource-item databases">
-                    <h3><i class="fas fa-database"></i> Research & Biological Databases <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-database"></i> Research & Biological Databases</h3>
                     <div class="resource-details">
                         <h4>Genomics Databases</h4>
                         <div class="tool-item">
@@ -1166,7 +1166,7 @@
 
                 <!-- Biological Illustration Tools -->
                 <div class="resource-item illustrations">
-                    <h3><i class="fas fa-paint-brush"></i> Biological Illustration Tools <i class="fas fa-chevron-up"></i></h3>
+                    <h3><i class="fas fa-paint-brush"></i> Biological Illustration Tools</h3>
                     <div class="resource-details">
                         <div class="tool-item">
                             <h4>BioArt</h4>
@@ -1283,18 +1283,13 @@
         <script>
             // Resource category filtering
             document.addEventListener('DOMContentLoaded', function() {
-                const categoryButtons = document.querySelectorAll('.category-btn');
+                const categoryButtons = document.querySelectorAll('.category-filters .category-btn');
                 const resourceItems = document.querySelectorAll('.resource-item');
-                
-                // Function to handle category filtering
+
                 function handleCategoryFilter(button) {
-                    // Remove active class from all buttons
                     categoryButtons.forEach(btn => btn.classList.remove('active'));
-                    
-                    // Add active class to clicked button
                     const category = button.getAttribute('data-category');
                     button.classList.add('active');
-                    
                     resourceItems.forEach(item => {
                         if (category === 'all' || item.classList.contains(category)) {
                             item.style.display = 'block';
@@ -1303,8 +1298,7 @@
                         }
                     });
                 }
-                
-                // Add event listeners to category buttons
+
                 categoryButtons.forEach(button => {
                     button.addEventListener('click', () => {
                         handleCategoryFilter(button);
