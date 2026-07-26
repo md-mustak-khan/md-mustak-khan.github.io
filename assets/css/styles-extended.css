@@ -1939,17 +1939,20 @@
 
 .protocol-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
+    gap: 10px;
     margin-bottom: 20px;
     padding-bottom: 15px;
     border-bottom: 1px solid var(--light-color);
+    flex-wrap: wrap;
 }
 
 .protocol-header h3 {
     color: var(--primary-color);
     margin-bottom: 0;
-    flex: 1;
+    flex: none;
+    text-align: center;
 }
 
 .protocol-header h3 i {
@@ -2162,24 +2165,27 @@
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     margin-bottom: 40px;
-    text-align: justify;
+    text-align: left;
 }
 
 .resources-intro h2 {
     color: var(--primary-color);
-    margin-bottom: 20px;
+    margin: 0 0 20px 0;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--secondary-color);
+    display: block;
+    align-items: center;
+    gap: 10px;
 }
 
 .resources-intro h2 i {
-    margin-right: 10px;
     color: var(--secondary-color);
 }
 
 .resources-intro p {
     line-height: 1.7;
-    margin-bottom: 15px;
+    margin: 0;
+    max-width: 860px;
 }
 
 .resources-categories {
@@ -2229,6 +2235,30 @@
     margin: 40px 0;
 }
 
+.resources-intro {
+    text-align: left;
+    margin-bottom: 26px;
+}
+
+.resource-item h3 {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 48px 20px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--light-color);
+}
+
+.resource-item h3 i:first-child {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0;
+}
+
 .resource-item {
     background-color: white;
     padding: 30px;
@@ -2238,16 +2268,19 @@
     border-left: 4px solid var(--secondary-color);
 }
 
-.resource-item h3 {
-    color: var(--primary-color);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid var(--light-color);
-}
-
 .resource-item h3 i {
     margin-right: 10px;
     color: var(--secondary-color);
+}
+
+.resource-item h3 .toggle-icon {
+    margin-left: 8px;
+    cursor: pointer;
+    transition: transform 180ms ease;
+}
+
+.resource-item h3 .toggle-icon:hover {
+    transform: translateY(-1px);
 }
 
 .resource-item h4 {
@@ -2567,20 +2600,29 @@
     color: var(--primary-color);
 }
 
-/* Protocol Expand/Collapse */
+/* Protocol Heading */
 .protocol-header h3 {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0 12px;
+    text-align: center;
+}
+
+.protocol-header h3 i:first-child {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: 0;
+}
+
+.protocol-header h3 .expand-icon {
+    display: none;
 }
 
 .protocol-header h3:hover {
-    background-color: #f0f0f0;
-}
-
-.expand-icon {
-    transition: transform 0.3s ease;
+    background-color: transparent;
 }
 
 /* Protocol References */
@@ -2660,21 +2702,6 @@
 .control-buttons .btn {
     padding: 10px 15px;
     font-size: 0.9rem;
-}
-
-.resource-item h3 {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.resource-item h3:hover {
-    background-color: #f0f0f0;
-}
-
-.resource-item h3 i:last-child {
-    transition: transform 0.3s ease;
 }
 
 /* Tool Item Interactivity */
