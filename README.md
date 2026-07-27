@@ -28,7 +28,7 @@ This repository contains a fully static personal research portfolio website buil
 ## 📁 Folder Structure
 
 - `index.html` — main landing page
-- `pages/` — secondary pages for About, Research, Publications, Advisor, Protocols, Resources, Teaching, Gallery, Contact, etc.
+- `about.html`, `research.html`, `publications.html`, `advisor.html`, `teaching.html`, `protocols.html`, `resources.html`, `gallery.html`, `contact.html`, and `test.html` — secondary pages for the site
 - `assets/css/` — stylesheet files including `styles.css` and `styles-extended.css`
 - `assets/js/` — site scripts in `script.js`
 - `assets/images/` — image assets used across the site
@@ -42,15 +42,15 @@ This repository contains a fully static personal research portfolio website buil
 ## 📄 Main Pages
 
 - `index.html` — Home page
-- `pages/about.html` — About Me page
-- `pages/research.html` — Research overview
-- `pages/publications.html` — Publications and papers
-- `pages/advisor.html` — Advisor details
-- `pages/teaching.html` — Teaching activities and academic contributions
-- `pages/protocols.html` — Lab protocols and methodologies
-- `pages/resources.html` — Research tools and resources
-- `pages/gallery.html` — Image gallery
-- `pages/contact.html` — Contact information
+- `about.html` — About Me page
+- `research.html` — Research overview
+- `publications.html` — Publications and papers
+- `advisor.html` — Advisor details
+- `teaching.html` — Teaching activities and academic contributions
+- `protocols.html` — Lab protocols and methodologies
+- `resources.html` — Research tools and resources
+- `gallery.html` — Image gallery
+- `contact.html` — Contact information
 
 ---
 
@@ -82,7 +82,7 @@ Then open `http://localhost:8000` in your browser.
 
 - This site is designed for GitHub Pages hosting.
 - The project is static and does not require a backend.
-- Additional pages are stored in the `pages/` directory with shared assets.
+- The main HTML pages now live at the repository root for simpler GitHub Pages deployment.
 
 ---
 
