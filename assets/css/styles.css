@@ -144,6 +144,17 @@ img {
     color: #111111;
 }
 
+img[alt="Logo"] {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #0f2c5c;
+    padding: 2px;
+    background: #ffffff;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.14);
+}
+
 .nav-menu {
     display: flex;
     flex-wrap: nowrap;
