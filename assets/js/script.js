@@ -8,8 +8,8 @@ if (pointerMedia.matches) {
     const cursorRing = document.createElement('div');
     cursorRing.className = 'cursor-ring';
 
-    document.body.appendChild(cursorDot);
     document.body.appendChild(cursorRing);
+    document.body.appendChild(cursorDot);
 
     let mouseX = window.innerWidth / 2;
     let mouseY = window.innerHeight / 2;
@@ -17,8 +17,8 @@ if (pointerMedia.matches) {
     let ringY = mouseY;
 
     const updateCursor = () => {
-        ringX += (mouseX - ringX) * 0.18;
-        ringY += (mouseY - ringY) * 0.18;
+        ringX += (mouseX - ringX) * 0.2;
+        ringY += (mouseY - ringY) * 0.2;
 
         cursorDot.style.left = `${mouseX}px`;
         cursorDot.style.top = `${mouseY}px`;
