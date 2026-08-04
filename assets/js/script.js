@@ -420,6 +420,10 @@ function initInteractiveSections() {
 
         // Keyboard: Enter/Space to toggle expansion if details exist
         el.addEventListener('keydown', (ev) => {
+            const target = ev.target;
+            const isFormControl = target && ['INPUT', 'TEXTAREA', 'SELECT'].includes((target.tagName || '').toUpperCase());
+            if (isFormControl) return;
+
             if (ev.key === 'Enter' || ev.key === ' ') {
                 ev.preventDefault();
                 toggleInteractiveExpand(el);
