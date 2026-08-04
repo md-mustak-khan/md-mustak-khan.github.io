@@ -39,29 +39,29 @@ body {
 }
 
 .cursor-dot {
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #002147, #0ea5e9, #8b5cf6);
-    box-shadow: 0 0 18px rgba(14, 165, 233, 0.95), 0 0 28px rgba(139, 92, 246, 0.55);
+    background: linear-gradient(135deg, var(--secondary-color), var(--accent-color));
+    box-shadow: 0 0 12px rgba(52, 152, 219, 0.95), 0 0 18px rgba(231, 76, 60, 0.35);
 }
 
 .cursor-ring {
-    width: 40px;
-    height: 40px;
+    width: 32px;
+    height: 32px;
     border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-    background: transparent;
-    transition: width 0.22s ease, height 0.22s ease, border-color 0.22s ease, background 0.22s ease, box-shadow 0.22s ease;
-    box-shadow: none;
+    border: 2px solid rgba(0, 33, 71, 0.78);
+    background: rgba(52, 152, 219, 0.08);
+    box-shadow: inset 0 0 0 1px rgba(52, 152, 219, 0.12);
+    transition: width 0.2s ease, height 0.2s ease, border-color 0.2s ease, background 0.2s ease, box-shadow 0.2s ease;
 }
 
 .cursor-ring.cursor-hover {
-    width: 62px;
-    height: 62px;
-    border-color: #0ea5e9;
-    background: transparent;
-    box-shadow: 0 0 20px rgba(14, 165, 233, 0.42);
+    width: 40px;
+    height: 40px;
+    border-color: var(--secondary-color);
+    background: rgba(52, 152, 219, 0.14);
+    box-shadow: 0 0 10px rgba(52, 152, 219, 0.28);
 }
 
 @media (pointer: coarse) {
