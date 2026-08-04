@@ -70,33 +70,51 @@
     <!-- Protocols Content -->
     <section class="protocols-content">
         <div class="container">
-            <div class="protocols-intro">
-                <h2><i class="fas fa-flask"></i> Laboratory Methods and Protocols</h2>
-                
-                <p>This collection provides standardized experimental protocols and maintenance procedures for <i>C. elegans</i> research, complemented by in silico computational workflows for bioinformatics analysis.</p>
-                
-            </div>
-
-            <div class="protocol-categories">
-                <h3><i class="fas fa-filter"></i> Filter by Category</h3>
-                <div class="category-filters">
-                    <button class="category-btn active" data-category="all">All Protocols</button>
-                    <button class="category-btn" data-category="media">Growth Media</button>
-                    <button class="category-btn" data-category="c-elegans">C. elegans Handling</button>
-                    <button class="category-btn" data-category="transfer">Worm Transfer</button>
-                    <button class="category-btn" data-category="synchronization">Synchronization</button>
-                    <button class="category-btn" data-category="egg-hatching">Anthelmintic Hatching Assay</button>
-                    <button class="category-btn" data-category="lifespan">Lifespan Assay</button>
-                    <button class="category-btn" data-category="cadd">CADD</button>
-                    <button class="category-btn" data-category="network-pharmacology">Network Pharmacology</button>
-                    <button class="category-btn" data-category="cavd">CAVD</button>
-                    <button class="category-btn" data-category="ngs">NGS Analysis</button>
-                    <button class="category-btn" data-category="bulk-rna-seq">Bulk RNA-Seq</button>
-                    <button class="category-btn" data-category="single-cell-rna-seq">Single-Cell RNA-Seq</button>
+            <div class="protocols-hero">
+                <div class="protocols-hero-copy">
+                    <p class="protocols-eyebrow"><i class="fas fa-flask"></i> Research-ready workflows</p>
+                    <h2>Browse, follow, and check off lab protocols</h2>
+                    <p>This collection brings together standardized experimental procedures and in silico workflows in a structured, interactive knowledge hub for modern research practice.</p>
+                </div>
+                <div class="protocols-hero-card">
+                    <div class="progress-summary">
+                        <span>Overall completion</span>
+                        <strong id="overallProgressValue">0%</strong>
+                    </div>
+                    <div class="progress-bar" aria-label="Overall protocol completion">
+                        <div class="progress-bar-fill" id="overallProgressFill"></div>
+                    </div>
+                    <p class="progress-caption">Mark steps complete to update your progress and keep track of the workflow.</p>
                 </div>
             </div>
 
-            <div class="protocols-list">
+            <div class="protocols-layout">
+                <aside class="protocols-sidebar">
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-compass"></i> Navigate protocols</h3>
+                        <div class="search-box protocol-search">
+                            <i class="fas fa-search"></i>
+                            <input type="search" id="protocolSearch" placeholder="Search protocols or steps" />
+                        </div>
+                        <div class="protocol-nav-list" id="protocolNavList"></div>
+                    </div>
+                </aside>
+
+                <div class="protocols-main">
+                    <div class="protocols-toolbar-card">
+                        <div class="protocols-toolbar">
+                            <div class="protocols-toolbar-copy">
+                                <h3><i class="fas fa-layer-group"></i> Protocol library</h3>
+                                <p>Browse the full protocol library, jump to a specific workflow, and track your progress as you work through each step.</p>
+                            </div>
+                            <div class="toolbar-stats">
+                                <span class="stat-pill"><strong id="protocolCount">0</strong> protocols</span>
+                                <span class="stat-pill"><strong id="stepCount">0</strong> steps</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="protocols-list" id="protocolsList">
                 <!-- Preparation of Growth Media Protocol -->
                 <div class="protocol-item media">
                     <div class="protocol-header">
@@ -970,95 +988,169 @@
 
     <script src="assets/js/script.js"></script>
     <script>
-        // Protocol category filtering
         document.addEventListener('DOMContentLoaded', function() {
-            // Small delay to ensure all elements are loaded
-            setTimeout(function() {
-            const categoryButtons = document.querySelectorAll('.category-btn');
-            const protocolItems = document.querySelectorAll('.protocol-item');
-            
-            // Add active class to the first button by default
-            if (categoryButtons.length > 0) {
-                categoryButtons[0].classList.add('active');
+            const protocolItems = Array.from(document.querySelectorAll('.protocol-item'));
+            const filterButtons = Array.from(document.querySelectorAll('.chip'));
+            const searchInput = document.getElementById('protocolSearch');
+            const navList = document.getElementById('protocolNavList');
+            const protocolCount = document.getElementById('protocolCount');
+            const stepCount = document.getElementById('stepCount');
+            const overallProgressValue = document.getElementById('overallProgressValue');
+            const overallProgressFill = document.getElementById('overallProgressFill');
+
+            let activeFilter = 'all';
+
+            function normalizeText(value) {
+                return (value || '')
+                    .toLowerCase()
+                    .replace(/[^a-z0-9\s]/g, ' ')
+                    .replace(/\s+/g, ' ')
+                    .trim();
             }
-            
-            categoryButtons.forEach(button => {
-                button.addEventListener('click', () => {
-                    // Remove active class from all buttons
-                    categoryButtons.forEach(btn => btn.classList.remove('active'));
-                    // Add active class to clicked button
-                    button.classList.add('active');
-                    
-                    const category = button.getAttribute('data-category');
-                    
-                    protocolItems.forEach(item => {
-                        if (category === 'all') {
-                            item.style.display = 'block';
-                        } else if (category === 'in-silico') {
-                            // Show all in-silico protocols
-                            if (item.classList.contains('in-silico')) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        } else if (category === 'cadd') {
-                            // Show only CADD protocols
-                            if (item.classList.contains('cadd')) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        } else if (category === 'cavd') {
-                            // Show only CAVD protocols
-                            if (item.classList.contains('cavd')) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        } else if (category === 'ngs') {
-                            // Show only NGS protocols
-                            if (item.classList.contains('ngs')) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        } else if (category === 'bulk-rna-seq') {
-                            // Show only Bulk RNA-Seq protocols
-                            if (item.classList.contains('bulk-rna-seq')) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        } else if (category === 'single-cell-rna-seq') {
-                            // Show only Single-Cell RNA-Seq protocols
-                            if (item.classList.contains('single-cell-rna-seq')) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        } else {
-                            // Handle other categories (media, c-elegans, transfer, synchronization, egg-hatching)
-                            if (item.classList.contains(category)) {
-                                item.style.display = 'block';
-                            } else {
-                                item.style.display = 'none';
-                            }
-                        }
+
+            function getSearchTerms(value) {
+                const normalized = normalizeText(value);
+                return normalized ? normalized.split(/\s+/).filter(Boolean) : [];
+            }
+
+            function getCategoryLabel(item) {
+                const classes = Array.from(item.classList);
+                const labels = {
+                    media: 'Growth Media',
+                    'c-elegans': 'C. elegans',
+                    transfer: 'Transfer',
+                    synchronization: 'Synchronization',
+                    'egg-hatching': 'Assays',
+                    lifespan: 'Lifespan',
+                    cadd: 'CADD',
+                    'network-pharmacology': 'Network Pharmacology',
+                    cavd: 'CAVD',
+                    ngs: 'NGS',
+                    'bulk-rna-seq': 'Bulk RNA-Seq',
+                    'single-cell-rna-seq': 'Single-Cell RNA-Seq',
+                    'in-silico': 'In silico'
+                };
+
+                return classes.find(cls => labels[cls]) ? labels[classes.find(cls => labels[cls])] : 'Protocol';
+            }
+
+            function updateProgress() {
+                const totalSteps = document.querySelectorAll('.protocol-item .step-checkbox').length;
+                const completedSteps = document.querySelectorAll('.protocol-item .step-checkbox:checked').length;
+                const percent = totalSteps ? Math.round((completedSteps / totalSteps) * 100) : 0;
+
+                if (overallProgressValue) {
+                    overallProgressValue.textContent = `${percent}%`;
+                }
+
+                if (overallProgressFill) {
+                    overallProgressFill.style.width = `${percent}%`;
+                }
+
+                protocolItems.forEach((item) => {
+                    const checkboxCount = item.querySelectorAll('.step-checkbox').length;
+                    const checkedCount = item.querySelectorAll('.step-checkbox:checked').length;
+                    const itemPercent = checkboxCount ? Math.round((checkedCount / checkboxCount) * 100) : 0;
+                    const progressPill = item.querySelector('.protocol-progress-pill');
+                    if (progressPill) {
+                        progressPill.innerHTML = `<span>${checkedCount}/${checkboxCount}</span><strong>${itemPercent}%</strong>`;
+                    }
+                    item.setAttribute('data-progress', itemPercent);
+                });
+            }
+
+            function applyFilters() {
+                const searchTerms = getSearchTerms(searchInput ? searchInput.value : '');
+
+                protocolItems.forEach((item) => {
+                    const itemText = normalizeText(`${item.dataset.title || ''} ${item.dataset.text || ''}`);
+                    const matchesSearch = searchTerms.length === 0 || searchTerms.every(term => itemText.includes(term));
+                    const matchesFilter = activeFilter === 'all' ||
+                        (activeFilter === 'in-silico' && item.classList.contains('in-silico')) ||
+                        item.classList.contains(activeFilter);
+
+                    const isVisible = matchesSearch && matchesFilter;
+                    item.classList.toggle('is-hidden', !isVisible);
+                    item.style.display = isVisible ? '' : 'none';
+                });
+
+                const visibleItems = protocolItems.filter((item) => !item.classList.contains('is-hidden'));
+                protocolCount.textContent = visibleItems.length;
+                stepCount.textContent = visibleItems.reduce((total, item) => total + item.querySelectorAll('.step-shell').length, 0);
+
+                navList.innerHTML = '';
+                visibleItems.forEach((item) => {
+                    const link = document.createElement('a');
+                    link.href = `#${item.id}`;
+                    link.className = 'protocol-nav-link';
+                    link.innerHTML = `<span>${item.dataset.title || 'Protocol'}</span><small>${getCategoryLabel(item)}</small>`;
+                    link.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        document.getElementById(item.id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    });
+                    navList.appendChild(link);
+                });
+
+                updateProgress();
+            }
+
+            protocolItems.forEach((item, index) => {
+                const heading = item.querySelector('.protocol-header h3');
+                const titleText = heading ? heading.textContent.trim() : `Protocol ${index + 1}`;
+                const id = `protocol-${index + 1}`;
+                item.id = id;
+                item.dataset.title = normalizeText(titleText);
+                item.dataset.text = normalizeText(item.textContent);
+
+                const progressPill = document.createElement('div');
+                progressPill.className = 'protocol-progress-pill';
+                progressPill.innerHTML = '<span>0/0</span><strong>0%</strong>';
+                heading?.appendChild(progressPill);
+
+                const stepElements = Array.from(item.querySelectorAll('.step'));
+                stepElements.forEach((step) => {
+                    const paragraph = step.querySelector('p');
+                    const content = step.innerHTML;
+                    const paragraphHtml = paragraph ? paragraph.outerHTML : '';
+                    const bodyHtml = content.replace(paragraphHtml, '');
+
+                    const shell = document.createElement('div');
+                    shell.className = 'step-shell';
+                    shell.innerHTML = `
+                        <div class="step-head">
+                            <label class="step-check">
+                                <input type="checkbox" class="step-checkbox" />
+                                <span class="checkmark"></span>
+                            </label>
+                            <div class="step-title">${paragraphHtml}</div>
+                        </div>
+                        <div class="step-body">${bodyHtml}</div>
+                    `;
+
+                    step.replaceWith(shell);
+                    const checkbox = shell.querySelector('.step-checkbox');
+                    checkbox.addEventListener('change', () => {
+                        shell.classList.toggle('is-complete', checkbox.checked);
+                        updateProgress();
                     });
                 });
             });
-            
-            // Protocol expand/collapse functionality removed; all protocol summaries are displayed by default.
-            
-            // Expand/Collapse all functionality removed as per user request
-            
-            // Toggle dropdown menu on click
-            // Removed dropdown functionality as per user request
-            
-            // Close dropdown when clicking outside
-            // Removed dropdown functionality as per user request
-        }, 100); // End of setTimeout
-    });
+
+            filterButtons.forEach((button) => {
+                button.addEventListener('click', () => {
+                    filterButtons.forEach((btn) => btn.classList.remove('active'));
+                    button.classList.add('active');
+                    activeFilter = button.getAttribute('data-filter') || 'all';
+                    applyFilters();
+                });
+            });
+
+            if (searchInput) {
+                searchInput.addEventListener('input', applyFilters);
+            }
+
+            applyFilters();
+        });
     </script>
 </body>
 

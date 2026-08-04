@@ -70,28 +70,50 @@
     <!-- Resources Content -->
     <section class="resources-content">
         <div class="container">
-            <div class="resources-intro">
-                <h2><i class="fas fa-toolbox"></i> Research Toolkit</h2>
-                <p>This page provides a comprehensive list of software tools, databases, and resources that I frequently use in my research. These tools span molecular biology, bioinformatics, data analysis, and scientific writing domains.</p>
-            </div>
-            
-            <div class="protocol-categories">
-                <h3><i class="fas fa-filter"></i> Filter by Category</h3>
-                <div class="category-filters">
-                    <button class="category-btn active" data-category="all">All Resources</button>
-                    <button class="category-btn" data-category="literature">Literature Review</button>
-                    <button class="category-btn" data-category="courses">Free Courses</button>
-                    <button class="category-btn" data-category="journals">Journal Tools</button>
-                    <button class="category-btn" data-category="r-tools">R Programming</button>
-                    <button class="category-btn" data-category="python">Python Tools</button>
-                    <button class="category-btn" data-category="bioinformatics">Bioinformatics</button>
-                    <button class="category-btn" data-category="c-elegans">C. elegans</button>
-                    <button class="category-btn" data-category="databases">Biological Databases</button>
-                    <button class="category-btn" data-category="illustrations">Illustration Tools</button>
+            <div class="protocols-hero resources-hero">
+                <div class="protocols-hero-copy">
+                    <p class="protocols-eyebrow"><i class="fas fa-toolbox"></i> Research toolkit</p>
+                    <h2>Explore tools, databases, and learning resources</h2>
+                    <p>This page gathers the software, references, and learning materials I rely on across molecular biology, bioinformatics, data science, and scientific writing.</p>
+                </div>
+                <div class="protocols-hero-card">
+                    <div class="progress-summary">
+                        <span>Curated resource library</span>
+                        <strong id="resourceCount">0</strong>
+                    </div>
+                    <div class="progress-bar" aria-label="Resources overview">
+                        <div class="progress-bar-fill" style="width: 100%"></div>
+                    </div>
+                    <p class="progress-caption">Use the sidebar to jump to a category or search by topic.</p>
                 </div>
             </div>
-            
-    <div class="resources-list">
+
+            <div class="protocols-layout">
+                <aside class="protocols-sidebar">
+                    <div class="sidebar-card">
+                        <h3><i class="fas fa-compass"></i> Navigate resources</h3>
+                        <div class="search-box protocol-search">
+                            <i class="fas fa-search"></i>
+                            <input type="search" id="resourceSearch" placeholder="Search resources" />
+                        </div>
+                        <div class="protocol-nav-list" id="resourceNavList"></div>
+                    </div>
+                </aside>
+
+                <div class="protocols-main">
+                    <div class="protocols-toolbar-card">
+                        <div class="protocols-toolbar">
+                            <div class="protocols-toolbar-copy">
+                                <h3><i class="fas fa-layer-group"></i> Resource library</h3>
+                                <p>Jump to a section, scan the options, and filter by topic instantly.</p>
+                            </div>
+                            <div class="toolbar-stats">
+                                <span class="stat-pill"><strong id="resourceSectionCount">0</strong> sections</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="resources-list">
     <!-- Literature Review Tools -->
     <div class="resource-item literature">
         <h3><i class="fas fa-book-reader"></i> Literature Review Tools</h3>
@@ -1281,29 +1303,84 @@
 
         <script src="assets/js/script.js"></script>
         <script>
-            // Resource category filtering
             document.addEventListener('DOMContentLoaded', function() {
-                const categoryButtons = document.querySelectorAll('.category-filters .category-btn');
-                const resourceItems = document.querySelectorAll('.resource-item');
+                const filterButtons = Array.from(document.querySelectorAll('.chip'));
+                const resourceItems = Array.from(document.querySelectorAll('.resource-item'));
+                const searchInput = document.getElementById('resourceSearch');
+                const navList = document.getElementById('resourceNavList');
+                const resourceCount = document.getElementById('resourceCount');
+                const resourceSectionCount = document.getElementById('resourceSectionCount');
+                let activeFilter = 'all';
 
-                function handleCategoryFilter(button) {
-                    categoryButtons.forEach(btn => btn.classList.remove('active'));
-                    const category = button.getAttribute('data-category');
-                    button.classList.add('active');
-                    resourceItems.forEach(item => {
-                        if (category === 'all' || item.classList.contains(category)) {
-                            item.style.display = 'block';
-                        } else {
-                            item.style.display = 'none';
-                        }
+                function normalizeText(value) {
+                    return (value || '')
+                        .toLowerCase()
+                        .replace(/[^a-z0-9\s]/g, ' ')
+                        .replace(/\s+/g, ' ')
+                        .trim();
+                }
+
+                function getSearchTerms(value) {
+                    const normalized = normalizeText(value);
+                    return normalized ? normalized.split(/\s+/).filter(Boolean) : [];
+                }
+
+                function updateResourceNav() {
+                    const visibleItems = resourceItems.filter(item => !item.classList.contains('is-hidden'));
+                    resourceCount.textContent = visibleItems.length;
+                    resourceSectionCount.textContent = visibleItems.length;
+
+                    navList.innerHTML = '';
+                    visibleItems.forEach((item, index) => {
+                        const title = item.querySelector('h3')?.textContent.trim() || `Resource ${index + 1}`;
+                        const link = document.createElement('a');
+                        link.href = `#${item.id}`;
+                        link.className = 'protocol-nav-link';
+                        link.innerHTML = `<span>${title}</span><small>${item.className.split(' ').filter(cls => cls !== 'resource-item' && cls !== 'is-hidden').join(', ') || 'Resource'}</small>`;
+                        link.addEventListener('click', (event) => {
+                            event.preventDefault();
+                            document.getElementById(item.id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        });
+                        navList.appendChild(link);
                     });
                 }
 
-                categoryButtons.forEach(button => {
+                function applyFilters() {
+                    const searchTerms = getSearchTerms(searchInput ? searchInput.value : '');
+
+                    resourceItems.forEach((item) => {
+                        const itemText = normalizeText(`${item.dataset.title || ''} ${item.dataset.text || ''}`);
+                        const matchesSearch = searchTerms.length === 0 || searchTerms.every(term => itemText.includes(term));
+                        const matchesFilter = activeFilter === 'all' || item.classList.contains(activeFilter);
+                        const isVisible = matchesSearch && matchesFilter;
+                        item.classList.toggle('is-hidden', !isVisible);
+                        item.style.display = isVisible ? 'block' : 'none';
+                    });
+
+                    updateResourceNav();
+                }
+
+                resourceItems.forEach((item, index) => {
+                    const title = item.querySelector('h3')?.textContent.trim() || `Resource ${index + 1}`;
+                    item.id = `resource-${index + 1}`;
+                    item.dataset.title = normalizeText(title);
+                    item.dataset.text = normalizeText(item.textContent);
+                });
+
+                filterButtons.forEach((button) => {
                     button.addEventListener('click', () => {
-                        handleCategoryFilter(button);
+                        filterButtons.forEach(btn => btn.classList.remove('active'));
+                        button.classList.add('active');
+                        activeFilter = button.getAttribute('data-filter') || 'all';
+                        applyFilters();
                     });
                 });
+
+                if (searchInput) {
+                    searchInput.addEventListener('input', applyFilters);
+                }
+
+                applyFilters();
             });
         </script>
     </body>
