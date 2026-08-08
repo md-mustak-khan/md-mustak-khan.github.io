@@ -235,19 +235,31 @@ document.querySelectorAll('.research-section, .connection-section').forEach(sect
 window.addEventListener('scroll', animateOnScroll);
 window.addEventListener('load', animateOnScroll);
 
-// Timeline reveal animation for Academic Navy & Gold replica
-const revealTimelineRows = () => {
+// Timeline reveal animation for rows using IntersectionObserver for smooth, performant reveals
+function initTimelineRowsObserver() {
     const rows = document.querySelectorAll('.design-1.tpl-A .row');
-    rows.forEach(row => {
-        const rect = row.getBoundingClientRect();
-        if (rect.top < window.innerHeight * 0.92) {
-            row.classList.add('in-view');
-        }
-    });
-};
+    if ('IntersectionObserver' in window && rows.length) {
+        const observer = new IntersectionObserver((entries, obs) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('in-view');
+                    obs.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.16 });
 
-window.addEventListener('scroll', revealTimelineRows);
-window.addEventListener('load', revealTimelineRows);
+        rows.forEach(row => observer.observe(row));
+    } else {
+        // fallback
+        rows.forEach(row => row.classList.add('in-view'));
+    }
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initTimelineRowsObserver);
+} else {
+    initTimelineRowsObserver();
+}
 
 // Dynamic Research Interest Cards
 const researchInterests = [
@@ -361,20 +373,9 @@ function initTimelineCollapsibles() {
         paras.forEach(p => wrapper.appendChild(p));
 
         card.appendChild(wrapper);
-
-        const btn = document.createElement('button');
-        btn.className = 'collapse-toggle';
-        btn.type = 'button';
-        btn.textContent = 'Read more';
-        btn.setAttribute('aria-expanded', 'false');
-
-        btn.addEventListener('click', () => {
-            const expanded = wrapper.classList.toggle('expanded');
-            btn.textContent = expanded ? 'Show less' : 'Read more';
-            btn.setAttribute('aria-expanded', expanded);
-        });
-
-        card.appendChild(btn);
+        // We intentionally do NOT add a "Read more" button. Clicking the card toggles expansion.
+        // Ensure initial accessibility attribute
+        card.setAttribute('aria-expanded', 'false');
         card.dataset.collapsibleInitialized = '1';
     });
 }
@@ -474,7 +475,11 @@ function initInteractiveSections() {
         const details = el.querySelector('.interactive-details') || el.querySelector('.collapsible-content') || el.querySelector('.resource-details');
         if (details) {
             const isExpanded = el.classList.toggle('is-expanded');
-            // update any buttons inside
+            // toggle the inner details container so CSS transitions run
+            try { details.classList.toggle('expanded', isExpanded); } catch (e) {}
+            // update aria attribute on the card for accessibility
+            el.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+            // update any buttons inside (hidden by CSS but keep attributes consistent)
             const btn = el.querySelector('.interactive-toggle, .collapse-toggle');
             if (btn) {
                 btn.textContent = isExpanded ? (btn.dataset.showLessText || 'Show less') : (btn.dataset.showMoreText || 'Read more');
@@ -494,4 +499,68 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initInteractiveSections);
 } else {
     initInteractiveSections();
+}
+
+// Animate expertise bars when the Expertise section scrolls into view
+function initExpertiseBarAnimation() {
+    const section = document.querySelector('.expertise-section');
+    if (!section) return;
+
+    const spans = Array.from(document.querySelectorAll('.expertise-bar span'));
+    if (!spans.length) return;
+
+    // capture target widths and collapse bars initially
+    spans.forEach(sp => {
+        const inlineWidth = sp.getAttribute('style') || sp.style.width || '';
+        // extract percentage from inline style if present
+        let target = '';
+        if (inlineWidth && inlineWidth.includes('width')) {
+            // e.g. 'width: 88%'
+            const m = inlineWidth.match(/width\s*:\s*([0-9.]+%)/);
+            if (m) target = m[1];
+        }
+        // fallback to computed width (rare)
+        if (!target) {
+            const cs = window.getComputedStyle(sp);
+            target = cs.width; // px value; we'll ignore pixel fallback
+        }
+        sp.dataset._targetWidth = target;
+        sp.style.width = '0%';
+    });
+
+    const observer = new IntersectionObserver((entries, obs) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // animate each span to its target
+                spans.forEach(sp => {
+                    const target = sp.dataset._targetWidth || sp.style.width || '';
+                    if (!target) return;
+                    // if target is in px, convert to percentage relative to container
+                    if (target.indexOf('%') === -1) {
+                        // compute percent from parent width
+                        const parent = sp.parentElement;
+                        const parentW = parent.getBoundingClientRect().width;
+                        const px = parseFloat(target);
+                        if (parentW > 0 && px) {
+                            const pct = Math.round((px / parentW) * 100) + '%';
+                            sp.style.width = pct;
+                        }
+                    } else {
+                        sp.style.width = target;
+                    }
+                    // add animated class to move gradient
+                    sp.classList.add('animated');
+                });
+                obs.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.2 });
+
+    observer.observe(section);
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initExpertiseBarAnimation);
+} else {
+    initExpertiseBarAnimation();
 }
