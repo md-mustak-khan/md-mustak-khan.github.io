@@ -341,19 +341,79 @@ img[alt="Logo"] {
 
 .bio-text {
     flex: 1;
-    max-width: 900px;
-    padding: 40px;
-    border: 2px solid var(--light-color);
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    max-width: 960px;
+    padding: 22px 26px;
+    border: 1px solid rgba(15,23,42,0.06);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(12,18,30,0.04);
+    background: linear-gradient(180deg, #ffffff, #fbfdff);
+    position: relative;
+    overflow: visible;
 }
 
-.bio-text p {
-    font-size: 1.1rem;
-    line-height: 1.8;
-    margin-bottom: 1.5rem;
-    text-align: justify;
+.bio-text.compact .lead {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    color: var(--primary-color);
 }
+
+.bio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 12px 18px;
+}
+
+.bio-item h4 {
+    margin: 0 0 6px 0;
+    font-size: 0.95rem;
+    color: var(--secondary-color);
+}
+
+.bio-item p {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #444;
+}
+
+/* Paragraph sizing for the compact bio flowing layout */
+.bio-text.compact p {
+    font-size: 0.98rem;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+/* Subtle animated gradient overlay for the bio card (replaces blob + shimmer) */
+.gradient-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    border-radius: inherit;
+    background: linear-gradient(120deg, rgba(29,113,232,0.045), rgba(102,126,234,0.018) 40%, rgba(29,113,232,0.045));
+    background-size: 200% 200%;
+    pointer-events: none;
+    transition: opacity 300ms ease, transform 300ms ease;
+    animation: overlaySweep 9s linear infinite;
+    opacity: 0.95;
+}
+
+/* Slight hover/enhance state */
+.bio-text:hover .gradient-overlay,
+.bio-text.is-highlighted .gradient-overlay {
+    transform: scale(1.01);
+    opacity: 1;
+}
+
+@keyframes overlaySweep {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Ensure text sits above decorative overlay */
+.bio-text * { position: relative; z-index: 2; }
 
 /* Scientific Expertise Section */
 .expertise-section {
@@ -453,7 +513,16 @@ img[alt="Logo"] {
     display: block;
     height: 100%;
     border-radius: inherit;
-    background: linear-gradient(90deg, var(--secondary-color), var(--primary-color));
+    background: linear-gradient(90deg, rgba(29,113,232,0.95), rgba(102,126,234,0.95));
+    background-size: 200% 100%;
+    background-position: 0% 50%;
+    transition: width 900ms cubic-bezier(.2,.9,.2,1), background-position 1200ms linear;
+    width: 0; /* start collapsed; JS will animate to target */
+}
+
+/* When animated, move the gradient slightly for a lively effect */
+.expertise-bar span.animated {
+    background-position: 100% 50%;
 }
 
 @media screen and (max-width: 768px) {

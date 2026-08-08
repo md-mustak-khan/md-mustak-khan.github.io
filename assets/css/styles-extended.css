@@ -15,6 +15,20 @@
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
 }
 
+/* Timeline animations */
+@keyframes spineFlow {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 0% 100%; }
+    100% { background-position: 0% 0%; }
+}
+
+@keyframes dotPulse {
+    0% { transform: scale(1); box-shadow: 0 6px 18px rgba(29,113,232,0.12); }
+    50% { transform: scale(1.18); box-shadow: 0 18px 36px rgba(29,113,232,0.18); }
+    100% { transform: scale(1); box-shadow: 0 6px 18px rgba(29,113,232,0.12); }
+}
+
+
 .page-header::before {
     content: "";
     position: absolute;
@@ -451,8 +465,10 @@
     left: 50%;
     top: 0;
     bottom: 0;
-    width: 2px;
-    background: var(--line-color);
+    width: 4px;
+    background: linear-gradient(180deg, rgba(52,152,219,0.95), rgba(29,113,232,0.85) 50%, rgba(102,126,234,0.6));
+    background-size: 100% 200%;
+    animation: spineFlow 6s linear infinite;
     transform: translateX(-50%);
     border-radius: 2px;
 }
@@ -460,14 +476,35 @@
 .timeline-section.design-1.tpl-A .card {
     background: var(--card-bg);
     border: 1px solid var(--card-line);
-    border-radius: var(--radius,14px);
-    padding: 22px 24px;
+    border-radius: var(--radius,12px);
+    padding: 16px 18px;
     box-shadow: var(--shadow);
-    max-width: 440px;
+    max-width: 360px;
 }
 
 .timeline-section.design-1.tpl-A .card {
     border-left: 3px solid var(--accent);
+  clip-path: inset(0 100% 0 0);
+  opacity: 0;
+}
+
+.timeline-section.design-1.tpl-A .row.in-view .card {
+    animation: k9 3s cubic-bezier(.77,0,.18,1) forwards;
+}
+
+@keyframes k9 {
+    0% {
+        clip-path: inset(0 100% 0 0);
+        opacity: 0;
+    }
+    40% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
+    100% {
+        clip-path: inset(0 0 0 0);
+        opacity: 1;
+    }
 }
 
 .timeline-section.design-1.tpl-A .row:nth-child(odd) .card {
@@ -507,13 +544,21 @@
     transform: translateY(0);
 }
 
+.timeline-section.design-1.tpl-A .row.in-view .card {
+    transform: translateY(-6px) scale(1.01);
+    transition: transform 0.55s cubic-bezier(.2,.9,.2,1), box-shadow 0.35s ease;
+    box-shadow: 0 24px 48px rgba(15, 80, 230, 0.08);
+}
+
 .timeline-section.design-1.tpl-A .dot {
-    width: var(--dot-size,16px);
-    height: var(--dot-size,16px);
+    width: var(--dot-size,14px);
+    height: var(--dot-size,14px);
     border-radius: var(--dot-radius,50%);
-    background: var(--card-bg);
-    border: 3px solid var(--accent);
+    background: radial-gradient(circle at 35% 30%, rgba(255,255,255,0.6), rgba(255,255,255,0.05)), var(--card-bg);
+    border: 3px solid var(--secondary-color);
     z-index: 2;
+    box-shadow: 0 6px 18px rgba(29,113,232,0.12);
+    animation: dotPulse 2.8s ease-in-out infinite;
 }
 
 .timeline-section.design-1.tpl-A .meta {
@@ -546,7 +591,7 @@
 
 .timeline-section.design-1.tpl-A .card h3 {
     font-family: var(--display-font);
-    font-size: 1.4rem;
+    font-size: 1.15rem;
     font-weight: var(--h3-weight,700);
     margin-bottom: 2px;
     color: var(--primary-color, #002147);
@@ -560,8 +605,8 @@
 }
 
 .timeline-section.design-1.tpl-A .card p {
-    font-size: 1.05rem;
-    line-height: 1.8;
+    font-size: 0.95rem;
+    line-height: 1.6;
     color: #666;
 }
 
@@ -590,26 +635,39 @@
 .collapsible-content {
     max-height: 0; /* collapsed by default */
     overflow: hidden;
-    transition: max-height 0.35s ease, padding 0.25s ease;
+    transition: max-height 420ms cubic-bezier(.2,.9,.2,1), opacity 260ms ease, padding 220ms ease, background-color 360ms ease;
     padding-top: 0;
+    opacity: 0;
 }
 .collapsible-content.expanded {
-    max-height: 2000px; /* large enough to show full content */
+    max-height: 1200px; /* large enough to show full content */
     padding-top: 8px;
+    opacity: 1;
 }
-.collapse-toggle {
-    margin-top: 12px;
-    display: inline-block;
-    background: transparent;
-    border: 0;
-    color: var(--primary-color);
-    font-weight: 700;
-    cursor: pointer;
-    padding: 6px 0;
+
+/* Hide legacy toggle buttons (we'll expand/collapse by clicking the card) */
+.collapse-toggle,
+.interactive-toggle { display: none !important; }
+
+/* Card expand visual — color transition and subtle glow */
+.interactive-card.is-expanded,
+.timeline-section.design-1.tpl-A .card.is-expanded {
+    background: linear-gradient(180deg, rgba(246,251,255,0.98), rgba(235,244,255,0.98));
+    border-color: rgba(29,113,232,0.25);
+    transition: background-color 420ms ease, border-color 420ms ease, box-shadow 420ms ease, transform 420ms cubic-bezier(.2,.9,.2,1);
 }
-.collapse-toggle:focus {
-    outline: 2px dashed rgba(0,33,71,0.12);
-    outline-offset: 4px;
+.interactive-card.is-expanded { box-shadow: 0 28px 60px rgba(23,95,230,0.08); }
+
+/* When expanded, ensure collapsible content becomes visible */
+.interactive-card.is-expanded .collapsible-content,
+.timeline-section.design-1.tpl-A .card.is-expanded .collapsible-content { max-height: 1200px; opacity: 1; }
+
+/* Slightly reduce text size inside expanded timeline cards for a compact appearance */
+.timeline-section.design-1.tpl-A .card.is-expanded .collapsible-content p,
+.interactive-card.is-expanded .collapsible-content p {
+    font-size: 0.9rem;
+    line-height: 1.55;
+    transition: font-size 320ms ease, line-height 320ms ease;
 }
 
 /* Make timeline cards use the site's main font to match other sections */
@@ -653,7 +711,10 @@
     top: 30px;
     width: 36px;
     height: 2px;
-    background: linear-gradient(90deg, rgba(0,33,71,.85), rgba(52,152,219,.4));
+    background: linear-gradient(90deg, rgba(0,33,71,.95) 0%, rgba(52,152,219,.6) 60%);
+    background-size: 200% 100%;
+    background-position: 0% 0%;
+    transition: background-position 0.9s cubic-bezier(.2,.9,.2,1), opacity 0.5s ease;
     z-index: 1;
 }
 
@@ -663,6 +724,10 @@
 
 .timeline-section.design-1.tpl-A .row:nth-child(even)::before {
     left: -36px;
+}
+
+.timeline-section.design-1.tpl-A .row.in-view::before {
+    background-position: 100% 0;
 }
 
 .timeline-section.design-1.tpl-A .row:nth-child(odd)::after,
@@ -683,7 +748,11 @@
     color: var(--text-color);
 }
 .timeline-section.design-1.tpl-A .card {
-    background: #ffffff !important;
+    /* subtle left-to-right gradient that animates on hover/expand */
+    background: linear-gradient(90deg, #ffffff 0%, rgba(29,113,232,0.03) 100%) !important;
+    background-size: 200% 100%;
+    background-position: 0% 0%;
+    transition: background-position 900ms cubic-bezier(.2,.9,.2,1), border-color 420ms ease, box-shadow 420ms ease, transform 420ms cubic-bezier(.2,.9,.2,1);
     border-left: 5px solid var(--secondary-color) !important;
 }
 .timeline-section.design-1.tpl-A .card h3 {
@@ -705,8 +774,8 @@
 }
 .timeline-section.design-1.tpl-A .row:nth-child(odd)::after,
 .timeline-section.design-1.tpl-A .row:nth-child(even)::after {
-    background: var(--secondary-color) !important;
-    box-shadow: 0 0 0 6px rgba(52,152,219,.12) !important;
+    /* remove circular "aero" markers outside the cards to keep the design clean */
+    display: none !important;
 }
 .timeline-section.design-1.tpl-A .card p {
     color: #555 !important;
@@ -723,6 +792,14 @@
 .timeline-section.design-1.tpl-A .row:nth-child(even)::after {
     left: -9px;
     transform: translateX(-50%);
+}
+
+/* Card hover / expanded state: shift the gradient to the right for a color sweep */
+.timeline-section.design-1.tpl-A .card:hover,
+.timeline-section.design-1.tpl-A .card.is-expanded,
+.interactive-card.is-expanded.timeline-section.design-1.tpl-A .card {
+    background-position: 100% 0 !important;
+    border-left-color: rgba(29,113,232,0.45) !important;
 }
 
 @media (max-width: 999px) {
