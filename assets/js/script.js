@@ -128,7 +128,6 @@ document.querySelectorAll('.nav-link').forEach(link => {
 // Keep navbar styling aligned with the updated modern white theme
 const navbar = document.querySelector('.navbar');
 if (navbar) {
-    navbar.style.backgroundColor = '#ffffff';
     navbar.style.boxShadow = '0 4px 18px rgba(0, 0, 0, 0.08)';
 }
 
