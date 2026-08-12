@@ -91,12 +91,25 @@
             <div class="protocols-layout">
                 <aside class="protocols-sidebar">
                     <div class="sidebar-card">
-                        <h3><i class="fas fa-compass"></i> Navigate protocols</h3>
+                        <h3><i class="fas fa-compass"></i> Navigate Protocols</h3>
                         <div class="search-box protocol-search">
                             <i class="fas fa-search"></i>
                             <input type="search" id="protocolSearch" placeholder="Search protocols or steps" />
                         </div>
-                        <div class="protocol-nav-list" id="protocolNavList"></div>
+                        <div class="protocol-nav-list" id="protocolNavList">
+                            <a href="#protocol-1" class="protocol-nav-link"><span>Preparation of Growth Media</span><small>Growth Media</small></a>
+                            <a href="#protocol-2" class="protocol-nav-link"><span>Culturing C. elegans on Petri Plates</span><small>C. elegans</small></a>
+                            <a href="#protocol-3" class="protocol-nav-link"><span>Transferring Worms Grown on NGM Plates</span><small>Transfer</small></a>
+                            <a href="#protocol-4" class="protocol-nav-link"><span>C. elegans Bleach Synchronization</span><small>Synchronization</small></a>
+                            <a href="#protocol-5" class="protocol-nav-link"><span>C. elegans Egg Hatching Assay</span><small>Assays</small></a>
+                            <a href="#protocol-6" class="protocol-nav-link"><span>C. elegans Lifespan Assay</span><small>Lifespan</small></a>
+                            <a href="#protocol-7" class="protocol-nav-link"><span>Computer Aided Drug Design (CADD) Protocol</span><small>CADD</small></a>
+                            <a href="#protocol-8" class="protocol-nav-link"><span>Network Pharmacology Protocol</span><small>Network Pharmacology</small></a>
+                            <a href="#protocol-9" class="protocol-nav-link"><span>Computer Aided Vaccine Design (CAVD) Protocol</span><small>CAVD</small></a>
+                            <a href="#protocol-10" class="protocol-nav-link"><span>NGS Data Analysis Pipeline</span><small>NGS</small></a>
+                            <a href="#protocol-11" class="protocol-nav-link"><span>Bulk RNA-Seq Analysis Pipeline</span><small>Bulk RNA-Seq</small></a>
+                            <a href="#protocol-12" class="protocol-nav-link"><span>Single-Cell RNA-Seq Analysis Pipeline</span><small>Single-Cell RNA-Seq</small></a>
+                        </div>
                     </div>
                 </aside>
 
@@ -116,7 +129,7 @@
 
                     <div class="protocols-list" id="protocolsList">
                 <!-- Preparation of Growth Media Protocol -->
-                <div class="protocol-item media">
+                <div id="protocol-1" class="protocol-item media" data-title="Preparation of Growth Media">
                     <div class="protocol-header">
                         <h3><i class="fas fa-vial"></i> Preparation of Growth Media <i class="fas fa-chevron-up expand-icon"></i></h3>
                     </div>
@@ -296,7 +309,7 @@
                 </div>
                 
                 <!-- Culturing C. elegans Protocol -->
-                <div class="protocol-item c-elegans">
+                <div id="protocol-2" class="protocol-item c-elegans" data-title="Culturing C. elegans on Petri Plates">
                     <div class="protocol-header">
                         <h3><i class="fas fa-worm"></i> Culturing C. elegans on Petri Plates <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -306,7 +319,7 @@
                 </div>
                 
                 <!-- Transferring Worms Protocol -->
-                <div class="protocol-item transfer">
+                <div id="protocol-3" class="protocol-item transfer" data-title="Transferring Worms Grown on NGM Plates">
                     <div class="protocol-header">
                         <h3><i class="fas fa-exchange-alt"></i> Transferring Worms Grown on NGM Plates <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -361,7 +374,7 @@
                 </div>
                 
                 <!-- C. elegans Synchronization Protocol -->
-                <div class="protocol-item synchronization">
+                <div id="protocol-4" class="protocol-item synchronization" data-title="C. elegans Bleach Synchronization Protocol">
                     <div class="protocol-header">
                         <h3><i class="fas fa-sync"></i> C. elegans – Bleach Synchronization Protocol for Synchronous L1 Cultures <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -402,7 +415,7 @@
                 </div>
                 
                 <!-- C. elegans Egg Hatching Assay -->
-                <div class="protocol-item egg-hatching">
+                <div id="protocol-5" class="protocol-item egg-hatching" data-title="Caenorhabditis elegans Egg Hatching Assay">
                     <div class="protocol-header">
                         <h3><i class="fas fa-egg"></i> Caenorhabditis elegans Egg Hatching Assay for Evaluating Anthelmintic Activity <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -492,7 +505,7 @@
                 </div>
 
              <!-- C. elegans Lifespan Assay on Solid Media -->
-                <div class="protocol-item lifespan">
+                <div id="protocol-6" class="protocol-item lifespan" data-title="C. elegans Lifespan Assay on Solid Media">
                     <div class="protocol-header">
                         <h3><i class="fas fa-hourglass-half"></i> C. elegans Lifespan Assay on Solid Media <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -569,7 +582,7 @@
                 </div>
 
                 <!-- Computer-Aided Drug Design (CADD) Protocol -->
-                <div class="protocol-item in-silico cadd">
+                <div id="protocol-7" class="protocol-item in-silico cadd" data-title="Computer-Aided Drug Design (CADD) Protocol">
                     <div class="protocol-header">
                         <h3><i class="fas fa-laptop-code"></i> Computer-Aided Drug Design (CADD) Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -627,7 +640,7 @@
                 </div>
 
                 <!-- Network Pharmacology Protocol -->
-                <div class="protocol-item in-silico network-pharmacology">
+                <div id="protocol-8" class="protocol-item in-silico network-pharmacology" data-title="Network Pharmacology Protocol">
                     <div class="protocol-header">
                         <h3><i class="fas fa-project-diagram"></i> Network Pharmacology Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -682,7 +695,7 @@
                 </div>
 
                 <!-- Computer-Aided Vaccine Design (CAVD) Protocol -->
-                <div class="protocol-item in-silico cavd">
+                <div id="protocol-9" class="protocol-item in-silico cavd" data-title="Computer-Aided Vaccine Design (CAVD) Protocol">
                     <div class="protocol-header">
                         <h3><i class="fas fa-syringe"></i> Computer-Aided Vaccine Design (CAVD) Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -745,7 +758,7 @@
                 </div>
                 
                 <!-- NGS Data Analysis Pipeline -->
-                <div class="protocol-item in-silico ngs">
+                <div id="protocol-10" class="protocol-item in-silico ngs" data-title="NGS Data Analysis Pipeline">
                     <div class="protocol-header">
                         <h3><i class="fas fa-dna"></i> NGS Data Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -800,7 +813,7 @@
                 </div>
                 
                 <!-- Bulk RNA-Seq Analysis Pipeline -->
-                <div class="protocol-item in-silico bulk-rna-seq">
+                <div id="protocol-11" class="protocol-item in-silico bulk-rna-seq" data-title="Bulk RNA-Seq Analysis Pipeline">
                     <div class="protocol-header">
                         <h3><i class="fas fa-chart-bar"></i> Bulk RNA-Seq Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -855,7 +868,7 @@
                 </div>
                 
                 <!-- Single-Cell RNA-Seq Analysis Pipeline -->
-                <div class="protocol-item in-silico single-cell-rna-seq">
+                <div id="protocol-12" class="protocol-item in-silico single-cell-rna-seq" data-title="Single-Cell RNA-Seq Analysis Pipeline">
                     <div class="protocol-header">
                         <h3><i class="fas fa-dna"></i> Single-Cell RNA-Seq Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -1078,18 +1091,36 @@
                 protocolCount.textContent = visibleItems.length;
                 stepCount.textContent = visibleItems.reduce((total, item) => total + item.querySelectorAll('.step-shell').length, 0);
 
-                navList.innerHTML = '';
-                visibleItems.forEach((item) => {
-                    const link = document.createElement('a');
-                    link.href = `#${item.id}`;
-                    link.className = 'protocol-nav-link';
-                    link.innerHTML = `<span>${item.dataset.title || 'Protocol'}</span><small>${getCategoryLabel(item)}</small>`;
-                    link.addEventListener('click', (event) => {
-                        event.preventDefault();
-                        document.getElementById(item.id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+                const staticNavLinks = Array.from(navList.querySelectorAll('a.protocol-nav-link'));
+                const visibleIds = new Set(visibleItems.map(item => item.id));
+
+                if (staticNavLinks.length > 0) {
+                    staticNavLinks.forEach((link) => {
+                        const targetId = link.getAttribute('href')?.slice(1);
+                        link.style.display = visibleIds.has(targetId) ? '' : 'none';
+
+                        if (!link.dataset.navListenerAttached) {
+                            link.addEventListener('click', (event) => {
+                                event.preventDefault();
+                                document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                            });
+                            link.dataset.navListenerAttached = 'true';
+                        }
                     });
-                    navList.appendChild(link);
-                });
+                } else {
+                    navList.innerHTML = '';
+                    visibleItems.forEach((item) => {
+                        const link = document.createElement('a');
+                        link.href = `#${item.id}`;
+                        link.className = 'protocol-nav-link';
+                        link.innerHTML = `<span>${item.dataset.title || 'Protocol'}</span><small>${getCategoryLabel(item)}</small>`;
+                        link.addEventListener('click', (event) => {
+                            event.preventDefault();
+                            document.getElementById(item.id).scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        });
+                        navList.appendChild(link);
+                    });
+                }
 
                 updateProgress();
             }
