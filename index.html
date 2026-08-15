@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,233 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="shortcut icon" type="image/png" href="logo_main.png"/>
     <link rel="icon" type="image/png" href="logo_main.png" />
+    <style>
+        .theme-switch-wrap {
+            display: flex;
+            align-items: center;
+            margin-left: 12px;
+        }
+
+        .theme-switch {
+            position: relative;
+            width: 52px;
+            height: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            background: linear-gradient(135deg, #1b2e4a, #0b1321);
+            border-radius: 999px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 4px 8px;
+            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.06), 0 6px 18px rgba(0,0,0,0.18);
+            transition: all 0.25s ease;
+        }
+
+        .theme-switch .theme-icon {
+            position: relative;
+            z-index: 1;
+            font-size: 0.82rem;
+            line-height: 1;
+            opacity: 0.8;
+        }
+
+        .theme-switch .theme-icon.moon {
+            color: #dfe9ff;
+        }
+
+        .theme-switch .theme-icon.sun {
+            color: #ffd166;
+        }
+
+        .theme-switch::after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 4px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #fef3c7, #fbbf24);
+            box-shadow: 0 6px 18px rgba(251, 191, 36, 0.35);
+            transition: transform 0.25s ease, background 0.25s ease;
+        }
+
+        .theme-switch.is-light::after {
+            transform: translateX(22px);
+            background: linear-gradient(135deg, #fff7d6, #f8d76e);
+        }
+
+        html[data-theme='light'] .theme-switch {
+            background: linear-gradient(135deg, #edf4ff, #dfefff);
+            border-color: rgba(15, 42, 74, 0.12);
+        }
+
+        html[data-theme='light'] .theme-switch::after {
+            transform: translateX(22px);
+            background: linear-gradient(135deg, #fff7d6, #f7c948);
+        }
+
+        html[data-theme='dark'] {
+            color-scheme: dark;
+        }
+
+        html[data-theme='dark'],
+        html[data-theme='dark'] body {
+            background: #071321;
+            color: #edf5ff;
+        }
+
+        html[data-theme='dark'] body {
+            background-image: radial-gradient(circle at top left, rgba(110, 168, 255, 0.18), transparent 22%), linear-gradient(180deg, #071321 0%, #0b1b2e 40%, #0d1728 100%);
+        }
+
+        html[data-theme='dark'] .navbar,
+        html[data-theme='dark'] .bio-section,
+        html[data-theme='dark'] .research-section,
+        html[data-theme='dark'] .connection-section,
+        html[data-theme='dark'] .footer,
+        html[data-theme='dark'] .expertise-card,
+        html[data-theme='dark'] .research-link-item,
+        html[data-theme='dark'] .publication-preview-item,
+        html[data-theme='dark'] .contact-card,
+        html[data-theme='dark'] .timeline-section.design-1.tpl-A .card {
+            background: linear-gradient(180deg, rgba(15, 25, 40, 0.96), rgba(12, 20, 34, 0.96));
+            border-color: rgba(150, 176, 214, 0.12);
+            box-shadow: 0 18px 30px rgba(0, 0, 0, 0.22);
+        }
+
+        html[data-theme='dark'] .navbar {
+            background: linear-gradient(180deg, rgba(9, 17, 30, 0.96), rgba(14, 25, 42, 0.98));
+        }
+
+        html[data-theme='dark'] .nav-link,
+        html[data-theme='dark'] .nav-logo a,
+        html[data-theme='dark'] .nav-link:hover,
+        html[data-theme='dark'] .expertise-header h2,
+        html[data-theme='dark'] .bio-section h2,
+        html[data-theme='dark'] .research-section h2,
+        html[data-theme='dark'] .connection-section h2,
+        html[data-theme='dark'] .expertise-card h3,
+        html[data-theme='dark'] .research-link-item h3,
+        html[data-theme='dark'] .publication-preview-item h3,
+        html[data-theme='dark'] .footer-column h3,
+        html[data-theme='dark'] .footer-column h4,
+        html[data-theme='dark'] .cover-text h1,
+        html[data-theme='dark'] .cover-text p,
+        html[data-theme='dark'] .expertise-card h3,
+        html[data-theme='dark'] .card h3,
+        html[data-theme='dark'] .card .org,
+        html[data-theme='dark'] .card .date,
+        html[data-theme='dark'] .card p,
+        html[data-theme='dark'] .timeline-note,
+        html[data-theme='dark'] .research-link-content h3,
+        html[data-theme='dark'] .footer-bottom p,
+        html[data-theme='dark'] .contact-card a,
+        html[data-theme='dark'] .social-link,
+        html[data-theme='dark'] .social-link-footer,
+        html[data-theme='dark'] .primary-contact a {
+            color: #f3f8ff !important;
+        }
+
+        html[data-theme='dark'] .nav-link,
+        html[data-theme='dark'] .social-link,
+        html[data-theme='dark'] .social-link-footer,
+        html[data-theme='dark'] .research-link-item,
+        html[data-theme='dark'] .publication-preview-item,
+        html[data-theme='dark'] .contact-card,
+        html[data-theme='dark'] .expertise-card {
+            transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        html[data-theme='dark'] .section-divider {
+            border-bottom-color: rgba(255, 255, 255, 0.08);
+            box-shadow: none;
+        }
+
+        html[data-theme='dark'] .expertise-header p,
+        html[data-theme='dark'] .publication-meta,
+        html[data-theme='dark'] .publication-meta span,
+        html[data-theme='dark'] .publication-journal,
+        html[data-theme='dark'] .publication-authors,
+        html[data-theme='dark'] .research-link-content p,
+        html[data-theme='dark'] .contact-card p,
+        html[data-theme='dark'] .footer-column ul li a,
+        html[data-theme='dark'] .bio-text p,
+        html[data-theme='dark'] .expertise-card p,
+        html[data-theme='dark'] .card p,
+        html[data-theme='dark'] .research-link-item p,
+        html[data-theme='dark'] .timeline-note,
+        html[data-theme='dark'] .meta .step,
+        html[data-theme='dark'] .expertise-score,
+        html[data-theme='dark'] .availability-note {
+            color: #d3def0 !important;
+        }
+
+        html[data-theme='dark'] .expertise-badge,
+        html[data-theme='dark'] .cover-text .hero-typing-prefix,
+        html[data-theme='dark'] .cover-text .hero-typing-target,
+        html[data-theme='dark'] .tag,
+        html[data-theme='dark'] .social-link,
+        html[data-theme='dark'] .social-link-footer {
+            background-color: rgba(118, 160, 255, 0.12);
+            border-color: rgba(118, 160, 255, 0.18);
+        }
+
+        html[data-theme='dark'] .cover-text .hero-typing-target,
+        html[data-theme='dark'] .primary-btn,
+        html[data-theme='dark'] .secondary-btn,
+        html[data-theme='dark'] .btn,
+        html[data-theme='dark'] .social-link i,
+        html[data-theme='dark'] .social-link-footer i,
+        html[data-theme='dark'] .publication-action-btn i,
+        html[data-theme='dark'] .primary-contact i {
+            color: #f2f8ff !important;
+        }
+
+        html[data-theme='dark'] .primary-btn {
+            background: linear-gradient(135deg, #3c82ff, #53b8ff);
+            border-color: #53b8ff;
+            box-shadow: 0 10px 24px rgba(82, 151, 255, 0.32);
+        }
+
+        html[data-theme='dark'] .secondary-btn {
+            border-color: rgba(95, 165, 255, 0.7);
+            background: rgba(20, 35, 58, 0.6);
+        }
+
+        html[data-theme='dark'] .research-link-item {
+            border: 1px solid rgba(145, 172, 212, 0.12);
+        }
+
+        html[data-theme='dark'] .footer {
+            background: linear-gradient(180deg, rgba(7, 16, 28, 0.96), rgba(11, 21, 34, 0.98));
+        }
+
+        html[data-theme='dark'] .footer-column ul li a,
+        html[data-theme='dark'] .footer-column h3,
+        html[data-theme='dark'] .footer-column h4,
+        html[data-theme='dark'] .footer-bottom p {
+            color: #edf5ff !important;
+        }
+
+        html[data-theme='dark'] .social-link, html[data-theme='dark'] .social-link-footer {
+            background: rgba(20, 29, 46, 0.9);
+            border: 1px solid rgba(135, 170, 219, 0.18);
+        }
+
+        html[data-theme='dark'] .theme-switch-wrap {
+            margin-left: 10px;
+        }
+
+        html[data-theme='light'] .expertise-card,
+        html[data-theme='light'] .research-link-item,
+        html[data-theme='light'] .publication-preview-item,
+        html[data-theme='light'] .contact-card,
+        html[data-theme='light'] .timeline-section.design-1.tpl-A .card {
+            background: #ffffff;
+        }
+    </style>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -49,6 +276,9 @@
                     <a href="contact.html" class="nav-link">Contact</a>
                 </li>
             </ul>
+            <div class="i04">
+<button class="i04-t" aria-label="toggle"><i class="i04-hk"></i><span class="i04-top"></span><span class="i04-g"><i class="i04-fl"></i></span><span class="i04-bot"></span></button>
+</div>
             <div class="nav-toggle">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -519,8 +749,36 @@
         </div>
     </footer>
 
+    <script>
+        (function () {
+            const root = document.documentElement;
+            const toggle = document.querySelector('.theme-switch');
+            const preferred = localStorage.getItem('portfolio-theme') || 'dark';
+
+            function applyTheme(theme) {
+                root.setAttribute('data-theme', theme);
+                document.body.setAttribute('data-theme', theme);
+                if (toggle) {
+                    toggle.classList.toggle('is-light', theme === 'light');
+                    toggle.setAttribute('aria-label', theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+                    toggle.title = theme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode';
+                }
+            }
+
+            applyTheme(preferred);
+
+            if (toggle) {
+                toggle.addEventListener('click', () => {
+                    const nextTheme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    localStorage.setItem('portfolio-theme', nextTheme);
+                    applyTheme(nextTheme);
+                });
+            }
+        })();
+    </script>
     <script src="assets/js/script.js"></script>
 </body>
 
 </html>
+
 
