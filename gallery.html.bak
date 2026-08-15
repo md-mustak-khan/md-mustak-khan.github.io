@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Md. Mustak Khan</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles-extended.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" type="image/png" href="logo_main.png"/>
+    <link rel="icon" type="image/png" href="logo_main.png" />
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="https://md-mustak-khan.github.io/"><img src="logo_main.png" alt="Logo" style="height: 40px;"></a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="https://md-mustak-khan.github.io/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a href="research.html" class="nav-link">Research</a>
+                </li>
+                <li class="nav-item">
+                    <a href="publications.html" class="nav-link">Publications</a>
+                </li>
+                <li class="nav-item">
+                    <a href="advisor.html" class="nav-link">Advisor</a>
+                </li>
+                <li class="nav-item">
+                    <a href="protocols.html" class="nav-link">Lab Protocols</a>
+                </li>
+                <li class="nav-item">
+                    <a href="resources.html" class="nav-link">Resources & Tools</a>
+                </li>
+                <li class="nav-item">
+                    <a href="teaching.html" class="nav-link">Teaching</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.html" class="nav-link active">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                          </ul>
+              <div class="i04">
+<button class="i04-t" aria-label="toggle"><i class="i04-hk"></i><span class="i04-top"></span><span class="i04-g"><i class="i04-fl"></i></span><span class="i04-bot"></span></button>
+</div>
+              <div class="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Research Gallery</h1>
+            <p>Highlights from laboratory work, collaborations, and scientific discovery</p>
+        </div>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- Gallery Content -->
+    <section class="gallery-content">
+        <div class="container">
+            <div class="gallery-intro">
+                <h2><i class="fas fa-images"></i> Research Visuals</h2>
+                <p>This gallery showcases images from my research activities, laboratory work, poster presentations, scientific & academic events and funny moments.</p>
+            </div>
+
+            <div class="gallery-controls">
+
+            </div>
+
+
+
+            <div class="gallery-grid-wrapper">
+            <div class="gallery-grid">
+                <div class="gallery-item lab">
+                    <img src="images/gallery/Lab 1.jpg" alt="Laboratory work">
+                    <div class="gallery-overlay">
+                        <h3>Laboratory Work</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item lab">
+                    <img src="images/gallery/Regular Lab Work.JPG" alt="Regular laboratory work">
+                    <div class="gallery-overlay">
+                        <h3>Laboratory Work</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item lab">
+                    <img src="images/gallery/Lab Experiment.JPG" alt="Laboratory experiment">
+                    <div class="gallery-overlay">
+                        <h3>Laboratory Experiments</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item lab">
+                    <img src="images/gallery/Lab 2.jpg" alt="Laboratory experiments">
+                    <div class="gallery-overlay">
+                        <h3>Laboratory Work</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item lab">
+                    <img src="images/gallery/Lab 3.jpg" alt="Laboratory research">
+                    <div class="gallery-overlay">
+                        <h3>Laboratory Research</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item lab">
+                    <img src="images/gallery/Lab 4.jpg" alt="Lab work">
+                    <div class="gallery-overlay">
+                        <h3>Lab Work</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item lab">
+                    <img src="images/gallery/Lab visit.jpg" alt="Laboratory visit">
+                    <div class="gallery-overlay">
+                        <h3>Laboratory Visit</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item research">
+                    <img src="images/gallery/C elegans under Fluorescent Microscope.jpg" alt="C. elegans under fluorescent microscope">
+                    <div class="gallery-overlay">
+                        <h3>C. elegans Research</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item research">
+                    <img src="images/gallery/Poster Pre.jpg" alt="Poster presentation">
+                    <div class="gallery-overlay">
+                        <h3>Poster Presentation</h3>
+                    </div>
+                </div>
+                
+                <div class="gallery-item research">
+                    <img src="images/gallery/MS Thesis.JPG" alt="MS Thesis">
+                    <div class="gallery-overlay">
+                        <h3>MS Thesis</h3>
+                    </div>
+                </div>
+
+                  <div class="gallery-item research">
+                    <img src="images/gallery/MS Thesis 2.JPG" alt="MS Thesis">
+                    <div class="gallery-overlay">
+                        <h3>MS Thesis</h3>
+                    </div>
+                </div>
+                 <div class="gallery-item research">
+                    <img src="images/gallery/Thesis Presentation.jpg" alt="Thesis Presentations">
+                    <div class="gallery-overlay">
+                        <h3>Thesis Presentation</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/Lab Event 1.jpg" alt="Lab event">
+                    <div class="gallery-overlay">
+                        <h3>Lab Event</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/Lab Event 2.jpg" alt="Lab event">
+                    <div class="gallery-overlay">
+                        <h3>Lab Event</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/Lab Event 3.jpg" alt="Lab event">
+                    <div class="gallery-overlay">
+                        <h3>Lab Event</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/Lab Event 4.jpg" alt="Lab event">
+                    <div class="gallery-overlay">
+                        <h3>Lab Event</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/Lab Event 5.jpg" alt="Lab event">
+                    <div class="gallery-overlay">
+                        <h3>Lab Event</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/event 1.JPG" alt="Scientific event">
+                    <div class="gallery-overlay">
+                        <h3>Scientific Event</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/event 2.JPG" alt="Scientific event">
+                    <div class="gallery-overlay">
+                        <h3>Scientific Event</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/event 3.jpg" alt="Community Programme">
+                    <div class="gallery-overlay">
+                        <h3>Community Programme</h3>
+                    </div>
+                </div>
+                            
+                <div class="gallery-item events">
+                    <img src="images/gallery/event 4.jpg" alt="Scientific event">
+                    <div class="gallery-overlay">
+                        <h3>Workshop Event</h3>
+                    </div>
+                </div>
+            </div>
+            </div> <!-- gallery-grid-wrapper -->
+                
+            <div class="gallery-info">
+                <h2><i class="fas fa-info-circle"></i> About This Gallery</h2>
+                <p>The images in this gallery represent various aspects of my research journey, from hands-on laboratory work to presenting findings at scientific conferences.</p>
+                <p>Feel free to browse through the collection to get a visual understanding of my research environment and activities.</p>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <div class="section-divider"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
+                        <a href="https://md-mustak-khan.github.io/"><img src="logo_main.png" alt="Logo" style="height: 40px; width: 40px; margin-right: 10px;"></a>
+                        <h3 style="margin: 0;">Md. Mustak Khan</h3>
+                    </div>
+                    <h4 style="margin: 0 0 10px 0; color: var(--secondary-color);">Connect With Me</h4>
+                    <div class="social-links-footer">
+                        <a href="mailto:mustakkhan.bmb@std.cu.ac.bd" class="social-link-footer">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=zZUhNasAAAAJ&hl=en&oi=ao" class="social-link-footer" target="_blank">
+                            <i class="fas fa-graduation-cap"></i>
+                        </a>
+                        <a href="https://orcid.org/0009-0002-1472-5953" class="social-link-footer">
+                            <i class="fab fa-orcid"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/md-mustak-khan" class="social-link-footer">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.researchgate.net/profile/Md-Khan-420?ev=hdr_xprf" class="social-link-footer">
+                            <i class="fab fa-researchgate"></i>
+                        </a>
+                        <a href="https://github.com/md-mustak-khan" class="social-link-footer">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://x.com/md_mustak_khan" class="social-link-footer">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="https://md-mustak-khan.github.io/">Home</a></li>
+                        <li><a href="about.html">About Me</a></li>
+                        <li><a href="research.html">Research</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="protocols.html">Lab Protocols</a></li>
+                        <li><a href="resources.html">Tools & Resources</a></li>
+                        <li><a href="teaching.html">Teaching</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><a href="contact.html">Contact Information</a></li>
+                        <li><a href="advisor.html">Advisor</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Md. Mustak Khan. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="gallery-modal" id="galleryModal" role="dialog" aria-modal="true" aria-label="Image viewer">
+        <button class="gallery-modal-close" type="button" aria-label="Close preview">&times;</button>
+        <button class="gallery-modal-nav prev" type="button" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="gallery-modal-content">
+            <img class="gallery-modal-image" id="galleryModalImage" src="" alt="">
+            <div class="gallery-modal-caption">
+                <h3 id="galleryModalTitle"></h3>
+                <p id="galleryModalDescription"></p>
+            </div>
+        </div>
+        <button class="gallery-modal-nav next" type="button" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryButtons = document.querySelectorAll('.category-btn');
+            const galleryItems = Array.from(document.querySelectorAll('.gallery-item'));
+            const modal = document.getElementById('galleryModal');
+            const modalImage = document.getElementById('galleryModalImage');
+            const modalTitle = document.getElementById('galleryModalTitle');
+            const modalDescription = document.getElementById('galleryModalDescription');
+            const closeBtn = document.querySelector('.gallery-modal-close');
+            const prevBtn = document.querySelector('.gallery-modal-nav.prev');
+            const nextBtn = document.querySelector('.gallery-modal-nav.next');
+            let activeIndex = 0;
+
+            const getVisibleItems = () => galleryItems.filter(item => {
+                const style = window.getComputedStyle(item);
+                return style.display !== 'none';
+            });
+
+            const openModal = (index) => {
+                const visibleItems = getVisibleItems();
+                if (!visibleItems.length) return;
+
+                activeIndex = (index + visibleItems.length) % visibleItems.length;
+                const item = visibleItems[activeIndex];
+                const image = item.querySelector('img');
+                const title = item.querySelector('.gallery-overlay h3')?.textContent || image?.getAttribute('alt') || 'Research Gallery';
+                const description = image?.getAttribute('alt') || 'Research snapshot from the gallery';
+
+                modalImage.src = image?.src || '';
+                modalImage.alt = description;
+                modalTitle.textContent = title;
+                modalDescription.textContent = description;
+                modal.classList.add('active');
+                document.body.classList.add('modal-open');
+            };
+
+            const closeModal = () => {
+                modal.classList.remove('active');
+                document.body.classList.remove('modal-open');
+            };
+
+            categoryButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    categoryButtons.forEach(btn => btn.classList.remove('active'));
+                    button.classList.add('active');
+
+                    const category = button.getAttribute('data-category');
+
+                    galleryItems.forEach(item => {
+                        if (category === 'all' || item.classList.contains(category)) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    });
+                });
+            });
+
+            galleryItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const visibleItems = getVisibleItems();
+                    const itemIndex = visibleItems.indexOf(this);
+                    if (itemIndex >= 0) {
+                        openModal(itemIndex);
+                    }
+                });
+            });
+
+            closeBtn.addEventListener('click', closeModal);
+            modal.addEventListener('click', (event) => {
+                if (event.target === modal) {
+                    closeModal();
+                }
+            });
+
+            prevBtn.addEventListener('click', () => {
+                const visibleItems = getVisibleItems();
+                if (!visibleItems.length) return;
+                openModal(activeIndex - 1);
+            });
+
+            nextBtn.addEventListener('click', () => {
+                const visibleItems = getVisibleItems();
+                if (!visibleItems.length) return;
+                openModal(activeIndex + 1);
+            });
+
+            document.addEventListener('keydown', (event) => {
+                if (!modal.classList.contains('active')) return;
+
+                if (event.key === 'Escape') {
+                    closeModal();
+                } else if (event.key === 'ArrowLeft') {
+                    event.preventDefault();
+                    const visibleItems = getVisibleItems();
+                    if (visibleItems.length) {
+                        openModal(activeIndex - 1);
+                    }
+                } else if (event.key === 'ArrowRight') {
+                    event.preventDefault();
+                    const visibleItems = getVisibleItems();
+                    if (visibleItems.length) {
+                        openModal(activeIndex + 1);
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
+
+
