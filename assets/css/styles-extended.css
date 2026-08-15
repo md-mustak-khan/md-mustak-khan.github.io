@@ -4052,3 +4052,19 @@ body.modal-open {
     border-radius: 4px;
     color: #007bff;
 }
+
+/* Dark Mode Overrides for Protocols Page */
+html[data-theme='dark'] .protocol-progress-pill {
+    background: rgba(43, 116, 226, 0.2) !important;
+    color: #90caf9 !important;
+}
+
+html[data-theme='dark'] .note {
+    background-color: rgba(227, 242, 253, 0.08) !important;
+    border-left-color: #90caf9 !important;
+    color: #e2e8f0 !important;
+}
+
+html[data-theme='dark'] .note strong {
+    color: #90caf9 !important;
+}
