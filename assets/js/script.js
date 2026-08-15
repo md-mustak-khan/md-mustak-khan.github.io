@@ -401,6 +401,17 @@ function initTimelineCollapsibles() {
         paras.forEach(p => wrapper.appendChild(p));
 
         card.appendChild(wrapper);
+
+        // Add a chevron indicator inside the card-tags row (right-aligned opposite the tag badge)
+        const cardTags = card.querySelector('.card-tags');
+        if (cardTags && !card.querySelector('.card-chevron')) {
+            const chevron = document.createElement('div');
+            chevron.className = 'card-chevron';
+            chevron.setAttribute('aria-hidden', 'true');
+            chevron.innerHTML = '<svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 7.5L10 12.5L15 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+            cardTags.appendChild(chevron);
+        }
+
         // We intentionally do NOT add a "Read more" button. Clicking the card toggles expansion.
         // Ensure initial accessibility attribute
         card.setAttribute('aria-expanded', 'false');
@@ -507,6 +518,9 @@ function initInteractiveSections() {
             try { details.classList.toggle('expanded', isExpanded); } catch (e) {}
             // update aria attribute on the card for accessibility
             el.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+            // rotate chevron to indicate expanded / collapsed state
+            const chevron = el.querySelector('.card-chevron');
+            if (chevron) chevron.classList.toggle('rotated', isExpanded);
             // update any buttons inside (hidden by CSS but keep attributes consistent)
             const btn = el.querySelector('.interactive-toggle, .collapse-toggle');
             if (btn) {
@@ -593,3 +607,64 @@ if (document.readyState === 'loading') {
     initExpertiseBarAnimation();
 }
 
+// ── Scroll-driven spine fill: glowing bar grows as you scroll ──────────────
+function initSpineScrollFill() {
+    const spine = document.querySelector('.timeline-section.design-1.tpl-A .spine');
+    if (!spine) return;
+
+    // Inject the glowing progress bar element
+    let progressEl = spine.querySelector('.spine-progress');
+    if (!progressEl) {
+        progressEl = document.createElement('div');
+        progressEl.className = 'spine-progress at-zero';
+        spine.insertBefore(progressEl, spine.firstChild);
+    }
+
+    // Collect all dot elements and their parent dotcol containers
+    const dotcols = Array.from(spine.querySelectorAll('.row .dotcol'));
+    const dots    = dotcols.map(dc => dc.querySelector('.dot'));
+
+    function update() {
+        const spineRect = spine.getBoundingClientRect();
+        const spineTop    = spineRect.top;
+        const spineHeight = spineRect.height;
+
+        // The "trigger point" moves at 65% from the top of the viewport
+        const triggerY = window.innerHeight * 0.65;
+
+        // How far has the trigger point passed into the spine?
+        const rawFill = triggerY - spineTop;
+
+        if (rawFill <= 0) {
+            // Haven't reached the spine yet
+            progressEl.style.height = '0px';
+            progressEl.classList.add('at-zero');
+            dots.forEach(d => d && d.classList.remove('dot-lit'));
+            return;
+        }
+
+        const fillPx = Math.min(rawFill, spineHeight);
+        progressEl.style.height = fillPx + 'px';
+        progressEl.classList.toggle('at-zero', fillPx < 4);
+
+        // Light up each dot whose centre the fill bar has passed
+        dotcols.forEach((dc, i) => {
+            const dot = dots[i];
+            if (!dot) return;
+            const dcRect = dc.getBoundingClientRect();
+            // Centre of the dot relative to the top of the spine
+            const dotCenter = (dcRect.top + dcRect.height / 2) - spineRect.top;
+            dot.classList.toggle('dot-lit', fillPx >= dotCenter);
+        });
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update, { passive: true });
+    update(); // initial run
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSpineScrollFill);
+} else {
+    initSpineScrollFill();
+}
