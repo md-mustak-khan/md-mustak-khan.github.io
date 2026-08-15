@@ -1298,7 +1298,8 @@
 }
 
 @media (max-width: 999px) {
-    .timeline-section.design-1.tpl-A .spine::before {
+    .timeline-section.design-1.tpl-A .spine::before,
+    .timeline-section.design-1.tpl-A .spine-progress {
         left: 22px;
         transform: none;
     }
