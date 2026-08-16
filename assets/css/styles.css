@@ -99,7 +99,6 @@ html[data-theme='dark'] .timeline-section.design-1.tpl-A .card,
 html[data-theme='dark'] .about-content,
 html[data-theme='dark'] .about-section-card,
 html[data-theme='dark'] .about-hero-card,
-html[data-theme='dark'] .sidebar-card,
 html[data-theme='dark'] .research-content,
 html[data-theme='dark'] .research-area-box,
 html[data-theme='dark'] .protocol-card,
@@ -286,11 +285,13 @@ html[data-theme='dark'] .research-focus-box,
 html[data-theme='dark'] .future-work-box,
 html[data-theme='dark'] .gallery-grid-wrapper,
 html[data-theme='dark'] .gallery-info,
-html[data-theme='dark'] .sidebar-card,
 html[data-theme='dark'] .contact-panel,
 html[data-theme='dark'] .about-hero-card,
 html[data-theme='dark'] .about-section-card,
 html[data-theme='dark'] .about-hero-sidebar .sidebar-card,
+html[data-theme='dark'] .sidebar-card,
+html[data-theme='dark'] .protocols-hero,
+html[data-theme='dark'] .protocols-hero-card,
 html[data-theme='dark'] .protocol-card,
 html[data-theme='dark'] .resource-card,
 html[data-theme='dark'] .teaching-card,
@@ -420,15 +421,6 @@ html[data-theme='dark'] .lab,
 html[data-theme='dark'] .publication-date,
 html[data-theme='dark'] .publication-doi,
 html[data-theme='dark'] .publication-journal,
-html[data-theme='dark'] .protocols-hero,
-html[data-theme='dark'] .protocols-hero-card,
-html[data-theme='dark'] .protocols-toolbar-card,
-html[data-theme='dark'] .protocol-item,
-html[data-theme='dark'] .step-shell,
-html[data-theme='dark'] .protocol-nav-link,
-html[data-theme='dark'] .sidebar-card,
-html[data-theme='dark'] .resource-item,
-html[data-theme='dark'] .tool-item,
 html[data-theme='dark'] .gallery-intro,
 html[data-theme='dark'] .gallery-grid-wrapper,
 html[data-theme='dark'] .gallery-info,
@@ -442,8 +434,6 @@ html[data-theme='dark'] .teaching-header-full,
 html[data-theme='dark'] .teaching-media,
 html[data-theme='dark'] .teaching-details,
 html[data-theme='dark'] .search-box,
-html[data-theme='dark'] .protocol-search,
-html[data-theme='dark'] .protocol-search input,
 html[data-theme='dark'] .form-group input,
 html[data-theme='dark'] .form-group textarea,
 html[data-theme='dark'] .form-group select {
@@ -453,21 +443,6 @@ html[data-theme='dark'] .form-group select {
     box-shadow: 0 16px 30px rgba(0, 0, 0, 0.22) !important;
 }
 
-html[data-theme='dark'] .protocols-hero-copy h2,
-html[data-theme='dark'] .protocols-hero-copy p,
-html[data-theme='dark'] .protocols-toolbar h3,
-html[data-theme='dark'] .protocols-toolbar p,
-html[data-theme='dark'] .protocol-header h3,
-html[data-theme='dark'] .protocol-summary h4,
-html[data-theme='dark'] .protocol-summary h5,
-html[data-theme='dark'] .protocol-summary p,
-html[data-theme='dark'] .protocol-summary li,
-html[data-theme='dark'] .resource-item h3,
-html[data-theme='dark'] .resource-item h4,
-html[data-theme='dark'] .resource-item h5,
-html[data-theme='dark'] .resource-details p,
-html[data-theme='dark'] .tool-item h4,
-html[data-theme='dark'] .tool-item p,
 html[data-theme='dark'] .gallery-intro h2,
 html[data-theme='dark'] .gallery-intro p,
 html[data-theme='dark'] .gallery-info h2,
@@ -484,18 +459,13 @@ html[data-theme='dark'] .teaching-platform,
 html[data-theme='dark'] .teaching-details p,
 html[data-theme='dark'] .teaching-details li,
 html[data-theme='dark'] .teaching-details h3,
-html[data-theme='dark'] .protocol-search i,
-html[data-theme='dark'] .protocol-nav-link,
-html[data-theme='dark'] .protocol-nav-link small,
 html[data-theme='dark'] .search-box i,
 html[data-theme='dark'] .form-group label,
-html[data-theme='dark'] .resource-link,
 html[data-theme='dark'] .download-btn,
 html[data-theme='dark'] .btn.primary-btn {
     color: #edf5ff !important;
 }
 
-html[data-theme='dark'] .protocol-search input,
 html[data-theme='dark'] .form-group input,
 html[data-theme='dark'] .form-group textarea,
 html[data-theme='dark'] .form-group select,
@@ -505,7 +475,6 @@ html[data-theme='dark'] .search-box input {
 }
 
 html[data-theme='dark'] .protocol-nav-link:hover,
-html[data-theme='dark'] .resource-link:hover,
 html[data-theme='dark'] .download-btn:hover,
 html[data-theme='dark'] .social-icon:hover {
     background: rgba(70, 136, 255, 0.12) !important;
@@ -552,8 +521,6 @@ html[data-theme='dark'] .download-btn:hover {
     border-color: rgba(112, 211, 255, 0.6) !important;
 }
 
-html[data-theme='dark'] .protocol-search input,
-html[data-theme='dark'] .protocol-nav-link,
 html[data-theme='dark'] .protocol-nav-list::-webkit-scrollbar-track {
     background: rgba(12, 20, 34, 0.8) !important;
     border-color: rgba(150, 176, 214, 0.14) !important;
@@ -567,7 +534,6 @@ html[data-theme='dark'] .protocol-nav-link small {
     color: #96a8b8 !important;
 }
 
-html[data-theme='dark'] .protocol-search i,
 html[data-theme='dark'] .search-box i {
     color: #6a8fab !important;
 }
@@ -1751,7 +1717,7 @@ img[alt="Logo"] {
         padding: 20px;
     }
 }
-/* Lantern — Day/Night design */
+/* Lantern ï¿½ Day/Night design */
 .i04 { width: 38px; height: 44px; position: relative; margin-left: 15px; }
 .i04-t{position:absolute; top:0; left:0; transform: scale(0.4); transform-origin: top left; width:92px;height:110px;border:0;border-radius:16px;cursor:pointer;background:#dfe8ff;transition:background .5s;padding:0; margin:0;}
 .i04.on .i04-t{background:#0e1330}
