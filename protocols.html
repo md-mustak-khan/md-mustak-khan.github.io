@@ -3,7 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab Protocols | Md. Mustak Khan</title>
+    <title>Lab Protocols &amp; Methods | Md. Mustak Khan</title>
+    <meta name="description" content="Standardized laboratory protocols and computational bioinformatics pipelines for C. elegans maintenance, biochemical assays, CADD, network pharmacology, and NGS analysis.">
+    <meta property="og:title" content="Lab Protocols &amp; Methods | Md. Mustak Khan">
+    <meta property="og:description" content="Step-by-step standardized experimental protocols and in silico workflows with interactive progress tracking and procedure checklists.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://md-mustak-khan.github.io/protocols.html">
+    <meta property="og:image" content="https://md-mustak-khan.github.io/images/gallery/Lab%201.jpg">
+
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/styles-extended.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -37,7 +45,7 @@
                     <a href="protocols.html" class="nav-link active">Lab Protocols</a>
                 </li>
                 <li class="nav-item">
-                    <a href="resources.html" class="nav-link">Resources & Tools</a>
+                    <a href="resources.html" class="nav-link">Resources &amp; Tools</a>
                 </li>
                 <li class="nav-item">
                     <a href="teaching.html" class="nav-link">Teaching</a>
@@ -48,11 +56,11 @@
                 <li class="nav-item">
                     <a href="contact.html" class="nav-link">Contact</a>
                 </li>
-                          </ul>
-              <div class="i04">
-<button class="i04-t" aria-label="toggle"><i class="i04-hk"></i><span class="i04-top"></span><span class="i04-g"><i class="i04-fl"></i></span><span class="i04-bot"></span></button>
-</div>
-              <div class="nav-toggle">
+            </ul>
+            <div class="i04">
+                <button class="i04-t" aria-label="toggle"><i class="i04-hk"></i><span class="i04-top"></span><span class="i04-g"><i class="i04-fl"></i></span><span class="i04-bot"></span></button>
+            </div>
+            <div class="nav-toggle">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -63,8 +71,8 @@
     <!-- Page Header -->
     <section class="page-header">
         <div class="container">
-            <h1>Lab Protocols & Methods</h1>
-            <p>Step-by-step workflows, techniques, and research-ready procedures</p>
+            <h1>Lab Protocols &amp; Methods</h1>
+            <p>Standardized wet-lab experimental procedures and reproducible computational bioinformatics pipelines</p>
         </div>
     </section>
 
@@ -73,78 +81,105 @@
     <!-- Protocols Content -->
     <section class="protocols-content">
         <div class="container">
+            <!-- Hero Interactive Banner -->
             <div class="protocols-hero">
                 <div class="protocols-hero-copy">
-                    <p class="protocols-eyebrow"><i class="fas fa-flask"></i> Research-ready workflows</p>
-                    <h2>Browse, follow, and check off lab protocols</h2>
-                    <p>This collection brings together standardized experimental procedures and in silico workflows in a structured, interactive knowledge hub for modern research practice.</p>
+                    <p class="protocols-eyebrow"><i class="fas fa-flask"></i> Interactive Research Hub</p>
+                    <h2>Browse, Execute &amp; Track Lab Protocols</h2>
+                    <p>A standardized repository of peer-reviewed experimental protocols from the Laboratory of Applied Biosciences and BioPC computational workflows. Check off completed steps during active benchwork.</p>
                 </div>
                 <div class="protocols-hero-card">
                     <div class="progress-summary">
-                        <span>Overall completion</span>
+                        <span><i class="fas fa-tasks"></i> Overall Progress</span>
                         <strong id="overallProgressValue">0%</strong>
                     </div>
                     <div class="progress-bar" aria-label="Overall protocol completion">
                         <div class="progress-bar-fill" id="overallProgressFill"></div>
                     </div>
-                    <p class="progress-caption">Mark steps complete to update your progress and keep track of the workflow.</p>
+                    <p class="progress-caption">Checked steps automatically save to your browser for seamless lab sessions.</p>
                 </div>
             </div>
 
             <div class="protocols-layout">
+                <!-- Sidebar -->
                 <aside class="protocols-sidebar">
                     <div class="sidebar-card">
-                        <h3><i class="fas fa-compass"></i> Navigate Protocols</h3>
+                        <h3><i class="fas fa-filter"></i> Filter Category</h3>
+                        <div class="chip-group" style="margin-bottom: 16px;">
+                            <button class="chip active" data-filter="all"><i class="fas fa-border-all"></i> All (13)</button>
+                            <button class="chip" data-filter="wet-lab"><i class="fas fa-vial"></i> Wet-Lab (7)</button>
+                            <button class="chip" data-filter="in-silico"><i class="fas fa-laptop-code"></i> In Silico (3)</button>
+                            <button class="chip" data-filter="genomics"><i class="fas fa-dna"></i> Genomics (3)</button>
+                        </div>
+
+                        <h3><i class="fas fa-search"></i> Search Protocols</h3>
                         <div class="search-box protocol-search">
                             <i class="fas fa-search"></i>
-                            <input type="search" id="protocolSearch" placeholder="Search protocols or steps" />
+                            <input type="search" id="protocolSearch" placeholder="Search keywords, reagents, tools..." />
                         </div>
+
+                        <h3 style="margin-top: 18px;"><i class="fas fa-compass"></i> Table of Contents</h3>
                         <div class="protocol-nav-list" id="protocolNavList">
-                            <a href="#protocol-1" class="protocol-nav-link"><span>Preparation of Growth Media</span><small>Growth Media</small></a>
-                            <a href="#protocol-2" class="protocol-nav-link"><span>Culturing C. elegans on Petri Plates</span><small>C. elegans</small></a>
-                            <a href="#protocol-3" class="protocol-nav-link"><span>Transferring Worms Grown on NGM Plates</span><small>Transfer</small></a>
-                            <a href="#protocol-4" class="protocol-nav-link"><span>C. elegans Bleach Synchronization</span><small>Synchronization</small></a>
-                            <a href="#protocol-5" class="protocol-nav-link"><span>C. elegans Egg Hatching Assay</span><small>Assays</small></a>
-                            <a href="#protocol-6" class="protocol-nav-link"><span>C. elegans Lifespan Assay</span><small>Lifespan</small></a>
-                            <a href="#protocol-7" class="protocol-nav-link"><span>Computer Aided Drug Design (CADD) Protocol</span><small>CADD</small></a>
-                            <a href="#protocol-8" class="protocol-nav-link"><span>Network Pharmacology Protocol</span><small>Network Pharmacology</small></a>
-                            <a href="#protocol-9" class="protocol-nav-link"><span>Computer Aided Vaccine Design (CAVD) Protocol</span><small>CAVD</small></a>
-                            <a href="#protocol-10" class="protocol-nav-link"><span>NGS Data Analysis Pipeline</span><small>NGS</small></a>
-                            <a href="#protocol-11" class="protocol-nav-link"><span>Bulk RNA-Seq Analysis Pipeline</span><small>Bulk RNA-Seq</small></a>
-                            <a href="#protocol-12" class="protocol-nav-link"><span>Single-Cell RNA-Seq Analysis Pipeline</span><small>Single-Cell RNA-Seq</small></a>
+                            <a href="#protocol-1" class="protocol-nav-link"><span>1. Preparation of Bacterial Food Source (LB Media)</span><small>Wet-Lab &middot; LB Media</small></a>
+                            <a href="#protocol-2" class="protocol-nav-link"><span>2. Preparation of NGM Petri Plates</span><small>Wet-Lab &middot; NGM Plates</small></a>
+                            <a href="#protocol-3" class="protocol-nav-link"><span>3. Seeding NGM Plates & Culturing C. elegans</span><small>Wet-Lab &middot; Seeding & Culture</small></a>
+                            <a href="#protocol-4" class="protocol-nav-link"><span>4. Transferring Worms Grown on NGM Plates</span><small>Wet-Lab &middot; Transfer</small></a>
+                            <a href="#protocol-5" class="protocol-nav-link"><span>5. C. elegans Bleach Synchronization</span><small>Wet-Lab &middot; Synchronization</small></a>
+                            <a href="#protocol-6" class="protocol-nav-link"><span>6. C. elegans Egg Hatching Assay</span><small>Wet-Lab &middot; Assays</small></a>
+                            <a href="#protocol-7" class="protocol-nav-link"><span>7. C. elegans Lifespan Assay</span><small>Wet-Lab &middot; Lifespan</small></a>
+                            <a href="#protocol-8" class="protocol-nav-link"><span>8. Computer Aided Drug Design (CADD)</span><small>In Silico &middot; CADD</small></a>
+                            <a href="#protocol-9" class="protocol-nav-link"><span>9. Network Pharmacology Protocol</span><small>In Silico &middot; Network</small></a>
+                            <a href="#protocol-10" class="protocol-nav-link"><span>10. Computer Aided Vaccine Design (CAVD)</span><small>In Silico &middot; CAVD</small></a>
+                            <a href="#protocol-11" class="protocol-nav-link"><span>11. NGS Data Analysis Pipeline</span><small>Genomics &middot; NGS</small></a>
+                            <a href="#protocol-12" class="protocol-nav-link"><span>12. Bulk RNA-Seq Analysis Pipeline</span><small>Genomics &middot; RNA-Seq</small></a>
+                            <a href="#protocol-13" class="protocol-nav-link"><span>13. Single-Cell RNA-Seq Pipeline</span><small>Genomics &middot; scRNA-Seq</small></a>
                         </div>
                     </div>
                 </aside>
 
+                <!-- Main Area -->
                 <div class="protocols-main">
+                    <!-- Toolbar -->
                     <div class="protocols-toolbar-card">
                         <div class="protocols-toolbar">
                             <div class="protocols-toolbar-copy">
-                                <h3><i class="fas fa-layer-group"></i> Protocol library</h3>
-                                <p>Browse the full protocol library, jump to a specific workflow, and track your progress as you work through each step.</p>
+                                <h3><i class="fas fa-layer-group"></i> Protocol Library</h3>
+                                <p>Standardized workflows with verifiable bench checklists and reference literature.</p>
                             </div>
                             <div class="toolbar-stats">
-                                <span class="stat-pill"><strong id="protocolCount">0</strong> protocols</span>
+                                <span class="stat-pill"><strong id="protocolCount">13</strong> protocols</span>
                                 <span class="stat-pill"><strong id="stepCount">0</strong> steps</span>
                             </div>
+                        </div>
+                        <div class="protocols-toolbar-actions">
+                            <button type="button" class="proto-btn btn-expand" id="btnExpandAll" title="Expand all protocol details">
+                                <i class="fas fa-expand"></i> Expand All
+                            </button>
+                            <button type="button" class="proto-btn btn-collapse" id="btnCollapseAll" title="Collapse all protocol details">
+                                <i class="fas fa-compress"></i> Collapse All
+                            </button>
+                            <button type="button" class="proto-btn btn-reset" id="btnResetProgress" title="Reset all checked steps">
+                                <i class="fas fa-undo"></i> Reset Checks
+                            </button>
+                            <button type="button" class="proto-btn btn-print proto-btn-print" onclick="window.print()" title="Print or save PDF of protocols">
+                                <i class="fas fa-print"></i> Print / PDF
+                            </button>
                         </div>
                     </div>
 
                     <div class="protocols-list" id="protocolsList">
-                <!-- Preparation of Growth Media Protocol -->
-                <div id="protocol-1" class="protocol-item media" data-title="Preparation of Growth Media">
+                <!-- Preparation of Bacterial Food Source (LB Media) Protocol -->
+                <div id="protocol-1" class="protocol-item media" data-category="wet-lab" data-title="Preparation of Bacterial Food Source (LB Media)">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-vial"></i> Preparation of Growth Media <i class="fas fa-chevron-up expand-icon"></i></h3>
+                        <h3><i class="fas fa-bacteria"></i> Preparation of Bacterial Food Source (LB Media) <i class="fas fa-chevron-up expand-icon"></i></h3>
                     </div>
                     <div class="protocol-summary" style="display: block;">
-                        
-                        <h4>1. Preparation of Bacterial Food Source (LB Media)</h4>
-                        <p>Although <i>Caenorhabditis elegans</i> (<i>C. elegans</i>) can be maintained axenically, this method is difficult and results in slow growth. In most laboratories, <i>C. elegans</i> is maintained monoxenically using E. coli strain OP50 as a food source (Brenner, 1974).</p>
+                        <p>Although <i>Caenorhabditis elegans</i> (<i>C. elegans</i>) can be maintained axenically, this method is difficult and results in slow growth. In most laboratories, <i>C. elegans</i> is maintained monoxenically using <i>E. coli</i> strain OP50 as a food source (Brenner, 1974).</p>
                         <p>OP50 is a uracil auxotroph, which limits its growth on NGM plates. A thin bacterial lawn is ideal for clear observation and efficient mating.</p>
 
                         <h5>Preparation Steps:</h5>
                         <div class="step">
-                            <p><strong>Step 1:</strong> Obtain a starter culture of E. coli OP50 from the CGC or recover it from existing worm plates.</p>
+                            <p><strong>Step 1:</strong> Obtain a starter culture of <i>E. coli</i> OP50 from the CGC or recover it from existing worm plates.</p>
                         </div>
                         
                         <div class="step">
@@ -182,7 +217,7 @@
                         <div class="step">
                             <p><strong>Step 4:</strong> Incubate the inoculated broth overnight at 37 °C.</p>
                             <ul>
-                                <li>The resulting E. coli OP50 culture is now ready for seeding NGM plates.</li>
+                                <li>The resulting <i>E. coli</i> OP50 culture is now ready for seeding NGM plates.</li>
                             </ul>
                         </div>
                         
@@ -190,7 +225,17 @@
                             <p><strong>Step 5:</strong> Store both streak plates and liquid cultures at 4 °C; they remain usable for several months.</p>
                         </div>
 
-                        <h4>2. Preparation of NGM Petri Plates</h4>
+                        <h6>References:</h6>
+                        <p>WormBook: The Online Review of C. elegans Biology <a href="http://www.wormbook.org/" target="_blank">WormBook</a></p>
+                    </div>
+                </div>
+
+                <!-- Preparation of NGM Petri Plates Protocol -->
+                <div id="protocol-2" class="protocol-item media" data-category="wet-lab" data-title="Preparation of NGM Petri Plates">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-vial"></i> Preparation of NGM Petri Plates <i class="fas fa-chevron-down expand-icon"></i></h3>
+                    </div>
+                    <div class="protocol-summary" style="display: block;">
                         <p><i>Caenorhabditis elegans</i> (<i>C. elegans</i>) is routinely maintained on Nematode Growth Medium (NGM) agar (Brenner, 1974), poured aseptically into sterile petri plates.</p>
                         
                         <h5>Plate Size and Use:</h5>
@@ -220,8 +265,7 @@
                         <p>A peristaltic pump (e.g., Wheaton Unispense) is recommended for even dispensing, ensuring uniform agar thickness across plates.</p>
                         <p>If needed, drugs such as levamisole, streptomycin, or nystatin may be added to the molten NGM just before pouring (Caldicott et al., 1994).</p>
 
-                        <h5>1. Preparation of NGM Plates</h5>
-                        <h6>Equipment and Reagents:</h6>
+                        <h5>Equipment and Reagents:</h5>
                         <ul>
                             <li>NaCl</li>
                             <li>Agar</li>
@@ -242,14 +286,7 @@
                         
                         <h6>Procedure:</h6>
                         <div class="step">
-                            <p><strong>Step 1:</strong> Combine in a 2 L Erlenmeyer flask:</p>
-                            <ul>
-                                <li>3 g NaCl</li>
-                                <li>17 g agar</li>
-                                <li>2.5 g peptone</li>
-                                <li>975 ml distilled H₂O</li>
-                            </ul>
-                            <p>Cover with aluminum foil and autoclave for 50 minutes.</p>
+                            <p><strong>Step 1:</strong> Combine in a 2 L Erlenmeyer flask: 3 g NaCl, 17 g agar, 2.5 g peptone, and 975 ml distilled H₂O. Cover with aluminum foil and autoclave for 50 minutes.</p>
                         </div>
                         
                         <div class="step">
@@ -257,14 +294,7 @@
                         </div>
                         
                         <div class="step">
-                            <p><strong>Step 3:</strong> Add (sterile):</p>
-                            <ul>
-                                <li>1 ml 1 M CaCl₂</li>
-                                <li>1 ml 5 mg/ml cholesterol</li>
-                                <li>1 ml 1 M MgSO₄</li>
-                                <li>25 ml 1 M KPO₄ buffer</li>
-                            </ul>
-                            <p>Swirl gently to mix.</p>
+                            <p><strong>Step 3:</strong> Add (sterile): 1 ml 1 M CaCl₂, 1 ml 5 mg/ml cholesterol, 1 ml 1 M MgSO₄, and 25 ml 1 M KPO₄ buffer. Swirl gently to mix.</p>
                         </div>
                         
                         <div class="step">
@@ -279,23 +309,26 @@
                             <p><strong>Step 6:</strong> Store plates in an air-tight container at room temperature; they remain usable for several weeks.</p>
                         </div>
 
-                        <h4>3. Seeding NGM Plates</h4>
-                        <p>Using sterile technique, apply E. coli OP50 culture onto solidified NGM plates.</p>
+                        <h6>References:</h6>
+                        <p>WormBook: The Online Review of C. elegans Biology <a href="http://www.wormbook.org/" target="_blank">WormBook</a></p>
+                    </div>
+                </div>
+
+                <!-- Seeding NGM Plates & Culturing C. elegans Protocol -->
+                <div id="protocol-3" class="protocol-item c-elegans" data-category="wet-lab" data-title="Seeding NGM Plates & Culturing C. elegans">
+                    <div class="protocol-header">
+                        <h3><i class="fas fa-worm"></i> Seeding NGM Plates & Culturing C. elegans <i class="fas fa-chevron-down expand-icon"></i></h3>
+                    </div>
+                    <div class="protocol-summary" style="display: block;">
+                        <p><i>Caenorhabditis elegans</i> (<i>C. elegans</i>) is transparent and can be visualized using a dissecting stereomicroscope with a transmitted light source. Common models include the Wild Leitz M5A and Zeiss SV6, equipped with 10× eyepieces and objectives ranging from 0.6× to 5× (total magnification of 6×–50×). Using sterile technique, apply <i>E. coli</i> OP50 culture onto solidified NGM plates to support monoxenic nematode culture and clear observation.</p>
                         
-                        <h6>Procedure:</h6>
+                        <h5>Procedure:</h5>
                         <div class="step">
-                            <p><strong>Step 1:</strong> Pipette:</p>
-                            <ul>
-                                <li>0.05 ml OP50 culture for small or medium plates, or</li>
-                                <li>0.1 ml for large plates.</li>
-                            </ul>
+                            <p><strong>Step 1:</strong> Pipette 0.05 ml <i>E. coli</i> OP50 culture for small or medium plates, or 0.1 ml for large plates.</p>
                         </div>
                         
                         <div class="step">
-                            <p><strong>Step 2:</strong> Optionally, spread the drop using a pipette tip or sterile glass rod to create a uniform lawn (avoid edges).</p>
-                            <ul>
-                                <li>Keeping the lawn centered prevents worms from crawling up the plate sides and drying out.</li>
-                            </ul>
+                            <p><strong>Step 2:</strong> Optionally, spread the drop using a pipette tip or sterile glass rod to create a uniform lawn (avoid edges). Keeping the lawn centered prevents worms from crawling up the plate sides and drying out.</p>
                         </div>
                         
                         <div class="step">
@@ -306,23 +339,17 @@
                             <p><strong>Step 4:</strong> Store seeded plates in an air-tight container; they remain usable for 2–3 weeks.</p>
                         </div>
                         
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Visualize and maintain worms under a dissecting stereomicroscope at 15–25 °C. Regular monitoring ensures worms remain healthy, well-fed, and ready for downstream assays.</p>
+                        </div>
+
                         <h6>References:</h6>
                         <p>WormBook: The Online Review of C. elegans Biology <a href="http://www.wormbook.org/" target="_blank">WormBook</a></p>
                     </div>
                 </div>
                 
-                <!-- Culturing C. elegans Protocol -->
-                <div id="protocol-2" class="protocol-item c-elegans" data-title="Culturing C. elegans on Petri Plates">
-                    <div class="protocol-header">
-                        <h3><i class="fas fa-worm"></i> Culturing C. elegans on Petri Plates <i class="fas fa-chevron-down expand-icon"></i></h3>
-                    </div>
-                    <div class="protocol-summary" style="display: block;">
-                        <p><i>Caenorhabditis elegans</i> (<i>C. elegans</i>) is transparent and can be visualized using a dissecting stereomicroscope with a transmitted light source. Common models include the Wild Leitz M5A and Zeiss SV6, equipped with 10× eyepieces and objectives ranging from 0.6× to 5× (total magnification of 6×–50×).</p>
-                    </div>
-                </div>
-                
                 <!-- Transferring Worms Protocol -->
-                <div id="protocol-3" class="protocol-item transfer" data-title="Transferring Worms Grown on NGM Plates">
+                <div id="protocol-4" class="protocol-item transfer" data-title="Transferring Worms Grown on NGM Plates">
                     <div class="protocol-header">
                         <h3><i class="fas fa-exchange-alt"></i> Transferring Worms Grown on NGM Plates <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -377,9 +404,9 @@
                 </div>
                 
                 <!-- C. elegans Synchronization Protocol -->
-                <div id="protocol-4" class="protocol-item synchronization" data-title="C. elegans Bleach Synchronization Protocol">
+                <div id="protocol-5" class="protocol-item synchronization" data-title="C. elegans Bleach Synchronization Protocol">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-sync"></i> C. elegans – Bleach Synchronization Protocol for Synchronous L1 Cultures <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <h3><i class="fas fa-sync"></i> C. elegans Bleach Synchronization Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
                     <div class="protocol-summary" style="display: block;">
                         <p>Synchronous C. elegans cultures ensure that all animals are at the same developmental stage, improving reproducibility of developmental, genetic, and drug response experiments. This protocol uses an alkaline bleach treatment to dissolve gravid adults, leaving eggs intact, which are then hatched in the absence of food to arrest uniformly at the L1 stage. The synchronized L1 larvae can subsequently be transferred to plates or liquid medium for downstream assays.</p>
@@ -418,9 +445,9 @@
                 </div>
                 
                 <!-- C. elegans Egg Hatching Assay -->
-                <div id="protocol-5" class="protocol-item egg-hatching" data-title="Caenorhabditis elegans Egg Hatching Assay">
+                <div id="protocol-6" class="protocol-item egg-hatching" data-title="Caenorhabditis elegans Egg Hatching Assay">
                     <div class="protocol-header">
-                        <h3><i class="fas fa-egg"></i> Caenorhabditis elegans Egg Hatching Assay for Evaluating Anthelmintic Activity <i class="fas fa-chevron-down expand-icon"></i></h3>
+                        <h3><i class="fas fa-egg"></i> C. elegans Egg Hatching Assay <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
                     <div class="protocol-summary" style="display: block;">
                         <p>The Caenorhabditis elegans egg hatching assay quantifies how effectively drugs or compounds inhibit nematode egg hatching compared with untreated controls. Isolated eggs from synchronized gravid adults are exposed to graded drug concentrations, allowing calculation of EC50 or EC90 values and evaluation of time dependent effects on egg development. This in vitro method is cost effective, avoids the use of parasitic species or host animals, and is suitable for medium throughput anthelmintic screening.</p>
@@ -507,76 +534,47 @@
                     </div>
                 </div>
 
-             <!-- C. elegans Lifespan Assay on Solid Media -->
-                <div id="protocol-6" class="protocol-item lifespan" data-title="C. elegans Lifespan Assay on Solid Media">
+                <!-- C. elegans Lifespan Assay on Solid Media -->
+                <div id="protocol-7" class="protocol-item lifespan" data-category="wet-lab" data-title="C. elegans Lifespan Assay on Solid Media">
                     <div class="protocol-header">
                         <h3><i class="fas fa-hourglass-half"></i> C. elegans Lifespan Assay on Solid Media <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
                     <div class="protocol-summary" style="display: block;">
                         <p>The <i>Caenorhabditis elegans</i> (<i>C. elegans</i>) lifespan assay is a widely used method for evaluating the effects of genetic, environmental, dietary, or pharmacological interventions on organismal longevity. Age-synchronized worms are maintained on NGM agar plates seeded with UV-killed <i>E. coli</i> OP50 and monitored periodically until death. To simplify lifespan measurements, fluorodeoxyuridine (FUDR) is added to inhibit reproduction and prevent progeny production, while ampicillin is included to minimize bacterial contamination during long-term culture. Survival data are used to generate Kaplan–Meier survival curves and calculate mean and median lifespan.</p>
                         
-                        <h4>STEP 1: Prepare lifespan assay plates</h4>
-                        <p>Prepare standard NGM agar plates and seed them with <i>E. coli</i> OP50 according to established laboratory procedures. After bacterial growth, expose plates to UV irradiation to prevent further bacterial proliferation during the assay.</p>
-                        <p>For lifespan experiments, supplement NGM with FUDR and ampicillin before pouring plates:</p>
-                        <ul>
-                            <li><strong>FUDR (5-fluoro-2′-deoxyuridine):</strong> inhibits DNA synthesis in dividing cells, suppressing egg production and preventing progeny from hatching.</li>
-                            <li><strong>Ampicillin:</strong> reduces bacterial contamination that may occur during long-term incubation.</li>
-                        </ul>
-                        <p>Store prepared Amp/FUDR plates at 4 °C until required.</p>
-
-                        <h4>STEP 2: Obtain age-synchronized worms</h4>
-                        <p>Generate a synchronized worm population using a timed egg-laying procedure or another standard synchronization method. Allow animals to develop at 20 °C until they reach the L4 larval stage.</p>
-                        <p>Use only healthy, well-fed L4 larvae for lifespan analysis to ensure accurate age matching among experimental groups.</p>
-
-                        <h4>STEP 3: Initiate the lifespan assay</h4>
+                        <h5>Step-by-Step Procedure</h5>
                         <div class="step">
-                            <p>Transfer synchronized L4 larvae onto OP50-seeded Amp/FUDR plates. Distribute approximately 25–30 worms per plate and prepare at least two to three replicate plates for each strain or treatment condition.</p>
-                            <p>Incubate all plates at 20 °C. The day of transfer is designated as Adult Day 0.</p>
-                        </div>
-
-                        <h4>STEP 4: Monitor culture conditions</h4>
-                        <div class="step">
-                            <p>Inspect plates approximately 24 hours after setup and every 2–3 days thereafter.</p>
-                            <p>Transfer worms to fresh Amp/FUDR plates whenever:</p>
+                            <p><strong>Step 1:</strong> Prepare lifespan assay plates - Prepare standard NGM agar plates and seed them with <i>E. coli</i> OP50 according to established laboratory procedures. After bacterial growth, expose plates to UV irradiation to prevent further bacterial proliferation during the assay.</p>
+                            <p>For lifespan experiments, supplement NGM with FUDR and ampicillin before pouring plates:</p>
                             <ul>
-                                <li>The bacterial lawn becomes depleted.</li>
-                                <li>Contamination by bacteria or fungi is observed.</li>
-                                <li>Excess larvae or progeny appear.</li>
-                                <li>Plate quality deteriorates during prolonged incubation.</li>
+                                <li><strong>FUDR (5-fluoro-2′-deoxyuridine):</strong> inhibits DNA synthesis in dividing cells, suppressing egg production and preventing progeny from hatching.</li>
+                                <li><strong>Ampicillin:</strong> reduces bacterial contamination that may occur during long-term incubation.</li>
+                                <li>Store prepared Amp/FUDR plates at 4 °C until required.</li>
                             </ul>
-                            <p>Regular transfer helps maintain consistent nutritional and environmental conditions throughout the experiment.</p>
                         </div>
 
-                        <h4>STEP 5: Score worm survival</h4>
                         <div class="step">
-                            <p>At each observation point, examine worms under a stereomicroscope.</p>
-                            <p>First, gently tap the side of the plate and observe for movement. Worms that respond to mechanical stimulation are scored as alive.</p>
-                            <p>If a worm does not respond, gently touch the head region with a platinum wire pick. Worms that fail to exhibit any movement following direct stimulation are scored as dead.</p>
-                            <p>Dead animals may be removed from the plate after scoring.</p>
+                            <p><strong>Step 2:</strong> Obtain age-synchronized worms - Generate a synchronized worm population using a timed egg-laying procedure or another standard synchronization method. Allow animals to develop at 20 °C until they reach the L4 larval stage. Use only healthy, well-fed L4 larvae for lifespan analysis to ensure accurate age matching among experimental groups.</p>
                         </div>
 
-                        <h4>STEP 6: Record lifespan data</h4>
                         <div class="step">
-                            <p>For each scoring day, record:</p>
-                            <ul>
-                                <li>Number of live worms.</li>
-                                <li>Number of dead worms.</li>
-                                <li>Number of censored worms (e.g., animals that crawl off the plate, burrow into agar, or are accidentally lost during transfer).</li>
-                            </ul>
-                            <p>Continue observations every 2–3 days until all animals have died.</p>
+                            <p><strong>Step 3:</strong> Initiate the lifespan assay - Transfer synchronized L4 larvae onto OP50-seeded Amp/FUDR plates. Distribute approximately 25–30 worms per plate and prepare at least two to three replicate plates for each strain or treatment condition. Incubate all plates at 20 °C. The day of transfer is designated as Adult Day 0.</p>
                         </div>
 
-                        <h4>STEP 7: Analyze survival data</h4>
                         <div class="step">
-                            <p>Calculate the proportion of worms surviving at each observation point and generate Kaplan–Meier survival curves using the collected data.</p>
-                            <p>Determine lifespan parameters including:</p>
-                            <ul>
-                                <li>Mean lifespan.</li>
-                                <li>Median lifespan.</li>
-                                <li>Maximum lifespan.</li>
-                            </ul>
-                            <p>Compare survival distributions among treatment groups using appropriate statistical methods, such as the log-rank (Mantel–Cox) test.</p>
-                            <p>Under standard laboratory conditions (20 °C on UV-killed OP50), wild-type N2 worms typically exhibit a median lifespan of approximately 25 days.</p>
+                            <p><strong>Step 4:</strong> Monitor culture conditions - Inspect plates approximately 24 hours after setup and every 2–3 days thereafter. Transfer worms to fresh Amp/FUDR plates whenever the bacterial lawn becomes depleted, contamination by bacteria or fungi is observed, excess larvae or progeny appear, or plate quality deteriorates during prolonged incubation.</p>
+                        </div>
+
+                        <div class="step">
+                            <p><strong>Step 5:</strong> Score worm survival - At each observation point, examine worms under a stereomicroscope. First, gently tap the side of the plate and observe for movement (scored as alive). If a worm does not respond, gently touch the head region with a platinum wire pick. Worms that fail to exhibit any movement following direct stimulation are scored as dead and removed from the plate.</p>
+                        </div>
+
+                        <div class="step">
+                            <p><strong>Step 6:</strong> Record lifespan data - For each scoring day, record the number of live worms, dead worms, and censored worms (e.g., animals that crawl off the plate, burrow into agar, or are accidentally lost during transfer). Continue observations every 2–3 days until all animals have died.</p>
+                        </div>
+
+                        <div class="step">
+                            <p><strong>Step 7:</strong> Analyze survival data - Calculate the proportion of worms surviving at each observation point and generate Kaplan–Meier survival curves using the collected data. Determine mean, median, and maximum lifespan parameters, and compare survival distributions among treatment groups using the log-rank (Mantel–Cox) test. (Under standard conditions at 20 °C on UV-killed OP50, wild-type N2 worms exhibit a median lifespan of ~25 days).</p>
                         </div>
 
                         <h6>References</h6>
@@ -585,7 +583,7 @@
                 </div>
 
                 <!-- Computer-Aided Drug Design (CADD) Protocol -->
-                <div id="protocol-7" class="protocol-item in-silico cadd" data-title="Computer-Aided Drug Design (CADD) Protocol">
+                <div id="protocol-8" class="protocol-item in-silico cadd" data-title="Computer-Aided Drug Design (CADD) Protocol">
                     <div class="protocol-header">
                         <h3><i class="fas fa-laptop-code"></i> Computer-Aided Drug Design (CADD) Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -643,7 +641,7 @@
                 </div>
 
                 <!-- Network Pharmacology Protocol -->
-                <div id="protocol-8" class="protocol-item in-silico network-pharmacology" data-title="Network Pharmacology Protocol">
+                <div id="protocol-9" class="protocol-item in-silico network-pharmacology" data-title="Network Pharmacology Protocol">
                     <div class="protocol-header">
                         <h3><i class="fas fa-project-diagram"></i> Network Pharmacology Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -698,7 +696,7 @@
                 </div>
 
                 <!-- Computer-Aided Vaccine Design (CAVD) Protocol -->
-                <div id="protocol-9" class="protocol-item in-silico cavd" data-title="Computer-Aided Vaccine Design (CAVD) Protocol">
+                <div id="protocol-10" class="protocol-item in-silico cavd" data-title="Computer-Aided Vaccine Design (CAVD) Protocol">
                     <div class="protocol-header">
                         <h3><i class="fas fa-syringe"></i> Computer-Aided Vaccine Design (CAVD) Protocol <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -761,7 +759,7 @@
                 </div>
                 
                 <!-- NGS Data Analysis Pipeline -->
-                <div id="protocol-10" class="protocol-item in-silico ngs" data-title="NGS Data Analysis Pipeline">
+                <div id="protocol-11" class="protocol-item in-silico ngs" data-title="NGS Data Analysis Pipeline">
                     <div class="protocol-header">
                         <h3><i class="fas fa-dna"></i> NGS Data Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -816,7 +814,7 @@
                 </div>
                 
                 <!-- Bulk RNA-Seq Analysis Pipeline -->
-                <div id="protocol-11" class="protocol-item in-silico bulk-rna-seq" data-title="Bulk RNA-Seq Analysis Pipeline">
+                <div id="protocol-12" class="protocol-item in-silico bulk-rna-seq" data-title="Bulk RNA-Seq Analysis Pipeline">
                     <div class="protocol-header">
                         <h3><i class="fas fa-chart-bar"></i> Bulk RNA-Seq Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -871,7 +869,7 @@
                 </div>
                 
                 <!-- Single-Cell RNA-Seq Analysis Pipeline -->
-                <div id="protocol-12" class="protocol-item in-silico single-cell-rna-seq" data-title="Single-Cell RNA-Seq Analysis Pipeline">
+                <div id="protocol-13" class="protocol-item in-silico single-cell-rna-seq" data-title="Single-Cell RNA-Seq Analysis Pipeline">
                     <div class="protocol-header">
                         <h3><i class="fas fa-dna"></i> Single-Cell RNA-Seq Analysis Pipeline <i class="fas fa-chevron-down expand-icon"></i></h3>
                     </div>
@@ -920,19 +918,41 @@
                         </div>
                         
                         <h6>References</h6>
-                        <p>Tian, L. et al. Practical bioinformatics pipelines for single-cell RNA-seq data analysis. Bioinformatics 2023, 39, btad413. doi:10.1093/bioinformatics/btad413 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189648/" target="_blank">PMC Article</a></p>
-                        <p>Luecken, M.D.; Theis, F.J. Current best practices in single‐cell RNA‐seq analysis: a tutorial. Mol. Syst. Biol. 2019, 15, e8746. doi:10.15252/msb.20188746 <a href="https://pubmed.ncbi.nlm.nih.gov/31217225/" target="_blank">PubMed Article</a></p>
+                        <p>Tian, L. et al. Practical bioinformatics pipelines for single-cell RNA-seq data analysis. Bioinformatics 2023, 39, btad413. doi:10.1093/bioinformatics/btad413 <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10189648/" target="_blank" rel="noopener noreferrer">PMC Article</a></p>
+                        <p>Luecken, M.D.; Theis, F.J. Current best practices in single‐cell RNA‐seq analysis: a tutorial. Mol. Syst. Biol. 2019, 15, e8746. doi:10.15252/msb.20188746 <a href="https://pubmed.ncbi.nlm.nih.gov/31217225/" target="_blank" rel="noopener noreferrer">PubMed Article</a></p>
                     </div>
                 </div>
+            </div> <!-- /.protocols-list -->
+                </div> <!-- /.protocols-main -->
+            </div> <!-- /.protocols-layout -->
 
-            <div class="protocol-request">
-                <h2><i class="fas fa-lightbulb"></i> Community Feedback & Suggestions</h2>
-                <p>Your expertise and insights are invaluable to improving these protocols. If you notice any areas for enhancement, have suggestions for alternative approaches, or possess specialized knowledge that could benefit the scientific community, I warmly welcome your feedback.</p>
-                <p>Whether it's a minor correction, a significant improvement, or an entirely new perspective on established methods, your contributions help ensure these resources remain accurate, current, and valuable for researchers worldwide.</p>
-                <a href="contact.html" class="btn primary-btn">Share Your Expertise</a>
+            <!-- Citation Card -->
+            <div class="protocol-citation-card">
+                <div class="citation-icon"><i class="fas fa-quote-left"></i></div>
+                <div class="citation-content">
+                    <h3>Citing These Protocols</h3>
+                    <p>If you utilize, reproduce, or adapt any of these laboratory protocols or computational pipelines in your academic publications, dissertations, or training materials, please reference:</p>
+                    <code>Laboratory of Applied Biosciences &amp; BioPC, Department of Biochemistry &amp; Molecular Biology, University of Chittagong, Bangladesh.</code>
+                </div>
             </div>
-        </div>
+
+            <!-- Community Feedback Section -->
+            <div class="protocol-request">
+                <div class="protocol-request-icon"><i class="fas fa-lightbulb"></i></div>
+                <div class="protocol-request-text">
+                    <h2>Community Feedback &amp; Suggestions</h2>
+                    <p>Your expertise and insights are invaluable to improving these protocols. If you notice areas for enhancement, have suggestions for alternative reagents/tools, or possess specialized knowledge that could benefit the scientific community, I warmly welcome your suggestions.</p>
+                    <a href="contact.html" class="btn primary-btn"><i class="fas fa-paper-plane"></i> Share Feedback or Corrections</a>
+                </div>
+            </div>
+
+        </div> <!-- /.container -->
     </section>
+
+    <!-- Floating Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" title="Back to top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- Footer Section -->
     <div class="section-divider"></div>
@@ -941,31 +961,31 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-column">
-                    <div style="display: flex; align-items: center; margin-bottom: 15px;">
-                        <a href="https://md-mustak-khan.github.io/"><img src="logo_main.png" alt="Logo" style="height: 40px; width: 40px; margin-right: 10px;"></a>
-                        <h3 style="margin: 0;">Md. Mustak Khan</h3>
+                    <div class="footer-brand-header">
+                        <a href="https://md-mustak-khan.github.io/"><img src="logo_main.png" alt="Logo" class="footer-logo"></a>
+                        <h3 class="footer-brand-title">Md. Mustak Khan</h3>
                     </div>
-                    <h4 style="margin: 0 0 10px 0; color: var(--secondary-color);">Connect With Me</h4>
+                    <h4 class="footer-connect-title">Connect With Me</h4>
                     <div class="social-links-footer">
-                        <a href="mailto:mustakkhan.bmb@std.cu.ac.bd" class="social-link-footer">
+                        <a href="mailto:mustakkhan.bmb@std.cu.ac.bd" class="social-link-footer" title="Email">
                             <i class="fas fa-envelope"></i>
                         </a>
-                        <a href="https://scholar.google.com/citations?user=zZUhNasAAAAJ&hl=en&oi=ao" class="social-link-footer" target="_blank">
+                        <a href="https://scholar.google.com/citations?user=zZUhNasAAAAJ&hl=en&oi=ao" class="social-link-footer" target="_blank" rel="noopener noreferrer" title="Google Scholar">
                             <i class="fas fa-graduation-cap"></i>
                         </a>
-                        <a href="https://orcid.org/0009-0002-1472-5953" class="social-link-footer">
+                        <a href="https://orcid.org/0009-0002-1472-5953" class="social-link-footer" target="_blank" rel="noopener noreferrer" title="ORCID">
                             <i class="fab fa-orcid"></i>
                         </a>
-                        <a href="https://www.linkedin.com/in/md-mustak-khan" class="social-link-footer">
+                        <a href="https://www.linkedin.com/in/md-mustak-khan" class="social-link-footer" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                             <i class="fab fa-linkedin-in"></i>
                         </a>
-                        <a href="https://www.researchgate.net/profile/Md-Khan-420?ev=hdr_xprf" class="social-link-footer">
+                        <a href="https://www.researchgate.net/profile/Md-Khan-420?ev=hdr_xprf" class="social-link-footer" target="_blank" rel="noopener noreferrer" title="ResearchGate">
                             <i class="fab fa-researchgate"></i>
                         </a>
-                        <a href="https://github.com/md-mustak-khan" class="social-link-footer">
+                        <a href="https://github.com/md-mustak-khan" class="social-link-footer" target="_blank" rel="noopener noreferrer" title="GitHub">
                             <i class="fab fa-github"></i>
                         </a>
-                        <a href="https://x.com/md_mustak_khan" class="social-link-footer">
+                        <a href="https://x.com/md_mustak_khan" class="social-link-footer" target="_blank" rel="noopener noreferrer" title="Twitter / X">
                             <i class="fab fa-twitter"></i>
                         </a>
                     </div>
@@ -983,7 +1003,7 @@
                     <h3>Resources</h3>
                     <ul>
                         <li><a href="protocols.html">Lab Protocols</a></li>
-                        <li><a href="resources.html">Tools & Resources</a></li>
+                        <li><a href="resources.html">Tools &amp; Resources</a></li>
                         <li><a href="teaching.html">Teaching</a></li>
                         <li><a href="gallery.html">Gallery</a></li>
                     </ul>
@@ -997,12 +1017,12 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Md. Mustak Khan. All Rights Reserved.</p>
+                <p>&copy; 2026 Md. Mustak Khan. All Rights Reserved.</p>
             </div>
         </div>
     </footer>
 
-    <script src="assets/js/script.js"></script>
+    <!-- Interactive Script: Filtering, LocalStorage Progress, Accordion, Scroll-to-Top -->
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const protocolItems = Array.from(document.querySelectorAll('.protocol-item'));
@@ -1013,8 +1033,30 @@
             const stepCount = document.getElementById('stepCount');
             const overallProgressValue = document.getElementById('overallProgressValue');
             const overallProgressFill = document.getElementById('overallProgressFill');
+            const btnExpandAll = document.getElementById('btnExpandAll');
+            const btnCollapseAll = document.getElementById('btnCollapseAll');
+            const btnResetProgress = document.getElementById('btnResetProgress');
+            const scrollTopBtn = document.getElementById('scrollTopBtn');
 
             let activeFilter = 'all';
+            const STORAGE_KEY = 'mustak_protocols_progress_v1';
+
+            // Category mappings for protocols
+            const categoryMap = {
+                'protocol-1': 'wet-lab',
+                'protocol-2': 'wet-lab',
+                'protocol-3': 'wet-lab',
+                'protocol-4': 'wet-lab',
+                'protocol-5': 'wet-lab',
+                'protocol-6': 'wet-lab',
+                'protocol-7': 'wet-lab',
+                'protocol-8': 'in-silico',
+                'protocol-9': 'in-silico',
+                'protocol-10': 'in-silico',
+                'protocol-11': 'genomics',
+                'protocol-12': 'genomics',
+                'protocol-13': 'genomics'
+            };
 
             function normalizeText(value) {
                 return (value || '')
@@ -1029,25 +1071,25 @@
                 return normalized ? normalized.split(/\s+/).filter(Boolean) : [];
             }
 
-            function getCategoryLabel(item) {
-                const classes = Array.from(item.classList);
-                const labels = {
-                    media: 'Growth Media',
-                    'c-elegans': 'C. elegans',
-                    transfer: 'Transfer',
-                    synchronization: 'Synchronization',
-                    'egg-hatching': 'Assays',
-                    lifespan: 'Lifespan',
-                    cadd: 'CADD',
-                    'network-pharmacology': 'Network Pharmacology',
-                    cavd: 'CAVD',
-                    ngs: 'NGS',
-                    'bulk-rna-seq': 'Bulk RNA-Seq',
-                    'single-cell-rna-seq': 'Single-Cell RNA-Seq',
-                    'in-silico': 'In silico'
-                };
+            // Load saved checklist state
+            function loadSavedState() {
+                try {
+                    const saved = localStorage.getItem(STORAGE_KEY);
+                    return saved ? JSON.parse(saved) : {};
+                } catch (e) {
+                    return {};
+                }
+            }
 
-                return classes.find(cls => labels[cls]) ? labels[classes.find(cls => labels[cls])] : 'Protocol';
+            // Save checklist state
+            function saveState() {
+                try {
+                    const state = {};
+                    document.querySelectorAll('.protocol-item').forEach((item, pIdx) => {
+                        state[pIdx] = Array.from(item.querySelectorAll('.step-checkbox')).map(cb => cb.checked);
+                    });
+                    localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+                } catch (e) {}
             }
 
             function updateProgress() {
@@ -1073,6 +1115,8 @@
                     }
                     item.setAttribute('data-progress', itemPercent);
                 });
+
+                saveState();
             }
 
             function applyFilters() {
@@ -1081,9 +1125,9 @@
                 protocolItems.forEach((item) => {
                     const itemText = normalizeText(`${item.dataset.title || ''} ${item.dataset.text || ''}`);
                     const matchesSearch = searchTerms.length === 0 || searchTerms.every(term => itemText.includes(term));
-                    const matchesFilter = activeFilter === 'all' ||
-                        (activeFilter === 'in-silico' && item.classList.contains('in-silico')) ||
-                        item.classList.contains(activeFilter);
+                    const itemCategory = categoryMap[item.id] || (item.classList.contains('in-silico') ? 'in-silico' : 'wet-lab');
+                    
+                    const matchesFilter = activeFilter === 'all' || itemCategory === activeFilter || item.classList.contains(activeFilter);
 
                     const isVisible = matchesSearch && matchesFilter;
                     item.classList.toggle('is-hidden', !isVisible);
@@ -1091,8 +1135,8 @@
                 });
 
                 const visibleItems = protocolItems.filter((item) => !item.classList.contains('is-hidden'));
-                protocolCount.textContent = visibleItems.length;
-                stepCount.textContent = visibleItems.reduce((total, item) => total + item.querySelectorAll('.step-shell').length, 0);
+                if (protocolCount) protocolCount.textContent = visibleItems.length;
+                if (stepCount) stepCount.textContent = visibleItems.reduce((total, item) => total + item.querySelectorAll('.step-shell').length, 0);
 
                 const staticNavLinks = Array.from(navList.querySelectorAll('a.protocol-nav-link'));
                 const visibleIds = new Set(visibleItems.map(item => item.id));
@@ -1101,40 +1145,39 @@
                     staticNavLinks.forEach((link) => {
                         const targetId = link.getAttribute('href')?.slice(1);
                         link.style.display = visibleIds.has(targetId) ? '' : 'none';
-
-                        if (!link.dataset.navListenerAttached) {
-                            link.addEventListener('click', (event) => {
-                                event.preventDefault();
-                                document.getElementById(targetId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                            });
-                            link.dataset.navListenerAttached = 'true';
-                        }
-                    });
-                } else {
-                    navList.innerHTML = '';
-                    visibleItems.forEach((item) => {
-                        const link = document.createElement('a');
-                        link.href = `#${item.id}`;
-                        link.className = 'protocol-nav-link';
-                        link.innerHTML = `<span>${item.dataset.title || 'Protocol'}</span><small>${getCategoryLabel(item)}</small>`;
-                        link.addEventListener('click', (event) => {
-                            event.preventDefault();
-                            document.getElementById(item.id).scrollIntoView({ behavior: 'smooth', block: 'start' });
-                        });
-                        navList.appendChild(link);
                     });
                 }
 
                 updateProgress();
             }
 
-            protocolItems.forEach((item, index) => {
+            // Setup Step Shells & Checkboxes
+            const savedState = loadSavedState();
+
+            protocolItems.forEach((item, pIndex) => {
                 const heading = item.querySelector('.protocol-header h3');
-                const titleText = heading ? heading.textContent.trim() : `Protocol ${index + 1}`;
-                const id = `protocol-${index + 1}`;
+                const titleText = heading ? heading.textContent.trim() : `Protocol ${pIndex + 1}`;
+                const id = `protocol-${pIndex + 1}`;
                 item.id = id;
                 item.dataset.title = normalizeText(titleText);
                 item.dataset.text = normalizeText(item.textContent);
+
+                // Add accordion toggle to header
+                const header = item.querySelector('.protocol-header');
+                const summary = item.querySelector('.protocol-summary');
+                const expandIcon = item.querySelector('.expand-icon');
+
+                if (header && summary) {
+                    header.style.cursor = 'pointer';
+                    header.addEventListener('click', (e) => {
+                        if (e.target.closest('.protocol-progress-pill')) return;
+                        const isCollapsed = summary.style.display === 'none';
+                        summary.style.display = isCollapsed ? 'block' : 'none';
+                        if (expandIcon) {
+                            expandIcon.className = isCollapsed ? 'fas fa-chevron-up expand-icon' : 'fas fa-chevron-down expand-icon';
+                        }
+                    });
+                }
 
                 const progressPill = document.createElement('div');
                 progressPill.className = 'protocol-progress-pill';
@@ -1142,18 +1185,21 @@
                 heading?.appendChild(progressPill);
 
                 const stepElements = Array.from(item.querySelectorAll('.step'));
-                stepElements.forEach((step) => {
+                const pSavedChecks = savedState[pIndex] || [];
+
+                stepElements.forEach((step, sIndex) => {
                     const paragraph = step.querySelector('p');
                     const content = step.innerHTML;
                     const paragraphHtml = paragraph ? paragraph.outerHTML : '';
                     const bodyHtml = content.replace(paragraphHtml, '');
+                    const isChecked = !!pSavedChecks[sIndex];
 
                     const shell = document.createElement('div');
-                    shell.className = 'step-shell';
+                    shell.className = `step-shell ${isChecked ? 'is-complete' : ''}`;
                     shell.innerHTML = `
                         <div class="step-head">
                             <label class="step-check">
-                                <input type="checkbox" class="step-checkbox" />
+                                <input type="checkbox" class="step-checkbox" ${isChecked ? 'checked' : ''} />
                                 <span class="checkmark"></span>
                             </label>
                             <div class="step-title">${paragraphHtml}</div>
@@ -1170,6 +1216,7 @@
                 });
             });
 
+            // Filter button listeners
             filterButtons.forEach((button) => {
                 button.addEventListener('click', () => {
                     filterButtons.forEach((btn) => btn.classList.remove('active'));
@@ -1183,11 +1230,79 @@
                 searchInput.addEventListener('input', applyFilters);
             }
 
+            // Toolbar action listeners
+            if (btnExpandAll) {
+                btnExpandAll.addEventListener('click', () => {
+                    protocolItems.forEach(item => {
+                        const sum = item.querySelector('.protocol-summary');
+                        const icon = item.querySelector('.expand-icon');
+                        if (sum) sum.style.display = 'block';
+                        if (icon) icon.className = 'fas fa-chevron-up expand-icon';
+                    });
+                });
+            }
+
+            if (btnCollapseAll) {
+                btnCollapseAll.addEventListener('click', () => {
+                    protocolItems.forEach(item => {
+                        const sum = item.querySelector('.protocol-summary');
+                        const icon = item.querySelector('.expand-icon');
+                        if (sum) sum.style.display = 'none';
+                        if (icon) icon.className = 'fas fa-chevron-down expand-icon';
+                    });
+                });
+            }
+
+            if (btnResetProgress) {
+                btnResetProgress.addEventListener('click', () => {
+                    if (confirm('Are you sure you want to reset all checked checklist steps?')) {
+                        document.querySelectorAll('.step-checkbox').forEach(cb => {
+                            cb.checked = false;
+                        });
+                        document.querySelectorAll('.step-shell').forEach(shell => {
+                            shell.classList.remove('is-complete');
+                        });
+                        localStorage.removeItem(STORAGE_KEY);
+                        updateProgress();
+                    }
+                });
+            }
+
+            // Nav link smooth scroll
+            navList.querySelectorAll('a.protocol-nav-link').forEach(link => {
+                link.addEventListener('click', (event) => {
+                    event.preventDefault();
+                    const targetId = link.getAttribute('href')?.slice(1);
+                    const target = document.getElementById(targetId);
+                    if (target) {
+                        const sum = target.querySelector('.protocol-summary');
+                        const icon = target.querySelector('.expand-icon');
+                        if (sum) sum.style.display = 'block';
+                        if (icon) icon.className = 'fas fa-chevron-up expand-icon';
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                });
+            });
+
+            // Scroll to top button
+            if (scrollTopBtn) {
+                window.addEventListener('scroll', () => {
+                    if (window.scrollY > 400) {
+                        scrollTopBtn.classList.add('visible');
+                    } else {
+                        scrollTopBtn.classList.remove('visible');
+                    }
+                });
+
+                scrollTopBtn.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            }
+
             applyFilters();
         });
     </script>
+    <script src="assets/js/script.js"></script>
 </body>
-
-</html>
 
 
