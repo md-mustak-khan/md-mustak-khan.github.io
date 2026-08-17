@@ -668,3 +668,36 @@ if (document.readyState === 'loading') {
 } else {
     initSpineScrollFill();
 }
+
+// ── Scroll-to-Top Button (injected automatically if not present in page) ──
+function initScrollTopButton() {
+    if (document.querySelector('.scroll-top-btn')) return;
+
+    const btn = document.createElement('button');
+    btn.className = 'scroll-top-btn';
+    btn.id = 'scrollTopBtn';
+    btn.title = 'Scroll to top';
+    btn.setAttribute('aria-label', 'Scroll to top');
+    btn.innerHTML = '<i class="fas fa-arrow-up"></i>';
+    document.body.appendChild(btn);
+
+    const onScroll = () => {
+        if (window.scrollY > 400) {
+            btn.classList.add('visible');
+        } else {
+            btn.classList.remove('visible');
+        }
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+    btn.addEventListener('click', () => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    onScroll();
+}
+
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initScrollTopButton);
+} else {
+    initScrollTopButton();
+}
