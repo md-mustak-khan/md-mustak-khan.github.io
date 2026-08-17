@@ -5262,7 +5262,7 @@ html[data-theme='dark'] .note strong {
 }
 
 .thesis-info { flex: 1.5; }
-.thesis-figure-col { flex: 1; display: flex; justify-content: center; }
+.thesis-figure-col { flex: 1; display: flex; flex-direction: column; gap: 24px; justify-content: center; align-items: center; }
 
 .thesis-year-badge {
     display: inline-flex;
@@ -5395,6 +5395,11 @@ html[data-theme='dark'] .note strong {
     border: 2px solid var(--border-color);
     box-shadow: 0 8px 30px rgba(0,0,0,0.12);
     object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.thesis-figure-wrap img:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 12px 35px rgba(29,113,232,0.18);
 }
 .thesis-fig-caption {
     font-size: 0.82rem;
