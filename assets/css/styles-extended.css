@@ -5386,33 +5386,75 @@ html[data-theme='dark'] .note strong {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
+    width: 100%;
 }
 .thesis-figure-wrap img {
     width: 100%;
-    max-width: 280px;
+    max-width: 320px;
+    height: 190px;
     border-radius: 14px;
     border: 2px solid var(--border-color);
     box-shadow: 0 8px 30px rgba(0,0,0,0.12);
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .thesis-figure-wrap img:hover {
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 12px 35px rgba(29,113,232,0.18);
+    box-shadow: 0 12px 35px rgba(29,113,232,0.22);
 }
 .thesis-fig-caption {
     font-size: 0.82rem;
     color: var(--muted-color);
     text-align: center;
     line-height: 1.5;
-    max-width: 260px;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
 }
 
 @media (max-width: 900px) {
-    .thesis-card { flex-direction: column; padding: 28px 24px; gap: 28px; }
-    .thesis-figure-col { width: 100%; }
-    .thesis-figure-wrap img { max-width: 100%; }
+    .thesis-card {
+        flex-direction: column;
+        padding: 32px 24px;
+        gap: 32px;
+    }
+    .thesis-figure-col {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    }
+    .thesis-figure-wrap {
+        width: 100%;
+        max-width: 100%;
+    }
+    .thesis-figure-wrap img {
+        max-width: 100%;
+        height: 200px;
+    }
+    .thesis-fig-caption {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .thesis-card {
+        padding: 22px 16px;
+        border-radius: 16px;
+        gap: 24px;
+    }
+    .thesis-figure-col {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .thesis-figure-wrap img {
+        height: auto;
+        max-height: 220px;
+    }
 }
 
 /* ─── 4. PROJECT STATUS BADGES ──────────────────────────────────────────── */
@@ -5977,20 +6019,84 @@ html[data-theme='dark'] .note strong {
 
 /* ─── Research Figure caption ─────────────────────────────────────────────── */
 .research-figure {
-    margin: 24px 0 0 !important;
+    margin: 24px auto 0 !important;
     text-align: center !important;
     padding: 16px !important;
     background: rgba(29,113,232,0.04) !important;
-    border-radius: 12px !important;
+    border-radius: 14px !important;
     border: 1px solid var(--border-color) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 680px !important;
 }
 .research-figure img {
+    width: 100% !important;
+    max-width: 520px !important;
+    height: auto !important;
+    max-height: 340px !important;
+    object-fit: cover !important;
     border-radius: 10px !important;
     box-shadow: 0 8px 24px rgba(0,0,0,0.12) !important;
+    display: block !important;
+    margin: 0 auto !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+.research-figure img:hover {
+    transform: translateY(-2px) scale(1.01) !important;
+    box-shadow: 0 12px 30px rgba(29,113,232,0.18) !important;
+}
+.research-figure img.fig-microscope {
+    max-height: 360px !important;
+    object-fit: cover !important;
+}
+.research-figure img.fig-nutrition {
+    max-height: 300px !important;
+    object-fit: cover !important;
+}
+.research-figure img.fig-cadd {
+    max-height: 320px !important;
+    object-fit: contain !important;
+    background: #ffffff !important;
+    padding: 8px !important;
+    border: 1px solid rgba(0,0,0,0.06) !important;
+}
+[data-theme='dark'] .research-figure img.fig-cadd {
+    background: #ffffff !important;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.4) !important;
 }
 [data-theme='dark'] .research-figure {
-    background: rgba(29,113,232,0.06) !important;
-    border-color: rgba(112,170,255,0.1) !important;
+    background: rgba(18,28,50,0.65) !important;
+    border-color: rgba(112,170,255,0.12) !important;
+}
+
+@media (max-width: 600px) {
+    .research-area-box {
+        padding: 22px 16px !important;
+        border-radius: 14px !important;
+    }
+    .research-figure {
+        padding: 10px !important;
+        margin-top: 18px !important;
+        border-radius: 10px !important;
+    }
+    .research-figure img {
+        max-height: 240px !important;
+        border-radius: 8px !important;
+    }
+    .research-figure img.fig-microscope {
+        max-height: 240px !important;
+    }
+    .research-figure img.fig-nutrition {
+        max-height: 200px !important;
+    }
+    .research-figure img.fig-cadd {
+        max-height: 200px !important;
+        padding: 6px !important;
+    }
 }
 
 /* ─── Keyword cloud section within methods ───────────────────────────────── */
