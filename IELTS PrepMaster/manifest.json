@@ -1,0 +1,25 @@
+{
+  "name": "IELTS PrepMaster — সম্পূর্ণ ফ্রি IELTS রিসোর্স ও মাস্টার প্রিপারেশন হাব",
+  "short_name": "IELTS হাব",
+  "description": "২,৯৪৯টি শব্দার্থের ইন্টারেক্টিভ ড্রিল, ৫৭টি মূল পিডিএফ বই, পরীক্ষকদের ব্যান্ড রুব্রিক্স এবং ইনস্ট্যান্ট স্কোর কনভার্টার — IELTS পরীক্ষার্থীদের জন্য সম্পূর্ণ উন্মুক্ত ও স্বয়ংসম্পূর্ণ প্রস্তুতি পোর্টাল।",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#111827",
+  "theme_color": "#C50C2F",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "images/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "images/icon-512.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "books", "productivity"]
+}
