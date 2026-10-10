@@ -1,0 +1,1639 @@
+[
+  {
+    "id": "c19_0001",
+    "word": "Achievement",
+    "meaning_en": "Success, accomplishment",
+    "meaning_bn": "অর্জন, সাফল্য",
+    "synonyms": [
+      "Success",
+      "accomplishment"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0002",
+    "word": "Remarkable",
+    "meaning_en": "Extraordinary, notable",
+    "meaning_bn": "উল্লেখযোগ্য, অসাধারণ",
+    "synonyms": [
+      "Extraordinary",
+      "notable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0003",
+    "word": "Competing",
+    "meaning_en": "Rivaling, contending",
+    "meaning_bn": "প্রতিযোগিতা করা, প্রতিদ্বন্দ্বিতা করা",
+    "synonyms": [
+      "Rivaling",
+      "contending"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0004",
+    "word": "Transformation",
+    "meaning_en": "Change, conversion",
+    "meaning_bn": "রূপান্তর, পরিবর্তন",
+    "synonyms": [
+      "Change",
+      "conversion"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0005",
+    "word": "Publicised",
+    "meaning_en": "Advertised, promoted",
+    "meaning_bn": "প্রচারিত, বিজ্ঞাপিত",
+    "synonyms": [
+      "Advertised",
+      "promoted"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0006",
+    "word": "Subtle",
+    "meaning_en": "Delicate, slight",
+    "meaning_bn": "সূক্ষ্ম, নিপুণ",
+    "synonyms": [
+      "Delicate",
+      "slight"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0007",
+    "word": "Synthetic",
+    "meaning_en": "Artificial, man-made",
+    "meaning_bn": "কৃত্রিম, সিন্থেটিক",
+    "synonyms": [
+      "Artificial",
+      "man-made"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0008",
+    "word": "Modification",
+    "meaning_en": "Alteration, adjustment",
+    "meaning_bn": "পরিবর্তন, পরিমার্জন",
+    "synonyms": [
+      "Alteration",
+      "adjustment"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0009",
+    "word": "Tweaking",
+    "meaning_en": "Adjusting, fine-tuning",
+    "meaning_bn": "সামান্য পরিবর্তন বা সমন্বয় করা",
+    "synonyms": [
+      "Adjusting",
+      "fine-tuning"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0010",
+    "word": "Customised",
+    "meaning_en": "Tailored, personalized",
+    "meaning_bn": "কাস্টমাইজড, পছন্দমাফিক তৈরি",
+    "synonyms": [
+      "Tailored",
+      "personalized"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0011",
+    "word": "Maximisation",
+    "meaning_en": "Optimization, enhancement",
+    "meaning_bn": "সর্বোচ্চকরণ, উন্নয়ন",
+    "synonyms": [
+      "Optimization",
+      "enhancement"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0012",
+    "word": "Elite",
+    "meaning_en": "Top-tier, best",
+    "meaning_bn": "অভিজাত, শীর্ষস্থানীয়",
+    "synonyms": [
+      "Top-tier",
+      "best"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0013",
+    "word": "Particular",
+    "meaning_en": "Specific, exact",
+    "meaning_bn": "নির্দিষ্ট, বিশেষ",
+    "synonyms": [
+      "Specific",
+      "exact"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0014",
+    "word": "Thorough",
+    "meaning_en": "Comprehensive, exhaustive",
+    "meaning_bn": "সম্পূর্ণ, পুঙ্খানুপুঙ্খ",
+    "synonyms": [
+      "Comprehensive",
+      "exhaustive"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0015",
+    "word": "Denser",
+    "meaning_en": "Thicker, more compact",
+    "meaning_bn": "ঘন, জমাটবদ্ধ",
+    "synonyms": [
+      "Thicker",
+      "more compact"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0016",
+    "word": "Amateur",
+    "meaning_en": "Non-professional, hobbyist",
+    "meaning_bn": "অপেশাদার, শখের বশে করা",
+    "synonyms": [
+      "Non-professional",
+      "hobbyist"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0017",
+    "word": "Banned",
+    "meaning_en": "Prohibited, forbidden",
+    "meaning_bn": "নিষিদ্ধ, বর্জিত",
+    "synonyms": [
+      "Prohibited",
+      "forbidden"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0018",
+    "word": "Regularity",
+    "meaning_en": "Consistency, routine",
+    "meaning_bn": "নিয়মিততা, ধারাবাহিকতা",
+    "synonyms": [
+      "Consistency",
+      "routine"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0019",
+    "word": "Nutrition",
+    "meaning_en": "Diet, nourishment",
+    "meaning_bn": "পুষ্টি, পুষ্টিকর খাবার",
+    "synonyms": [
+      "Diet",
+      "nourishment"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0020",
+    "word": "Tension",
+    "meaning_en": "Tightness, strain",
+    "meaning_bn": "টান, মানসিক বা শারীরিক চাপ",
+    "synonyms": [
+      "Tightness",
+      "strain"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0021",
+    "word": "Climatic",
+    "meaning_en": "Weather-related, environmental",
+    "meaning_bn": "জলবায়ুসংক্রান্ত",
+    "synonyms": [
+      "Weather-related",
+      "environmental"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0022",
+    "word": "Intestines",
+    "meaning_en": "Guts, bowels",
+    "meaning_bn": "অন্ত্র",
+    "synonyms": [
+      "Guts",
+      "bowels"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0023",
+    "word": "Durable",
+    "meaning_en": "Long-lasting, sturdy",
+    "meaning_bn": "টেকসই, দীর্ঘস্থায়ী",
+    "synonyms": [
+      "Long-lasting",
+      "sturdy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0024",
+    "word": "Stiff",
+    "meaning_en": "Rigid, inflexible",
+    "meaning_bn": "শক্ত, অনমনীয়",
+    "synonyms": [
+      "Rigid",
+      "inflexible"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0025",
+    "word": "Additives",
+    "meaning_en": "Supplements, enhancers",
+    "meaning_bn": "সংযোজনী উপাদান, মিশ্রণ",
+    "synonyms": [
+      "Supplements",
+      "enhancers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0026",
+    "word": "Hybrid",
+    "meaning_en": "Mixed, combined",
+    "meaning_bn": "সংকর",
+    "synonyms": [
+      "Mixed",
+      "combined"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0027",
+    "word": "Revolutionised",
+    "meaning_en": "Transformed, overhauled",
+    "meaning_bn": "বৈপ্লবিক রূপান্তর / বৈপ্লবিক পরিবর্তন সাধিত",
+    "synonyms": [
+      "Transformed",
+      "overhauled"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0028",
+    "word": "Attributed",
+    "meaning_en": "Credited, assigned",
+    "meaning_bn": "আরোপিত / কোনো কারণের জন্য দায়ী বা চিহ্নিত",
+    "synonyms": [
+      "Credited",
+      "assigned"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0029",
+    "word": "Manufacturing",
+    "meaning_en": "Production, fabrication",
+    "meaning_bn": "উৎপাদন / প্রস্তুতকরণ",
+    "synonyms": [
+      "Production",
+      "fabrication"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0030",
+    "word": "Preferences",
+    "meaning_en": "Choices, inclinations",
+    "meaning_bn": "পছন্দ",
+    "synonyms": [
+      "Choices",
+      "inclinations"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0031",
+    "word": "Moulded",
+    "meaning_en": "Shaped, formed",
+    "meaning_bn": "ছাঁচে তৈরি / নির্দিষ্ট আকৃতিবিশিষ্ট",
+    "synonyms": [
+      "Shaped",
+      "formed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0032",
+    "word": "Original",
+    "meaning_en": "Initial, primary",
+    "meaning_bn": "মূল",
+    "synonyms": [
+      "Initial",
+      "primary"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0033",
+    "word": "Grips",
+    "meaning_en": "Handles, holds",
+    "meaning_bn": "গ্রিপ / হাতল / মুঠো",
+    "synonyms": [
+      "Handles",
+      "holds"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0034",
+    "word": "Uncomfortable",
+    "meaning_en": "Awkward, uneasy",
+    "meaning_bn": "অস্বস্তিকর",
+    "synonyms": [
+      "Awkward",
+      "uneasy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0035",
+    "word": "Customisation",
+    "meaning_en": "Personalization, tailoring",
+    "meaning_bn": "ব্যক্তিকরণ, পছন্দসই রূপান্তর",
+    "synonyms": [
+      "Personalization",
+      "tailoring"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0036",
+    "word": "Anticipated",
+    "meaning_en": "Expected, predicted",
+    "meaning_bn": "প্রত্যাশিত, অনুমিত",
+    "synonyms": [
+      "Expected",
+      "predicted"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0037",
+    "word": "Performance",
+    "meaning_en": "Efficiency, execution",
+    "meaning_bn": "কর্মক্ষমতা, দক্ষতা",
+    "synonyms": [
+      "Efficiency",
+      "execution"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0038",
+    "word": "Significance",
+    "meaning_en": "Importance, relevance",
+    "meaning_bn": "গুরুত্ব, তাৎপর্য",
+    "synonyms": [
+      "Importance",
+      "relevance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0039",
+    "word": "Competitive",
+    "meaning_en": "Rivalrous, combative",
+    "meaning_bn": "প্রতিযোগিতামূলক",
+    "synonyms": [
+      "Rivalrous",
+      "combative"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0040",
+    "word": "Pirates",
+    "meaning_en": "Buccaneers, marauders",
+    "meaning_bn": "জলদস্যু",
+    "synonyms": [
+      "Buccaneers",
+      "marauders"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0041",
+    "word": "Mediterranean",
+    "meaning_en": "Relating to the Mediterranean Sea",
+    "meaning_bn": "ভূমধ্যসাগরীয়",
+    "synonyms": [
+      "Relating to the Mediterranean Sea"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0042",
+    "word": "Millennia",
+    "meaning_en": "Thousands of years, ages",
+    "meaning_bn": "সহস্রাব্দ (হাজার বছর)",
+    "synonyms": [
+      "Thousands of years",
+      "ages"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0043",
+    "word": "Pursuers",
+    "meaning_en": "Chasers, followers",
+    "meaning_bn": "পিছুধাওয়াকারী",
+    "synonyms": [
+      "Chasers",
+      "followers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0044",
+    "word": "Misfits",
+    "meaning_en": "Outcasts, rebels",
+    "meaning_bn": "বেমানান বা সমাজচ্যুত ব্যক্তি",
+    "synonyms": [
+      "Outcasts",
+      "rebels"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0045",
+    "word": "Daredevils",
+    "meaning_en": "Adventurers, risk-takers",
+    "meaning_bn": "দুঃসাহসী ব্যক্তি",
+    "synonyms": [
+      "Adventurers",
+      "risk-takers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0046",
+    "word": "Swashbucklers",
+    "meaning_en": "Swaggering pirates, show-offs",
+    "meaning_bn": "আত্মপ্রচারক জলদস্যু",
+    "synonyms": [
+      "Swaggering pirates",
+      "show-offs"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0047",
+    "word": "Prowled",
+    "meaning_en": "Roamed, lurked",
+    "meaning_bn": "ঘুরে বেড়ানো, ওত পেতে থাকা",
+    "synonyms": [
+      "Roamed",
+      "lurked"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0048",
+    "word": "Raiding",
+    "meaning_en": "Attacking, plundering",
+    "meaning_bn": "হামলা বা আক্রমণ চালানো",
+    "synonyms": [
+      "Attacking",
+      "plundering"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0049",
+    "word": "Merchant ships",
+    "meaning_en": "Trading vessels, cargo ships",
+    "meaning_bn": "বাণিজ্যিক জাহাজ",
+    "synonyms": [
+      "Trading vessels",
+      "cargo ships"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0050",
+    "word": "Trade routes",
+    "meaning_en": "Commercial paths, shipping lanes",
+    "meaning_bn": "বাণিজ্য পথ",
+    "synonyms": [
+      "Commercial paths",
+      "shipping lanes"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0051",
+    "word": "Eradicated",
+    "meaning_en": "Eliminated, wiped out",
+    "meaning_bn": "সম্পূর্ণ নির্মূল বা উচ্ছেদ করা",
+    "synonyms": [
+      "Eliminated",
+      "wiped out"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0052",
+    "word": "Fertile",
+    "meaning_en": "Productive, rich",
+    "meaning_bn": "উর্বর",
+    "synonyms": [
+      "Productive",
+      "rich"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0053",
+    "word": "Rugged",
+    "meaning_en": "Rough, uneven",
+    "meaning_bn": "অসমতল, খসখসে বা রুক্ষ",
+    "synonyms": [
+      "Rough",
+      "uneven"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0054",
+    "word": "Seafaring",
+    "meaning_en": "Nautical, maritime",
+    "meaning_bn": "সমুদ্রযাত্রা, নাবিকসুলভ",
+    "synonyms": [
+      "Nautical",
+      "maritime"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0055",
+    "word": "Unsurpassed",
+    "meaning_en": "Unmatched, unparalleled",
+    "meaning_bn": "অতুলনীয়, অতুল",
+    "synonyms": [
+      "Unmatched",
+      "unparalleled"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0056",
+    "word": "Coves",
+    "meaning_en": "Inlets, bays",
+    "meaning_bn": "ছোট উপসাগর বা খাঁড়ি",
+    "synonyms": [
+      "Inlets",
+      "bays"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0057",
+    "word": "Retaliation",
+    "meaning_en": "Revenge, counterattack",
+    "meaning_bn": "প্রতিশোধ, পাল্টা আক্রমণ",
+    "synonyms": [
+      "Revenge",
+      "counterattack"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0058",
+    "word": "Diplomatic correspondence",
+    "meaning_en": "Official letters, state communications",
+    "meaning_bn": "কূটনৈতিক চিঠিপত্র",
+    "synonyms": [
+      "Official letters",
+      "state communications"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0059",
+    "word": "Disruption",
+    "meaning_en": "Disturbance, interruption",
+    "meaning_bn": "বিঘ্ন, বাধা",
+    "synonyms": [
+      "Disturbance",
+      "interruption"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0060",
+    "word": "Condones",
+    "meaning_en": "Approves, forgives",
+    "meaning_bn": "ক্ষমা করা, অনুমোদন দেওয়া",
+    "synonyms": [
+      "Approves",
+      "forgives"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0061",
+    "word": "Glorified",
+    "meaning_en": "Praised, celebrated",
+    "meaning_bn": "মহিমান্বিত করা, প্রশংসা করা",
+    "synonyms": [
+      "Praised",
+      "celebrated"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0062",
+    "word": "Curtail",
+    "meaning_en": "Restrict, reduce",
+    "meaning_bn": "সীমিত করা, কমানো",
+    "synonyms": [
+      "Restrict",
+      "reduce"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0063",
+    "word": "Hampered",
+    "meaning_en": "Hindered, obstructed",
+    "meaning_bn": "বাধাগ্রস্ত, ব্যাহত",
+    "synonyms": [
+      "Hindered",
+      "obstructed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0064",
+    "word": "Dignitaries",
+    "meaning_en": "Officials, VIPs",
+    "meaning_bn": "গণ্যমান্য ব্যক্তি, বিশিষ্ট অতিথি",
+    "synonyms": [
+      "Officials",
+      "VIPs"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0065",
+    "word": "Ransom",
+    "meaning_en": "Payment for release, payoff",
+    "meaning_bn": "মুক্তিপণ",
+    "synonyms": [
+      "Payment for release",
+      "payoff"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0066",
+    "word": "Concerted action",
+    "meaning_en": "Coordinated effort, unified action",
+    "meaning_bn": "সম্মিলিত পদক্ষেপ বা প্রচেষ্টা",
+    "synonyms": [
+      "Coordinated effort",
+      "unified action"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0067",
+    "word": "Menace",
+    "meaning_en": "Threat, danger",
+    "meaning_bn": "হুমকি, বিপদের কারণ",
+    "synonyms": [
+      "Threat",
+      "danger"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0068",
+    "word": "Cleansing",
+    "meaning_en": "Purifying, clearing",
+    "meaning_bn": "পরিষ্কার করা, পরিশোধন",
+    "synonyms": [
+      "Purifying",
+      "clearing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0069",
+    "word": "Productive",
+    "meaning_en": "Fruitful, efficient",
+    "meaning_bn": "উৎপাদনশীল",
+    "synonyms": [
+      "Fruitful",
+      "efficient"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0070",
+    "word": "Maritime",
+    "meaning_en": "Nautical, naval",
+    "meaning_bn": "সমুদ্রসংক্রান্ত, নৌ",
+    "synonyms": [
+      "Nautical",
+      "naval"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0071",
+    "word": "Embarked",
+    "meaning_en": "Started, initiated",
+    "meaning_bn": "যাত্রা শুরু করা",
+    "synonyms": [
+      "Started",
+      "initiated"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0072",
+    "word": "Vital",
+    "meaning_en": "Essential, crucial",
+    "meaning_bn": "অত্যাবশ্যকীয়, অত্যন্ত গুরুত্বপূর্ণ",
+    "synonyms": [
+      "Essential",
+      "crucial"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0073",
+    "word": "Hardships",
+    "meaning_en": "Difficulties, struggles",
+    "meaning_bn": "কষ্ট, ভোগান্তি",
+    "synonyms": [
+      "Difficulties",
+      "struggles"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0074",
+    "word": "Navigable",
+    "meaning_en": "Passable, traversable",
+    "meaning_bn": "নৌচলাচলযোগ্য",
+    "synonyms": [
+      "Passable",
+      "traversable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0075",
+    "word": "Laden",
+    "meaning_en": "Loaded, filled",
+    "meaning_bn": "বোঝাই, ভারাক্রান্ত",
+    "synonyms": [
+      "Loaded",
+      "filled"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0076",
+    "word": "Retribution",
+    "meaning_en": "Punishment, vengeance",
+    "meaning_bn": "প্রতিদান, প্রতিফল, শাস্তি",
+    "synonyms": [
+      "Punishment",
+      "vengeance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0077",
+    "word": "Extracts",
+    "meaning_en": "Excerpts, passages",
+    "meaning_bn": "উদ্ধৃতি, নির্বাচিত অংশ",
+    "synonyms": [
+      "Excerpts",
+      "passages"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0078",
+    "word": "Prominent",
+    "meaning_en": "Notable, distinguished",
+    "meaning_bn": "বিশিষ্ট, খ্যাতনামা",
+    "synonyms": [
+      "Notable",
+      "distinguished"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0079",
+    "word": "Boosted",
+    "meaning_en": "Enhanced, increased",
+    "meaning_bn": "বৃদ্ধি করা, উৎসাহিত করা",
+    "synonyms": [
+      "Enhanced",
+      "increased"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0080",
+    "word": "Persistence",
+    "meaning_en": "Continuation, endurance",
+    "meaning_bn": "অবিচলতা, অধ্যবসায়",
+    "synonyms": [
+      "Continuation",
+      "endurance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0081",
+    "word": "Peril",
+    "meaning_en": "Danger, risk",
+    "meaning_bn": "বিপদ, ঝুঁকি",
+    "synonyms": [
+      "Danger",
+      "risk"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0082",
+    "word": "Verify",
+    "meaning_en": "Confirm, validate",
+    "meaning_bn": "যাচাই করা, সত্যতা নিশ্চিত করা",
+    "synonyms": [
+      "Confirm",
+      "validate"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0083",
+    "word": "Falsehoods",
+    "meaning_en": "Lies, untruths",
+    "meaning_bn": "মিথ্যা কথা, অসত্য",
+    "synonyms": [
+      "Lies",
+      "untruths"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0084",
+    "word": "Deceiving",
+    "meaning_en": "Misleading, tricking",
+    "meaning_bn": "প্রতারণা করা, বিভ্রান্ত করা",
+    "synonyms": [
+      "Misleading",
+      "tricking"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0085",
+    "word": "Strategic advantage",
+    "meaning_en": "Tactical benefit, competitive edge",
+    "meaning_bn": "কৌশলগত সুবিধা",
+    "synonyms": [
+      "Tactical benefit",
+      "competitive edge"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0086",
+    "word": "Motivate",
+    "meaning_en": "Encourage, inspire",
+    "meaning_bn": "প্রেরণা দেওয়া, উৎসাহিত করা",
+    "synonyms": [
+      "Encourage",
+      "inspire"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0087",
+    "word": "Inadvertently",
+    "meaning_en": "Unintentionally, accidentally",
+    "meaning_bn": "অজান্তে, অসাবধানতাবশত",
+    "synonyms": [
+      "Unintentionally",
+      "accidentally"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0088",
+    "word": "Global audiences",
+    "meaning_en": "Worldwide viewers, international public",
+    "meaning_bn": "বৈশ্বিক দর্শক বা শ্রোতা",
+    "synonyms": [
+      "Worldwide viewers",
+      "international public"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0089",
+    "word": "Looming",
+    "meaning_en": "Impending, approaching",
+    "meaning_bn": "আসন্ন, ঘনিয়ে আসা বিপদ",
+    "synonyms": [
+      "Impending",
+      "approaching"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0090",
+    "word": "Facilitated",
+    "meaning_en": "Enabled, assisted",
+    "meaning_bn": "সহজতর করা, সাহায্য করা",
+    "synonyms": [
+      "Enabled",
+      "assisted"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0091",
+    "word": "Unduly influence",
+    "meaning_en": "Excessively affect, disproportionately sway",
+    "meaning_bn": "অতিরিক্ত বা অনুচিত প্রভাব খাটানো",
+    "synonyms": [
+      "Excessively affect",
+      "disproportionately sway"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0092",
+    "word": "Misperceptions",
+    "meaning_en": "False beliefs, misunderstandings",
+    "meaning_bn": "ভ্রান্ত ধারণা",
+    "synonyms": [
+      "False beliefs",
+      "misunderstandings"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0093",
+    "word": "Detrimental",
+    "meaning_en": "Harmful, damaging",
+    "meaning_bn": "ক্ষতিকর, হানিকর",
+    "synonyms": [
+      "Harmful",
+      "damaging"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0094",
+    "word": "Downstream consequences",
+    "meaning_en": "Long-term effects, subsequent outcomes",
+    "meaning_bn": "দূরবর্তী বা পরবর্তী প্রভাব",
+    "synonyms": [
+      "Long-term effects",
+      "subsequent outcomes"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0095",
+    "word": "Warrant",
+    "meaning_en": "Justify, necessitate",
+    "meaning_bn": "ন্যায্যতা দেওয়া, যৌক্তিকতা প্রমাণ করা",
+    "synonyms": [
+      "Justify",
+      "necessitate"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0096",
+    "word": "Empirical evidence",
+    "meaning_en": "Experimental proof, observed data",
+    "meaning_bn": "প্রায়োগিক বা পরীক্ষালব্ধ প্রমাণ",
+    "synonyms": [
+      "Experimental proof",
+      "observed data"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0097",
+    "word": "Cognitive process",
+    "meaning_en": "Mental process, thinking mechanism",
+    "meaning_bn": "জ্ঞানীয় প্রক্রিয়া, চিন্তা প্রক্রিয়া",
+    "synonyms": [
+      "Mental process",
+      "thinking mechanism"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0098",
+    "word": "Regulatory structures",
+    "meaning_en": "Governing frameworks, oversight systems",
+    "meaning_bn": "নিয়ন্ত্রক কাঠামো বা বিধিবিধান",
+    "synonyms": [
+      "Governing frameworks",
+      "oversight systems"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0099",
+    "word": "Post hoc detection",
+    "meaning_en": "After-the-fact identification, retrospective  discovery",
+    "meaning_bn": "পরবর্তী শনাক্তকরণ",
+    "synonyms": [
+      "After-the-fact identification",
+      "retrospective  discovery"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0100",
+    "word": "Laudable",
+    "meaning_en": "Commendable, praiseworthy",
+    "meaning_bn": "প্রশংসনীয়, প্রশংসার যোগ্য",
+    "synonyms": [
+      "Commendable",
+      "praiseworthy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0101",
+    "word": "Rhetorically compelling",
+    "meaning_en": "Persuasively convincing, eloquently  persuasive",
+    "meaning_bn": "বাচনিকভাবে চিত্তাকর্ষক ও বিশ্বাসযোগ্য",
+    "synonyms": [
+      "Persuasively convincing",
+      "eloquently  persuasive"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0102",
+    "word": "Media literacy",
+    "meaning_en": "Information awareness, digital education",
+    "meaning_bn": "মিডিয়া বা তথ্য সাক্ষরতা",
+    "synonyms": [
+      "Information awareness",
+      "digital education"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0103",
+    "word": "Fallibility",
+    "meaning_en": "Imperfection, susceptibility to error",
+    "meaning_bn": "ভ্রান্তিপ্রবণতা, ভুল করার সম্ভাবনা",
+    "synonyms": [
+      "Imperfection",
+      "susceptibility to error"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0104",
+    "word": "Panacea",
+    "meaning_en": "Cure-all, universal solution",
+    "meaning_bn": "সর্বরোগহর ওষুধ, মহৌষধ",
+    "synonyms": [
+      "Cure-all",
+      "universal solution"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0105",
+    "word": "Arduous",
+    "meaning_en": "Difficult, strenuous",
+    "meaning_bn": "কঠিন, শ্রমসাধ্য",
+    "synonyms": [
+      "Difficult",
+      "strenuous"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0106",
+    "word": "Theoretical consideration",
+    "meaning_en": "Conceptual analysis, intellectual reflection",
+    "meaning_bn": "তাত্ত্বিক বিবেচনা",
+    "synonyms": [
+      "Conceptual analysis",
+      "intellectual reflection"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0107",
+    "word": "Monitoring tools",
+    "meaning_en": "Surveillance mechanisms, tracking instruments",
+    "meaning_bn": "নিরীক্ষণ সরঞ্জাম",
+    "synonyms": [
+      "Surveillance mechanisms",
+      "tracking instruments"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0108",
+    "word": "Scientific consensus",
+    "meaning_en": "General agreement among scientists, collective  scientific opinion",
+    "meaning_bn": "বৈজ্ঞানিক ঐকমত্য",
+    "synonyms": [
+      "General agreement among scientists",
+      "collective  scientific opinion"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0109",
+    "word": "Social reality",
+    "meaning_en": "Societal truth, community norms",
+    "meaning_bn": "সামাজিক বাস্তবতা",
+    "synonyms": [
+      "Societal truth",
+      "community norms"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0110",
+    "word": "Coordinated efforts",
+    "meaning_en": "Collaborative actions, unified initiatives",
+    "meaning_bn": "সমন্বিত প্রচেষ্টা",
+    "synonyms": [
+      "Collaborative actions",
+      "unified initiatives"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0111",
+    "word": "Verbal communication",
+    "meaning_en": "Spoken interaction, oral exchange",
+    "meaning_bn": "মৌখিক যোগাযোগ",
+    "synonyms": [
+      "Spoken interaction",
+      "oral exchange"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0112",
+    "word": "Skepticism",
+    "meaning_en": "Doubt, disbelief",
+    "meaning_bn": "সন্দেহবাদ, সংশয়",
+    "synonyms": [
+      "Doubt",
+      "disbelief"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0113",
+    "word": "Encoding",
+    "meaning_en": "Processing, assimilating",
+    "meaning_bn": "সংকেতায়ন, তথ্য সংরক্ষণ",
+    "synonyms": [
+      "Processing",
+      "assimilating"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0114",
+    "word": "Regulatory agencies",
+    "meaning_en": "Oversight bodies, governing organizations",
+    "meaning_bn": "নিয়ন্ত্রক সংস্থা",
+    "synonyms": [
+      "Oversight bodies",
+      "governing organizations"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0115",
+    "word": "Corrective campaigns",
+    "meaning_en": "Remedial efforts, rectification initiatives",
+    "meaning_bn": "সংশোধনমূলক প্রচারণা",
+    "synonyms": [
+      "Remedial efforts",
+      "rectification initiatives"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0116",
+    "word": "Harmony",
+    "meaning_en": "Peace, concord",
+    "meaning_bn": "সামঞ্জস্য, সম্প্রীতি",
+    "synonyms": [
+      "Peace",
+      "concord"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  },
+  {
+    "id": "c19_0117",
+    "word": "Exposure",
+    "meaning_en": "Visibility, dissemination",
+    "meaning_bn": "উন্মোচন, প্রচার বা বিস্তার",
+    "synonyms": [
+      "Visibility",
+      "dissemination"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 19 - 38.  Experimented ( পরীক্ষো   করো ) – Tested, tried. Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 19 Vocabulary"
+  }
+]

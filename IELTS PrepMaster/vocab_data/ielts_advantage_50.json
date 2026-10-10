@@ -1,0 +1,852 @@
+[
+  {
+    "id": "adv_0001",
+    "word": "People",
+    "meaning_en": "Human beings considered collectively or members of a community",
+    "meaning_bn": "মানুষ, জনসাধারণ, ব্যক্তিবর্গ",
+    "synonyms": [
+      "Individuals",
+      "The public",
+      "Citizens",
+      "Inhabitants"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Many individuals believe that public transit should be free, whereas the public generally demands better service frequency."
+  },
+  {
+    "id": "adv_0002",
+    "word": "Important",
+    "meaning_en": "Of great significance, value, or consequence in determining an outcome",
+    "meaning_bn": "গুরুত্বপূর্ণ, তাৎপর্যপূর্ণ, অত্যাবশ্যক",
+    "synonyms": [
+      "Crucial",
+      "Vital",
+      "Significant",
+      "Imperative"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Regular physical exercise plays a vital role in maintaining cardiovascular health and is crucial for long-term well-being."
+  },
+  {
+    "id": "adv_0003",
+    "word": "Good",
+    "meaning_en": "Having desirable qualities; promoting health, success, or welfare",
+    "meaning_bn": "ভালো, উপকারী, কল্যাণকর",
+    "synonyms": [
+      "Beneficial",
+      "Positive",
+      "Advantageous",
+      "Favourable"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Adopting renewable energy has an exceptionally positive impact on the environment and is highly beneficial for long-term sustainability."
+  },
+  {
+    "id": "adv_0004",
+    "word": "Develop",
+    "meaning_en": "To cultivate, foster, or cause to evolve systematically over time",
+    "meaning_bn": "বিকাশ করা, গড়ে তোলা, লালন করা",
+    "synonyms": [
+      "Cultivate",
+      "Foster",
+      "Nurture",
+      "Advance"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Schools should aim to foster critical thinking skills and cultivate creativity rather than relying solely on rote learning."
+  },
+  {
+    "id": "adv_0005",
+    "word": "Increase",
+    "meaning_en": "To make or become greater in size, amount, degree, or intensity",
+    "meaning_bn": "বৃদ্ধি করা, বাড়ানো, সম্প্রসারণ করা",
+    "synonyms": [
+      "Boost",
+      "Raise",
+      "Escalate",
+      "Augment"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Investment in infrastructure will significantly boost economic productivity and raise the overall standard of living."
+  },
+  {
+    "id": "adv_0006",
+    "word": "Government",
+    "meaning_en": "The governing body of a nation, state, or community",
+    "meaning_bn": "সরকার, কর্তৃপক্ষ, রাষ্ট্রযন্ত্র",
+    "synonyms": [
+      "The authorities",
+      "The state",
+      "Administration",
+      "Governing body"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "When addressing environmental pollution, the authorities must enforce stricter regulations across industrial sectors."
+  },
+  {
+    "id": "adv_0007",
+    "word": "Society",
+    "meaning_en": "The aggregate of people living together in an ordered community",
+    "meaning_bn": "সমাজ, সাধারণ জনগোষ্ঠী, জনসমাজ",
+    "synonyms": [
+      "The community",
+      "The general populace",
+      "Civilization",
+      "Social order"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Unchecked economic inequality can create widespread division across the community and demoralize the general populace."
+  },
+  {
+    "id": "adv_0008",
+    "word": "Technology",
+    "meaning_en": "Practical applications of scientific knowledge and digital innovation",
+    "meaning_bn": "প্রযুক্তি, ডিজিটাল সরঞ্জাম, উদ্ভাবন",
+    "synonyms": [
+      "Innovation",
+      "Digital tools",
+      "Technological advancements",
+      "Technological systems"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Modern education relies increasingly on digital tools and technological innovation to enhance distance learning."
+  },
+  {
+    "id": "adv_0009",
+    "word": "Environment",
+    "meaning_en": "The natural world and complex ecosystems supporting life",
+    "meaning_bn": "পরিবেশ, প্রাকৃতিক জগৎ, বাস্তুতন্ত্র",
+    "synonyms": [
+      "Natural world",
+      "Ecosystems",
+      "The planet",
+      "Biosphere"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Industrial deforestation poses a critical threat to fragile ecosystems and destabilizes the balance of the natural world."
+  },
+  {
+    "id": "adv_0010",
+    "word": "Children",
+    "meaning_en": "Young human beings below the age of adulthood",
+    "meaning_bn": "শিশু, অপ্রাপ্তবয়স্ক, কিশোর-কিশোরী",
+    "synonyms": [
+      "Youngsters",
+      "Youth / Young people",
+      "Minors",
+      "Offspring"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Unregulated screen time can adversely affect developing minors and youngsters."
+  },
+  {
+    "id": "adv_0011",
+    "word": "Students",
+    "meaning_en": "Individuals engaged in systematic learning or academic study",
+    "meaning_bn": "শিক্ষার্থী, ছাত্রছাত্রী, পড়ুয়া",
+    "synonyms": [
+      "Learners",
+      "Pupils",
+      "Scholars",
+      "Undergraduates"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Interactive classroom activities encourage learners to participate more actively than conventional lectures."
+  },
+  {
+    "id": "adv_0012",
+    "word": "Improve",
+    "meaning_en": "To enhance, upgrade, or ameliorate existing conditions",
+    "meaning_bn": "উন্নতি করা, উন্নততর করা, সংস্কার করা",
+    "synonyms": [
+      "Enhance",
+      "Ameliorate",
+      "Upgrade",
+      "Refine"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Targeted government subsidies could substantially enhance rural healthcare services and ameliorate living conditions."
+  },
+  {
+    "id": "adv_0013",
+    "word": "Effective",
+    "meaning_en": "Successful in producing a desired, productive result",
+    "meaning_bn": "কার্যকর, ফলপ্রসূ, শক্তিশালী",
+    "synonyms": [
+      "Productive",
+      "Potent",
+      "Efficacious",
+      "Impactful"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Implementing rigorous recycling policies has proven to be a highly productive method for reducing municipal waste."
+  },
+  {
+    "id": "adv_0014",
+    "word": "Necessary",
+    "meaning_en": "Required by obligation, rule, or essential need",
+    "meaning_bn": "প্রয়োজনীয়, অপরিহার্য, অতীব জরুরি",
+    "synonyms": [
+      "Essential",
+      "Imperative",
+      "Indispensable",
+      "Mandatory"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "It is absolutely imperative that governments allocate adequate funds to public education."
+  },
+  {
+    "id": "adv_0015",
+    "word": "Different",
+    "meaning_en": "Distinct in character, diverse, or varied in nature",
+    "meaning_bn": "বিভিন্ন, বৈচিত্র্যময়, ভিন্নধর্মী",
+    "synonyms": [
+      "Various",
+      "Diverse",
+      "Distinct",
+      "Disparate"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "The committee evaluated diverse viewpoints before deciding on the zoning regulations."
+  },
+  {
+    "id": "adv_0016",
+    "word": "Work",
+    "meaning_en": "Productive activity undertaken for income or career growth",
+    "meaning_bn": "কাজ, কর্মসংস্থান, পেশা",
+    "synonyms": [
+      "Employment",
+      "Career",
+      "Occupation",
+      "Vocation"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Vocational training equips job seekers with skills necessary for long-term employment."
+  },
+  {
+    "id": "adv_0017",
+    "word": "Companies",
+    "meaning_en": "Commercial corporations or enterprise businesses",
+    "meaning_bn": "কোম্পানি, বাণিজ্যিক প্রতিষ্ঠান, করপোরেট সংস্থা",
+    "synonyms": [
+      "Corporations",
+      "Businesses",
+      "Enterprises",
+      "Firms"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Multinational corporations bear a significant responsibility regarding environmental compliance."
+  },
+  {
+    "id": "adv_0018",
+    "word": "Individual",
+    "meaning_en": "A single human being regarded as a member of society",
+    "meaning_bn": "ব্যক্তি, একক ব্যক্তি, নাগরিক",
+    "synonyms": [
+      "Person",
+      "Citizen",
+      "Entity",
+      "Human being"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Every citizen has a duty to respect communal resources and adhere to civic regulations."
+  },
+  {
+    "id": "adv_0019",
+    "word": "Global",
+    "meaning_en": "Relating to or involving the entire world",
+    "meaning_bn": "বৈশ্বিক, বিশ্বব্যাপী, আন্তর্জাতিক",
+    "synonyms": [
+      "Worldwide",
+      "International",
+      "Universal",
+      "Planetary"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Combating climate change demands concerted international cooperation and shared technological resources."
+  },
+  {
+    "id": "adv_0020",
+    "word": "Modern",
+    "meaning_en": "Pertaining to contemporary or present-day developments",
+    "meaning_bn": "আধুনিক, সমসাময়িক, বর্তমান কালের",
+    "synonyms": [
+      "Contemporary",
+      "Present-day",
+      "State-of-the-art",
+      "Cutting-edge"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Contemporary architecture often emphasizes energy conservation and minimalistic design principles."
+  },
+  {
+    "id": "adv_0021",
+    "word": "Many",
+    "meaning_en": "Consisting of or amounting to a large number",
+    "meaning_bn": "অনেক, বহুসংখ্যক, অগণিত",
+    "synonyms": [
+      "Numerous",
+      "A large number of",
+      "Countless",
+      "Multitudinous"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Numerous studies indicate that adequate sleep directly correlates with improved cognitive function."
+  },
+  {
+    "id": "adv_0022",
+    "word": "Help",
+    "meaning_en": "To provide assistance, aid, or support in achieving a goal",
+    "meaning_bn": "সাহায্য করা, সহায়তা করা, সহযোগিতা করা",
+    "synonyms": [
+      "Assist",
+      "Aid",
+      "Facilitate",
+      "Support"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Community programs are designed to assist low-income families during periods of economic hardship."
+  },
+  {
+    "id": "adv_0023",
+    "word": "Provide",
+    "meaning_en": "To make available or supply what is required",
+    "meaning_bn": "প্রদান করা, সরবরাহ করা, জোগান দেওয়া",
+    "synonyms": [
+      "Supply",
+      "Offer",
+      "Furnish",
+      "Deliver"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "The municipal council should supply clean drinking water to all residential zones."
+  },
+  {
+    "id": "adv_0024",
+    "word": "Believe",
+    "meaning_en": "To maintain an academic stance, contend, or argue",
+    "meaning_bn": "বিশ্বাস করা, দাবি করা, যুক্তি উপস্থাপন করা",
+    "synonyms": [
+      "Argue",
+      "Contend",
+      "Maintain",
+      "Assert"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Sociologists contend that excessive social media usage contributes to feelings of isolation."
+  },
+  {
+    "id": "adv_0025",
+    "word": "Create",
+    "meaning_en": "To bring into existence, establish, or generate",
+    "meaning_bn": "সৃষ্টি করা, তৈরি করা, প্রতিষ্ঠা করা",
+    "synonyms": [
+      "Generate",
+      "Establish",
+      "Instigate",
+      "Formulate"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Green energy initiatives will generate thousands of technical jobs in emerging markets."
+  },
+  {
+    "id": "adv_0026",
+    "word": "Education",
+    "meaning_en": "Formal academic schooling and structured learning",
+    "meaning_bn": "শিক্ষা, প্রাতিষ্ঠানিক পাঠদান, জ্ঞানার্জন",
+    "synonyms": [
+      "Schooling",
+      "Learning",
+      "Pedagogy",
+      "Academic instruction"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Formal schooling plays a foundational role in childhood social and psychological development."
+  },
+  {
+    "id": "adv_0027",
+    "word": "Health",
+    "meaning_en": "Physical and mental well-being and bodily fitness",
+    "meaning_bn": "স্বাস্থ্য, শারীরিক ও মানসিক সুস্থতা",
+    "synonyms": [
+      "Well-being",
+      "Physical condition",
+      "Fitness",
+      "Vitality"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Mental and emotional well-being is just as critical as physical fitness."
+  },
+  {
+    "id": "adv_0028",
+    "word": "Family",
+    "meaning_en": "A domestic unit or household living together",
+    "meaning_bn": "পরিবার, গৃহস্থালি, আত্মীয়পরিজন",
+    "synonyms": [
+      "Household",
+      "Domestic unit",
+      "Kinship group",
+      "Nuclear family"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "The modern domestic unit often balances multiple careers with childcare obligations."
+  },
+  {
+    "id": "adv_0029",
+    "word": "Teachers",
+    "meaning_en": "Professional educators, tutors, and academic instructors",
+    "meaning_bn": "শিক্ষক, শিক্ষাবিদ, প্রশিক্ষক",
+    "synonyms": [
+      "Educators",
+      "Tutors",
+      "Instructors",
+      "Pedagogues"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Skilled educators inspire lifelong curiosity and critical enquiry in their students."
+  },
+  {
+    "id": "adv_0030",
+    "word": "Adults",
+    "meaning_en": "Mature individuals who have attained legal and physical maturity",
+    "meaning_bn": "প্রাপ্তবয়স্ক ব্যক্তি, পরিণত মানুষ",
+    "synonyms": [
+      "Grown-ups",
+      "Mature individuals",
+      "Older demographics",
+      "Elders"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Responsible financial literacy is a necessity that all mature individuals must acquire."
+  },
+  {
+    "id": "adv_0031",
+    "word": "Social",
+    "meaning_en": "Pertaining to communal or societal structures and human interaction",
+    "meaning_bn": "সামাজিক, সাম্প্রদায়িক, জনসমাজ সংক্রান্ত",
+    "synonyms": [
+      "Communal",
+      "Societal",
+      "Public",
+      "Collective"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Rapid urban growth can lead to complex societal challenges like overcrowding and noise pollution."
+  },
+  {
+    "id": "adv_0032",
+    "word": "Public",
+    "meaning_en": "Civic, state-funded, or shared by all members of the community",
+    "meaning_bn": "সরকারি, সর্বজনীন, নাগরিক",
+    "synonyms": [
+      "State-funded / State-run",
+      "Civic",
+      "Communal",
+      "Governmental"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Adequate investment in civic infrastructure fosters safer and cleaner neighborhoods."
+  },
+  {
+    "id": "adv_0033",
+    "word": "Local",
+    "meaning_en": "Belonging to a specific community-based neighborhood or district",
+    "meaning_bn": "স্থানীয়, এলাকাকেন্দ্রিক, পাড়াভিত্তিক",
+    "synonyms": [
+      "Community-based",
+      "Neighborhood",
+      "Regional",
+      "Provincial"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Supporting neighborhood businesses helps retain wealth within the immediate municipality."
+  },
+  {
+    "id": "adv_0034",
+    "word": "Time",
+    "meaning_en": "Available leisure hours, periods, or historical eras",
+    "meaning_bn": "সময়, অবসর সময়, কাল বা যুগ",
+    "synonyms": [
+      "Leisure hours",
+      "Eras",
+      "Epochs",
+      "Durations"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Productive employees typically preserve sufficient leisure hours to avoid occupational burnout."
+  },
+  {
+    "id": "adv_0035",
+    "word": "Life",
+    "meaning_en": "Human existence and patterns of daily lifestyle",
+    "meaning_bn": "জীবন, জীবনধারা, অস্তিত্ব",
+    "synonyms": [
+      "Existence",
+      "Lifestyles",
+      "Living conditions",
+      "Mortal journey"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Sedentary lifestyles have become widespread due to office-centric employment patterns."
+  },
+  {
+    "id": "adv_0036",
+    "word": "Experience",
+    "meaning_en": "Practical knowledge and competence gained through direct involvement",
+    "meaning_bn": "অভিজ্ঞতা, বাস্তব জ্ঞান, প্রত্যক্ষ দক্ষতা",
+    "synonyms": [
+      "Practical knowledge",
+      "Expertise",
+      "Firsthand exposure",
+      "Competence"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Employers prioritize candidates with demonstrable practical knowledge over purely theoretical credentials."
+  },
+  {
+    "id": "adv_0037",
+    "word": "Skills",
+    "meaning_en": "Acquired abilities, practical competencies, and prowess",
+    "meaning_bn": "দক্ষতা, সামর্থ্য, পারদর্শিতা",
+    "synonyms": [
+      "Ability / Abilities",
+      "Competencies",
+      "Prowess",
+      "Aptitude"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Advanced problem-solving is among the primary competencies sought by technical recruiters."
+  },
+  {
+    "id": "adv_0038",
+    "word": "Information",
+    "meaning_en": "Empirical data, verified facts, and knowledge",
+    "meaning_bn": "তথ্য, উপাত্ত, জ্ঞান",
+    "synonyms": [
+      "Data",
+      "Knowledge",
+      "Intelligence",
+      "Empirical evidence"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Policy decisions should always be grounded in empirical data and verified facts."
+  },
+  {
+    "id": "adv_0039",
+    "word": "Community",
+    "meaning_en": "A unified social populace living within a geographic or cultural area",
+    "meaning_bn": "সম্প্রদায়, জনসমষ্টি, সমাজ",
+    "synonyms": [
+      "Society",
+      "Populace",
+      "Neighborhood",
+      "Collective"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Civic cohesion strengthens when residents participate actively in their local populace."
+  },
+  {
+    "id": "adv_0040",
+    "word": "Economic",
+    "meaning_en": "Relating to financial, fiscal, and monetary matters",
+    "meaning_bn": "অর্থনৈতিক, আর্থিক, রাজস্ব সংক্রান্ত",
+    "synonyms": [
+      "Financial",
+      "Monetary",
+      "Fiscal",
+      "Commercial"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Central banks use interest rate adjustments to balance inflationary and monetary pressures."
+  },
+  {
+    "id": "adv_0041",
+    "word": "Personal",
+    "meaning_en": "Relating to a particular individual's private life or priorities",
+    "meaning_bn": "ব্যক্তিগত, নিজস্ব, ব্যক্তিগত পর্যায়ের",
+    "synonyms": [
+      "Individual",
+      "Private",
+      "Subjective",
+      "Intimate"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Job seekers must navigate between career ambitions and private priorities."
+  },
+  {
+    "id": "adv_0042",
+    "word": "National",
+    "meaning_en": "Extending nationwide or concerning the domestic whole of a country",
+    "meaning_bn": "জাতীয়, দেশব্যাপী, অভ্যন্তরীণ",
+    "synonyms": [
+      "Nationwide",
+      "Domestic",
+      "Countrywide",
+      "Statewide"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "The government enacted a nationwide strategy to upgrade public transportation networks."
+  },
+  {
+    "id": "adv_0043",
+    "word": "Significant",
+    "meaning_en": "Of substantial, noteworthy, or considerable importance",
+    "meaning_bn": "তাৎপর্যপূর্ণ, উল্লেখযোগ্য, প্রচুর",
+    "synonyms": [
+      "Substantial",
+      "Considerable",
+      "Monumental",
+      "Profound"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Transitioning to solar power resulted in a substantial reduction in manufacturing costs."
+  },
+  {
+    "id": "adv_0044",
+    "word": "Possible",
+    "meaning_en": "Capable of being accomplished; feasible and viable",
+    "meaning_bn": "সম্ভব, বাস্তবায়নযোগ্য, অর্জনসাধ্য",
+    "synonyms": [
+      "Feasible",
+      "Viable",
+      "Achievable",
+      "Plausible"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Constructing an underground rail network in that terrain is technically complex but fully feasible."
+  },
+  {
+    "id": "adv_0045",
+    "word": "Available",
+    "meaning_en": "Easily accessible, obtainable, or ready for utilization",
+    "meaning_bn": "সহজলভ্য, প্রাপ্য, ব্যবহারযোগ্য",
+    "synonyms": [
+      "Accessible",
+      "Obtainable",
+      "Attainable",
+      "Ready to hand"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Clean drinking water must be freely accessible to every segment of the population."
+  },
+  {
+    "id": "adv_0046",
+    "word": "Successful",
+    "meaning_en": "Achieving fruitful, prosperous, or triumphant outcomes",
+    "meaning_bn": "সফল, ফলপ্রসূ, সমৃদ্ধিশালী",
+    "synonyms": [
+      "Fruitful",
+      "Prosperous",
+      "Triumphant",
+      "Flourishing"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Sustained investment in research resulted in a prosperous outcome for the biotech firm."
+  },
+  {
+    "id": "adv_0047",
+    "word": "Popular",
+    "meaning_en": "Prevalent, widespread, or admired across broad demographics",
+    "meaning_bn": "জনপ্রিয়, বহুল প্রচলিত, সুবিস্তৃত",
+    "synonyms": [
+      "Widespread",
+      "Prevalent",
+      "In vogue",
+      "Widely embraced"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Remote work arrangements have become exceptionally prevalent over recent years."
+  },
+  {
+    "id": "adv_0048",
+    "word": "Common",
+    "meaning_en": "Ubiquitous, frequent, or occurring pervasive throughout society",
+    "meaning_bn": "সাধারণ, সর্বত্র বিদ্যমান, সচরাচর দৃষ্ট",
+    "synonyms": [
+      "Widespread",
+      "Ubiquitous",
+      "Frequent",
+      "Pervasive"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "Smartphone use has become virtually ubiquitous across urban and rural demographics alike."
+  },
+  {
+    "id": "adv_0049",
+    "word": "General",
+    "meaning_en": "Overall, broadly applicable, or comprehensive in scope",
+    "meaning_bn": "সাধারণ, সামগ্রিক, সার্বিক",
+    "synonyms": [
+      "Overall",
+      "Broadly",
+      "Comprehensive",
+      "Universal"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "The overall consensus among environmental scientists points toward accelerating climate patterns."
+  },
+  {
+    "id": "adv_0050",
+    "word": "More",
+    "meaning_en": "Greater, additional, or supplementary in quantity or extent",
+    "meaning_bn": "আরও, অতিরিক্ত, বাড়তি, বৃহত্তর",
+    "synonyms": [
+      "Greater",
+      "Additional",
+      "Supplementary",
+      "Further"
+    ],
+    "category": "IELTS Advantage 50",
+    "sub_category": "Top 50 Essential Synonyms",
+    "difficulty": "Band 8-9 Essential",
+    "source": "IELTS Advantage (Chris Pell)",
+    "example": "The research project requires additional funding to complete the next phase of evaluations."
+  }
+]

@@ -1,0 +1,472 @@
+[
+  {
+    "id": "wt1_0001",
+    "word": "Illustrates",
+    "meaning_en": "To explain, show, or make clear using visual charts, diagrams, or graphs (ideal for Task 1 introductions)",
+    "meaning_bn": "প্রদর্শন করে বা দেখায় (ইন্ট্রোডাকশনের জন্য উপযোগী)",
+    "synonyms": [
+      "Shows",
+      "Depicts",
+      "Demonstrates",
+      "Presents"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Introduction Verbs",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "The provided line graph illustrates the consumption of four different types of energy in the United States over a 30-year period."
+  },
+  {
+    "id": "wt1_0002",
+    "word": "Consistently recorded the lowest figures",
+    "meaning_en": "Steadily displayed the minimum statistical values across the entire timeframe",
+    "meaning_bn": "ধারাবাহিকভাবে সর্বনিম্ন সংখ্যা দেখিয়েছে",
+    "synonyms": [
+      "Remained the lowest throughout",
+      "Registered the lowest numbers",
+      "Maintained the lowest share"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Highs & Lows",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Throughout the recorded decade, public bus usage consistently recorded the lowest figures among all four modes of urban transit."
+  },
+  {
+    "id": "wt1_0003",
+    "word": "Experienced minor changes",
+    "meaning_en": "Exhibited slight, insignificant alterations without any drastic shift",
+    "meaning_bn": "সামান্য পরিবর্তন হয়েছে",
+    "synonyms": [
+      "Underwent slight variations",
+      "Showed marginal adjustments",
+      "Saw negligible shifts"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Trends & Variations",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "While nuclear energy production surged, hydroelectric power experienced minor changes during the exact same timeframe."
+  },
+  {
+    "id": "wt1_0004",
+    "word": "No major trends",
+    "meaning_en": "Lacking any obvious upward, downward, or cyclical direction in the data",
+    "meaning_bn": "উল্লেখযোগ্য কোনো ধারা নেই",
+    "synonyms": [
+      "No significant pattern",
+      "Absence of clear trends",
+      "No distinct trajectory"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Overview Phrases",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Between 2000 and 2005, the figures for regional rainfall exhibited no major trends, hovering steadily around 120 millimeters."
+  },
+  {
+    "id": "wt1_0005",
+    "word": "Consistently higher",
+    "meaning_en": "Remaining at a superior numerical level continuously without dropping below another category",
+    "meaning_bn": "ধারাবাহিকভাবে বেশি ছিল",
+    "synonyms": [
+      "Invariably greater",
+      "Steadily above",
+      "Persistently outstripped"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Comparisons",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Expenditure on healthcare was consistently higher in North America than in European counterparts across the entire survey."
+  },
+  {
+    "id": "wt1_0006",
+    "word": "Rose to a peak",
+    "meaning_en": "Ascended steadily until reaching the highest recorded statistical point",
+    "meaning_bn": "সর্বোচ্চ পয়েন্টে উঠেছিল",
+    "synonyms": [
+      "Reached a zenith",
+      "Hit a high point",
+      "Peaked at",
+      "Climbed to a maximum"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Highs & Lows",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Wheat export volumes rose to a peak of 85 million metric tons in 2012 before settling at lower values."
+  },
+  {
+    "id": "wt1_0007",
+    "word": "Rose again",
+    "meaning_en": "Increased once more following an earlier decline or plateau",
+    "meaning_bn": "পুনরায় বেড়েছে",
+    "synonyms": [
+      "Rebounded",
+      "Resurged",
+      "Recovered",
+      "Climbed once more"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Trends & Variations",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "After dipping briefly in 2014, manufacturing output rose again to surpass 60 percent by 2018."
+  },
+  {
+    "id": "wt1_0008",
+    "word": "Before dropping sharply",
+    "meaning_en": "Immediately preceding a rapid and substantial downward trajectory",
+    "meaning_bn": "হঠাৎ কমে যাওয়ার ঠিক আগে",
+    "synonyms": [
+      "Prior to plummeting",
+      "Before plunging significantly",
+      "Preceding a steep decline"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Trend Sequences",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Car sales in the capital maintained an upward momentum for three consecutive quarters before dropping sharply in the winter."
+  },
+  {
+    "id": "wt1_0009",
+    "word": "Stood at around",
+    "meaning_en": "Registered an approximate or estimated quantitative amount at a specific juncture",
+    "meaning_bn": "আনুমানিক পর্যায়ে ছিল",
+    "synonyms": [
+      "Was approximately",
+      "Hovered at roughly",
+      "Was positioned at nearly"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Data Reporting",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "In the baseline year of 1995, international tourist arrivals stood at around 12 million visitors."
+  },
+  {
+    "id": "wt1_0010",
+    "word": "Slight variations",
+    "meaning_en": "Small, modest differences or changes across categories or time intervals",
+    "meaning_bn": "সামান্য তারতম্য বা পরিবর্তন",
+    "synonyms": [
+      "Marginal differences",
+      "Minor discrepancies",
+      "Subtle variances"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Comparisons",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Despite slight variations in monthly spending, household budgets in both countries remained substantially similar."
+  },
+  {
+    "id": "wt1_0011",
+    "word": "Overall reduction",
+    "meaning_en": "A net downward movement in total figures when evaluating the full timeline",
+    "meaning_bn": "সামগ্রিকভাবে হ্রাস বা কমে যাওয়া",
+    "synonyms": [
+      "General decrease",
+      "Net decline",
+      "Cumulative drop"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Overview Phrases",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Looking at the whole picture, there was an overall reduction in carbon emissions across the manufacturing sector."
+  },
+  {
+    "id": "wt1_0012",
+    "word": "Followed a different pattern",
+    "meaning_en": "Demonstrated a contrasting trajectory compared to dominant trends in other categories",
+    "meaning_bn": "ভিন্ন ধারা অনুসরণ করেছে",
+    "synonyms": [
+      "Exhibited a contrasting trajectory",
+      "Followed an opposite course",
+      "Showed divergent behavior"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Comparisons",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "While other commodities grew steadily in value, domestic coal consumption followed a different pattern and slumped."
+  },
+  {
+    "id": "wt1_0013",
+    "word": "Changes in",
+    "meaning_en": "Modifications, alterations, or adjustments concerning specific variables over time",
+    "meaning_bn": "পরিবর্তনসমূহ",
+    "synonyms": [
+      "Shifts in",
+      "Fluctuations in",
+      "Variations regarding",
+      "Developments in"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Introduction Phrases",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "The accompanying bar chart outlines the noticeable changes in energy consumption across six OECD nations."
+  },
+  {
+    "id": "wt1_0014",
+    "word": "Over the period",
+    "meaning_en": "Across the entire designated timespan shown on the graph or chart",
+    "meaning_bn": "পুরো সময়কাল জুড়ে",
+    "synonyms": [
+      "Throughout the timeline",
+      "Across the timeframe",
+      "During the surveyed interval"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Time Markers",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Over the period in question, renewable sources increased their total market share from 5% to 28%."
+  },
+  {
+    "id": "wt1_0015",
+    "word": "Between ... and ...",
+    "meaning_en": "Spanning the temporal interval from a starting point to an ending milestone",
+    "meaning_bn": "... থেকে ... এর মধ্যে",
+    "synonyms": [
+      "From ... to ...",
+      "Covering the span of ... to ..."
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Time Markers",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Between 2010 and 2020, university enrollment among mature students expanded by almost forty percent."
+  },
+  {
+    "id": "wt1_0016",
+    "word": "Slight fluctuations",
+    "meaning_en": "Minor irregular movements up and down without altering the fundamental trend",
+    "meaning_bn": "সামান্য ওঠানামা",
+    "synonyms": [
+      "Mild undulations",
+      "Moderate instability",
+      "Gentle oscillations"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Trends & Variations",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "The price of crude oil experienced slight fluctuations in the second quarter, oscillating between $68 and $72."
+  },
+  {
+    "id": "wt1_0017",
+    "word": "Minor ups and downs",
+    "meaning_en": "Modest cyclical rises and falls that do not change the general direction of the data",
+    "meaning_bn": "ছোটখাটো ওঠানামা",
+    "synonyms": [
+      "Negligible fluctuations",
+      "Slight oscillatory movements",
+      "Small crests and troughs"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Trends & Variations",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Although student attendance saw minor ups and downs from week to week, the overall semester trend remained positive."
+  },
+  {
+    "id": "wt1_0018",
+    "word": "Dipped to",
+    "meaning_en": "Decreased momentarily to a lower numerical value before recovering or stabilizing",
+    "meaning_bn": "কমে নিচে নেমে যাওয়া",
+    "synonyms": [
+      "Declined temporarily to",
+      "Slumped to",
+      "Dropped momentarily to"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Highs & Lows",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Passenger numbers dipped to an all-time low of 2.1 million in April following the implementation of travel curbs."
+  },
+  {
+    "id": "wt1_0019",
+    "word": "Peaking close to",
+    "meaning_en": "Arriving near or at the maximum numerical height of a distribution curve",
+    "meaning_bn": "সর্বোচ্চ সীমার কাছাকাছি পৌঁছানো",
+    "synonyms": [
+      "Reaching a zenith of nearly",
+      "Approaching a maximum of",
+      "Culminating near"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Highs & Lows",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Electricity demand surged during the summer heatwave, peaking close to 45,000 megawatts in July."
+  },
+  {
+    "id": "wt1_0020",
+    "word": "Ending slightly lower",
+    "meaning_en": "Finishing the measured timeframe at a modest decrease compared to the starting or midpoint position",
+    "meaning_bn": "শেষে সামান্য কম ছিল",
+    "synonyms": [
+      "Concluding marginally below",
+      "Finishing somewhat down",
+      "Closing at a slightly reduced figure"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Time & Trend Endpoints",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Gold valuation fluctuated widely throughout the financial year, ultimately ending slightly lower at $1,750 per ounce."
+  },
+  {
+    "id": "wt1_0021",
+    "word": "On the other hand",
+    "meaning_en": "Cohesive discourse connector used to introduce a contrasting fact or dataset",
+    "meaning_bn": "অন্যদিকে (তুলনা করার সময়)",
+    "synonyms": [
+      "In contrast",
+      "Conversely",
+      "By comparison",
+      "Whereas"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Connectors & Discourse",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Online retail recorded phenomenal expansion; on the other hand, traditional brick-and-mortar storefronts contracted."
+  },
+  {
+    "id": "wt1_0022",
+    "word": "Ranging between",
+    "meaning_en": "Existing within an upper and lower statistical boundary",
+    "meaning_bn": "নির্দিষ্ট সীমার মধ্যে থাকা",
+    "synonyms": [
+      "Varying from",
+      "Fluctuating between",
+      "Spanning from ... to ..."
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Data Ranges",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Average winter temperatures remained cold across the northern province, ranging between -5°C and 2°C."
+  },
+  {
+    "id": "wt1_0023",
+    "word": "Dramatic decline",
+    "meaning_en": "A rapid, extreme, and eye-catching downward fall in numbers or percentage",
+    "meaning_bn": "নাটকীয়ভাবে তীব্র পতন বা কমে যাওয়া",
+    "synonyms": [
+      "Sharp drop",
+      "Steep plunge",
+      "Drastic fall",
+      "Precipitous collapse"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Sharp Trends",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "The manufacturing workforce witnessed a dramatic decline from 35% in 1980 to under 12% by 2010."
+  },
+  {
+    "id": "wt1_0024",
+    "word": "Remained relatively steady",
+    "meaning_en": "Kept a fairly constant and unchanging level over a considerable period",
+    "meaning_bn": "তুলনামূলকভাবে স্থির ছিল",
+    "synonyms": [
+      "Maintained a consistent level",
+      "Stayed largely unchanged",
+      "Hovered at a stable mark"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Stability Phrases",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Throughout the twenty-year observation, domestic tea consumption remained relatively steady at roughly 3 cups daily."
+  },
+  {
+    "id": "wt1_0025",
+    "word": "Fluctuating moderately",
+    "meaning_en": "Moving up and down within sensible, medium boundaries without wild instability",
+    "meaning_bn": "মাঝারিভাবে ওঠানামা করেছে",
+    "synonyms": [
+      "Oscillating within medium bands",
+      "Varying reasonably",
+      "Displaying intermediate volatility"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Trends & Variations",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "The local exchange rate spent the decade fluctuating moderately against the US dollar before stabilizing."
+  },
+  {
+    "id": "wt1_0026",
+    "word": "More noticeable variations",
+    "meaning_en": "Differences or changes that are distinctly visible and prominent to the analyst",
+    "meaning_bn": "লক্ষ্যণীয় পরিবর্তনসমূহ",
+    "synonyms": [
+      "More pronounced shifts",
+      "Clearer discrepancies",
+      "More striking alterations"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Comparisons",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "In comparison with the junior cohort, mature university students exhibited more noticeable variations in course completion rates."
+  },
+  {
+    "id": "wt1_0027",
+    "word": "Overall",
+    "meaning_en": "Indispensable signal word used to introduce the overview paragraph summarizing key features",
+    "meaning_bn": "মোটের ওপর বা সামগ্রিকভাবে (ওভারভিউ লেখার প্রধান কি-ওয়ার্ড)",
+    "synonyms": [
+      "In summary",
+      "Broadly speaking",
+      "Taking a holistic view",
+      "To summarize the main features"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Overview Phrases",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Overall, while fossil fuel reliance decreased across the period, solar and wind energy both experienced exponential growth."
+  },
+  {
+    "id": "wt1_0028",
+    "word": "Significant decline",
+    "meaning_en": "A substantial, noteworthy reduction that plays an important analytical role in the report",
+    "meaning_bn": "তাৎপর্যপূর্ণ পতন বা হ্রাস",
+    "synonyms": [
+      "Substantial drop",
+      "Marked decrease",
+      "Considerable downturn"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Sharp Trends",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "The proportion of commuters travelling by private automobile suffered a significant decline following fuel duty hikes."
+  },
+  {
+    "id": "wt1_0029",
+    "word": "Remained relatively stable",
+    "meaning_en": "Exhibited little to no change, maintaining equilibrium over the observation window",
+    "meaning_bn": "তুলনামূলকভাবে স্থিতিশীল ছিল",
+    "synonyms": [
+      "Showed little variance",
+      "Held firm",
+      "Plateaued consistently"
+    ],
+    "category": "Writing Task 1 Essentials",
+    "sub_category": "Task 1 Stability Phrases",
+    "difficulty": "Band 7-9 Task 1",
+    "source": "IELTS Academic Writing Task 1",
+    "example": "Unlike volatile stock valuations, property investment returns remained relatively stable across the two decades."
+  }
+]
