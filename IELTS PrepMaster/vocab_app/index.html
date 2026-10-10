@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IELTS VocabMaster Pro | Smart IELTS Vocabulary & Practice Suite</title>
+  <meta name="description" content="Ultimate IELTS Vocabulary study app covering 2,940 words: Reading Vocab, IELTS Advantage Top 50, Task 1 Vocabulary, 800 Idioms, and Map Directions with 3D Flashcards, Quiz Arena, and Listening Drill.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand" id="brandLogo">
+        <div class="brand-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div>
+          <div style="display: flex; align-items: center; gap: 0.5rem;">
+            <h1 class="brand-title">IELTS VocabMaster</h1>
+            <span class="brand-badge">PRO BAND 9</span>
+          </div>
+          <p style="font-size: 0.72rem; color: var(--text-muted); margin-top: -2px;">Interactive Learning Suite</p>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="nav-tabs" aria-label="Main Navigation">
+        <button class="nav-tab-btn active" data-tab="browse">
+          <i class="fa-solid fa-magnifying-glass"></i> Explore & Search
+        </button>
+        <button class="nav-tab-btn" data-tab="flashcards">
+          <i class="fa-solid fa-layer-group"></i> 3D Flashcards
+        </button>
+        <button class="nav-tab-btn" data-tab="quiz">
+          <i class="fa-solid fa-bullseye"></i> Quiz Arena
+        </button>
+        <button class="nav-tab-btn" data-tab="spelling">
+          <i class="fa-solid fa-headphones-simple"></i> Listening Drill
+        </button>
+      </nav>
+
+      <!-- Header Stats & Actions -->
+      <div class="header-actions">
+        <div class="stat-pill" title="Mastered Words">
+          <i class="fa-solid fa-circle-check" style="color: var(--success);"></i>
+          <span id="headerMasteredCount">0</span>
+        </div>
+        <div class="stat-pill" title="Starred / Bookmarked Words">
+          <i class="fa-solid fa-star" style="color: var(--warning);"></i>
+          <span id="headerStarredCount">0</span>
+        </div>
+        <button class="icon-action-btn" id="exportDataBtn" title="Export Bookmarked Words">
+          <i class="fa-solid fa-download"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== MAIN CONTENT WRAPPER ==================== -->
+  <main class="main-wrapper">
+
+    <!-- ==================== VIEW 1: EXPLORE & SEARCH ==================== -->
+    <section id="view-browse" class="view-section active">
+      <!-- Hero Banner -->
+      <div class="hero-banner">
+        <div class="hero-content">
+          <h2 class="hero-title">Master <span>2,940 IELTS Words</span> with Context & Bangla</h2>
+          <p class="hero-desc">
+            Complete vocabulary database extracted from Cambridge 18, 19, Academic Reading Vocab (1,794), IELTS Advantage Top 50 Paraphrasing, Writing Task 1 Trends, 800 American Idioms, and Band 8 Map Directions.
+          </p>
+          <div class="quick-stats-row">
+            <div class="stat-item">
+              <span class="stat-num" id="totalWordsStat">2,940</span>
+              <span class="stat-label">Total Vocabulary</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" id="statCategories">7</span>
+              <span class="stat-label">Core Modules</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" id="statBanglaAvailable">2,212</span>
+              <span class="stat-label">Bangla Meanings</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-num" id="statReading">1,794</span>
+              <span class="stat-label">Reading Vocab</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter and Search Controls -->
+      <div class="filter-container">
+        <!-- Search Row -->
+        <div class="search-box-row">
+          <div class="search-input-wrapper">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input type="text" id="searchInput" class="search-input" placeholder="Search by word, English definition, Bangla meaning, or synonym..." autocomplete="off">
+            <button id="searchClearBtn" class="search-clear-btn" title="Clear Search">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Category Chips -->
+        <div class="category-chips" id="categoryChips">
+          <button class="chip-btn active" data-cat="all">
+            All Words <span class="chip-count" id="countAll">2,940</span>
+          </button>
+          <button class="chip-btn" data-cat="Reading Vocab">
+            <i class="fa-solid fa-book-open"></i> Reading Vocab <span class="chip-count">1,794</span>
+          </button>
+          <button class="chip-btn" data-cat="IELTS Advantage 50">
+            <i class="fa-solid fa-graduation-cap"></i> IELTS Advantage 50 <span class="chip-count">50</span>
+          </button>
+          <button class="chip-btn" data-cat="Task 1 Vocabulary">
+            <i class="fa-solid fa-chart-line"></i> Task 1 Vocabulary <span class="chip-count">29</span>
+          </button>
+          <button class="chip-btn" data-cat="Idioms & Phrases">
+            <i class="fa-solid fa-quote-left"></i> 800 Idioms <span class="chip-count">737</span>
+          </button>
+          <button class="chip-btn" data-cat="Map & Directions">
+            <i class="fa-solid fa-compass"></i> Map & Directions <span class="chip-count">162</span>
+          </button>
+          <button class="chip-btn" data-cat="Topic Vocabulary">
+            <i class="fa-solid fa-comments"></i> Vocab by Topics <span class="chip-count">168</span>
+          </button>
+        </div>
+
+        <!-- Dynamic Pedagogical Category Study Guide (Why Study This Section) -->
+        <div class="category-guide-banner" id="categoryGuideBanner">
+          <div class="guide-banner-header">
+            <span class="guide-badge-pill" id="catGuideBadge">
+              <i class="fa-solid fa-graduation-cap"></i> <span id="catGuideTitle">All Words</span>
+            </span>
+            <span class="guide-exam-focus" id="catGuideFocus">IELTS General & Academic Master Preparation</span>
+          </div>
+          <div class="guide-banner-body">
+            <div class="guide-why-heading">
+              <i class="fa-solid fa-circle-info"></i>
+              Why should you study this section's vocabulary?
+            </div>
+            <p class="guide-why-desc" id="catGuideDesc">
+              Comprehensive IELTS vocabulary repository covering authentic Cambridge academic readings, high-impact paraphrasing synonyms, writing task 1 descriptors, and natural idiomatic expressions for Band 7.5+ Lexical Resource.
+            </p>
+          </div>
+        </div>
+
+        <!-- Sub Filters -->
+        <div class="filter-sub-row">
+          <div class="quick-filter-group">
+            <button class="pill-toggle-btn" id="filterStarredBtn">
+              <i class="fa-regular fa-star"></i> Bookmarked
+            </button>
+            <button class="pill-toggle-btn" id="filterMasteredBtn">
+              <i class="fa-regular fa-circle-check"></i> Mastered
+            </button>
+            <button class="pill-toggle-btn" id="filterBanglaOnlyBtn">
+              <i class="fa-solid fa-language"></i> Has Bangla
+            </button>
+          </div>
+
+          <div class="view-controls">
+            <span class="results-info" id="resultsCount">Showing 1 - 24 of 2,940 words</span>
+            <select id="sortSelect" class="sort-select" title="Sort Words">
+              <option value="default">Default Order</option>
+              <option value="az">Alphabetical (A - Z)</option>
+              <option value="za">Alphabetical (Z - A)</option>
+              <option value="category">By Category</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Word Cards Grid -->
+      <div class="cards-grid" id="wordsGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Pagination -->
+      <div class="pagination-container" id="paginationControls">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 2: 3D FLASHCARDS ==================== -->
+    <section id="view-flashcards" class="view-section">
+      <div class="flashcards-container">
+        <!-- Flashcard Header Bar -->
+        <div class="flashcard-header-bar">
+          <div class="deck-progress-wrapper">
+            <div class="progress-track">
+              <div class="progress-bar-fill" id="fcProgressBar" style="width: 0%;"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span class="progress-text" id="fcCounter">Card 1 of 50</span>
+              <span class="progress-text" id="fcDeckInfo">Deck: All Words</span>
+            </div>
+          </div>
+          <div style="display: flex; gap: 0.5rem;">
+            <select id="fcDeckSelect" class="sort-select" title="Choose Deck">
+              <option value="all">All Modules (2,940 Words)</option>
+              <option value="Reading Vocab">📖 Reading Vocab (1,794)</option>
+              <option value="IELTS Advantage 50">💎 IELTS Advantage Top 50 Synonyms (50)</option>
+              <option value="Task 1 Vocabulary">📊 Task 1 Vocabulary (29)</option>
+              <option value="Idioms & Phrases">🗣️ 800 Idioms & Phrases (737)</option>
+              <option value="Map & Directions">🧭 Map & Directions (162)</option>
+              <option value="Topic Vocabulary">💡 Vocab by Topics (168)</option>
+              <option value="starred">⭐ My Bookmarks</option>
+            </select>
+            <button class="fc-nav-btn" id="fcShuffleBtn" title="Shuffle Deck" style="width: 36px; height: 36px; font-size: 0.9rem;">
+              <i class="fa-solid fa-shuffle"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- 3D Card Scene -->
+        <div class="card-scene" id="cardScene">
+          <div class="flashcard-inner" id="flashcardInner">
+            <!-- Front Face -->
+            <div class="card-face card-face-front">
+              <div class="face-top">
+                <span class="badge-tag badge-blue" id="fcFrontCategory">Cambridge 18</span>
+                <button class="pronounce-btn" id="fcFrontAudioBtn" title="Listen Pronunciation">
+                  <i class="fa-solid fa-volume-high"></i>
+                </button>
+              </div>
+              <div class="face-center">
+                <h3 class="fc-word" id="fcFrontWord">Word</h3>
+                <div class="hint-pill" id="fcHintPill">
+                  <i class="fa-solid fa-lightbulb"></i> <span id="fcFrontHint">Click or press Space to reveal meaning</span>
+                </div>
+              </div>
+              <div class="face-bottom">
+                <span><i class="fa-regular fa-keyboard"></i> Space to flip</span>
+                <span id="fcFrontDifficulty" class="badge-tag badge-amber">Band 7-8</span>
+              </div>
+            </div>
+
+            <!-- Back Face -->
+            <div class="card-face card-face-back">
+              <div class="face-top">
+                <span class="badge-tag badge-green" id="fcBackCategory">Meaning & Usage</span>
+                <button class="pronounce-btn" id="fcBackAudioBtn" title="Listen Pronunciation">
+                  <i class="fa-solid fa-volume-high"></i>
+                </button>
+              </div>
+              <div class="face-center">
+                <div class="fc-bangla bn-font" id="fcBackBangla">বাংলা অর্থ</div>
+                <div class="fc-meaning" id="fcBackMeaning">English definition and synonyms</div>
+                <div class="fc-example" id="fcBackExample" style="display: none;">"Example sentence here."</div>
+              </div>
+              <div class="face-bottom">
+                <span id="fcBackSynonymsCount">Synonyms available</span>
+                <span class="badge-tag badge-blue">Tap to flip back</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Flashcard Controls -->
+        <div class="flashcard-controls">
+          <button class="fc-nav-btn" id="fcPrevBtn" title="Previous Card (Left Arrow)">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button class="flip-action-btn" id="fcFlipBtn">
+            <i class="fa-solid fa-rotate"></i> Flip Card
+          </button>
+          <button class="fc-nav-btn" id="fcNextBtn" title="Next Card (Right Arrow)">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Quick Status Actions -->
+        <div class="fc-status-row">
+          <button class="fc-mark-btn" id="fcToggleStarBtn">
+            <i class="fa-regular fa-star"></i> Bookmark
+          </button>
+          <button class="fc-mark-btn" id="fcToggleMasterBtn">
+            <i class="fa-regular fa-circle-check"></i> Mark Mastered
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 3: QUIZ ARENA ==================== -->
+    <section id="view-quiz" class="view-section">
+      <div class="quiz-container">
+
+        <!-- Smart Quiz Controls & Settings Bar -->
+        <div class="quiz-settings-bar">
+          <div class="quiz-setting-item">
+            <label for="quizModeSelect"><i class="fa-solid fa-gamepad"></i> Quiz Mode</label>
+            <select id="quizModeSelect" class="quiz-select">
+              <option value="def_to_word">💡 Definition ➔ Word Match (IELTS Standard)</option>
+              <option value="word_to_def">📖 Word ➔ English Definition</option>
+              <option value="synonym">🔗 Synonym Challenge</option>
+              <option value="sentence">📝 Sentence Completion (Academic Cloze)</option>
+              <option value="mixed" selected>⚡ Mixed Band 9 Challenge (All Modes)</option>
+            </select>
+          </div>
+
+          <div class="quiz-setting-item">
+            <label for="quizDeckSelect"><i class="fa-solid fa-layer-group"></i> Question Deck</label>
+            <select id="quizDeckSelect" class="quiz-select">
+              <option value="all" selected>📚 All Words (Master Pool - 2,940)</option>
+              <option value="Reading Vocab">📖 Reading Vocab (1,794)</option>
+              <option value="IELTS Advantage 50">💎 IELTS Advantage Top 50 (Paraphrasing)</option>
+              <option value="Task 1 Vocabulary">📊 Task 1 Vocabulary (Writing Trends)</option>
+              <option value="Idioms & Phrases">🗣️ 800 American Idioms</option>
+              <option value="Map & Directions">🗺️ Map & Directions (Listening Section 2)</option>
+              <option value="Topic Vocabulary">💡 Topic Vocabulary (16 Areas)</option>
+              <option value="starred">⭐ My Bookmarked Words</option>
+            </select>
+          </div>
+
+          <div class="quiz-setting-item">
+            <label for="quizLengthSelect"><i class="fa-solid fa-list-ol"></i> Question Count</label>
+            <select id="quizLengthSelect" class="quiz-select">
+              <option value="10" selected>10 Questions (Sprint)</option>
+              <option value="20">20 Questions (Standard)</option>
+              <option value="50">50 Questions (Deep Drill)</option>
+            </select>
+          </div>
+
+          <div class="quiz-setting-actions">
+            <button id="quizTimerToggleBtn" class="quiz-toggle-pill active" title="Toggle 15s Countdown Timer">
+              <i class="fa-solid fa-stopwatch"></i> <span id="timerToggleText">Timer: 15s</span>
+            </button>
+            <button id="quizRestartBtn" class="quiz-action-btn" title="Start New Quiz">
+              <i class="fa-solid fa-rotate-right"></i> Reset
+            </button>
+          </div>
+        </div>
+
+        <!-- Quiz Play Card -->
+        <div class="quiz-card" id="quizPlayCard">
+          <!-- Quiz Top Header: Progress, Timer, Score, Streak -->
+          <div class="quiz-header">
+            <div class="quiz-header-left">
+              <span class="badge-tag badge-blue" id="quizModeBadge">Mixed Band 9 Challenge</span>
+              <p class="quiz-counter-text" id="quizCounterText">Question 1 of 10</p>
+            </div>
+
+            <div class="quiz-header-right">
+              <div class="quiz-timer-badge" id="quizTimerBadge" style="display: flex;">
+                <i class="fa-solid fa-stopwatch"></i> <span id="quizTimerText">15s</span>
+              </div>
+              <div class="stat-pill">
+                <i class="fa-solid fa-trophy" style="color: var(--warning);"></i>
+                <span id="quizScoreText">Score: 0</span>
+              </div>
+              <div class="stat-pill streak-pill" id="quizStreakContainer">
+                <i class="fa-solid fa-fire streak-fire" style="color: #ef4444;"></i>
+                <span id="quizStreakText">Streak: 0</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Progress Bar -->
+          <div class="quiz-progress-track">
+            <div class="quiz-progress-fill" id="quizProgressFill" style="width: 10%;"></div>
+          </div>
+
+          <!-- Question Box -->
+          <div class="quiz-question-box">
+            <div class="quiz-prompt-header">
+              <span class="quiz-prompt-type" id="quizPromptType">IELTS DEFINITION TO WORD</span>
+              <span class="quiz-difficulty-tag" id="quizDifficultyTag">Band 7.5+</span>
+            </div>
+            
+            <div class="quiz-question-content">
+              <div class="quiz-question-text" id="quizQuestionText">
+                What is the academic term for:
+              </div>
+              <div class="quiz-target-row" id="quizTargetRow">
+                <h3 class="quiz-target-word" id="quizTargetWord">Vulnerable</h3>
+                <button class="pronounce-btn" id="quizAudioBtn" title="Listen Pronunciation (Key: R)">
+                  <i class="fa-solid fa-volume-high"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Options List (100% English Options A, B, C, D) -->
+          <div class="quiz-options-list" id="quizOptionsList">
+            <!-- 4 Modern English Option Buttons rendered by JS -->
+          </div>
+
+          <!-- Rich Explanation Card (Revealed after answer) -->
+          <div class="quiz-explanation-card" id="quizExplanationCard" style="display: none;">
+            <div class="explanation-status" id="explanationStatus">
+              <!-- Result Icon & Title -->
+            </div>
+            <div class="explanation-details">
+              <div class="exp-word-line">
+                <strong id="expWordName">Vulnerable</strong>
+                <span class="exp-pos" id="expWordPos">adjective</span>
+                <span class="exp-phonetic" id="expWordPhonetic"></span>
+              </div>
+              <div class="exp-meaning-en" id="expMeaningEn">
+                <strong>English Definition:</strong> Exposed to the possibility of being attacked or harmed, either physically or emotionally.
+              </div>
+              <div class="exp-synonyms" id="expSynonyms" style="display: none;">
+                <strong>Synonyms:</strong> <span id="expSynonymsList"></span>
+              </div>
+              <div class="exp-example" id="expExample" style="display: none;">
+                <i class="fa-solid fa-quote-left"></i> <span id="expExampleText"></span>
+              </div>
+              <div class="exp-meaning-bn" id="expMeaningBn">
+                <span class="exp-bn-badge">বাংলা অর্থ</span> <span id="expMeaningBnText" class="bn-font"></span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Action Controls -->
+          <div class="quiz-bottom-bar">
+            <div class="quiz-shortcuts-hint">
+              <span>
+                <span class="lang-en-only">Keys: <strong>1-4</strong> or <strong>A-D</strong> to choose &bull; <strong>Enter/Space</strong> for Next</span>
+                <span class="lang-bn-only">শর্টকাট: উত্তর দিতে <strong>1-4</strong> বা <strong>A-D</strong> &bull; পরবর্তী প্রশ্নে যেতে <strong>Enter/Space</strong></span>
+              </span>
+            </div>
+            <button class="quiz-next-btn" id="quizNextBtn">
+              Next Question <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Quiz Completion Screen (Hidden by default) -->
+        <div class="quiz-card quiz-results-card" id="quizResultsCard" style="display: none;">
+          <div class="results-trophy-box">
+            <div class="trophy-circle" id="trophyCircle">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <span class="results-band-badge" id="resultsBandBadge">IELTS Band 8.5</span>
+            <h2 class="results-title" id="resultsTitle">Outstanding Performance!</h2>
+            <p class="results-subtitle" id="resultsSubtitle">You demonstrated master-level vocabulary command.</p>
+          </div>
+
+          <!-- Metrics Grid -->
+          <div class="results-stats-grid">
+            <div class="res-stat-card">
+              <span class="res-stat-val" id="resFinalScore">0</span>
+              <span class="res-stat-lbl">Final Score</span>
+            </div>
+            <div class="res-stat-card">
+              <span class="res-stat-val" id="resAccuracy">0%</span>
+              <span class="res-stat-lbl">Accuracy</span>
+            </div>
+            <div class="res-stat-card">
+              <span class="res-stat-val" id="resBestStreak">0</span>
+              <span class="res-stat-lbl">Max Streak</span>
+            </div>
+            <div class="res-stat-card">
+              <span class="res-stat-val" id="resCorrectCount">0 / 10</span>
+              <span class="res-stat-lbl">Correct Answers</span>
+            </div>
+          </div>
+
+          <!-- Mistake Review Accordion -->
+          <div class="results-review-section" id="resultsReviewSection" style="display: none;">
+            <h4 class="review-heading"><i class="fa-solid fa-clipboard-check"></i> Review Incorrect Questions (<span id="reviewCount">0</span>)</h4>
+            <div class="review-items-list" id="reviewItemsList">
+              <!-- Rendered by JS -->
+            </div>
+          </div>
+
+          <!-- Actions -->
+          <div class="results-actions-row">
+            <button class="quiz-btn-primary" id="resultsPlayAgainBtn">
+              <i class="fa-solid fa-rotate-right"></i> Play Again
+            </button>
+            <button class="quiz-btn-secondary" id="resultsRetryMissedBtn" style="display: none;">
+              <i class="fa-solid fa-bullseye"></i> Practice Missed Words
+            </button>
+            <button class="quiz-btn-secondary" id="resultsExploreVocabBtn">
+              <i class="fa-solid fa-book-open"></i> Browse Vocabulary
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 4: LISTENING SPELLING DRILL ==================== -->
+    <section id="view-spelling" class="view-section">
+      <div class="spelling-container">
+        <div class="spelling-card">
+          <div style="display: flex; justify-content: space-between; width: 100%; align-items: center;">
+            <span class="badge-tag badge-blue">IELTS Listening Section 1 & 4 Drill</span>
+            <div class="stat-pill">
+              <i class="fa-solid fa-bolt" style="color: var(--warning);"></i>
+              <span id="spellingScore">Streak: 0</span>
+            </div>
+          </div>
+
+          <div>
+            <h3 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.3rem;"><span class="lang-en-only">Listen & Spell</span><span class="lang-bn-only">লিসেনিং ও স্পেলিং ড্রিল</span></h3>
+            <p style="font-size: 0.88rem; color: var(--text-secondary);"><span class="lang-en-only">Click the speaker to hear the word, then type the exact spelling.</span><span class="lang-bn-only">স্পিকারে ক্লিক করে অডিও শুনুন এবং সঠিক বানানটি টাইপ করুন।</span></p>
+          </div>
+
+          <!-- Question Deck Filter for Listening Drill -->
+          <div class="spelling-deck-selector-row">
+            <label for="spellingDeckSelect"><i class="fa-solid fa-layer-group"></i> <span class="lang-en-only">Question Deck:</span><span class="lang-bn-only">প্রশ্ন ডেক ফিল্টার:</span></label>
+            <select id="spellingDeckSelect" class="spelling-select">
+              <option value="all" selected>📚 All Words (Master Pool - 2,940)</option>
+              <option value="Reading Vocab">📖 Reading Vocab (1,794)</option>
+              <option value="IELTS Advantage 50">💎 IELTS Advantage Top 50 (50)</option>
+              <option value="Task 1 Vocabulary">📊 Task 1 Vocabulary (29)</option>
+              <option value="Idioms & Phrases">🗣️ 800 Idioms & Phrases (737)</option>
+              <option value="Map & Directions">🧭 Map & Directions (162)</option>
+              <option value="Topic Vocabulary">💡 Topic Vocabulary (168)</option>
+              <option value="starred">⭐ My Bookmarked Words</option>
+            </select>
+          </div>
+
+          <!-- Modern Audio Listening Player -->
+          <div class="spelling-audio-hub">
+            <button type="button" class="audio-repeat-btn" id="spellingAudioBtn" title="Click to hear word / অডিও শুনতে ক্লিক করুন">
+              <div class="audio-waves-ring"></div>
+              <div class="audio-btn-inner">
+                <i class="fa-solid fa-volume-high audio-main-icon"></i>
+              </div>
+            </button>
+            <div class="audio-listen-caption">
+              <i class="fa-solid fa-headphones-simple"></i>
+              <span class="lang-en-only">Click speaker to hear pronunciation</span>
+              <span class="lang-bn-only">উচ্চারণ শুনতে স্পিকারে চাপুন</span>
+            </div>
+            <!-- Category & Length Badge -->
+            <div class="spelling-cat-badge" id="spellingCategoryHint">
+              Category: Money Matters / Numbers
+            </div>
+          </div>
+
+          <!-- Input Row -->
+          <div class="spelling-input-row">
+            <input type="text" id="spellingInput" class="spelling-input" placeholder="Type spelling here..." autofocus autocomplete="off" spellcheck="false">
+            <button type="button" class="spelling-submit-btn" id="spellingSubmitBtn">
+              <span class="lang-en-only">Submit</span>
+              <span class="lang-bn-only">যাচাই করুন</span>
+              <i class="fa-solid fa-circle-check"></i>
+            </button>
+          </div>
+
+          <!-- Result Feedback -->
+          <div id="spellingFeedback" style="font-size: 1rem; font-weight: 600; min-height: 28px;"></div>
+
+          <div class="spelling-secondary-actions">
+            <button type="button" class="pill-toggle-btn" id="spellingHintBtn">
+              <i class="fa-regular fa-lightbulb"></i>
+              <span class="lang-en-only">Give Hint</span>
+              <span class="lang-bn-only">হিন্ট নিন</span>
+            </button>
+            <button type="button" class="pill-toggle-btn" id="spellingSkipBtn">
+              <i class="fa-solid fa-forward-step"></i>
+              <span class="lang-en-only">Skip Word</span>
+              <span class="lang-bn-only">স্কিপ করুন</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Load Data Bundle (Works offline and directly without local server CORS) -->
+  <script src="vocab_data.js"></script>
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>
