@@ -1,0 +1,122 @@
+[
+  {
+    "id": "map_0001",
+    "word": "Go straight",
+    "meaning_en": "Continue in the same direction without turning",
+    "meaning_bn": "সোজা এগিয়ে যাওয়া",
+    "category": "Map & Directions",
+    "sub_category": "Movement & Direction",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0002",
+    "word": "Take the second left",
+    "meaning_en": "Turn left at the second intersection or corner",
+    "meaning_bn": "দ্বিতীয় বাঁকটিতে বামে ঘুরুন",
+    "category": "Map & Directions",
+    "sub_category": "Movement & Direction",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0003",
+    "word": "Past the reception",
+    "meaning_en": "Walk beyond or through the reception area",
+    "meaning_bn": "রিসেপশন পেরিয়ে যাওয়া",
+    "category": "Map & Directions",
+    "sub_category": "Movement & Direction",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0004",
+    "word": "At the far end",
+    "meaning_en": "At the furthest point of a room, corridor, or road",
+    "meaning_bn": "করিডোর বা রাস্তার শেষ প্রান্তে",
+    "category": "Map & Directions",
+    "sub_category": "Location & Landmark",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0005",
+    "word": "Roundabout",
+    "meaning_en": "A road junction at which traffic moves in one direction around a central island",
+    "meaning_bn": "গোলচত্বর",
+    "category": "Map & Directions",
+    "sub_category": "Landmarks & Junctions",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0006",
+    "word": "Intersection / Junction",
+    "meaning_en": "A point where two or more roads meet or cross",
+    "meaning_bn": "চার রাস্তার মোড় বা সংযোগস্থল",
+    "category": "Map & Directions",
+    "sub_category": "Landmarks & Junctions",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0007",
+    "word": "Adjacent to / Next to",
+    "meaning_en": "Immediately adjoining or beside",
+    "meaning_bn": "সংলগ্ন / ঠিক পাশেই",
+    "category": "Map & Directions",
+    "sub_category": "Relative Position",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0008",
+    "word": "Opposite / Across from",
+    "meaning_en": "Facing something directly across a road or space",
+    "meaning_bn": "বিপরীত দিকে / মুখোমুখি",
+    "category": "Map & Directions",
+    "sub_category": "Relative Position",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0009",
+    "word": "Cul-de-sac / Dead end",
+    "meaning_en": "A street or passage closed at one end",
+    "meaning_bn": "কানাগলি / বন্ধ রাস্তা",
+    "category": "Map & Directions",
+    "sub_category": "Landmarks & Junctions",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0010",
+    "word": "Clockwise / Counter-clockwise",
+    "meaning_en": "In the direction or opposite direction of clock hands",
+    "meaning_bn": "ঘড়ির কাঁটার দিকে / বিপরীত দিকে",
+    "category": "Map & Directions",
+    "sub_category": "Orientation & Compass",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0011",
+    "word": "North-west corner",
+    "meaning_en": "The corner pointing between north and west",
+    "meaning_bn": "উত্তর-পশ্চিম কোণ",
+    "category": "Map & Directions",
+    "sub_category": "Orientation & Compass",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  },
+  {
+    "id": "map_0012",
+    "word": "Pedestrian crossing",
+    "meaning_en": "A marked part of a road where pedestrians have right of way to cross",
+    "meaning_bn": "জেব্রা ক্রসিং / পথচারী পারাপার",
+    "category": "Map & Directions",
+    "sub_category": "Landmarks & Junctions",
+    "difficulty": "Essential Band 7+",
+    "source": "Map Vocabulary (IELTS Listening Part 2)"
+  }
+]

@@ -1,0 +1,6723 @@
+[
+  {
+    "id": "c18_0001",
+    "word": "Urban",
+    "meaning_en": "City-like, metropolitan",
+    "meaning_bn": "শহুরে, নাগরিক",
+    "synonyms": [
+      "City-like",
+      "metropolitan"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0002",
+    "word": "Agriculture",
+    "meaning_en": "Farming, cultivation",
+    "meaning_bn": "কৃষি, চাষাবাদ",
+    "synonyms": [
+      "Farming",
+      "cultivation"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0003",
+    "word": "Soil-free",
+    "meaning_en": "Soilless, hydroponic",
+    "meaning_bn": "মাটিবিহীন",
+    "synonyms": [
+      "Soilless",
+      "hydroponic"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0004",
+    "word": "Resources",
+    "meaning_en": "Assets, supplies",
+    "meaning_bn": "সম্পদ, সরবরাহ",
+    "synonyms": [
+      "Assets",
+      "supplies"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0005",
+    "word": "Exhibition",
+    "meaning_en": "Display, showcase",
+    "meaning_bn": "প্রদর্শনী",
+    "synonyms": [
+      "Display",
+      "showcase"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0006",
+    "word": "Abundantly",
+    "meaning_en": "Plentifully, copiously",
+    "meaning_bn": "প্রচুর পরিমাণে",
+    "synonyms": [
+      "Plentifully",
+      "copiously"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0007",
+    "word": "Resplendently",
+    "meaning_en": "Brightly, radiantly",
+    "meaning_bn": "উজ্জ্বলভাবে",
+    "synonyms": [
+      "Brightly",
+      "radiantly"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0008",
+    "word": "Aromatic",
+    "meaning_en": "Fragrant, scented",
+    "meaning_bn": "সুগন্ধি",
+    "synonyms": [
+      "Fragrant",
+      "scented"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0009",
+    "word": "Vertical",
+    "meaning_en": "Upright, perpendicular",
+    "meaning_bn": "উল্লম্ব, খাড়া",
+    "synonyms": [
+      "Upright",
+      "perpendicular"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0010",
+    "word": "Sustainable",
+    "meaning_en": "Eco-friendly, renewable",
+    "meaning_bn": "টেকসই",
+    "synonyms": [
+      "Eco-friendly",
+      "renewable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0011",
+    "word": "Consultant",
+    "meaning_en": "Advisor, expert",
+    "meaning_bn": "পরামর্শদাতা",
+    "synonyms": [
+      "Advisor",
+      "expert"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0012",
+    "word": "Constraints",
+    "meaning_en": "Limitations, restrictions",
+    "meaning_bn": "সীমাবদ্ধতা",
+    "synonyms": [
+      "Limitations",
+      "restrictions"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0013",
+    "word": "Consumption",
+    "meaning_en": "Usage, utilization",
+    "meaning_bn": "ব্যবহার, খরচ",
+    "synonyms": [
+      "Usage",
+      "utilization"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0014",
+    "word": "Showcase",
+    "meaning_en": "Display, exhibit",
+    "meaning_bn": "প্রদর্শন, তুলে ধরা",
+    "synonyms": [
+      "Display",
+      "exhibit"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0015",
+    "word": "Enquiries",
+    "meaning_en": "Inquiries, questions",
+    "meaning_bn": "অনুসন্ধান, জিজ্ঞাসা",
+    "synonyms": [
+      "Inquiries",
+      "questions"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0016",
+    "word": "Pesticides",
+    "meaning_en": "Chemicals, insecticides",
+    "meaning_bn": "কীটনাশক",
+    "synonyms": [
+      "Chemicals",
+      "insecticides"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0017",
+    "word": "Greenhouse gases",
+    "meaning_en": "Emissions, pollutants",
+    "meaning_bn": "গ্রিনহাউস গ্যাস",
+    "synonyms": [
+      "Emissions",
+      "pollutants"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0018",
+    "word": "Refrigerated",
+    "meaning_en": "Cooled, chilled",
+    "meaning_bn": "হিমায়িত, শীতলীকৃত",
+    "synonyms": [
+      "Cooled",
+      "chilled"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0019",
+    "word": "Wholesalers",
+    "meaning_en": "Distributors, suppliers",
+    "meaning_bn": "পাইকারি বিক্রেতা",
+    "synonyms": [
+      "Distributors",
+      "suppliers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0020",
+    "word": "Nutrients",
+    "meaning_en": "Nourishment, supplements",
+    "meaning_bn": "পুষ্টি, পুষ্টিকর উপাদান",
+    "synonyms": [
+      "Nourishment",
+      "supplements"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0021",
+    "word": "Recycled",
+    "meaning_en": "Reused, reprocessed",
+    "meaning_bn": "পুনর্ব্যবহৃত",
+    "synonyms": [
+      "Reused",
+      "reprocessed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0022",
+    "word": "Yield",
+    "meaning_en": "Output, production",
+    "meaning_bn": "উৎপাদন, ফলন",
+    "synonyms": [
+      "Output",
+      "production"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0023",
+    "word": "Phenomenon",
+    "meaning_en": "Occurrence, event",
+    "meaning_bn": "ঘটনা, প্রপঞ্চ",
+    "synonyms": [
+      "Occurrence",
+      "event"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0024",
+    "word": "Booming",
+    "meaning_en": "Thriving, flourishing",
+    "meaning_bn": "উন্নতিশীল, বিকাশমান",
+    "synonyms": [
+      "Thriving",
+      "flourishing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0025",
+    "word": "Disused",
+    "meaning_en": "Abandoned, unused",
+    "meaning_bn": "পরিত্যক্ত, অব্যবহৃত",
+    "synonyms": [
+      "Abandoned",
+      "unused"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0026",
+    "word": "Virtuous",
+    "meaning_en": "Ethical, efficient",
+    "meaning_bn": "সদ্গুণসম্পন্ন, নৈতিক",
+    "synonyms": [
+      "Ethical",
+      "efficient"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0027",
+    "word": "Install",
+    "meaning_en": "Set up, fix",
+    "meaning_bn": "স্থাপন করা",
+    "synonyms": [
+      "Set up",
+      "fix"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0028",
+    "word": "Fraction",
+    "meaning_en": "Portion, part",
+    "meaning_bn": "অংশ, ভগ্নাংশ",
+    "synonyms": [
+      "Portion",
+      "part"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0029",
+    "word": "Organic",
+    "meaning_en": "Natural, chemical-free",
+    "meaning_bn": "জৈব",
+    "synonyms": [
+      "Natural",
+      "chemical-free"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0030",
+    "word": "Resistance",
+    "meaning_en": "Endurance, tolerance",
+    "meaning_bn": "প্রতিরোধ, সহনশীলতা",
+    "synonyms": [
+      "Endurance",
+      "tolerance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0031",
+    "word": "Exhausted",
+    "meaning_en": "Depleted, used up",
+    "meaning_bn": "নিঃশেষিত, ক্লান্ত",
+    "synonyms": [
+      "Depleted",
+      "used up"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0032",
+    "word": "Showers",
+    "meaning_en": "Sprays, sprinkles",
+    "meaning_bn": "সিঞ্চন, ফোয়ারা",
+    "synonyms": [
+      "Sprays",
+      "sprinkles"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0033",
+    "word": "Circuit",
+    "meaning_en": "Loop, cycle",
+    "meaning_bn": "চক্র, আবর্তন",
+    "synonyms": [
+      "Loop",
+      "cycle"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0034",
+    "word": "Flavour",
+    "meaning_en": "Taste, savor",
+    "meaning_bn": "স্বাদ, গন্ধ",
+    "synonyms": [
+      "Taste",
+      "savor"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0035",
+    "word": "Roots",
+    "meaning_en": "Base, foundation",
+    "meaning_bn": "শিকড়, মূল",
+    "synonyms": [
+      "Base",
+      "foundation"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0036",
+    "word": "Harvest",
+    "meaning_en": "Gather, collect",
+    "meaning_bn": "ফসল তোলা, সংগ্রহ",
+    "synonyms": [
+      "Gather",
+      "collect"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0037",
+    "word": "Varieties",
+    "meaning_en": "Types, kinds",
+    "meaning_bn": "প্রকার, বিভিন্নতা",
+    "synonyms": [
+      "Types",
+      "kinds"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0038",
+    "word": "Intensive",
+    "meaning_en": "Concentrated, thorough",
+    "meaning_bn": "নিবিড়, গভীর",
+    "synonyms": [
+      "Concentrated",
+      "thorough"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0039",
+    "word": "Produce",
+    "meaning_en": "Products, crops",
+    "meaning_bn": "উৎপাদিত পণ্য, কৃষিপণ্য",
+    "synonyms": [
+      "Products",
+      "crops"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0040",
+    "word": "Transport",
+    "meaning_en": "Shipping, movement",
+    "meaning_bn": "পরিবহন",
+    "synonyms": [
+      "Shipping",
+      "movement"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0041",
+    "word": "Management",
+    "meaning_en": "Administration, control",
+    "meaning_bn": "ব্যবস্থাপনা",
+    "synonyms": [
+      "Administration",
+      "control"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0042",
+    "word": "Sustainable",
+    "meaning_en": "Eco-friendly, renewable",
+    "meaning_bn": "টেকসই, পরিবেশবান্ধব",
+    "synonyms": [
+      "Eco-friendly",
+      "renewable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0043",
+    "word": "Species",
+    "meaning_en": "Type, kind",
+    "meaning_bn": "প্রজাতি",
+    "synonyms": [
+      "Type",
+      "kind"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0044",
+    "word": "Accessibility",
+    "meaning_en": "Availability, reach",
+    "meaning_bn": "প্রবেশযোগ্যতা, সুগমতা",
+    "synonyms": [
+      "Availability",
+      "reach"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0045",
+    "word": "Timber",
+    "meaning_en": "Wood, lumber",
+    "meaning_bn": "কাঠ, তক্তা",
+    "synonyms": [
+      "Wood",
+      "lumber"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0046",
+    "word": "Habitat",
+    "meaning_en": "Environment, dwelling",
+    "meaning_bn": "বাসস্থান, প্রাকৃতিক আবাস",
+    "synonyms": [
+      "Environment",
+      "dwelling"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0047",
+    "word": "Disease",
+    "meaning_en": "Illness, infection",
+    "meaning_bn": "রোগ, ব্যাধি",
+    "synonyms": [
+      "Illness",
+      "infection"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0048",
+    "word": "High-grading",
+    "meaning_en": "Selective cutting, preferential harvesting",
+    "meaning_bn": "উচ্চমানের কাঠ কাটা (বাছাইকৃত আহরণ)",
+    "synonyms": [
+      "Selective cutting",
+      "preferential harvesting"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0049",
+    "word": "Legacy",
+    "meaning_en": "Inheritance, heritage",
+    "meaning_bn": "উত্তরাধিকার",
+    "synonyms": [
+      "Inheritance",
+      "heritage"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0050",
+    "word": "Junk trees",
+    "meaning_en": "Low-value trees, undesirable trees",
+    "meaning_bn": "নিম্নমানের গাছ, আগাছা গাছ",
+    "synonyms": [
+      "Low-value trees",
+      "undesirable trees"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0051",
+    "word": "Regeneration",
+    "meaning_en": "Renewal, regrowth",
+    "meaning_bn": "পুনর্জন্ম, পুনরুৎপাদন",
+    "synonyms": [
+      "Renewal",
+      "regrowth"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0052",
+    "word": "Vulnerable",
+    "meaning_en": "Susceptible, exposed",
+    "meaning_bn": "সংবেদনশীল, ঝুঁকিপূর্ণ",
+    "synonyms": [
+      "Susceptible",
+      "exposed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0053",
+    "word": "Combustion",
+    "meaning_en": "Burning, ignition",
+    "meaning_bn": "দহন, প্রজ্জ্বলন",
+    "synonyms": [
+      "Burning",
+      "ignition"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0054",
+    "word": "Gasified",
+    "meaning_en": "Converted to gas, vaporized",
+    "meaning_bn": "গ্যাসে পরিণত",
+    "synonyms": [
+      "Converted to gas",
+      "vaporized"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0055",
+    "word": "Ethanol",
+    "meaning_en": "Alcohol, fuel",
+    "meaning_bn": "ইথানল (জৈব জ্বালানি)",
+    "synonyms": [
+      "Alcohol",
+      "fuel"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0056",
+    "word": "Invasive",
+    "meaning_en": "Intrusive, aggressive",
+    "meaning_bn": "আক্রমণাত্মক, আগ্রাসী",
+    "synonyms": [
+      "Intrusive",
+      "aggressive"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0057",
+    "word": "Foliage",
+    "meaning_en": "Leaves, greenery",
+    "meaning_bn": "গাছের পাতা, পল্লব",
+    "synonyms": [
+      "Leaves",
+      "greenery"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0058",
+    "word": "Crown",
+    "meaning_en": "Top, canopy",
+    "meaning_bn": "বৃক্ষের শীর্ষভাগ, চাঁদোয়া",
+    "synonyms": [
+      "Top",
+      "canopy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0059",
+    "word": "Tailored",
+    "meaning_en": "Customized, adapted",
+    "meaning_bn": "উপযোগী করে তৈরি, মানানসই",
+    "synonyms": [
+      "Customized",
+      "adapted"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0060",
+    "word": "Salvage",
+    "meaning_en": "Rescue, recover",
+    "meaning_bn": "উদ্ধার, উদ্ধার করা",
+    "synonyms": [
+      "Rescue",
+      "recover"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0061",
+    "word": "Pathogens",
+    "meaning_en": "Germs, microbes",
+    "meaning_bn": "রোগজীবাণু",
+    "synonyms": [
+      "Germs",
+      "microbes"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0062",
+    "word": "Vigorous",
+    "meaning_en": "Strong, healthy",
+    "meaning_bn": "প্রাণবন্ত, বলিষ্ঠ",
+    "synonyms": [
+      "Strong",
+      "healthy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0063",
+    "word": "Outbreak",
+    "meaning_en": "Epidemic, surge",
+    "meaning_bn": "প্রাদুর্ভাব",
+    "synonyms": [
+      "Epidemic",
+      "surge"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0064",
+    "word": "Shelterwood",
+    "meaning_en": "Protective cover, canopy",
+    "meaning_bn": "ছায়াবৃক্ষ, রক্ষাকারী গাছের আচ্ছাদন",
+    "synonyms": [
+      "Protective cover",
+      "canopy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0065",
+    "word": "Seedlings",
+    "meaning_en": "Saplings, young plants",
+    "meaning_bn": "চারা, চারাগাছ",
+    "synonyms": [
+      "Saplings",
+      "young plants"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0066",
+    "word": "Thinning",
+    "meaning_en": "Pruning, reducing density",
+    "meaning_bn": "পাতলা করা, ছাঁটাই করা",
+    "synonyms": [
+      "Pruning",
+      "reducing density"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0067",
+    "word": "Resilience",
+    "meaning_en": "Toughness, durability",
+    "meaning_bn": "সহনশীলতা, স্থিতিস্থাপকতা",
+    "synonyms": [
+      "Toughness",
+      "durability"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0068",
+    "word": "Cavities",
+    "meaning_en": "Hollows, holes",
+    "meaning_bn": "গর্ত, কোটর",
+    "synonyms": [
+      "Hollows",
+      "holes"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0069",
+    "word": "Predators",
+    "meaning_en": "Hunters, attackers",
+    "meaning_bn": "শিকারী, হিংস্র প্রাণী",
+    "synonyms": [
+      "Hunters",
+      "attackers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0070",
+    "word": "Nutrients",
+    "meaning_en": "Nourishment, supplements",
+    "meaning_bn": "পুষ্টি, পরিপোষক",
+    "synonyms": [
+      "Nourishment",
+      "supplements"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0071",
+    "word": "Structural diversity",
+    "meaning_en": "Variety in form, composition",
+    "meaning_bn": "গঠনগত বৈচিত্র্য",
+    "synonyms": [
+      "Variety in form",
+      "composition"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0072",
+    "word": "Combustion",
+    "meaning_en": "Burning, ignition",
+    "meaning_bn": "দহন, পোড়ানো",
+    "synonyms": [
+      "Burning",
+      "ignition"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0073",
+    "word": "Bioenergy",
+    "meaning_en": "Renewable energy, biomass energy",
+    "meaning_bn": "জৈবশক্তি, জৈব জ্বালানি",
+    "synonyms": [
+      "Renewable energy",
+      "biomass energy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0074",
+    "word": "Low-use wood",
+    "meaning_en": "Low-value wood, undesirable wood",
+    "meaning_bn": "নিম্নমানের কাঠ",
+    "synonyms": [
+      "Low-value wood",
+      "undesirable wood"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0075",
+    "word": "Economic value",
+    "meaning_en": "Financial worth, monetary value",
+    "meaning_bn": "অর্থনৈতিক মূল্য",
+    "synonyms": [
+      "Financial worth",
+      "monetary value"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0076",
+    "word": "Traditional markets",
+    "meaning_en": "Conventional markets, established markets",
+    "meaning_bn": "ঐতিহ্যবাহী বাজার, প্রচলিত বাজার",
+    "synonyms": [
+      "Conventional markets",
+      "established markets"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0077",
+    "word": "Desirable",
+    "meaning_en": "Preferred, attractive",
+    "meaning_bn": "কাম্য, বাঞ্ছনীয়",
+    "synonyms": [
+      "Preferred",
+      "attractive"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0078",
+    "word": "Health issues",
+    "meaning_en": "Problems, concerns",
+    "meaning_bn": "স্বাস্থ্য সমস্যা",
+    "synonyms": [
+      "Problems",
+      "concerns"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0079",
+    "word": "Wood energy",
+    "meaning_en": "Biomass energy, fuel from wood",
+    "meaning_bn": "কাঠের শক্তি, কাঠের জ্বালানি",
+    "synonyms": [
+      "Biomass energy",
+      "fuel from wood"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0080",
+    "word": "Regenerate",
+    "meaning_en": "Renew, regrow",
+    "meaning_bn": "পুনর্জন্ম লাভ করা",
+    "synonyms": [
+      "Renew",
+      "regrow"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0081",
+    "word": "Satellites",
+    "meaning_en": "Orbiters, spacecraft",
+    "meaning_bn": "উপগ্রহ, স্যাটেলাইট",
+    "synonyms": [
+      "Orbiters",
+      "spacecraft"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0082",
+    "word": "Debris",
+    "meaning_en": "Fragments, wreckage",
+    "meaning_bn": "ধ্বংসাবশেষ, আবর্জনা",
+    "synonyms": [
+      "Fragments",
+      "wreckage"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0083",
+    "word": "Collision",
+    "meaning_en": "Crash, impact",
+    "meaning_bn": "সংঘর্ষ",
+    "synonyms": [
+      "Crash",
+      "impact"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0084",
+    "word": "Orbit",
+    "meaning_en": "Path, trajectory",
+    "meaning_bn": "কক্ষপথ",
+    "synonyms": [
+      "Path",
+      "trajectory"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0085",
+    "word": "Commercial",
+    "meaning_en": "Business-related, trade",
+    "meaning_bn": "বাণিজ্যিক",
+    "synonyms": [
+      "Business-related",
+      "trade"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0086",
+    "word": "Military",
+    "meaning_en": "Armed forces, defense",
+    "meaning_bn": "সামরিক",
+    "synonyms": [
+      "Armed forces",
+      "defense"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0087",
+    "word": "Amateurs",
+    "meaning_en": "Hobbyists, non-professionals",
+    "meaning_bn": "অপেশাদার, শৌখিন",
+    "synonyms": [
+      "Hobbyists",
+      "non-professionals"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0088",
+    "word": "Constellations",
+    "meaning_en": "Groups, clusters",
+    "meaning_bn": "নক্ষত্রপুঞ্জ",
+    "synonyms": [
+      "Groups",
+      "clusters"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0089",
+    "word": "Disaster",
+    "meaning_en": "Catastrophe, calamity",
+    "meaning_bn": "বিপর্যয়, দুর্যোগ",
+    "synonyms": [
+      "Catastrophe",
+      "calamity"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0090",
+    "word": "Shrapnel",
+    "meaning_en": "Fragments, debris",
+    "meaning_bn": "টুকরো, বোমার টুকরো",
+    "synonyms": [
+      "Fragments",
+      "debris"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0091",
+    "word": "Altitude",
+    "meaning_en": "Height, elevation",
+    "meaning_bn": "উচ্চতা",
+    "synonyms": [
+      "Height",
+      "elevation"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0092",
+    "word": "Steer",
+    "meaning_en": "Direct, navigate",
+    "meaning_bn": "পরিচালনা করা, দিকনির্দেশনা দেওয়া",
+    "synonyms": [
+      "Direct",
+      "navigate"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0093",
+    "word": "Fuel",
+    "meaning_en": "Propellant, energy source",
+    "meaning_bn": "জ্বালানি",
+    "synonyms": [
+      "Propellant",
+      "energy source"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0094",
+    "word": "Concern",
+    "meaning_en": "Worry, anxiety",
+    "meaning_bn": "উদ্বেগ, উৎকণ্ঠা",
+    "synonyms": [
+      "Worry",
+      "anxiety"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0095",
+    "word": "Assessing",
+    "meaning_en": "Evaluating, analyzing",
+    "meaning_bn": "মূল্যায়ন করা",
+    "synonyms": [
+      "Evaluating",
+      "analyzing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0096",
+    "word": "Taxonomies",
+    "meaning_en": "Classifications, categorizations",
+    "meaning_bn": "শ্রেণিবিন্যাস",
+    "synonyms": [
+      "Classifications",
+      "categorizations"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0097",
+    "word": "Properties",
+    "meaning_en": "Characteristics, attributes",
+    "meaning_bn": "বৈশিষ্ট্য, ধর্ম",
+    "synonyms": [
+      "Characteristics",
+      "attributes"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0098",
+    "word": "Unthinkable",
+    "meaning_en": "Inconceivable, unimaginable",
+    "meaning_bn": "অচিন্তনীয়",
+    "synonyms": [
+      "Inconceivable",
+      "unimaginable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0099",
+    "word": "Cascade",
+    "meaning_en": "Chain reaction, sequence",
+    "meaning_bn": "ধারাবাহিকতা, শৃঙ্খল বিক্রিয়া",
+    "synonyms": [
+      "Chain reaction",
+      "sequence"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0100",
+    "word": "Fragments",
+    "meaning_en": "Pieces, shards",
+    "meaning_bn": "টুকরো, ভগ্নাংশ",
+    "synonyms": [
+      "Pieces",
+      "shards"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0101",
+    "word": "Monitor",
+    "meaning_en": "Observe, track",
+    "meaning_bn": "পর্যবেক্ষণ করা",
+    "synonyms": [
+      "Observe",
+      "track"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0102",
+    "word": "Collaborating",
+    "meaning_en": "Cooperating, working together",
+    "meaning_bn": "সহযোগিতা করা",
+    "synonyms": [
+      "Cooperating",
+      "working together"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0103",
+    "word": "Sustainability",
+    "meaning_en": "Durability, longevity",
+    "meaning_bn": "টেকসইতা, দীর্ঘস্থায়িত্ব",
+    "synonyms": [
+      "Durability",
+      "longevity"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0104",
+    "word": "Inactivating",
+    "meaning_en": "Deactivating, disabling",
+    "meaning_bn": "নিষ্ক্রিয় করা",
+    "synonyms": [
+      "Deactivating",
+      "disabling"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0105",
+    "word": "Venting",
+    "meaning_en": "Releasing, discharging",
+    "meaning_bn": "নির্গমন, নির্গত করা",
+    "synonyms": [
+      "Releasing",
+      "discharging"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0106",
+    "word": "Disintegrate",
+    "meaning_en": "Break apart, decompose",
+    "meaning_bn": "বিচ্ছিন্ন করা, ভেঙে ফেলা",
+    "synonyms": [
+      "Break apart",
+      "decompose"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0107",
+    "word": "Bankrupt",
+    "meaning_en": "Insolvent, financially ruined",
+    "meaning_bn": "দেউলিয়া, নিঃস্ব",
+    "synonyms": [
+      "Insolvent",
+      "financially ruined"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0108",
+    "word": "Vastness",
+    "meaning_en": "Immensity, enormity",
+    "meaning_bn": "বিশালতা, ব্যাপকতা",
+    "synonyms": [
+      "Immensity",
+      "enormity"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0109",
+    "word": "Precision",
+    "meaning_en": "Accuracy, exactness",
+    "meaning_bn": "সঠিকতা, সূক্ষ্মতা",
+    "synonyms": [
+      "Accuracy",
+      "exactness"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0110",
+    "word": "Manoeuvres",
+    "meaning_en": "Movements, operations",
+    "meaning_bn": "কৌশল, চালচলন",
+    "synonyms": [
+      "Movements",
+      "operations"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0111",
+    "word": "Choreographed",
+    "meaning_en": "Planned, coordinated",
+    "meaning_bn": "পরিকল্পিত, সুসংবদ্ধ",
+    "synonyms": [
+      "Planned",
+      "coordinated"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0112",
+    "word": "Authoritative",
+    "meaning_en": "Official, reliable",
+    "meaning_bn": "কর্তৃত্বপূর্ণ, নির্ভরযোগ্য",
+    "synonyms": [
+      "Official",
+      "reliable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0113",
+    "word": "Visualise",
+    "meaning_en": "Imagine, represent",
+    "meaning_bn": "কল্পনা করা, চিত্রায়িত করা",
+    "synonyms": [
+      "Imagine",
+      "represent"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0114",
+    "word": "Designate",
+    "meaning_en": "Label, identify",
+    "meaning_bn": "চিহ্নিত করা, মনোনীত করা",
+    "synonyms": [
+      "Label",
+      "identify"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0115",
+    "word": "Cross-correlate",
+    "meaning_en": "Compare, link",
+    "meaning_bn": "পারস্পরিক সম্পর্ক স্থাপন করা",
+    "synonyms": [
+      "Compare",
+      "link"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0116",
+    "word": "Environmentalist",
+    "meaning_en": "Conservationist, ecologist",
+    "meaning_bn": "পরিবেশবাদী",
+    "synonyms": [
+      "Conservationist",
+      "ecologist"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0117",
+    "word": "Polluting",
+    "meaning_en": "Contaminating, dirtying",
+    "meaning_bn": "দূষণকারী, দূষিতকরণ",
+    "synonyms": [
+      "Contaminating",
+      "dirtying"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0118",
+    "word": "Tragedy",
+    "meaning_en": "Disaster, calamity",
+    "meaning_bn": "ট্র্যাজেডি, বিয়োগান্ত ঘটনা",
+    "synonyms": [
+      "Disaster",
+      "calamity"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0119",
+    "word": "Resource",
+    "meaning_en": "Asset, supply",
+    "meaning_bn": "সম্পদ",
+    "synonyms": [
+      "Asset",
+      "supply"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0120",
+    "word": "Generations",
+    "meaning_en": "Descendants, eras",
+    "meaning_bn": "প্রজন্ম",
+    "synonyms": [
+      "Descendants",
+      "eras"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-1 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0121",
+    "word": "Prehistoric",
+    "meaning_en": "Ancient, primeval",
+    "meaning_bn": "প্রাগৈতিহাসিক",
+    "synonyms": [
+      "Ancient",
+      "primeval"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0122",
+    "word": "Monument",
+    "meaning_en": "Memorial, landmark",
+    "meaning_bn": "স্মৃতিস্তম্ভ",
+    "synonyms": [
+      "Memorial",
+      "landmark"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0123",
+    "word": "Erect",
+    "meaning_en": "Build, construct",
+    "meaning_bn": "নির্মাণ করা, সোজা দাঁড় করানো",
+    "synonyms": [
+      "Build",
+      "construct"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0124",
+    "word": "Circular",
+    "meaning_en": "Round, ring-shaped",
+    "meaning_bn": "বৃত্তাকার",
+    "synonyms": [
+      "Round",
+      "ring-shaped"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0125",
+    "word": "Neolithic",
+    "meaning_en": "New Stone Age, ancient",
+    "meaning_bn": "নব্যপ্রস্তর যুগ",
+    "synonyms": [
+      "New Stone Age",
+      "ancient"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0126",
+    "word": "Primitive",
+    "meaning_en": "Basic, rudimentary",
+    "meaning_bn": "আদিম, প্রাথমিক",
+    "synonyms": [
+      "Basic",
+      "rudimentary"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0127",
+    "word": "Ditch",
+    "meaning_en": "Trench, moat",
+    "meaning_bn": "খাত, পরিখা",
+    "synonyms": [
+      "Trench",
+      "moat"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0128",
+    "word": "Henge",
+    "meaning_en": "Prehistoric enclosure, earthwork",
+    "meaning_bn": "প্রাগৈতিহাসিক বৃত্তাকার বেষ্টনী",
+    "synonyms": [
+      "Prehistoric enclosure",
+      "earthwork"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0129",
+    "word": "Timber",
+    "meaning_en": "Wood, lumber",
+    "meaning_bn": "কাঠ, তক্তা",
+    "synonyms": [
+      "Wood",
+      "lumber"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0130",
+    "word": "Bluestones",
+    "meaning_en": "Volcanic rocks, megaliths",
+    "meaning_bn": "নীল পাথরখণ্ড",
+    "synonyms": [
+      "Volcanic rocks",
+      "megaliths"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0131",
+    "word": "Horseshoe",
+    "meaning_en": "U-shaped, crescent",
+    "meaning_bn": "ঘোড়ার নালের মতো অর্ধবৃত্তাকার",
+    "synonyms": [
+      "U-shaped",
+      "crescent"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0132",
+    "word": "Formation",
+    "meaning_en": "Arrangement, structure",
+    "meaning_bn": "গঠন, বিন্যাস",
+    "synonyms": [
+      "Arrangement",
+      "structure"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0133",
+    "word": "Sophisticated",
+    "meaning_en": "Advanced, complex",
+    "meaning_bn": "পরিশীলিত, উন্নত ও জটিল",
+    "synonyms": [
+      "Advanced",
+      "complex"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0134",
+    "word": "Boulders",
+    "meaning_en": "Rocks, stones",
+    "meaning_bn": "পাথরখণ্ড, বৃহৎ শিলাখণ্ড",
+    "synonyms": [
+      "Rocks",
+      "stones"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0135",
+    "word": "Sledges",
+    "meaning_en": "Carts, carriers",
+    "meaning_bn": "স্লেজ, চাকা ছাড়া টানা গাড়ি",
+    "synonyms": [
+      "Carts",
+      "carriers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0136",
+    "word": "Rollers",
+    "meaning_en": "Cylinders, wheels",
+    "meaning_bn": "রোলার, ঘূর্ণক নল",
+    "synonyms": [
+      "Cylinders",
+      "wheels"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0137",
+    "word": "Rafts",
+    "meaning_en": "Floats, platforms",
+    "meaning_bn": "ভেলা",
+    "synonyms": [
+      "Floats",
+      "platforms"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0138",
+    "word": "Hypotheses",
+    "meaning_en": "Theories, assumptions",
+    "meaning_bn": "অনুমতিমূলক ধারণা, হাইপোথিসিস",
+    "synonyms": [
+      "Theories",
+      "assumptions"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0139",
+    "word": "Wicker",
+    "meaning_en": "Basketwork, woven",
+    "meaning_bn": "বেত, বেতের বোনা কাজ",
+    "synonyms": [
+      "Basketwork",
+      "woven"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0140",
+    "word": "Ball bearings",
+    "meaning_en": "Rolling elements, supports",
+    "meaning_bn": "বল বেয়ারিং",
+    "synonyms": [
+      "Rolling elements",
+      "supports"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0141",
+    "word": "Glaciers",
+    "meaning_en": "Ice sheets, frozen rivers",
+    "meaning_bn": "হিমবাহ",
+    "synonyms": [
+      "Ice sheets",
+      "frozen rivers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0142",
+    "word": "Sceptical",
+    "meaning_en": "Doubtful, unconvinced",
+    "meaning_bn": "সন্দেহপ্রবণ, সংশয়ী",
+    "synonyms": [
+      "Doubtful",
+      "unconvinced"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0143",
+    "word": "Sandstone",
+    "meaning_en": "Sedimentary rock, stone",
+    "meaning_bn": "বেলেপাথর",
+    "synonyms": [
+      "Sedimentary rock",
+      "stone"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0144",
+    "word": "Sarsens",
+    "meaning_en": "Megaliths, large stones",
+    "meaning_bn": "সারসেন পাথর (বিশাল বেলেপাথর)",
+    "synonyms": [
+      "Megaliths",
+      "large stones"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0145",
+    "word": "Trilithons",
+    "meaning_en": "Three-pieced structures, megaliths",
+    "meaning_bn": "ত্রিপাদ স্তম্ভ (তিন পাথরের স্থাপনা)",
+    "synonyms": [
+      "Three-pieced structures",
+      "megaliths"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0146",
+    "word": "Radiocarbon dating",
+    "meaning_en": "Carbon dating, age measurement",
+    "meaning_bn": "তেজস্ক্রিয় কার্বন ডেটিং",
+    "synonyms": [
+      "Carbon dating",
+      "age measurement"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0147",
+    "word": "Druids",
+    "meaning_en": "Celtic priests, ancient priests",
+    "meaning_bn": "ড্রুইড (প্রাচীন কেল্টীয় পুরোহিত)",
+    "synonyms": [
+      "Celtic priests",
+      "ancient priests"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0148",
+    "word": "Antiquarian",
+    "meaning_en": "Historian, archaeologist",
+    "meaning_bn": "পুরাতত্ত্ববিদ, প্রাচীন সংগ্রাহক",
+    "synonyms": [
+      "Historian",
+      "archaeologist"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0149",
+    "word": "Solstice",
+    "meaning_en": "Solar event, seasonal marker",
+    "meaning_bn": "অয়নান্ত (সূর্য গতির চরম বিন্দু)",
+    "synonyms": [
+      "Solar event",
+      "seasonal marker"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0150",
+    "word": "Indigenous",
+    "meaning_en": "Native, local",
+    "meaning_bn": "আদিবাসী, দেশীয়",
+    "synonyms": [
+      "Native",
+      "local"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0151",
+    "word": "Communal",
+    "meaning_en": "Collective, shared",
+    "meaning_bn": "যৌথ, সাম্প্রদায়িক",
+    "synonyms": [
+      "Collective",
+      "shared"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0152",
+    "word": "Immigrants",
+    "meaning_en": "Settlers, newcomers",
+    "meaning_bn": "অভিবাসী",
+    "synonyms": [
+      "Settlers",
+      "newcomers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0153",
+    "word": "Artefacts",
+    "meaning_en": "Relics, objects",
+    "meaning_bn": "প্রত্নতাত্ত্বিক নিদর্শন",
+    "synonyms": [
+      "Relics",
+      "objects"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0154",
+    "word": "Consensus",
+    "meaning_en": "Agreement, unanimity",
+    "meaning_bn": "ঐকমত্য, সর্বসম্মত সিদ্ধান্ত",
+    "synonyms": [
+      "Agreement",
+      "unanimity"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0155",
+    "word": "Astronomical",
+    "meaning_en": "Celestial, cosmic",
+    "meaning_bn": "জ্যোতির্বিদ্যা সংক্রান্ত",
+    "synonyms": [
+      "Celestial",
+      "cosmic"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0156",
+    "word": "Solstices",
+    "meaning_en": "Solar events, seasonal markers",
+    "meaning_bn": "অয়নান্তসমূহ",
+    "synonyms": [
+      "Solar events",
+      "seasonal markers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0157",
+    "word": "Equinoxes",
+    "meaning_en": "Solar events, seasonal markers",
+    "meaning_bn": "বিষুব (দিন-রাত সমান হওয়ার সময়)",
+    "synonyms": [
+      "Solar events",
+      "seasonal markers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0158",
+    "word": "Eclipses",
+    "meaning_en": "Celestial events, obscurations",
+    "meaning_bn": "গ্রহণ (সূর্য বা চন্দ্রগ্রহণ)",
+    "synonyms": [
+      "Celestial events",
+      "obscurations"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0159",
+    "word": "Curative",
+    "meaning_en": "Healing, therapeutic",
+    "meaning_bn": "আরোগ্যকারী, নিরাময়কারী",
+    "synonyms": [
+      "Healing",
+      "therapeutic"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0160",
+    "word": "Speculate",
+    "meaning_en": "Theorize, hypothesize",
+    "meaning_bn": "অনুমান করা, তত্ত্ব দাঁড় করানো",
+    "synonyms": [
+      "Theorize",
+      "hypothesize"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0161",
+    "word": "Artificial Intelligence (AI)",
+    "meaning_en": "Machine intelligence, robotics",
+    "meaning_bn": "কৃত্রিম বুদ্ধিমত্তা",
+    "synonyms": [
+      "Machine intelligence",
+      "robotics"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0162",
+    "word": "Astonishing",
+    "meaning_en": "Amazing, astounding",
+    "meaning_bn": "আশ্চর্যজনক, বিস্ময়কর",
+    "synonyms": [
+      "Amazing",
+      "astounding"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0163",
+    "word": "Feat",
+    "meaning_en": "Achievement, accomplishment",
+    "meaning_bn": "কীর্তি, বীরত্বপূর্ণ কাজ",
+    "synonyms": [
+      "Achievement",
+      "accomplishment"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0164",
+    "word": "Prodigious",
+    "meaning_en": "Extraordinary, remarkable",
+    "meaning_bn": "অসাধারণ, বিস্ময়কর",
+    "synonyms": [
+      "Extraordinary",
+      "remarkable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0165",
+    "word": "Narrow AI",
+    "meaning_en": "Specialized AI, task-specific AI",
+    "meaning_bn": "সংকীর্ণ কৃত্রিম বুদ্ধিমত্তা",
+    "synonyms": [
+      "Specialized AI",
+      "task-specific AI"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0166",
+    "word": "Artificial General Intelligence (AGI)",
+    "meaning_en": "Human-like AI, general-purpose AI",
+    "meaning_bn": "সাধারণ কৃত্রিম বুদ্ধিমত্তা (মানবসম এআই)",
+    "synonyms": [
+      "Human-like AI",
+      "general-purpose AI"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0167",
+    "word": "Constraints",
+    "meaning_en": "Limitations, restrictions",
+    "meaning_bn": "সীমাবদ্ধতা, বাধা",
+    "synonyms": [
+      "Limitations",
+      "restrictions"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0168",
+    "word": "Biochemical",
+    "meaning_en": "Biological, chemical",
+    "meaning_bn": "জৈব রাসায়নিক",
+    "synonyms": [
+      "Biological",
+      "chemical"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0169",
+    "word": "Handicaps",
+    "meaning_en": "Disadvantages, limitations",
+    "meaning_bn": "প্রতিবন্ধকতা, অপূর্ণতা",
+    "synonyms": [
+      "Disadvantages",
+      "limitations"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0170",
+    "word": "Accelerate",
+    "meaning_en": "Speed up, hasten",
+    "meaning_bn": "ত্বরান্বিত করা",
+    "synonyms": [
+      "Speed up",
+      "hasten"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0171",
+    "word": "Coexistence",
+    "meaning_en": "Co-living, harmony",
+    "meaning_bn": "সহাবস্থান",
+    "synonyms": [
+      "Co-living",
+      "harmony"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0172",
+    "word": "Profitable",
+    "meaning_en": "Lucrative, beneficial",
+    "meaning_bn": "লাভজনক, লাভজনক",
+    "synonyms": [
+      "Lucrative",
+      "beneficial"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0173",
+    "word": "Specify",
+    "meaning_en": "Define, detail",
+    "meaning_bn": "নির্দিষ্ট করা, বিশদভাবে বলা",
+    "synonyms": [
+      "Define",
+      "detail"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0174",
+    "word": "Folklore",
+    "meaning_en": "Myths, legends",
+    "meaning_bn": "লোককথা, লোকগাথা",
+    "synonyms": [
+      "Myths",
+      "legends"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0175",
+    "word": "Disastrous",
+    "meaning_en": "Catastrophic, devastating",
+    "meaning_bn": "বিপর্যয়কর, ধ্বংসাত্মক",
+    "synonyms": [
+      "Catastrophic",
+      "devastating"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0176",
+    "word": "Human-friendly",
+    "meaning_en": "Compatible with humans, user-friendly",
+    "meaning_bn": "মানববান্ধব",
+    "synonyms": [
+      "Compatible with humans",
+      "user-friendly"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0177",
+    "word": "Superintendent",
+    "meaning_en": "Supervisor, manager",
+    "meaning_bn": "তত্ত্বাবধায়ক, পরিদর্শক",
+    "synonyms": [
+      "Supervisor",
+      "manager"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0178",
+    "word": "Amplifying",
+    "meaning_en": "Increasing, enhancing",
+    "meaning_bn": "বৃদ্ধি করা, পরিবর্ধন করা",
+    "synonyms": [
+      "Increasing",
+      "enhancing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0179",
+    "word": "Fallible",
+    "meaning_en": "Imperfect, error-prone",
+    "meaning_bn": "ভুলপ্রবণ, স্খলনশীল",
+    "synonyms": [
+      "Imperfect",
+      "error-prone"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0180",
+    "word": "Ethically",
+    "meaning_en": "Morally, righteously",
+    "meaning_bn": "নৈতিকভাবে",
+    "synonyms": [
+      "Morally",
+      "righteously"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0181",
+    "word": "Cognitively",
+    "meaning_en": "Mentally, intellectually",
+    "meaning_bn": "জ্ঞানগতভাবে, বোধগতভাবে",
+    "synonyms": [
+      "Mentally",
+      "intellectually"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0182",
+    "word": "Utopian",
+    "meaning_en": "Idealistic, perfect",
+    "meaning_bn": "কাল্পনিক আদর্শিক, ইউটোপীয়",
+    "synonyms": [
+      "Idealistic",
+      "perfect"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0183",
+    "word": "Autonomy",
+    "meaning_en": "Independence, self-governance",
+    "meaning_bn": "স্বায়ত্তশাসন, স্বাধীনতা",
+    "synonyms": [
+      "Independence",
+      "self-governance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0184",
+    "word": "Lapses",
+    "meaning_en": "Mistakes, errors",
+    "meaning_bn": "ত্রুটি, বিচ্যুতি",
+    "synonyms": [
+      "Mistakes",
+      "errors"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0185",
+    "word": "Discriminate",
+    "meaning_en": "Differentiate, segregate",
+    "meaning_bn": "বৈষম্য করা, পার্থক্য করা",
+    "synonyms": [
+      "Differentiate",
+      "segregate"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0186",
+    "word": "Far-fetched",
+    "meaning_en": "Unlikely, improbable",
+    "meaning_bn": "অবাস্তব, সুদূরপরাহত",
+    "synonyms": [
+      "Unlikely",
+      "improbable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0187",
+    "word": "Input",
+    "meaning_en": "Contribution, involvement",
+    "meaning_bn": "ইনপুট, অবদান, তথ্যপ্রদান",
+    "synonyms": [
+      "Contribution",
+      "involvement"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0188",
+    "word": "Efficiently",
+    "meaning_en": "Effectively, productively",
+    "meaning_bn": "দক্ষতার সাথে",
+    "synonyms": [
+      "Effectively",
+      "productively"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0189",
+    "word": "Taxpayers",
+    "meaning_en": "Citizens, contributors",
+    "meaning_bn": "করদাতা",
+    "synonyms": [
+      "Citizens",
+      "contributors"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0190",
+    "word": "Depriving",
+    "meaning_en": "Denying, withholding",
+    "meaning_bn": "বঞ্চিত করা",
+    "synonyms": [
+      "Denying",
+      "withholding"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0191",
+    "word": "Specified",
+    "meaning_en": "Defined, detailed",
+    "meaning_bn": "নির্দিষ্ট, নির্ধারিত",
+    "synonyms": [
+      "Defined",
+      "detailed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0192",
+    "word": "Cooperative",
+    "meaning_en": "Collaborative, joint",
+    "meaning_bn": "সহযোগিতামূলক",
+    "synonyms": [
+      "Collaborative",
+      "joint"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0193",
+    "word": "Self-interest",
+    "meaning_en": "Selfishness, personal gain",
+    "meaning_bn": "স্বার্থপরতা, আত্মস্বার্থ",
+    "synonyms": [
+      "Selfishness",
+      "personal gain"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0194",
+    "word": "Moral reasoning",
+    "meaning_en": "Ethical judgment, decision-making",
+    "meaning_bn": "নৈতিক যুক্তি ও বিচার",
+    "synonyms": [
+      "Ethical judgment",
+      "decision-making"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0195",
+    "word": "Authority",
+    "meaning_en": "Control, power",
+    "meaning_bn": "কর্তৃত্ব, ক্ষমতা",
+    "synonyms": [
+      "Control",
+      "power"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0196",
+    "word": "Destination",
+    "meaning_en": "Goal, endpoint",
+    "meaning_bn": "গন্তব্য",
+    "synonyms": [
+      "Goal",
+      "endpoint"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0197",
+    "word": "Sacrificing",
+    "meaning_en": "Giving up, relinquishing",
+    "meaning_bn": "ত্যাগ করা, বিসর্জন দেওয়া",
+    "synonyms": [
+      "Giving up",
+      "relinquishing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0198",
+    "word": "Encourage",
+    "meaning_en": "Promote, support",
+    "meaning_bn": "উৎসাহিত করা",
+    "synonyms": [
+      "Promote",
+      "support"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0199",
+    "word": "Conflict",
+    "meaning_en": "Dispute, disagreement",
+    "meaning_bn": "দ্বন্দ্ব, সংঘাত",
+    "synonyms": [
+      "Dispute",
+      "disagreement"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0200",
+    "word": "Progress",
+    "meaning_en": "Advancement, development",
+    "meaning_bn": "অগ্রগতি, উন্নতি",
+    "synonyms": [
+      "Advancement",
+      "development"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0201",
+    "word": "Genius",
+    "meaning_en": "Prodigy, mastermind",
+    "meaning_bn": "প্রতিভা, মনীষী",
+    "synonyms": [
+      "Prodigy",
+      "mastermind"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0202",
+    "word": "Renaissance",
+    "meaning_en": "Revival, rebirth",
+    "meaning_bn": "পুনর্জাগরণ (রেনেসাঁ)",
+    "synonyms": [
+      "Revival",
+      "rebirth"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0203",
+    "word": "Embodied",
+    "meaning_en": "Represented, personified",
+    "meaning_bn": "মূর্ত করা, প্রতিমূর্তি রূপ দেওয়া",
+    "synonyms": [
+      "Represented",
+      "personified"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0204",
+    "word": "Humanist",
+    "meaning_en": "Humanitarian, philanthropist",
+    "meaning_bn": "মানবতাবাদী",
+    "synonyms": [
+      "Humanitarian",
+      "philanthropist"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0205",
+    "word": "Insignificance",
+    "meaning_en": "Unimportance, triviality",
+    "meaning_bn": "তুচ্ছতা, গুরুত্বহীনতা",
+    "synonyms": [
+      "Unimportance",
+      "triviality"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0206",
+    "word": "Transition",
+    "meaning_en": "Change, shift",
+    "meaning_bn": "রূপান্তর, পালাবদল",
+    "synonyms": [
+      "Change",
+      "shift"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0207",
+    "word": "Plague",
+    "meaning_en": "Epidemic, pandemic",
+    "meaning_bn": "মহামারী, প্লেগ",
+    "synonyms": [
+      "Epidemic",
+      "pandemic"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0208",
+    "word": "Cusp",
+    "meaning_en": "Edge, brink",
+    "meaning_bn": "প্রান্তসীমা, সন্ধিক্ষণ",
+    "synonyms": [
+      "Edge",
+      "brink"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0209",
+    "word": "Displacement",
+    "meaning_en": "Relocation, migration",
+    "meaning_bn": "স্থানচ্যুতি, বাস্তুচ্যুতি",
+    "synonyms": [
+      "Relocation",
+      "migration"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0210",
+    "word": "Extinctions",
+    "meaning_en": "Annihilation, eradication",
+    "meaning_bn": "বিলুপ্তি, ধ্বংস",
+    "synonyms": [
+      "Annihilation",
+      "eradication"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0211",
+    "word": "Radical",
+    "meaning_en": "Extreme, revolutionary",
+    "meaning_bn": "আমূল, চরমপন্থী",
+    "synonyms": [
+      "Extreme",
+      "revolutionary"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0212",
+    "word": "Revolutionise",
+    "meaning_en": "Transform, overhaul",
+    "meaning_bn": "বিপ্লব ঘটানো, আমূল পরিবর্তন আনা",
+    "synonyms": [
+      "Transform",
+      "overhaul"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0213",
+    "word": "Safeguard",
+    "meaning_en": "Protect, defend",
+    "meaning_bn": "সুরক্ষা দেওয়া, পাহারা দেওয়া",
+    "synonyms": [
+      "Protect",
+      "defend"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0214",
+    "word": "Pestilence",
+    "meaning_en": "Disease, plague",
+    "meaning_bn": "মহামারী, ক্ষতিকর রোগবালাই",
+    "synonyms": [
+      "Disease",
+      "plague"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0215",
+    "word": "Urban planning",
+    "meaning_en": "City design, town planning",
+    "meaning_bn": "নগর পরিকল্পনা",
+    "synonyms": [
+      "City design",
+      "town planning"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0216",
+    "word": "Unsustainable",
+    "meaning_en": "Unviable, unmaintainable",
+    "meaning_bn": "অস্থায়ী, টেকসইহীন",
+    "synonyms": [
+      "Unviable",
+      "unmaintainable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0217",
+    "word": "Renowned",
+    "meaning_en": "Famous, celebrated",
+    "meaning_bn": "বিখ্যাত, খ্যাতিমান",
+    "synonyms": [
+      "Famous",
+      "celebrated"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0218",
+    "word": "Urbanism",
+    "meaning_en": "City development, urban studies",
+    "meaning_bn": "নগরবাদ, নগরবিদ্যা",
+    "synonyms": [
+      "City development",
+      "urban studies"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0219",
+    "word": "Rigour",
+    "meaning_en": "Strictness, precision",
+    "meaning_bn": "কঠোরতা, যথাযথতা",
+    "synonyms": [
+      "Strictness",
+      "precision"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0220",
+    "word": "Conception",
+    "meaning_en": "Idea, design",
+    "meaning_bn": "ধারণা, পরিকল্পনা",
+    "synonyms": [
+      "Idea",
+      "design"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0221",
+    "word": "Reconfiguration",
+    "meaning_en": "Rearrangement, restructuring",
+    "meaning_bn": "পুনর্গঠন, নতুন বিন্যাস",
+    "synonyms": [
+      "Rearrangement",
+      "restructuring"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0222",
+    "word": "Medieval",
+    "meaning_en": "Middle Ages, ancient",
+    "meaning_bn": "মধ্যযুগীয়",
+    "synonyms": [
+      "Middle Ages",
+      "ancient"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0223",
+    "word": "Winding",
+    "meaning_en": "Curving, twisting",
+    "meaning_bn": "আঁকাবাঁকা, সর্পিল",
+    "synonyms": [
+      "Curving",
+      "twisting"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0224",
+    "word": "Overcrowded",
+    "meaning_en": "Packed, congested",
+    "meaning_bn": "জনাকীর্ণ, অতি ভিড়পূর্ণ",
+    "synonyms": [
+      "Packed",
+      "congested"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0225",
+    "word": "Innovative",
+    "meaning_en": "Creative, original",
+    "meaning_bn": "উদ্ভাবনী, সৃজনশীল",
+    "synonyms": [
+      "Creative",
+      "original"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0226",
+    "word": "Reconstructed",
+    "meaning_en": "Rebuilt, restored",
+    "meaning_bn": "পুনর্নির্মিত",
+    "synonyms": [
+      "Rebuilt",
+      "restored"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0227",
+    "word": "Transport",
+    "meaning_en": "Movement, conveyance",
+    "meaning_bn": "পরিবহন",
+    "synonyms": [
+      "Movement",
+      "conveyance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0228",
+    "word": "Spacious",
+    "meaning_en": "Roomy, expansive",
+    "meaning_bn": "প্রশস্ত, খোলামেলা",
+    "synonyms": [
+      "Roomy",
+      "expansive"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0229",
+    "word": "Well-ordered",
+    "meaning_en": "Organized, systematic",
+    "meaning_bn": "সুশৃঙ্খল, সুবিন্যস্ত",
+    "synonyms": [
+      "Organized",
+      "systematic"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0230",
+    "word": "Battlements",
+    "meaning_en": "Fortifications, ramparts",
+    "meaning_bn": "দুর্গপ্রাচীর, রক্ষাপ্রাচীর",
+    "synonyms": [
+      "Fortifications",
+      "ramparts"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0231",
+    "word": "Rational",
+    "meaning_en": "Logical, reasonable",
+    "meaning_bn": "যুক্তিসঙ্গত, ন্যায়সঙ্গত",
+    "synonyms": [
+      "Logical",
+      "reasonable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0232",
+    "word": "Vertical",
+    "meaning_en": "Upright, perpendicular",
+    "meaning_bn": "উল্লম্ব, খাড়া",
+    "synonyms": [
+      "Upright",
+      "perpendicular"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0233",
+    "word": "Unconventional",
+    "meaning_en": "Unusual, non-traditional",
+    "meaning_bn": "অপ্রচলিত, স্বভাববিরুদ্ধ",
+    "synonyms": [
+      "Unusual",
+      "non-traditional"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0234",
+    "word": "Hydraulic",
+    "meaning_en": "Water-powered, fluid-based",
+    "meaning_bn": "জলচালিত, জলশক্তিভিত্তিক",
+    "synonyms": [
+      "Water-powered",
+      "fluid-based"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0235",
+    "word": "Canals",
+    "meaning_en": "Waterways, channels",
+    "meaning_bn": "খাল, কৃত্রিম নদীপথ",
+    "synonyms": [
+      "Waterways",
+      "channels"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0236",
+    "word": "Regulated",
+    "meaning_en": "Controlled, managed",
+    "meaning_bn": "নিয়ন্ত্রিত",
+    "synonyms": [
+      "Controlled",
+      "managed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0237",
+    "word": "Adjacent",
+    "meaning_en": "Nearby, neighboring",
+    "meaning_bn": "সংলগ্ন, লাগোয়া",
+    "synonyms": [
+      "Nearby",
+      "neighboring"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0238",
+    "word": "Contemporary",
+    "meaning_en": "Modern, current",
+    "meaning_bn": "সমসাময়িক, আধুনিক",
+    "synonyms": [
+      "Modern",
+      "current"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0239",
+    "word": "Compact",
+    "meaning_en": "Dense, tightly packed",
+    "meaning_bn": "ঘনসংবদ্ধ, আঁটসাঁট",
+    "synonyms": [
+      "Dense",
+      "tightly packed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0240",
+    "word": "Sustainable",
+    "meaning_en": "Eco-friendly, maintainable",
+    "meaning_bn": "টেকসই",
+    "synonyms": [
+      "Eco-friendly",
+      "maintainable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-2 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0241",
+    "word": "Concrete",
+    "meaning_en": "Cement mixture, building material",
+    "meaning_bn": "কংক্রিট",
+    "synonyms": [
+      "Cement mixture",
+      "building material"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0242",
+    "word": "Carbon dioxide",
+    "meaning_en": "CO2, greenhouse gas",
+    "meaning_bn": "কার্বন ডাই অক্সাইড",
+    "synonyms": [
+      "CO2",
+      "greenhouse gas"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0243",
+    "word": "Greenhouse gas",
+    "meaning_en": "Emission, pollutant",
+    "meaning_bn": "গ্রিনহাউস গ্যাস",
+    "synonyms": [
+      "Emission",
+      "pollutant"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0244",
+    "word": "Cement",
+    "meaning_en": "Binding material, concrete ingredient",
+    "meaning_bn": "সিমেন্ট",
+    "synonyms": [
+      "Binding material",
+      "concrete ingredient"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0245",
+    "word": "Innovating",
+    "meaning_en": "Inventing, creating",
+    "meaning_bn": "উদ্ভাবন করা",
+    "synonyms": [
+      "Inventing",
+      "creating"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0246",
+    "word": "Alternatives",
+    "meaning_en": "Substitutes, replacements",
+    "meaning_bn": "বিকল্পসমূহ",
+    "synonyms": [
+      "Substitutes",
+      "replacements"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0247",
+    "word": "Commodity",
+    "meaning_en": "Product, resource",
+    "meaning_bn": "পণ্য, বাণিজ্যিক দ্রব্য",
+    "synonyms": [
+      "Product",
+      "resource"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0248",
+    "word": "Underpinned",
+    "meaning_en": "Supported, reinforced",
+    "meaning_bn": "সমর্থিত, দৃঢ়ীকৃত",
+    "synonyms": [
+      "Supported",
+      "reinforced"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0249",
+    "word": "Thermal expansion",
+    "meaning_en": "Heat-related growth, temperature change",
+    "meaning_bn": "তাপীয় প্রসারণ",
+    "synonyms": [
+      "Heat-related growth",
+      "temperature change"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0250",
+    "word": "Reinforce",
+    "meaning_en": "Strengthen, support",
+    "meaning_bn": "শক্তিশালী করা, সুদৃঢ় করা",
+    "synonyms": [
+      "Strengthen",
+      "support"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0251",
+    "word": "Flexible",
+    "meaning_en": "Adaptable, pliable",
+    "meaning_bn": "নমনীয়, পরিবর্তনযোগ্য",
+    "synonyms": [
+      "Adaptable",
+      "pliable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0252",
+    "word": "Medieval",
+    "meaning_en": "Ancient, old-fashioned",
+    "meaning_bn": "মধ্যযুগীয়, প্রাচীন",
+    "synonyms": [
+      "Ancient",
+      "old-fashioned"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0253",
+    "word": "Treated timber",
+    "meaning_en": "Processed wood, engineered wood",
+    "meaning_bn": "প্রক্রিয়াজাত কাঠ",
+    "synonyms": [
+      "Processed wood",
+      "engineered wood"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0254",
+    "word": "Susceptible",
+    "meaning_en": "Vulnerable, prone",
+    "meaning_bn": "সংবেদনশীল, ঝুঁকিপূর্ণ",
+    "synonyms": [
+      "Vulnerable",
+      "prone"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0255",
+    "word": "Pests",
+    "meaning_en": "Insects, vermin",
+    "meaning_bn": "কীটপতঙ্গ, ক্ষতিকারক পোকা",
+    "synonyms": [
+      "Insects",
+      "vermin"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0256",
+    "word": "Adhesive",
+    "meaning_en": "Glue, bonding agent",
+    "meaning_bn": "আঠা, সংশ্লেষক পদার্থ",
+    "synonyms": [
+      "Glue",
+      "bonding agent"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0257",
+    "word": "Cross-laminated",
+    "meaning_en": "Layered, engineered",
+    "meaning_bn": "আড়াআড়ি স্তরযুক্ত কাঠ (ক্রস-ল্যামিনেটেড)",
+    "synonyms": [
+      "Layered",
+      "engineered"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0258",
+    "word": "Durability",
+    "meaning_en": "Longevity, strength",
+    "meaning_bn": "স্থায়িত্ব, দীর্ঘস্থায়িত্ব",
+    "synonyms": [
+      "Longevity",
+      "strength"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0259",
+    "word": "Byproduct",
+    "meaning_en": "Secondary product, residue",
+    "meaning_bn": "উপজাত পণ্য, বাইপ্রোডাক্ট",
+    "synonyms": [
+      "Secondary product",
+      "residue"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0260",
+    "word": "Fly ash",
+    "meaning_en": "Coal residue, industrial waste",
+    "meaning_bn": "উড়ন্ত ছাই (ফ্লাই অ্যাশ)",
+    "synonyms": [
+      "Coal residue",
+      "industrial waste"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0261",
+    "word": "Slag",
+    "meaning_en": "Waste material, residue",
+    "meaning_bn": "ধাতুমল (স্ল্যাগ)",
+    "synonyms": [
+      "Waste material",
+      "residue"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0262",
+    "word": "Incorporation",
+    "meaning_en": "Inclusion, integration",
+    "meaning_bn": "সংযুক্তি, অন্তর্ভুক্তি",
+    "synonyms": [
+      "Inclusion",
+      "integration"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0263",
+    "word": "Life cycle",
+    "meaning_en": "Lifespan, duration",
+    "meaning_bn": "জীবনচক্র",
+    "synonyms": [
+      "Lifespan",
+      "duration"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0264",
+    "word": "Fossil fuels",
+    "meaning_en": "Coal, oil, natural gas",
+    "meaning_bn": "জীবাশ্ম জ্বালানি",
+    "synonyms": [
+      "Coal",
+      "oil",
+      "natural gas"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0265",
+    "word": "Carbon reduction",
+    "meaning_en": "Emission decrease, eco-friendly",
+    "meaning_bn": "কার্বন নিঃসরণ হ্রাস",
+    "synonyms": [
+      "Emission decrease",
+      "eco-friendly"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0266",
+    "word": "Promising",
+    "meaning_en": "Hopeful, encouraging",
+    "meaning_bn": "আশাব্যঞ্জক, সম্ভাবনাময়",
+    "synonyms": [
+      "Hopeful",
+      "encouraging"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0267",
+    "word": "Unproven",
+    "meaning_en": "Untested, experimental",
+    "meaning_bn": "অপ্রমাণিত, অপ্রীক্ষিত",
+    "synonyms": [
+      "Untested",
+      "experimental"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0268",
+    "word": "Abundant",
+    "meaning_en": "Plentiful, ample",
+    "meaning_bn": "প্রচুর, অফুরন্ত",
+    "synonyms": [
+      "Plentiful",
+      "ample"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0269",
+    "word": "Cost-effective",
+    "meaning_en": "Economical, budget-friendly",
+    "meaning_bn": "সাশ্রয়ী, মিতব্যয়ী",
+    "synonyms": [
+      "Economical",
+      "budget-friendly"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0270",
+    "word": "Resistance",
+    "meaning_en": "Opposition, reluctance",
+    "meaning_bn": "প্রতিরোধ, বিরোধিতা",
+    "synonyms": [
+      "Opposition",
+      "reluctance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0271",
+    "word": "Raw materials",
+    "meaning_en": "Resources, ingredients",
+    "meaning_bn": "কাঁচামাল",
+    "synonyms": [
+      "Resources",
+      "ingredients"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0272",
+    "word": "High-rise",
+    "meaning_en": "Tall building, skyscraper",
+    "meaning_bn": "উঁচু ভবন, আকাশচুম্বী",
+    "synonyms": [
+      "Tall building",
+      "skyscraper"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0273",
+    "word": "Viable",
+    "meaning_en": "Feasible, workable",
+    "meaning_bn": "সম্ভাব্য, কার্যকর",
+    "synonyms": [
+      "Feasible",
+      "workable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0274",
+    "word": "Construction",
+    "meaning_en": "Building, assembly",
+    "meaning_bn": "নির্মাণ, অবকাঠামো",
+    "synonyms": [
+      "Building",
+      "assembly"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0275",
+    "word": "Environmental",
+    "meaning_en": "Ecological, green",
+    "meaning_bn": "পরিবেশগত",
+    "synonyms": [
+      "Ecological",
+      "green"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0276",
+    "word": "Expands",
+    "meaning_en": "Grows, enlarges",
+    "meaning_bn": "প্রসারিত হয়, বাড়ে",
+    "synonyms": [
+      "Grows",
+      "enlarges"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0277",
+    "word": "Moisture",
+    "meaning_en": "Dampness, wetness",
+    "meaning_bn": "আর্দ্রতা, ভেজাভাব",
+    "synonyms": [
+      "Dampness",
+      "wetness"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0278",
+    "word": "Engineered",
+    "meaning_en": "Designed, manufactured",
+    "meaning_bn": "প্রকৌশলসম্মত, কৃত্রিমভাবে নির্মিত",
+    "synonyms": [
+      "Designed",
+      "manufactured"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0279",
+    "word": "Quieter",
+    "meaning_en": "Less noisy, peaceful",
+    "meaning_bn": "শান্ত, অপেক্ষাকৃত নিঃশব্দ",
+    "synonyms": [
+      "Less noisy",
+      "peaceful"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0280",
+    "word": "Demand",
+    "meaning_en": "Need, requirement",
+    "meaning_bn": "চাহিদা",
+    "synonyms": [
+      "Need",
+      "requirement"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0281",
+    "word": "Steam car",
+    "meaning_en": "Steam-powered vehicle, vintage automobile",
+    "meaning_bn": "বাষ্পচালিত গাড়ি",
+    "synonyms": [
+      "Steam-powered vehicle",
+      "vintage automobile"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0282",
+    "word": "Primitive",
+    "meaning_en": "Basic, rudimentary",
+    "meaning_bn": "আদিম, আদি রূপ",
+    "synonyms": [
+      "Basic",
+      "rudimentary"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0283",
+    "word": "Automobiles",
+    "meaning_en": "Cars, vehicles",
+    "meaning_bn": "মোটরগাড়ি, যানবাহন",
+    "synonyms": [
+      "Cars",
+      "vehicles"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0284",
+    "word": "Miniaturized",
+    "meaning_en": "Scaled-down, compact",
+    "meaning_bn": "ক্ষুদ্রায়িত, আকারে ছোট করা",
+    "synonyms": [
+      "Scaled-down",
+      "compact"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0285",
+    "word": "Boilers",
+    "meaning_en": "Steam generators, heating systems",
+    "meaning_bn": "বয়লার, বাষ্প উৎপাদক",
+    "synonyms": [
+      "Steam generators",
+      "heating systems"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0286",
+    "word": "Replenishment",
+    "meaning_en": "Refilling, restocking",
+    "meaning_bn": "পুনঃপূরণ, ঘাটতি মেটানো",
+    "synonyms": [
+      "Refilling",
+      "restocking"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0287",
+    "word": "Self-propelled",
+    "meaning_en": "Autonomous, self-driven",
+    "meaning_bn": "স্বচালিত",
+    "synonyms": [
+      "Autonomous",
+      "self-driven"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0288",
+    "word": "Shuttling",
+    "meaning_en": "Transporting, ferrying",
+    "meaning_bn": "নিয়মিত যাতায়াত করা",
+    "synonyms": [
+      "Transporting",
+      "ferrying"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0289",
+    "word": "Internal Combustion Engine",
+    "meaning_en": "Gasoline engine, ICE",
+    "meaning_bn": "অভ্যন্তরীণ দহন ইঞ্জিন",
+    "synonyms": [
+      "Gasoline engine",
+      "ICE"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0290",
+    "word": "Hand-crank starters",
+    "meaning_en": "Manual starters, crank handles",
+    "meaning_bn": "হাতে ঘোরানো স্টার্টার",
+    "synonyms": [
+      "Manual starters",
+      "crank handles"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0291",
+    "word": "Backfired",
+    "meaning_en": "Misfired, failed",
+    "meaning_bn": "উল্টো ফল হওয়া, বিকল হওয়া",
+    "synonyms": [
+      "Misfired",
+      "failed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0292",
+    "word": "Rekindle",
+    "meaning_en": "Revive, restart",
+    "meaning_bn": "পুনরুজ্জীবিত করা, নতুন করে জ্বালানো",
+    "synonyms": [
+      "Revive",
+      "restart"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0293",
+    "word": "Prototype",
+    "meaning_en": "Model, sample",
+    "meaning_bn": "প্রোটোটাইপ, আদি নমুনা",
+    "synonyms": [
+      "Model",
+      "sample"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0294",
+    "word": "Nicknamed",
+    "meaning_en": "Called, dubbed",
+    "meaning_bn": "ডাকনামে ভূষিত",
+    "synonyms": [
+      "Called",
+      "dubbed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0295",
+    "word": "Pistons",
+    "meaning_en": "Engine parts, cylinders",
+    "meaning_bn": "পিস্টন",
+    "synonyms": [
+      "Engine parts",
+      "cylinders"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0296",
+    "word": "Clattering",
+    "meaning_en": "Rattling, noisy",
+    "meaning_bn": "ঠকঠক শব্দকারী",
+    "synonyms": [
+      "Rattling",
+      "noisy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0297",
+    "word": "Aroma",
+    "meaning_en": "Smell, fragrance",
+    "meaning_bn": "সুগন্ধ, সৌরভ",
+    "synonyms": [
+      "Smell",
+      "fragrance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0298",
+    "word": "Hydrocarbons",
+    "meaning_en": "Organic compounds, fuels",
+    "meaning_bn": "হাইড্রোকার্বন",
+    "synonyms": [
+      "Organic compounds",
+      "fuels"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0299",
+    "word": "Swift",
+    "meaning_en": "Fast, quick",
+    "meaning_bn": "দ্রুত, ক্ষিপ্র",
+    "synonyms": [
+      "Fast",
+      "quick"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0300",
+    "word": "Acceleration",
+    "meaning_en": "Speed increase, quickening",
+    "meaning_bn": "ত্বরণ, গতিবৃদ্ধি",
+    "synonyms": [
+      "Speed increase",
+      "quickening"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0301",
+    "word": "Investment",
+    "meaning_en": "Funding, capital",
+    "meaning_bn": "বিনিয়োগ",
+    "synonyms": [
+      "Funding",
+      "capital"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0302",
+    "word": "Ignition",
+    "meaning_en": "Starting mechanism, firing",
+    "meaning_bn": "প্রজ্বলন, আগুন ধরানো",
+    "synonyms": [
+      "Starting mechanism",
+      "firing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0303",
+    "word": "Enhancements",
+    "meaning_en": "Improvements, upgrades",
+    "meaning_bn": "উন্নতি, পরিবর্ধন",
+    "synonyms": [
+      "Improvements",
+      "upgrades"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0304",
+    "word": "Sluggish",
+    "meaning_en": "Slow, lethargic",
+    "meaning_bn": "মন্থর, ধীরগতির",
+    "synonyms": [
+      "Slow",
+      "lethargic"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0305",
+    "word": "Erratic",
+    "meaning_en": "Unpredictable, inconsistent",
+    "meaning_bn": "অনিয়মিত, অস্থির",
+    "synonyms": [
+      "Unpredictable",
+      "inconsistent"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0306",
+    "word": "Glitches",
+    "meaning_en": "Faults, bugs",
+    "meaning_bn": "যান্ত্রিক ত্রুটি, গোলযোগ",
+    "synonyms": [
+      "Faults",
+      "bugs"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0307",
+    "word": "Road-tested",
+    "meaning_en": "Test-driven, evaluated",
+    "meaning_bn": "রাস্তায় পরীক্ষিত",
+    "synonyms": [
+      "Test-driven",
+      "evaluated"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0308",
+    "word": "Frosty",
+    "meaning_en": "Cold, icy",
+    "meaning_bn": "হিমশীতল",
+    "synonyms": [
+      "Cold",
+      "icy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0309",
+    "word": "Handling",
+    "meaning_en": "Control, maneuverability",
+    "meaning_bn": "নিয়ন্ত্রণ ও পরিচালনা",
+    "synonyms": [
+      "Control",
+      "maneuverability"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0310",
+    "word": "Kerosene",
+    "meaning_en": "Fuel, paraffin",
+    "meaning_bn": "কেরোসিন",
+    "synonyms": [
+      "Fuel",
+      "paraffin"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0311",
+    "word": "Negligible",
+    "meaning_en": "Minimal, insignificant",
+    "meaning_bn": "নগণ্য, তুচ্ছ",
+    "synonyms": [
+      "Minimal",
+      "insignificant"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0312",
+    "word": "Financial success",
+    "meaning_en": "Profitability, economic gain",
+    "meaning_bn": "আর্থিক সাফল্য",
+    "synonyms": [
+      "Profitability",
+      "economic gain"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0313",
+    "word": "Tinkered",
+    "meaning_en": "Adjusted, modified",
+    "meaning_bn": "ছোটখাটো মেরামত করা",
+    "synonyms": [
+      "Adjusted",
+      "modified"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0314",
+    "word": "Adamant",
+    "meaning_en": "Determined, resolute",
+    "meaning_bn": "অটল, অনমনীয়",
+    "synonyms": [
+      "Determined",
+      "resolute"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0315",
+    "word": "Maintenance",
+    "meaning_en": "Upkeep, servicing",
+    "meaning_bn": "রক্ষণাবেক্ষণ",
+    "synonyms": [
+      "Upkeep",
+      "servicing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0316",
+    "word": "Emissions",
+    "meaning_en": "Discharges, pollutants",
+    "meaning_bn": "নির্গমন, বর্জ্য নিঃসরণ",
+    "synonyms": [
+      "Discharges",
+      "pollutants"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0317",
+    "word": "Unmodified",
+    "meaning_en": "Unchanged, original",
+    "meaning_bn": "অপরিবর্তিত",
+    "synonyms": [
+      "Unchanged",
+      "original"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0318",
+    "word": "Efficient",
+    "meaning_en": "Effective, productive",
+    "meaning_bn": "দক্ষ, কার্যকর",
+    "synonyms": [
+      "Effective",
+      "productive"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0319",
+    "word": "Automotive",
+    "meaning_en": "Vehicle-related, car-based",
+    "meaning_bn": "মোটরগাড়ি সংক্রান্ত",
+    "synonyms": [
+      "Vehicle-related",
+      "car-based"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0320",
+    "word": "Revive",
+    "meaning_en": "Restore, bring back",
+    "meaning_bn": "পুনরুজ্জীবিত করা",
+    "synonyms": [
+      "Restore",
+      "bring back"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0321",
+    "word": "Mixed-ability classes",
+    "meaning_en": "Diverse skill groups, varied-level classes",
+    "meaning_bn": "মিশ্র দক্ষতার শ্রেণি",
+    "synonyms": [
+      "Diverse skill groups",
+      "varied-level classes"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0322",
+    "word": "Extract",
+    "meaning_en": "Passage, excerpt",
+    "meaning_bn": "উদ্ধৃতি, পাঠ্যাংশ",
+    "synonyms": [
+      "Passage",
+      "excerpt"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0323",
+    "word": "Kid-friendly",
+    "meaning_en": "Child-appropriate, simplified",
+    "meaning_bn": "শিশুবান্ধব",
+    "synonyms": [
+      "Child-appropriate",
+      "simplified"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0324",
+    "word": "Literacy",
+    "meaning_en": "Reading and writing skills, education",
+    "meaning_bn": "সাক্ষরতা, লেখাপড়ার দক্ষতা",
+    "synonyms": [
+      "Reading and writing skills",
+      "education"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0325",
+    "word": "Tentative",
+    "meaning_en": "Provisional, uncertain",
+    "meaning_bn": "প্রাথমিক, অস্থায়ী",
+    "synonyms": [
+      "Provisional",
+      "uncertain"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0326",
+    "word": "Plot summary",
+    "meaning_en": "Story outline, synopsis",
+    "meaning_bn": "কাহিনী সংক্ষেপ",
+    "synonyms": [
+      "Story outline",
+      "synopsis"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0327",
+    "word": "Character development",
+    "meaning_en": "Personality growth, role evolution",
+    "meaning_bn": "চরিত্রের ক্রমবিকাশ",
+    "synonyms": [
+      "Personality growth",
+      "role evolution"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0328",
+    "word": "Textual evidence",
+    "meaning_en": "Proof from text, written support",
+    "meaning_bn": "পাঠ্যগত প্রমাণ",
+    "synonyms": [
+      "Proof from text",
+      "written support"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0329",
+    "word": "Moderation",
+    "meaning_en": "Balance, temperance",
+    "meaning_bn": "সংযম, ভারসাম্য",
+    "synonyms": [
+      "Balance",
+      "temperance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0330",
+    "word": "Passionate engagement",
+    "meaning_en": "Emotional involvement, intense participation",
+    "meaning_bn": "আবেগপূর্ণ সম্পৃক্ততা",
+    "synonyms": [
+      "Emotional involvement",
+      "intense participation"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0331",
+    "word": "Streaming",
+    "meaning_en": "Tracking, grouping by ability",
+    "meaning_bn": "মেধাভিত্তিক দলবিভাজন",
+    "synonyms": [
+      "Tracking",
+      "grouping by ability"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0332",
+    "word": "Attainment",
+    "meaning_en": "Achievement, accomplishment",
+    "meaning_bn": "অর্জন, সাফল্য",
+    "synonyms": [
+      "Achievement",
+      "accomplishment"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0333",
+    "word": "Selective schools",
+    "meaning_en": "Elite schools, academically focused institutions",
+    "meaning_bn": "বাছাইকৃত বিদ্যালয়",
+    "synonyms": [
+      "Elite schools",
+      "academically focused institutions"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0334",
+    "word": "Comprehensive schools",
+    "meaning_en": "Inclusive schools, general education institutions",
+    "meaning_bn": "সার্বিক বিদ্যালয় (সবার জন্য উন্মুক্ত)",
+    "synonyms": [
+      "Inclusive schools",
+      "general education institutions"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0335",
+    "word": "Intuitively",
+    "meaning_en": "Naturally, instinctively",
+    "meaning_bn": "স্বতঃস্ফূর্তভাবে, সহজাতভাবে",
+    "synonyms": [
+      "Naturally",
+      "instinctively"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0336",
+    "word": "Stakeholders",
+    "meaning_en": "Interested parties, participants",
+    "meaning_bn": "অংশীজন, স্টেকহোল্ডার",
+    "synonyms": [
+      "Interested parties",
+      "participants"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0337",
+    "word": "Analogy",
+    "meaning_en": "Comparison, metaphor",
+    "meaning_bn": "উপমা, সাদৃশ্য",
+    "synonyms": [
+      "Comparison",
+      "metaphor"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0338",
+    "word": "Frustrating",
+    "meaning_en": "Annoying, discouraging",
+    "meaning_bn": "হতাশাজনক",
+    "synonyms": [
+      "Annoying",
+      "discouraging"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0339",
+    "word": "Enthusiasm",
+    "meaning_en": "Eagerness, excitement",
+    "meaning_bn": "উৎসাহ, উদ্দীপনা",
+    "synonyms": [
+      "Eagerness",
+      "excitement"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0340",
+    "word": "Stragglers",
+    "meaning_en": "Slow learners, laggards",
+    "meaning_bn": "পিছিয়ে পড়া শিক্ষার্থী",
+    "synonyms": [
+      "Slow learners",
+      "laggards"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0341",
+    "word": "Mediocrity",
+    "meaning_en": "Average quality, ordinariness",
+    "meaning_bn": "মাঝারি মান, সাধারণ মান",
+    "synonyms": [
+      "Average quality",
+      "ordinariness"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0342",
+    "word": "Pedagogical",
+    "meaning_en": "Educational, teaching-related",
+    "meaning_bn": "শিক্ষাবিজ্ঞান সংক্রান্ত",
+    "synonyms": [
+      "Educational",
+      "teaching-related"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0343",
+    "word": "Constructivism",
+    "meaning_en": "Learning theory, educational philosophy",
+    "meaning_bn": "গঠনবাদ (শিক্ষাতত্ত্ব)",
+    "synonyms": [
+      "Learning theory",
+      "educational philosophy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0344",
+    "word": "Zone of Proximal Development (ZPD)",
+    "meaning_en": "Learning potential, developmental range",
+    "meaning_bn": "সম্ভাব্য বিকাশ অঞ্চল (জেডপিডি)",
+    "synonyms": [
+      "Learning potential",
+      "developmental range"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0345",
+    "word": "Scaffolding",
+    "meaning_en": "Support framework, learning aid",
+    "meaning_bn": "শিক্ষা সহায়ক কাঠামো (স্ক্যাফোল্ডিং)",
+    "synonyms": [
+      "Support framework",
+      "learning aid"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0346",
+    "word": "Autonomous",
+    "meaning_en": "Independent, self-reliant",
+    "meaning_bn": "স্বায়ত্তশাসিত, স্বনির্ভর",
+    "synonyms": [
+      "Independent",
+      "self-reliant"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0347",
+    "word": "Empirical evidence",
+    "meaning_en": "Scientific proof, observed data",
+    "meaning_bn": "অভিজ্ঞতামূলক প্রমাণ",
+    "synonyms": [
+      "Scientific proof",
+      "observed data"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0348",
+    "word": "Socioeconomic class",
+    "meaning_en": "Social and economic status, income group",
+    "meaning_bn": "আর্থসামাজিক শ্রেণি",
+    "synonyms": [
+      "Social and economic status",
+      "income group"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0349",
+    "word": "Entrenching",
+    "meaning_en": "Reinforcing, solidifying",
+    "meaning_bn": "সুদৃঢ় করা, স্থায়ী করা",
+    "synonyms": [
+      "Reinforcing",
+      "solidifying"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0350",
+    "word": "Meta-analysis",
+    "meaning_en": "Comprehensive study, statistical review",
+    "meaning_bn": "মেটা-বিশ্লেষণ",
+    "synonyms": [
+      "Comprehensive study",
+      "statistical review"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0351",
+    "word": "Peer-to-peer learning",
+    "meaning_en": "Collaborative learning, student interaction",
+    "meaning_bn": "সহপাঠী শিক্ষা, পারস্পরিক শিখন",
+    "synonyms": [
+      "Collaborative learning",
+      "student interaction"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0352",
+    "word": "More Knowledgeable Other (MKO)",
+    "meaning_en": "Expert guide, mentor",
+    "meaning_bn": "অধিকতর অভিজ্ঞ ব্যক্তি (এমকেও)",
+    "synonyms": [
+      "Expert guide",
+      "mentor"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0353",
+    "word": "Cognitive structures",
+    "meaning_en": "Mental frameworks, thought patterns",
+    "meaning_bn": "জ্ঞানীয় কাঠামো",
+    "synonyms": [
+      "Mental frameworks",
+      "thought patterns"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0354",
+    "word": "Zeal",
+    "meaning_en": "Enthusiasm, passion",
+    "meaning_bn": "উদ্যম, প্রবল উদ্দীপনা",
+    "synonyms": [
+      "Enthusiasm",
+      "passion"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0355",
+    "word": "Collaborative learning",
+    "meaning_en": "Group learning, cooperative education",
+    "meaning_bn": "সহযোগিতামূলক শিক্ষা",
+    "synonyms": [
+      "Group learning",
+      "cooperative education"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0356",
+    "word": "Communication skills",
+    "meaning_en": "Interaction abilities, verbal skills",
+    "meaning_bn": "যোগাযোগ দক্ষতা",
+    "synonyms": [
+      "Interaction abilities",
+      "verbal skills"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0357",
+    "word": "Social skills",
+    "meaning_en": "Interpersonal abilities, relationship skills",
+    "meaning_bn": "সামাজিক দক্ষতা",
+    "synonyms": [
+      "Interpersonal abilities",
+      "relationship skills"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0358",
+    "word": "Flourish",
+    "meaning_en": "Thrive, prosper",
+    "meaning_bn": "উন্নতি করা, প্রস্ফুটিত হওয়া",
+    "synonyms": [
+      "Thrive",
+      "prosper"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0359",
+    "word": "Reluctant",
+    "meaning_en": "Hesitant, unwilling",
+    "meaning_bn": "অনিচ্ছুক, দ্বিধাগ্রস্ত",
+    "synonyms": [
+      "Hesitant",
+      "unwilling"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0360",
+    "word": "Lookouts",
+    "meaning_en": "Observers, monitors",
+    "meaning_bn": "পর্যবেক্ষক, পাহারাদার",
+    "synonyms": [
+      "Observers",
+      "monitors"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-3 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0361",
+    "word": "Green roofs",
+    "meaning_en": "Eco-friendly rooftops, vegetated roofs",
+    "meaning_bn": "সবুজ ছাদ (উদ্ভিদ আচ্ছাদিত ছাদ)",
+    "synonyms": [
+      "Eco-friendly rooftops",
+      "vegetated roofs"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0362",
+    "word": "Lush",
+    "meaning_en": "Dense, abundant",
+    "meaning_bn": "ঘন, শ্যামলিমায় ভরা",
+    "synonyms": [
+      "Dense",
+      "abundant"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0363",
+    "word": "Foliage",
+    "meaning_en": "Leaves, greenery",
+    "meaning_bn": "গাছের পাতা, পত্রপল্লব",
+    "synonyms": [
+      "Leaves",
+      "greenery"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0364",
+    "word": "Mitigating",
+    "meaning_en": "Reducing, alleviating",
+    "meaning_bn": "প্রশমন করা, হ্রাস করা",
+    "synonyms": [
+      "Reducing",
+      "alleviating"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0365",
+    "word": "Floods",
+    "meaning_en": "Inundations, deluges",
+    "meaning_bn": "বন্যা, প্লাবন",
+    "synonyms": [
+      "Inundations",
+      "deluges"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0366",
+    "word": "Urban wildlife",
+    "meaning_en": "City animals, metropolitan fauna",
+    "meaning_bn": "শহুরে বন্যপ্রাণী",
+    "synonyms": [
+      "City animals",
+      "metropolitan fauna"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0367",
+    "word": "Pollution",
+    "meaning_en": "Contamination, impurity",
+    "meaning_bn": "দূষণ",
+    "synonyms": [
+      "Contamination",
+      "impurity"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0368",
+    "word": "Radical",
+    "meaning_en": "Extreme, revolutionary",
+    "meaning_bn": "আমূল, বৈপ্লবিক",
+    "synonyms": [
+      "Extreme",
+      "revolutionary"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0369",
+    "word": "Adapt",
+    "meaning_en": "Adjust, acclimate",
+    "meaning_bn": "মানিয়ে নেওয়া, অভিযোজন করা",
+    "synonyms": [
+      "Adjust",
+      "acclimate"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0370",
+    "word": "Monumental",
+    "meaning_en": "Huge, significant",
+    "meaning_bn": "বিশাল, যুগান্তকারী",
+    "synonyms": [
+      "Huge",
+      "significant"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0371",
+    "word": "Resources",
+    "meaning_en": "Assets, supplies",
+    "meaning_bn": "সম্পদ, উৎস",
+    "synonyms": [
+      "Assets",
+      "supplies"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0372",
+    "word": "Development",
+    "meaning_en": "Growth, expansion",
+    "meaning_bn": "উন্নয়ন, অগ্রগতি",
+    "synonyms": [
+      "Growth",
+      "expansion"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0373",
+    "word": "Institutions",
+    "meaning_en": "Organizations, establishments",
+    "meaning_bn": "প্রতিষ্ঠানসমূহ",
+    "synonyms": [
+      "Organizations",
+      "establishments"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0374",
+    "word": "Forward-thinking",
+    "meaning_en": "Progressive, innovative",
+    "meaning_bn": "দূরদর্শী, প্রগতিশীল",
+    "synonyms": [
+      "Progressive",
+      "innovative"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0375",
+    "word": "Integrate",
+    "meaning_en": "Combine, unify",
+    "meaning_bn": "একীভূত করা, সমন্বয় করা",
+    "synonyms": [
+      "Combine",
+      "unify"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0376",
+    "word": "Drainage",
+    "meaning_en": "Water removal, runoff",
+    "meaning_bn": "জলনিষ্কাশন",
+    "synonyms": [
+      "Water removal",
+      "runoff"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0377",
+    "word": "Sustainable",
+    "meaning_en": "Eco-friendly, maintainable",
+    "meaning_bn": "টেকসই",
+    "synonyms": [
+      "Eco-friendly",
+      "maintainable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0378",
+    "word": "Anxiety",
+    "meaning_en": "Worry, stress",
+    "meaning_bn": "উদ্বেগ, উৎকণ্ঠা",
+    "synonyms": [
+      "Worry",
+      "stress"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0379",
+    "word": "Depression",
+    "meaning_en": "Sadness, despondency",
+    "meaning_bn": "বিষণ্ণতা, হতাশা",
+    "synonyms": [
+      "Sadness",
+      "despondency"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0380",
+    "word": "Dementia",
+    "meaning_en": "Memory loss, cognitive decline",
+    "meaning_bn": "স্মৃতিভ্রংশ, ডিমেনশিয়া",
+    "synonyms": [
+      "Memory loss",
+      "cognitive decline"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0381",
+    "word": "Obesity",
+    "meaning_en": "Overweight, fatness",
+    "meaning_bn": "স্থূলতা, মেদবহুলতা",
+    "synonyms": [
+      "Overweight",
+      "fatness"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0382",
+    "word": "Mainstream",
+    "meaning_en": "Common, widespread",
+    "meaning_bn": "মূলধারা, সর্বজনীন",
+    "synonyms": [
+      "Common",
+      "widespread"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0383",
+    "word": "Expansive",
+    "meaning_en": "Extensive, broad",
+    "meaning_bn": "বিস্তৃত, ব্যাপক",
+    "synonyms": [
+      "Extensive",
+      "broad"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0384",
+    "word": "Edible",
+    "meaning_en": "Eatable, consumable",
+    "meaning_bn": "ভোজ্য, খাবার উপযোগী",
+    "synonyms": [
+      "Eatable",
+      "consumable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0385",
+    "word": "Retro-fit",
+    "meaning_en": "Modernize, upgrade",
+    "meaning_bn": "আধুনিকায়ন, নতুন যন্ত্রাংশ সংযোজন",
+    "synonyms": [
+      "Modernize",
+      "upgrade"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0386",
+    "word": "Landscaping",
+    "meaning_en": "Gardening, beautification",
+    "meaning_bn": "ভূদৃশ্য সজ্জা (ল্যান্ডস্কেপিং)",
+    "synonyms": [
+      "Gardening",
+      "beautification"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0387",
+    "word": "Volunteers",
+    "meaning_en": "Helpers, unpaid workers",
+    "meaning_bn": "স্বেচ্ছাসেবক",
+    "synonyms": [
+      "Helpers",
+      "unpaid workers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0388",
+    "word": "Drainage paths",
+    "meaning_en": "Water channels, runoff routes",
+    "meaning_bn": "জলনিষ্কাশন পথ",
+    "synonyms": [
+      "Water channels",
+      "runoff routes"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0389",
+    "word": "Disruption",
+    "meaning_en": "Interruption, disturbance",
+    "meaning_bn": "বিঘ্ন, বিশৃঙ্খলা",
+    "synonyms": [
+      "Interruption",
+      "disturbance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0390",
+    "word": "Economic arguments",
+    "meaning_en": "Financial reasoning, cost-benefit analysis",
+    "meaning_bn": "অর্থনৈতিক যুক্তি",
+    "synonyms": [
+      "Financial reasoning",
+      "cost-benefit analysis"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0391",
+    "word": "Natural capital",
+    "meaning_en": "Environmental assets, ecological resources",
+    "meaning_bn": "প্রাকৃতিক মূলধন",
+    "synonyms": [
+      "Environmental assets",
+      "ecological resources"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0392",
+    "word": "Standards",
+    "meaning_en": "Guidelines, criteria",
+    "meaning_bn": "মানদণ্ড, মান",
+    "synonyms": [
+      "Guidelines",
+      "criteria"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0393",
+    "word": "Constructed",
+    "meaning_en": "Built, erected",
+    "meaning_bn": "নির্মিত, স্থাপিত",
+    "synonyms": [
+      "Built",
+      "erected"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0394",
+    "word": "Maintained",
+    "meaning_en": "Upkept, preserved",
+    "meaning_bn": "রক্ষণাবেক্ষণকৃত",
+    "synonyms": [
+      "Upkept",
+      "preserved"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0395",
+    "word": "Blue roofs",
+    "meaning_en": "Water-retaining roofs, eco-roofs",
+    "meaning_bn": "নীল ছাদ (বৃষ্টির জল ধরে রাখার ছাদ)",
+    "synonyms": [
+      "Water-retaining roofs",
+      "eco-roofs"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0396",
+    "word": "Biodiversity",
+    "meaning_en": "Variety of life, ecological diversity",
+    "meaning_bn": "জীববৈচিত্র্য",
+    "synonyms": [
+      "Variety of life",
+      "ecological diversity"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0397",
+    "word": "Vibrant",
+    "meaning_en": "Lively, energetic",
+    "meaning_bn": "প্রাণবন্ত, প্রাণোচ্ছ্বল",
+    "synonyms": [
+      "Lively",
+      "energetic"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0398",
+    "word": "Barriers",
+    "meaning_en": "Obstacles, hurdles",
+    "meaning_bn": "বাধা, প্রতিবন্ধকতা",
+    "synonyms": [
+      "Obstacles",
+      "hurdles"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0399",
+    "word": "Transform",
+    "meaning_en": "Change, revolutionize",
+    "meaning_bn": "রূপান্তর করা, বদলে দেওয়া",
+    "synonyms": [
+      "Change",
+      "revolutionize"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0400",
+    "word": "Replicated",
+    "meaning_en": "Copied, duplicated",
+    "meaning_bn": "অনুরূপ তৈরি করা, প্রতিলিপি করা",
+    "synonyms": [
+      "Copied",
+      "duplicated"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 1",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0401",
+    "word": "Growth mindset",
+    "meaning_en": "Development-oriented thinking, progressive mentality",
+    "meaning_bn": "উন্নয়নমূলক মানসিকতা (গ্রোথ মাইন্ডসেট)",
+    "synonyms": [
+      "Development-oriented thinking",
+      "progressive mentality"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0402",
+    "word": "Innate",
+    "meaning_en": "Inborn, inherent",
+    "meaning_bn": "সহজাত, জন্মগত",
+    "synonyms": [
+      "Inborn",
+      "inherent"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0403",
+    "word": "Supplant",
+    "meaning_en": "Replace, displace",
+    "meaning_bn": "প্রতিস্থাপন করা, হটিয়ে স্থান নেওয়া",
+    "synonyms": [
+      "Replace",
+      "displace"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0404",
+    "word": "Cognitive",
+    "meaning_en": "Mental, intellectual",
+    "meaning_bn": "জ্ঞানীয়, বুদ্ধিভিত্তিক",
+    "synonyms": [
+      "Mental",
+      "intellectual"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0405",
+    "word": "Quantify",
+    "meaning_en": "Measure, calculate",
+    "meaning_bn": "পরিমাপ করা, সংখ্যায় প্রকাশ করা",
+    "synonyms": [
+      "Measure",
+      "calculate"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0406",
+    "word": "Progressive",
+    "meaning_en": "Forward-thinking, innovative",
+    "meaning_bn": "প্রগতিশীল, অগ্রগামী",
+    "synonyms": [
+      "Forward-thinking",
+      "innovative"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0407",
+    "word": "Revolted",
+    "meaning_en": "Rebelled, opposed",
+    "meaning_bn": "বিদ্রোহ করেছিল, রুখে দাঁড়িয়েছিল",
+    "synonyms": [
+      "Rebelled",
+      "opposed"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0408",
+    "word": "Destiny",
+    "meaning_en": "Fate, fortune",
+    "meaning_bn": "ভাগ্য, নিয়তি",
+    "synonyms": [
+      "Fate",
+      "fortune"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0409",
+    "word": "Motivational",
+    "meaning_en": "Inspirational, encouraging",
+    "meaning_bn": "অনুপ্রেরণামূলক",
+    "synonyms": [
+      "Inspirational",
+      "encouraging"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0410",
+    "word": "Coaxing",
+    "meaning_en": "Persuading, encouraging",
+    "meaning_bn": "প্ররোচিত করা, মিষ্টি কথায় রাজি করানো",
+    "synonyms": [
+      "Persuading",
+      "encouraging"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0411",
+    "word": "Failure",
+    "meaning_en": "Defeat, setback",
+    "meaning_bn": "ব্যর্থতা",
+    "synonyms": [
+      "Defeat",
+      "setback"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0412",
+    "word": "Improvement",
+    "meaning_en": "Enhancement, progress",
+    "meaning_bn": "উন্নতি, উৎকর্ষ",
+    "synonyms": [
+      "Enhancement",
+      "progress"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0413",
+    "word": "Educationalist",
+    "meaning_en": "Educator, teacher",
+    "meaning_bn": "শিক্ষাবিদ",
+    "synonyms": [
+      "Educator",
+      "teacher"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0414",
+    "word": "Experiment",
+    "meaning_en": "Test, trial",
+    "meaning_bn": "পরীক্ষা, নিরীক্ষা",
+    "synonyms": [
+      "Test",
+      "trial"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0415",
+    "word": "Praise",
+    "meaning_en": "Compliment, applaud",
+    "meaning_bn": "প্রশংসা করা",
+    "synonyms": [
+      "Compliment",
+      "applaud"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0416",
+    "word": "Effort",
+    "meaning_en": "Hard work, exertion",
+    "meaning_bn": "প্রচেষ্টা, পরিশ্রম",
+    "synonyms": [
+      "Hard work",
+      "exertion"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0417",
+    "word": "Inferred",
+    "meaning_en": "Concluded, deduced",
+    "meaning_bn": "অনুমান করেছিল, সিদ্ধান্ত টেনেছিল",
+    "synonyms": [
+      "Concluded",
+      "deduced"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0418",
+    "word": "Impediments",
+    "meaning_en": "Obstacles, barriers",
+    "meaning_bn": "বাধা, বিঘ্ন",
+    "synonyms": [
+      "Obstacles",
+      "barriers"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0419",
+    "word": "Obsessed",
+    "meaning_en": "Fixated, preoccupied",
+    "meaning_bn": "আচ্ছন্ন, অত্যধিক মগ্ন",
+    "synonyms": [
+      "Fixated",
+      "preoccupied"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0420",
+    "word": "Ranking",
+    "meaning_en": "Grading, classification",
+    "meaning_bn": "ক্রমবিন্যাস, র্যাঙ্কিং",
+    "synonyms": [
+      "Grading",
+      "classification"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0421",
+    "word": "Cognitive dissonance",
+    "meaning_en": "Mental conflict, inconsistency",
+    "meaning_bn": "জ্ঞানীয় অসঙ্গতি (কগনিটিভ ডিসোনেন্স)",
+    "synonyms": [
+      "Mental conflict",
+      "inconsistency"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0422",
+    "word": "Harsh criticism",
+    "meaning_en": "Severe judgment, strong disapproval",
+    "meaning_bn": "কঠোর সমালোচনা",
+    "synonyms": [
+      "Severe judgment",
+      "strong disapproval"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0423",
+    "word": "Degrees of freedom",
+    "meaning_en": "Flexibility, variability",
+    "meaning_bn": "স্বাধীনতার মাত্রা",
+    "synonyms": [
+      "Flexibility",
+      "variability"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0424",
+    "word": "Replicate",
+    "meaning_en": "Duplicate, reproduce",
+    "meaning_bn": "পুনরাবৃত্তি করা, প্রতিলিপি করা",
+    "synonyms": [
+      "Duplicate",
+      "reproduce"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0425",
+    "word": "Null",
+    "meaning_en": "Invalid, insignificant",
+    "meaning_bn": "অকার্যকর, বাতিল",
+    "synonyms": [
+      "Invalid",
+      "insignificant"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0426",
+    "word": "Misunderstood",
+    "meaning_en": "Misinterpreted, misconstrued",
+    "meaning_bn": "ভুল বোঝা",
+    "synonyms": [
+      "Misinterpreted",
+      "misconstrued"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0427",
+    "word": "Misapplied",
+    "meaning_en": "Misused, misimplemented",
+    "meaning_bn": "ভুল প্রয়োগ করা",
+    "synonyms": [
+      "Misused",
+      "misimplemented"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0428",
+    "word": "Misappropriated",
+    "meaning_en": "Misused, misapplied",
+    "meaning_bn": "অপব্যবহার করা, আত্মসাৎ করা",
+    "synonyms": [
+      "Misused",
+      "misapplied"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0429",
+    "word": "Conflated",
+    "meaning_en": "Combined, merged",
+    "meaning_bn": "একত্রিত বা মিশ্রিত করা",
+    "synonyms": [
+      "Combined",
+      "merged"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0430",
+    "word": "Self-esteem",
+    "meaning_en": "Self-worth, confidence",
+    "meaning_bn": "আত্মসম্মানবোধ",
+    "synonyms": [
+      "Self-worth",
+      "confidence"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0431",
+    "word": "Intervention",
+    "meaning_en": "Involvement, interference",
+    "meaning_bn": "হস্তক্ষেপ",
+    "synonyms": [
+      "Involvement",
+      "interference"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0432",
+    "word": "Subtle",
+    "meaning_en": "Delicate, nuanced",
+    "meaning_bn": "সূক্ষ্ম, নিগূঢ়",
+    "synonyms": [
+      "Delicate",
+      "nuanced"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0433",
+    "word": "Adolescents",
+    "meaning_en": "Teenagers, youths",
+    "meaning_bn": "কিশোর-কিশোরী",
+    "synonyms": [
+      "Teenagers",
+      "youths"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0434",
+    "word": "Perceive",
+    "meaning_en": "Understand, interpret",
+    "meaning_bn": "উপলব্ধি করা, বোঝা",
+    "synonyms": [
+      "Understand",
+      "interpret"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0435",
+    "word": "Correlation",
+    "meaning_en": "Connection, relationship",
+    "meaning_bn": "পারস্পরিক সম্পর্ক, সহসম্পর্ক",
+    "synonyms": [
+      "Connection",
+      "relationship"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0436",
+    "word": "Achievement",
+    "meaning_en": "Accomplishment, success",
+    "meaning_bn": "অর্জন, কৃতিত্ব",
+    "synonyms": [
+      "Accomplishment",
+      "success"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0437",
+    "word": "Elixir",
+    "meaning_en": "Panacea, remedy",
+    "meaning_bn": "মহৌষধ, সঞ্জীবন সুধা",
+    "synonyms": [
+      "Panacea",
+      "remedy"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0438",
+    "word": "Proponents",
+    "meaning_en": "Advocates, supporters",
+    "meaning_bn": "প্রবক্তা, সমর্থক",
+    "synonyms": [
+      "Advocates",
+      "supporters"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0439",
+    "word": "Viable",
+    "meaning_en": "Feasible, workable",
+    "meaning_bn": "সম্ভাব্য, কার্যকর",
+    "synonyms": [
+      "Feasible",
+      "workable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0440",
+    "word": "Deluded",
+    "meaning_en": "Misguided, deceived",
+    "meaning_bn": "বিভ্রান্ত, মোহাচ্ছন্ন",
+    "synonyms": [
+      "Misguided",
+      "deceived"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 2",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0441",
+    "word": "Continental drift",
+    "meaning_en": "Plate movement, tectonic shift",
+    "meaning_bn": "মহাদেশীয় সঞ্চরণ (প্লেটের গতি)",
+    "synonyms": [
+      "Plate movement",
+      "tectonic shift"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0442",
+    "word": "Reputation",
+    "meaning_en": "Fame, standing",
+    "meaning_bn": "খ্যাতি, সুনাম",
+    "synonyms": [
+      "Fame",
+      "standing"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0443",
+    "word": "Displacements",
+    "meaning_en": "Shifts, movements",
+    "meaning_bn": "স্থানচ্যুতি, সরণ",
+    "synonyms": [
+      "Shifts",
+      "movements"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0444",
+    "word": "Controversy",
+    "meaning_en": "Dispute, debate",
+    "meaning_bn": "বিতর্ক, মতবিরোধ",
+    "synonyms": [
+      "Dispute",
+      "debate"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0445",
+    "word": "Lateral",
+    "meaning_en": "Sideways, horizontal",
+    "meaning_bn": "পার্শ্বীয়, আড়াআড়ি",
+    "synonyms": [
+      "Sideways",
+      "horizontal"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0446",
+    "word": "Plausible",
+    "meaning_en": "Believable, credible",
+    "meaning_bn": "বিশ্বাসযোগ্য, যুক্তিগ্রাহ্য",
+    "synonyms": [
+      "Believable",
+      "credible"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0447",
+    "word": "Geology",
+    "meaning_en": "Earth science, rock study",
+    "meaning_bn": "ভূতত্ত্ব, ভূবিজ্ঞান",
+    "synonyms": [
+      "Earth science",
+      "rock study"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0448",
+    "word": "Geophysics",
+    "meaning_en": "Earth physics, planetary science",
+    "meaning_bn": "ভূ-পদার্থবিদ্যা",
+    "synonyms": [
+      "Earth physics",
+      "planetary science"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0449",
+    "word": "Paleontology",
+    "meaning_en": "Fossil study, ancient life",
+    "meaning_bn": "জীবাশ্মবিদ্যা",
+    "synonyms": [
+      "Fossil study",
+      "ancient life"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0450",
+    "word": "Climatology",
+    "meaning_en": "Climate study, weather science",
+    "meaning_bn": "জলবায়ুবিদ্যা",
+    "synonyms": [
+      "Climate study",
+      "weather science"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0451",
+    "word": "Plate tectonics",
+    "meaning_en": "Earth’s crust movement, tectonic theory",
+    "meaning_bn": "পাত সংস্থান তত্ত্ব (প্লেট টেকটোনিক্স)",
+    "synonyms": [
+      "Earth’s crust movement",
+      "tectonic theory"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0452",
+    "word": "Evolutionary theory",
+    "meaning_en": "Darwinism, natural selection",
+    "meaning_bn": "বিবর্তন তত্ত্ব",
+    "synonyms": [
+      "Darwinism",
+      "natural selection"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0453",
+    "word": "Descendant",
+    "meaning_en": "Successor, offshoot",
+    "meaning_bn": "উত্তরসূরি, বংশধর",
+    "synonyms": [
+      "Successor",
+      "offshoot"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0454",
+    "word": "Intriguing",
+    "meaning_en": "Fascinating, interesting",
+    "meaning_bn": "আকর্ষণীয়, কৌতূহলোদ্দীপক",
+    "synonyms": [
+      "Fascinating",
+      "interesting"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0455",
+    "word": "Astronomer",
+    "meaning_en": "Star scientist, celestial observer",
+    "meaning_bn": "জ্যোতির্বিদ",
+    "synonyms": [
+      "Star scientist",
+      "celestial observer"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0456",
+    "word": "Atmospheric physics",
+    "meaning_en": "Air science, weather physics",
+    "meaning_bn": "বায়ুমণ্ডলীয় পদার্থবিদ্যা",
+    "synonyms": [
+      "Air science",
+      "weather physics"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0457",
+    "word": "Lecturer",
+    "meaning_en": "Teacher, instructor",
+    "meaning_bn": "প্রভাষক",
+    "synonyms": [
+      "Teacher",
+      "instructor"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0458",
+    "word": "Expedition",
+    "meaning_en": "Journey, mission",
+    "meaning_bn": "অভিযান",
+    "synonyms": [
+      "Journey",
+      "mission"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0459",
+    "word": "Meteorologists",
+    "meaning_en": "Weather scientists, climate experts",
+    "meaning_bn": "আবহাওয়াবিদগণ",
+    "synonyms": [
+      "Weather scientists",
+      "climate experts"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0460",
+    "word": "Textbook",
+    "meaning_en": "Manual, guide",
+    "meaning_bn": "পাঠ্যপুস্তক",
+    "synonyms": [
+      "Manual",
+      "guide"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0461",
+    "word": "Thermodynamics",
+    "meaning_en": "Heat science, energy study",
+    "meaning_bn": "তাপগতিবিদ্যা",
+    "synonyms": [
+      "Heat science",
+      "energy study"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0462",
+    "word": "Sideline",
+    "meaning_en": "Secondary interest, side project",
+    "meaning_bn": "পার্শ্ব প্রকল্প, গৌণ আগ্রহ",
+    "synonyms": [
+      "Secondary interest",
+      "side project"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0463",
+    "word": "Paleoclimatology",
+    "meaning_en": "Ancient climate study, past weather",
+    "meaning_bn": "প্রাচীন জলবায়ুবিদ্যা",
+    "synonyms": [
+      "Ancient climate study",
+      "past weather"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0464",
+    "word": "Reception",
+    "meaning_en": "Acceptance, response",
+    "meaning_bn": "গ্রহণ, প্রতিক্রিয়া, সংবর্ধনা",
+    "synonyms": [
+      "Acceptance",
+      "response"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0465",
+    "word": "Controversial",
+    "meaning_en": "Disputed, debatable",
+    "meaning_bn": "বিতর্কিত",
+    "synonyms": [
+      "Disputed",
+      "debatable"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0466",
+    "word": "Guideposts",
+    "meaning_en": "Markers, indicators",
+    "meaning_bn": "দিকনির্দেশক চিহ্ন, পথপ্রদর্শক",
+    "synonyms": [
+      "Markers",
+      "indicators"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0467",
+    "word": "Interruptions",
+    "meaning_en": "Breaks, pauses",
+    "meaning_bn": "বিঘ্ন, বাধা",
+    "synonyms": [
+      "Breaks",
+      "pauses"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0468",
+    "word": "Renewed efforts",
+    "meaning_en": "Revived attempts, fresh endeavors",
+    "meaning_bn": "নতুন প্রচেষ্টা, নব উদ্যোগ",
+    "synonyms": [
+      "Revived attempts",
+      "fresh endeavors"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0469",
+    "word": "Published works",
+    "meaning_en": "Writings, books",
+    "meaning_bn": "প্রকাশিত রচনাবলি",
+    "synonyms": [
+      "Writings",
+      "books"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0470",
+    "word": "Journey",
+    "meaning_en": "Path, process",
+    "meaning_bn": "যাত্রা, পরিক্রমা",
+    "synonyms": [
+      "Path",
+      "process"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0471",
+    "word": "Notebooks",
+    "meaning_en": "Journals, diaries",
+    "meaning_bn": "নোটবুক, খাতা",
+    "synonyms": [
+      "Journals",
+      "diaries"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0472",
+    "word": "Diaries",
+    "meaning_en": "Journals, logs",
+    "meaning_bn": "দিনলিপি, ডায়েরি",
+    "synonyms": [
+      "Journals",
+      "logs"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0473",
+    "word": "Scientific societies",
+    "meaning_en": "Research organizations, academic groups",
+    "meaning_bn": "বৈজ্ঞানিক সমিতি বা পরিষদ",
+    "synonyms": [
+      "Research organizations",
+      "academic groups"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0474",
+    "word": "Influence",
+    "meaning_en": "Impact, sway",
+    "meaning_bn": "প্রভাব",
+    "synonyms": [
+      "Impact",
+      "sway"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0475",
+    "word": "Politics",
+    "meaning_en": "Governance, administration",
+    "meaning_bn": "রাজনীতি",
+    "synonyms": [
+      "Governance",
+      "administration"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0476",
+    "word": "Observations",
+    "meaning_en": "Findings, data",
+    "meaning_bn": "পর্যবেক্ষণ, পর্যবেক্ষণলব্ধ তথ্য",
+    "synonyms": [
+      "Findings",
+      "data"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0477",
+    "word": "Biographer",
+    "meaning_en": "Life writer, historian",
+    "meaning_bn": "জীবনীকার",
+    "synonyms": [
+      "Life writer",
+      "historian"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0478",
+    "word": "Coherent narrative",
+    "meaning_en": "Logical story, consistent account",
+    "meaning_bn": "সুসংগত বিবরণ বা আখ্যান",
+    "synonyms": [
+      "Logical story",
+      "consistent account"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0479",
+    "word": "Fulfilled intentions",
+    "meaning_en": "Achieved goals, realized plans",
+    "meaning_bn": "পরিপূর্ণ উদ্দেশ্য, সফল লক্ষ্য",
+    "synonyms": [
+      "Achieved goals",
+      "realized plans"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  },
+  {
+    "id": "c18_0480",
+    "word": "Happenstance",
+    "meaning_en": "Coincidence, chance",
+    "meaning_bn": "আকস্মিক ঘটনা, দৈব যোগাযোগ",
+    "synonyms": [
+      "Coincidence",
+      "chance"
+    ],
+    "category": "Cambridge Tests",
+    "sub_category": "Cambridge 18 - Test-4 Passage 3",
+    "difficulty": "Band 7-8",
+    "source": "Cambridge 18 Vocabulary"
+  }
+]
