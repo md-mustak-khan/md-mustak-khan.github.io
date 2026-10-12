@@ -1,0 +1,26 @@
+# ==========================================
+# IELTS PrepMaster .gitignore
+# ==========================================
+
+# 1. Heavy PDF Book Library (1.16 GB)
+# Hosted on Google Drive: https://drive.google.com/drive/folders/1Rqj5kBawXG6yC3gFM6im76Ac8IxO0aPx?usp=sharing
+01. Cambridge Tests/
+02. Vocabulary & Idioms/
+03. Writing/
+04. Speaking/
+05. Reading/
+06. Grammar & Foundation/
+07. Magazines & Extra Reading/
+
+# 2. OS & System Artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+
+# 3. Development / Scratch / IDE Logs
+.vscode/
+.idea/
+scratch/
+*.log
