@@ -56,7 +56,7 @@ if (pointerMedia.matches) {
 const root = document.documentElement;
 
 function applyTheme(theme) {
-    const safeTheme = theme === 'light' ? 'light' : 'dark';
+    const safeTheme = theme === 'dark' ? 'dark' : 'light';
     root.setAttribute('data-theme', safeTheme);
     document.body.setAttribute('data-theme', safeTheme);
 
@@ -70,7 +70,7 @@ function applyTheme(theme) {
     }
 }
 
-const preferredTheme = localStorage.getItem('portfolio-theme') || 'dark';
+const preferredTheme = localStorage.getItem('portfolio-theme') || 'light';
 applyTheme(preferredTheme);
 
 const themeSwitchNode = document.querySelector('.i04');
