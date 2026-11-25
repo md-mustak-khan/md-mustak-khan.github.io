@@ -768,7 +768,8 @@ img[alt="Logo"] {
 
 /* Cover Section */
 .cover-section {
-    height: 80vh;
+    min-height: 80vh;
+    height: auto;
     background: var(--hero-bg);
     display: flex;
     align-items: center;

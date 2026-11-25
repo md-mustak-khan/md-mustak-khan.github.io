@@ -84,8 +84,10 @@
     position: relative;
     isolation: isolate;
     overflow: hidden;
+    height: auto;
+    min-height: 80vh;
     background-color: var(--surface-color);
-    padding: 100px 0;
+    padding: 48px 0;
     color: var(--text-color);
     text-align: center;
     border-top: 1px solid var(--border-color);
@@ -3736,7 +3738,7 @@ body.modal-open {
 /* Protocol Steps */
 .protocols-hero {
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr;
     gap: 24px;
     align-items: center;
     padding: 32px;
